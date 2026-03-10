@@ -700,6 +700,106 @@
       },
       "sectionTitles": { "products": "Neler Tedarik Ediyoruz", "advantages": "Tedarik Avantajlari" },
       "cta": { "title": "Kimyasal Tedarikine mi Ihtiyaciniz Var?", "description": "Kimyasal tedarik uzmanlarimizla tam mevzuat uyumu ve guvenli teslimat icin iletisime gecin.", "button": "Dokumantasyon Talep Edin" }
+    },
+    "construction": {
+      "metaTitle": "Insaat Malzemeleri Tedariki | Toko Trading",
+      "metaDescription": "Dunya genelinde insaat projeleri icin celik, demir, cimento, seramik, fayans ve tesisat malzemeleri tedarik edin.",
+      "title": "Insaat Malzemeleri",
+      "subtitle": "Her olcekteki projeler icin guvenilir yapi malzemeleri ve insaat tedariki",
+      "overview": {
+        "p1": "Toko Trading, Turkiye'nin gelisen insaat sektorunden kapsamli yapi malzemesi tedariki sunmaktadir. Yapisal celikten cimentoya, seramikten fayansa ve tesisat malzemelerine kadar musteriyi kaliteli ureticilerle bulusturuyoruz.",
+        "p2": "Insaat tedarik ekibimiz proje takvimlerini, teknik spesifikasyonlari ve uyumluluk gereksinimlerini anlar. Buyuk olcekli siparisler icin rekabetci fiyatlar sunarken malzemelerin uluslararasi standartlara uygunlugunu saglariz."
+      },
+      "products": {
+        "buildingMaterials": { "title": "Celik ve Demir", "description": "Sertifikali Turk haddehanelerinden yapisal celik, betonarme demiri, profiller ve metal iscilik urunleri." },
+        "steel": { "title": "Cimento ve Beton", "description": "Altyapi ve bina projeleri icin Portland cimentosu, hazir beton ve ozel cimento cesitleri." },
+        "cement": { "title": "Seramik ve Fayans", "description": "Odullu Turk ureticilerinden zemin karolari, duvar fayanslari, sihhi tesisat seramikleri ve dekoratif yuzeyler." },
+        "plumbing": { "title": "Tesisat ve Baglantilar", "description": "Kalite sertifikali ureticilerden borular, vanalar, baglanti parcalari, banyo armatuleri ve su sistemleri." }
+      },
+      "advantages": {
+        "title": "Insaat Malzemesini Neden Toko ile Tedarik Etmelisiniz",
+        "a1": { "title": "Sertifikali Standartlar", "description": "Tum malzemeler EN, ASTM ve ISO standartlari dahil uluslararasi yapi yonetmeliklerine gore test edilip sertifikalanir." },
+        "a2": { "title": "Proje Olcekli Tedarik", "description": "Tutarli kalite ve takviminize uygun programli teslimatlarla buyuk olcekli siparisleri karsilama kapasitesi." },
+        "a3": { "title": "Rekabetci Toplu Fiyatlar", "description": "Ureticilerle dogrudan iliskiler ve hacim satin alma gucu sayesinde onemli maliyet tasarruflar." },
+        "a4": { "title": "Agir Yuk Lojistigi", "description": "Konteyner tasimaciligi dahil agir ve buyuk boyutlu insaat malzemeleri icin uzman navlun cozumleri." }
+      },
+      "sectionTitles": { "products": "Neler Tedarik Ediyoruz", "advantages": "Tedarik Avantajlari" },
+      "cta": { "title": "Insaat Malzemesi Tedarikine mi Ihtiyaciniz Var?", "description": "Turkiye'nin onde gelen ureticilerinden yapi malzemeleri icin rekabetci teklifler alin.", "button": "Teklif Alin" }
+    },
+    "raw-materials": {
+      "metaTitle": "Hammadde Tedariki | Toko Trading",
+      "metaDescription": "Guvenilir dunya tedarikcilerinden metaller, alasimlar, mineraller, polimerler, plastikler ve keresteleri tedarik edin.",
+      "title": "Hammaddeler",
+      "subtitle": "Kalite guvencesiyle dogrulanmis kuresel tedarikcilerden endustriyel hammadde tedariki",
+      "overview": {
+        "p1": "Toko Trading, dunya genelindeki ureticiler ve isleyiciler icin endustriyel hammadde tedarikinde uzmanlasmistir. Metallerden alasimlara, minerallerden polimerlere ve kerestelere kadar uretim ihtiyaclariniz icin guvenilir tedarik zincirleri saglariz.",
+        "p2": "Hammadde ekibimiz kuresel emtia piyasalarini izler ve kilit bolgelerdeki ureticilerle iliskiler surdurur. Musterilerimizin tam kalite dokumantasyonuyla rekabetci fiyatlarla istikrarli tedarik elde etmelerine yardimci oluruz."
+      },
+      "products": {
+        "metals": { "title": "Metaller ve Alasimlar", "description": "Endustriyel uygulamalar icin cesitli form ve kalitelerde celik, aluminyum, bakir, pirinc ve ozel alasimlar." },
+        "minerals": { "title": "Mineraller", "description": "Turkiye'nin zengin maden yataklarindan mermer, granit, bor, feldspat ve kuvars dahil endustriyel mineraller." },
+        "timber": { "title": "Kereste ve Ahsap", "description": "Surdurulebilir ormancilik kaynaklarindan insaat kerestesi, muhendislik ahsabi, kontrplak ve ozel keresteler." },
+        "polymers": { "title": "Polimerler ve Plastikler", "description": "Imalat uygulamalari icin ham polimer recineleri, plastik granulleri, bilesimler ve geri donusturulmus malzemeler." }
+      },
+      "advantages": {
+        "title": "Hammaddeyi Neden Toko ile Tedarik Etmelisiniz",
+        "a1": { "title": "Piyasa Istihbarati", "description": "Optimal zamanlama ve fiyatlarla satin almaniza yardimci olacak gercek zamanli emtia fiyatlandirmasi ve piyasa analizi." },
+        "a2": { "title": "Kalite Sertifikali", "description": "Her sevkiyat icin malzeme sertifikalari, test raporlari ve kimyasal analiz belgeleri saglanir." },
+        "a3": { "title": "Tedarik Surekliligi", "description": "Dogrulanmis coklu tedarikci agi, piyasa bozulmalarinda bile kesintisiz tedarik saglar." },
+        "a4": { "title": "Toplu Lojistik", "description": "Buyuk hammadde sevkiyatlari icin konteyner, genel kargo ve dok gemi tasimaciligi cozumleri." }
+      },
+      "sectionTitles": { "products": "Neler Tedarik Ediyoruz", "advantages": "Tedarik Avantajlari" },
+      "cta": { "title": "Hammadde Tedarikine mi Ihtiyaciniz Var?", "description": "Guvenilir tedarik ve rekabetci fiyatlar icin emtia uzmanlarimizla hammadde ihtiyaclarinizi gorusun.", "button": "Fiyat Talep Edin" }
+    },
+    "electronics": {
+      "metaTitle": "Elektronik Tedariki | Toko Trading",
+      "metaDescription": "Elektronik bilesenler, tuketici elektronigi, endustriyel elektronik ve telekomunikasyon ekipmanlari tedarik edin.",
+      "title": "Elektronik ve Teknoloji",
+      "subtitle": "Dunya genelinde dogrulanmis ureticilerden elektronik bilesenler ve teknoloji urunleri",
+      "overview": {
+        "p1": "Toko Trading, alicilari dunya genelinde guvenilir elektronik ureticileri ve distributorleriyle bulusturur. Elektronik bilesenlerden kablolara, tuketici elektroniginden endustriyel aydinlatmaya kadar her sipariste kalite ve orijinallik guvencesi saglarz.",
+        "p2": "Elektronik tedarik ekibimiz urun orijinalligini, sertifikasyonlari ve uretici referanslarini dogrular. Isletmelerin guvenilir tedarik zincirlerinden rekabetci fiyatlara erisirken sahte urun risklerinden kacinmasina yardimci oluruz."
+      },
+      "products": {
+        "components": { "title": "Elektronik Bilesenler", "description": "Yetkili distributor ve ureticilerden yaricileticiler, kondansatorler, direncler, konnektorler ve PCB'ler." },
+        "consumerElectronics": { "title": "Tuketici Elektronigi", "description": "Koylu markalardan ev aletleri, ses ekipmanlari, akilli cihazlar ve tuketici teknolojisi urunleri." },
+        "cables": { "title": "Kablolar ve Balglantilar", "description": "Sertifikali kablo ureticilerinden guc kablolari, veri kablolari, fiber optik ve kablo tesisatlari." },
+        "lighting": { "title": "Aydinlatma Cozumleri", "description": "Ticari ve konut kullanimi icin LED aydinlatma, endustriyel armaturler, akilli aydinlatma sistemleri ve elektrik tesisatlari." }
+      },
+      "advantages": {
+        "title": "Elektronigi Neden Toko ile Tedarik Etmelisiniz",
+        "a1": { "title": "Orijinallik Dogrulanmis", "description": "Her bilesen, yetkili ureticilere ve distributorlere kadar izlenebilirlikle orijinallik acisindan dogrulanir." },
+        "a2": { "title": "Uyumluluk Sertifikali", "description": "Tedarik edilen her urun icin CE, RoHS, FCC ve diger bolgesel sertifikalar dogrulanir ve belgelenir." },
+        "a3": { "title": "Esnek Minimum Siparis", "description": "Birden fazla dogrulanmis kaynaktan konsolide satin alma yoluyla esnek minimum siparis miktarlari." },
+        "a4": { "title": "Anti-Statik Gonderim", "description": "Hassas elektronik bilesenler ve montajlar icin ozel ESD-guvenli paketleme ve nakliye." }
+      },
+      "sectionTitles": { "products": "Neler Tedarik Ediyoruz", "advantages": "Tedarik Avantajlari" },
+      "cta": { "title": "Elektronik Tedarikine mi Ihtiyaciniz Var?", "description": "Rekabetci fiyatlarla dogrulanmis bilesenler ve teknoloji urunleri icin elektronik ekibimizle baglanti kurun.", "button": "Teklif Talep Edin" }
+    },
+    "automotive": {
+      "metaTitle": "Otomotiv Yedek Parca Tedariki | Toko Trading",
+      "metaDescription": "Kuresel yedek parca pazari icin oto yedek parcalari, aksesuarlar, lastikler ve otomotiv sivilari tedarik edin.",
+      "title": "Otomotiv ve Yedek Parca",
+      "subtitle": "Kuresel yedek parca endustrisi icin otomotiv parcalari ve aksesuar tedariki",
+      "overview": {
+        "p1": "Toko Trading, Turkiye'nin buyuyen otomotiv imalat sektorunden ve kuresel tedarikcilerden otomotiv parcalari, aksesuarlar ve malzeme tedarikinde guvenilir ortaginizdir. Dunya genelinde yedek parca distributorleri, atoyeler ve filo operatorlerine hizmet veriyoruz.",
+        "p2": "Otomotiv ekibimiz, yedek parca sektorunde gereken OEM spesifikasyonlarini, carpraz referanslari ve kalite standartlarini anlar. Tam izlenebilirlikle guvenilir bir parca tedarik zinciri olusturmaniza yardimci oluruz."
+      },
+      "products": {
+        "autoParts": { "title": "Oto Yedek Parcalari", "description": "Sertifikali ureticilerden motor parcalari, fren sistemleri, suspansiyon bilesenleri ve OEM esdegeri yedek parcalar." },
+        "tires": { "title": "Lastikler ve Kaucuk", "description": "Turk ve uluslararasi lastik ureticilerinden binek, ticari ve arazi lastikleri, tam garantili." },
+        "accessories": { "title": "Aksesuarlar ve Eklentiler", "description": "Tum arac tipleri icin ic ve dis aksesuarlar, arac bakim urunleri ve performans yukseltmeleri." },
+        "commercialVehicles": { "title": "Ticari Arac Parcalari", "description": "Filo operasyonlari icin kamyon parcalari, otobus bilesenleri, romork aksesuarlari ve agir hizmet arac sistemleri." }
+      },
+      "advantages": {
+        "title": "Otomotiv Parcalarini Neden Toko ile Tedarik Etmelisiniz",
+        "a1": { "title": "OEM Kalitesinde", "description": "Parcalar OEM spesifikasyonlarina gore dogrulanir, kalite sertifikalari ve carpraz referans belgeleri saglanir." },
+        "a2": { "title": "Genis Katalog", "description": "Ureticiler arasindaki kapsamli tedarikci agimiz araciligiyla buyuk marka ve modeller icin parcalara erisim." },
+        "a3": { "title": "Rekabetci Fiyatlar", "description": "Ureticilerden dogrudan tedarik, araci maliyetlerini ortadan kaldirir ve yedek parca pazarinda rekabetci fiyatlar sunar." },
+        "a4": { "title": "Hizli Teslimat", "description": "Dunya genelinde otomotiv parca siparislerinde hizli geri donus icin verimli siparis isleme ve lojistik." }
+      },
+      "sectionTitles": { "products": "Neler Tedarik Ediyoruz", "advantages": "Tedarik Avantajlari" },
+      "cta": { "title": "Otomotiv Parca Tedarikine mi Ihtiyaciniz Var?", "description": "OEM kalitesinde ve rekabetci fiyatlarla guvenilir parca tedariki icin otomotiv ekibimizle iletisime gecin.", "button": "Parca Teklifi Alin" }
     }
   },
   "ReferencesPage": {

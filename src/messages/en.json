@@ -700,6 +700,106 @@
       },
       "sectionTitles": { "products": "What We Source", "advantages": "Sourcing Advantages" },
       "cta": { "title": "Need Chemical Sourcing?", "description": "Contact our chemical sourcing specialists for full regulatory compliance and safe delivery.", "button": "Request Documentation" }
+    },
+    "construction": {
+      "metaTitle": "Construction Materials Sourcing | Toko Trading",
+      "metaDescription": "Source steel, rebar, cement, ceramics, tiles, and plumbing fittings for construction projects worldwide through Toko Trading.",
+      "title": "Construction Materials",
+      "subtitle": "Reliable sourcing of building materials and construction supplies for projects of any scale",
+      "overview": {
+        "p1": "Toko Trading provides comprehensive sourcing of construction materials from Turkey's thriving building industry. From structural steel and cement to ceramics, tiles, and plumbing fixtures, we connect builders and contractors with quality manufacturers.",
+        "p2": "Our construction sourcing team understands project timelines, technical specifications, and compliance requirements. We ensure materials meet international standards while delivering competitive pricing for large-scale orders."
+      },
+      "products": {
+        "buildingMaterials": { "title": "Steel & Rebar", "description": "Structural steel, reinforcement bars, profiles, and metal fabrications from certified Turkish mills." },
+        "steel": { "title": "Cement & Concrete", "description": "Portland cement, ready-mix concrete, and specialty cements for infrastructure and building projects." },
+        "cement": { "title": "Ceramics & Tiles", "description": "Floor tiles, wall tiles, sanitary ceramics, and decorative surfaces from award-winning Turkish manufacturers." },
+        "plumbing": { "title": "Plumbing & Fittings", "description": "Pipes, valves, fittings, bathroom fixtures, and water systems from quality-certified producers." }
+      },
+      "advantages": {
+        "title": "Why Source Construction Materials Through Toko",
+        "a1": { "title": "Certified Standards", "description": "All materials tested and certified to international building codes including EN, ASTM, and ISO standards." },
+        "a2": { "title": "Project-Scale Supply", "description": "Capacity to fulfill large-scale orders with consistent quality and scheduled deliveries matching your timeline." },
+        "a3": { "title": "Competitive Bulk Pricing", "description": "Direct relationships with manufacturers and volume purchasing power for significant cost savings." },
+        "a4": { "title": "Heavy Cargo Logistics", "description": "Specialized freight solutions for heavy and oversized construction materials including containerized shipping." }
+      },
+      "sectionTitles": { "products": "What We Source", "advantages": "Sourcing Advantages" },
+      "cta": { "title": "Need Construction Material Sourcing?", "description": "Contact us for competitive quotes on building materials from Turkey's top manufacturers.", "button": "Get a Quote" }
+    },
+    "raw-materials": {
+      "metaTitle": "Raw Materials Sourcing | Toko Trading",
+      "metaDescription": "Source metals, alloys, minerals, polymers, plastics, and timber from reliable global suppliers through Toko Trading.",
+      "title": "Raw Materials",
+      "subtitle": "Industrial raw materials sourced from verified global suppliers with quality assurance",
+      "overview": {
+        "p1": "Toko Trading specializes in sourcing industrial raw materials for manufacturers and processors worldwide. From metals and alloys to minerals, polymers, and timber, we provide reliable supply chains for your production needs.",
+        "p2": "Our raw materials team monitors global commodity markets and maintains relationships with producers across key regions. We help clients secure stable supplies at competitive prices with full quality documentation."
+      },
+      "products": {
+        "metals": { "title": "Metals & Alloys", "description": "Steel, aluminum, copper, brass, and specialty alloys in various forms and grades for industrial applications." },
+        "minerals": { "title": "Minerals", "description": "Industrial minerals including marble, granite, boron, feldspar, and quartz from Turkey's rich mineral deposits." },
+        "timber": { "title": "Timber & Lumber", "description": "Construction timber, engineered wood, plywood, and specialty lumber from sustainable forestry sources." },
+        "polymers": { "title": "Polymers & Plastics", "description": "Raw polymer resins, plastic granules, compounds, and recycled materials for manufacturing applications." }
+      },
+      "advantages": {
+        "title": "Why Source Raw Materials Through Toko",
+        "a1": { "title": "Market Intelligence", "description": "Real-time commodity pricing and market analysis to help you purchase at optimal timing and prices." },
+        "a2": { "title": "Quality Certified", "description": "Material certificates, test reports, and chemical analysis documents provided for every shipment." },
+        "a3": { "title": "Supply Continuity", "description": "Multiple verified supplier network ensures uninterrupted supply even during market disruptions." },
+        "a4": { "title": "Bulk Logistics", "description": "Container, breakbulk, and bulk vessel shipping solutions for large raw material consignments." }
+      },
+      "sectionTitles": { "products": "What We Source", "advantages": "Sourcing Advantages" },
+      "cta": { "title": "Need Raw Material Sourcing?", "description": "Discuss your raw material requirements with our commodity specialists for reliable supply at competitive prices.", "button": "Request Pricing" }
+    },
+    "electronics": {
+      "metaTitle": "Electronics Sourcing | Toko Trading",
+      "metaDescription": "Source electronic components, consumer electronics, industrial electronics, and telecom equipment through Toko Trading.",
+      "title": "Electronics & Technology",
+      "subtitle": "Electronic components and technology products from verified manufacturers worldwide",
+      "overview": {
+        "p1": "Toko Trading connects buyers with reliable electronics manufacturers and distributors globally. From electronic components and cables to consumer electronics and industrial lighting, we ensure quality and authenticity in every order.",
+        "p2": "Our electronics sourcing team verifies product authenticity, certifications, and manufacturer credentials. We help businesses avoid counterfeit risks while accessing competitive pricing from trusted supply chains."
+      },
+      "products": {
+        "components": { "title": "Electronic Components", "description": "Semiconductors, capacitors, resistors, connectors, and PCBs from authorized distributors and manufacturers." },
+        "consumerElectronics": { "title": "Consumer Electronics", "description": "Home appliances, audio equipment, smart devices, and consumer technology products from established brands." },
+        "cables": { "title": "Cables & Wiring", "description": "Power cables, data cables, fiber optics, and wiring harnesses from certified cable manufacturers." },
+        "lighting": { "title": "Lighting Solutions", "description": "LED lighting, industrial luminaires, smart lighting systems, and electrical fixtures for commercial and residential use." }
+      },
+      "advantages": {
+        "title": "Why Source Electronics Through Toko",
+        "a1": { "title": "Authenticity Verified", "description": "Every component verified for authenticity with traceability to authorized manufacturers and distributors." },
+        "a2": { "title": "Compliance Certified", "description": "CE, RoHS, FCC, and other regional certifications verified and documented for every product sourced." },
+        "a3": { "title": "Competitive MOQ", "description": "Flexible minimum order quantities through consolidated purchasing from multiple verified sources." },
+        "a4": { "title": "Anti-Static Shipping", "description": "Specialized ESD-safe packaging and shipping for sensitive electronic components and assemblies." }
+      },
+      "sectionTitles": { "products": "What We Source", "advantages": "Sourcing Advantages" },
+      "cta": { "title": "Need Electronics Sourcing?", "description": "Connect with our electronics team for verified components and technology products at competitive prices.", "button": "Request Quote" }
+    },
+    "automotive": {
+      "metaTitle": "Automotive Parts Sourcing | Toko Trading",
+      "metaDescription": "Source auto parts, accessories, tires, and automotive fluids for the global aftermarket through Toko Trading.",
+      "title": "Automotive & Parts",
+      "subtitle": "Automotive parts and accessories sourcing for the global aftermarket industry",
+      "overview": {
+        "p1": "Toko Trading is your trusted partner for sourcing automotive parts, accessories, and supplies from Turkey's growing automotive manufacturing sector and global suppliers. We serve aftermarket distributors, workshops, and fleet operators worldwide.",
+        "p2": "Our automotive team understands OEM specifications, cross-references, and quality standards required in the aftermarket industry. We help you build a reliable parts supply chain with full traceability."
+      },
+      "products": {
+        "autoParts": { "title": "Auto Parts & Spares", "description": "Engine parts, brake systems, suspension components, and OEM-equivalent replacement parts from certified manufacturers." },
+        "tires": { "title": "Tires & Rubber", "description": "Passenger, commercial, and off-road tires from Turkish and international tire manufacturers with full warranty." },
+        "accessories": { "title": "Accessories & Add-ons", "description": "Interior and exterior accessories, car care products, and performance upgrades for all vehicle types." },
+        "commercialVehicles": { "title": "Commercial Vehicle Parts", "description": "Truck parts, bus components, trailer accessories, and heavy-duty vehicle systems for fleet operations." }
+      },
+      "advantages": {
+        "title": "Why Source Automotive Parts Through Toko",
+        "a1": { "title": "OEM-Grade Quality", "description": "Parts verified against OEM specifications with quality certificates and cross-reference documentation." },
+        "a2": { "title": "Wide Catalog", "description": "Access to parts for major brands and models through our extensive supplier network across manufacturers." },
+        "a3": { "title": "Competitive Pricing", "description": "Direct sourcing from manufacturers eliminates intermediary costs for aftermarket-competitive pricing." },
+        "a4": { "title": "Fast Fulfillment", "description": "Efficient order processing and logistics for quick turnaround on automotive parts orders worldwide." }
+      },
+      "sectionTitles": { "products": "What We Source", "advantages": "Sourcing Advantages" },
+      "cta": { "title": "Need Automotive Parts Sourcing?", "description": "Contact our automotive team for reliable parts sourcing with OEM-grade quality and competitive pricing.", "button": "Get Parts Quote" }
     }
   },
   "ReferencesPage": {

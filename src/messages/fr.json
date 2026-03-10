@@ -700,6 +700,106 @@
       },
       "sectionTitles": { "products": "Ce Que Nous Approvisionnons", "advantages": "Avantages d'Approvisionnement" },
       "cta": { "title": "Besoin d'Approvisionnement Chimique?", "description": "Contactez nos specialistes pour une conformite reglementaire complete et une livraison securisee.", "button": "Demander la Documentation" }
+    },
+    "construction": {
+      "metaTitle": "Approvisionnement en Materiaux de Construction | Toko Trading",
+      "metaDescription": "Approvisionnez-vous en acier, armatures, ciment, ceramiques, carrelages et equipements de plomberie pour vos projets de construction.",
+      "title": "Materiaux de Construction",
+      "subtitle": "Approvisionnement fiable en materiaux de construction pour des projets de toutes envergures",
+      "overview": {
+        "p1": "Toko Trading fournit un approvisionnement complet en materiaux de construction depuis le secteur florissant du batiment en Turquie. De l'acier de structure au ciment, des ceramiques aux carrelages et equipements de plomberie, nous connectons constructeurs et entrepreneurs avec des fabricants de qualite.",
+        "p2": "Notre equipe d'approvisionnement en construction comprend les delais de projet, les specifications techniques et les exigences de conformite. Nous garantissons que les materiaux repondent aux normes internationales tout en offrant des prix competitifs pour les commandes a grande echelle."
+      },
+      "products": {
+        "buildingMaterials": { "title": "Acier et Armatures", "description": "Acier de structure, barres d'armature, profiles et fabrications metalliques provenant d'acieries turques certifiees." },
+        "steel": { "title": "Ciment et Beton", "description": "Ciment Portland, beton pret a l'emploi et ciments speciaux pour les projets d'infrastructure et de construction." },
+        "cement": { "title": "Ceramiques et Carrelages", "description": "Carrelages de sol, faiences murales, sanitaires en ceramique et surfaces decoratives de fabricants turcs primes." },
+        "plumbing": { "title": "Plomberie et Raccords", "description": "Tuyaux, vannes, raccords, equipements de salle de bain et systemes hydrauliques de producteurs certifies qualite." }
+      },
+      "advantages": {
+        "title": "Pourquoi s'Approvisionner en Materiaux de Construction via Toko",
+        "a1": { "title": "Normes Certifiees", "description": "Tous les materiaux testes et certifies selon les codes internationaux de construction EN, ASTM et ISO." },
+        "a2": { "title": "Approvisionnement a l'Echelle", "description": "Capacite a honorer les commandes a grande echelle avec une qualite constante et des livraisons planifiees." },
+        "a3": { "title": "Prix de Gros Competitifs", "description": "Relations directes avec les fabricants et pouvoir d'achat en volume pour des economies significatives." },
+        "a4": { "title": "Logistique Charges Lourdes", "description": "Solutions de fret specialisees pour les materiaux de construction lourds et surdimensionnes." }
+      },
+      "sectionTitles": { "products": "Ce Que Nous Approvisionnons", "advantages": "Avantages d'Approvisionnement" },
+      "cta": { "title": "Besoin de Materiaux de Construction?", "description": "Contactez-nous pour des devis competitifs sur les materiaux de construction des meilleurs fabricants turcs.", "button": "Obtenir un Devis" }
+    },
+    "raw-materials": {
+      "metaTitle": "Approvisionnement en Matieres Premieres | Toko Trading",
+      "metaDescription": "Approvisionnez-vous en metaux, alliages, mineraux, polymeres, plastiques et bois de fournisseurs mondiaux fiables.",
+      "title": "Matieres Premieres",
+      "subtitle": "Matieres premieres industrielles approvisionnees aupres de fournisseurs mondiaux verifies avec assurance qualite",
+      "overview": {
+        "p1": "Toko Trading se specialise dans l'approvisionnement en matieres premieres industrielles pour les fabricants et transformateurs du monde entier. Des metaux aux alliages, des mineraux aux polymeres et au bois, nous fournissons des chaines d'approvisionnement fiables pour vos besoins de production.",
+        "p2": "Notre equipe matieres premieres surveille les marches mondiaux des matieres premieres et entretient des relations avec les producteurs des regions cles. Nous aidons nos clients a securiser des approvisionnements stables a des prix competitifs avec une documentation qualite complete."
+      },
+      "products": {
+        "metals": { "title": "Metaux et Alliages", "description": "Acier, aluminium, cuivre, laiton et alliages speciaux en diverses formes et qualites pour applications industrielles." },
+        "minerals": { "title": "Mineraux", "description": "Mineraux industriels incluant marbre, granit, bore, feldspath et quartz des riches gisements mineraux turcs." },
+        "timber": { "title": "Bois et Sciages", "description": "Bois de construction, bois d'ingenierie, contreplaque et bois speciaux issus de sources forestieres durables." },
+        "polymers": { "title": "Polymeres et Plastiques", "description": "Resines polymeres brutes, granules plastiques, composes et materiaux recycles pour applications de fabrication." }
+      },
+      "advantages": {
+        "title": "Pourquoi s'Approvisionner en Matieres Premieres via Toko",
+        "a1": { "title": "Intelligence de Marche", "description": "Prix des matieres premieres en temps reel et analyse de marche pour vous aider a acheter au moment et prix optimaux." },
+        "a2": { "title": "Certifie Qualite", "description": "Certificats matiere, rapports d'essai et documents d'analyse chimique fournis pour chaque expedition." },
+        "a3": { "title": "Continuite d'Approvisionnement", "description": "Un reseau de fournisseurs multiples verifies garantit un approvisionnement ininterrompu meme pendant les perturbations." },
+        "a4": { "title": "Logistique en Vrac", "description": "Solutions de transport par conteneur, marchandises generales et vraquiers pour les gros envois de matieres premieres." }
+      },
+      "sectionTitles": { "products": "Ce Que Nous Approvisionnons", "advantages": "Avantages d'Approvisionnement" },
+      "cta": { "title": "Besoin d'Approvisionnement en Matieres Premieres?", "description": "Discutez de vos besoins avec nos specialistes pour un approvisionnement fiable a des prix competitifs.", "button": "Demander les Prix" }
+    },
+    "electronics": {
+      "metaTitle": "Approvisionnement Electronique | Toko Trading",
+      "metaDescription": "Approvisionnez-vous en composants electroniques, electronique grand public, electronique industrielle et equipements telecom.",
+      "title": "Electronique et Technologie",
+      "subtitle": "Composants electroniques et produits technologiques de fabricants verifies dans le monde entier",
+      "overview": {
+        "p1": "Toko Trading connecte les acheteurs avec des fabricants et distributeurs d'electronique fiables a l'echelle mondiale. Des composants electroniques aux cables, de l'electronique grand public a l'eclairage industriel, nous garantissons qualite et authenticite dans chaque commande.",
+        "p2": "Notre equipe d'approvisionnement electronique verifie l'authenticite des produits, les certifications et les references des fabricants. Nous aidons les entreprises a eviter les risques de contrefacon tout en accedant a des prix competitifs."
+      },
+      "products": {
+        "components": { "title": "Composants Electroniques", "description": "Semi-conducteurs, condensateurs, resistances, connecteurs et PCB de distributeurs et fabricants autorises." },
+        "consumerElectronics": { "title": "Electronique Grand Public", "description": "Appareils electromenagers, equipements audio, appareils intelligents et produits technologiques grand public de marques etablies." },
+        "cables": { "title": "Cables et Filerie", "description": "Cables d'alimentation, cables de donnees, fibre optique et faisceaux de cables de fabricants certifies." },
+        "lighting": { "title": "Solutions d'Eclairage", "description": "Eclairage LED, luminaires industriels, systemes d'eclairage intelligents et appareillage electrique pour usage commercial et residentiel." }
+      },
+      "advantages": {
+        "title": "Pourquoi s'Approvisionner en Electronique via Toko",
+        "a1": { "title": "Authenticite Verifiee", "description": "Chaque composant verifie pour son authenticite avec tracabilite jusqu'aux fabricants et distributeurs autorises." },
+        "a2": { "title": "Conformite Certifiee", "description": "Certifications CE, RoHS, FCC et autres certifications regionales verifiees et documentees pour chaque produit." },
+        "a3": { "title": "MOQ Flexible", "description": "Quantites minimales de commande flexibles grace a des achats consolides aupres de sources multiples verifiees." },
+        "a4": { "title": "Expedition Anti-Statique", "description": "Emballage et expedition specialises ESD-safe pour les composants et assemblages electroniques sensibles." }
+      },
+      "sectionTitles": { "products": "Ce Que Nous Approvisionnons", "advantages": "Avantages d'Approvisionnement" },
+      "cta": { "title": "Besoin d'Approvisionnement Electronique?", "description": "Connectez-vous avec notre equipe electronique pour des composants verifies et des produits technologiques a prix competitifs.", "button": "Demander un Devis" }
+    },
+    "automotive": {
+      "metaTitle": "Approvisionnement Pieces Automobiles | Toko Trading",
+      "metaDescription": "Approvisionnez-vous en pieces auto, accessoires, pneus et fluides automobiles pour le marche mondial de la rechange.",
+      "title": "Automobile et Pieces",
+      "subtitle": "Approvisionnement en pieces et accessoires automobiles pour l'industrie mondiale de la rechange",
+      "overview": {
+        "p1": "Toko Trading est votre partenaire de confiance pour l'approvisionnement en pieces automobiles, accessoires et fournitures depuis le secteur automobile turc en pleine croissance et les fournisseurs mondiaux. Nous servons les distributeurs de pieces de rechange, les ateliers et les operateurs de flottes dans le monde entier.",
+        "p2": "Notre equipe automobile comprend les specifications OEM, les references croisees et les normes de qualite requises dans l'industrie de la rechange. Nous vous aidons a construire une chaine d'approvisionnement fiable avec une tracabilite complete."
+      },
+      "products": {
+        "autoParts": { "title": "Pieces et Rechanges Auto", "description": "Pieces moteur, systemes de freinage, composants de suspension et pieces de rechange equivalentes OEM de fabricants certifies." },
+        "tires": { "title": "Pneus et Caoutchouc", "description": "Pneus tourisme, utilitaires et tout-terrain de fabricants turcs et internationaux avec garantie complete." },
+        "accessories": { "title": "Accessoires et Options", "description": "Accessoires interieurs et exterieurs, produits d'entretien auto et ameliorations de performance pour tous types de vehicules." },
+        "commercialVehicles": { "title": "Pieces Vehicules Utilitaires", "description": "Pieces de camion, composants de bus, accessoires de remorque et systemes de vehicules lourds pour les operations de flotte." }
+      },
+      "advantages": {
+        "title": "Pourquoi s'Approvisionner en Pieces Auto via Toko",
+        "a1": { "title": "Qualite OEM", "description": "Pieces verifiees selon les specifications OEM avec certificats de qualite et documentation de references croisees." },
+        "a2": { "title": "Large Catalogue", "description": "Acces aux pieces pour les grandes marques et modeles grace a notre vaste reseau de fournisseurs." },
+        "a3": { "title": "Prix Competitifs", "description": "L'approvisionnement direct aupres des fabricants elimine les couts intermediaires pour des prix competitifs sur la rechange." },
+        "a4": { "title": "Livraison Rapide", "description": "Traitement efficace des commandes et logistique pour un delai d'execution rapide sur les commandes de pieces automobiles." }
+      },
+      "sectionTitles": { "products": "Ce Que Nous Approvisionnons", "advantages": "Avantages d'Approvisionnement" },
+      "cta": { "title": "Besoin d'Approvisionnement Auto?", "description": "Contactez notre equipe automobile pour un approvisionnement fiable en pieces de qualite OEM a prix competitifs.", "button": "Obtenir un Devis Pieces" }
     }
   },
   "ReferencesPage": {
