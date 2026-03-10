@@ -26,10 +26,10 @@
 
 ### Forms & Lead Capture
 
-- [ ] **FORM-01**: Contact form with name, email, subject, message fields — validated client and server side
-- [ ] **FORM-02**: Quote request form with product/service details, quantity, destination country
-- [ ] **FORM-03**: Supply/sourcing request form with product name, specifications, quantity, target country
-- [ ] **FORM-04**: Callback request form with phone number, preferred time, brief subject
+- [x] **FORM-01**: Contact form with name, email, subject, message fields — validated client and server side
+- [x] **FORM-02**: Quote request form with product/service details, quantity, destination country
+- [x] **FORM-03**: Supply/sourcing request form with product name, specifications, quantity, target country
+- [x] **FORM-04**: Callback request form with phone number, preferred time, brief subject
 - [x] **FORM-05**: All form submissions send email notification to Toko team via Resend
 - [x] **FORM-06**: Form spam protection with honeypot field, rate limiting, and reCAPTCHA v3
 - [x] **FORM-07**: WhatsApp floating button on all pages linking to Toko's WhatsApp number
@@ -116,10 +116,10 @@
 | PAGE-06 | Phase 2 | Complete |
 | PAGE-07 | Phase 2 | Complete |
 | PAGE-08 | Phase 2 | Complete |
-| FORM-01 | Phase 3 | Pending |
-| FORM-02 | Phase 3 | Pending |
-| FORM-03 | Phase 3 | Pending |
-| FORM-04 | Phase 3 | Pending |
+| FORM-01 | Phase 3 | Complete |
+| FORM-02 | Phase 3 | Complete |
+| FORM-03 | Phase 3 | Complete |
+| FORM-04 | Phase 3 | Complete |
 | FORM-05 | Phase 3 | Complete |
 | FORM-06 | Phase 3 | Complete |
 | FORM-07 | Phase 3 | Complete |
