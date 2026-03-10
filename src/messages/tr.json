@@ -43,6 +43,13 @@
       "linkedin": "LinkedIn",
       "twitter": "Twitter",
       "instagram": "Instagram"
+    },
+    "forms": {
+      "title": "Bize Ulasin",
+      "contact": "Iletisim Formu",
+      "quote": "Teklif Isteyin",
+      "sourcing": "Tedarik Talebi",
+      "callback": "Geri Arama Talebi"
     }
   },
   "LanguageSwitcher": {
@@ -57,7 +64,8 @@
     "getQuote": "Teklif Al",
     "backToHome": "Ana Sayfaya Don",
     "loading": "Yukleniyor...",
-    "whatsappChat": "WhatsApp ile iletisime gecin"
+    "whatsappChat": "WhatsApp ile iletisime gecin",
+    "optional": "(istege bagli)"
   },
   "NotFound": {
     "title": "Sayfa Bulunamadi",
@@ -1392,6 +1400,46 @@
       "noObligationDesc": "Hicbir taahhut olmaksizin ucretsiz danismanlik.",
       "expertConsultation": "Uzman Danismanlik",
       "expertConsultationDesc": "Deneyimli ticaret profesyonelleriyle dogrudan gorusun."
+    }
+  },
+  "Validation": {
+    "name": {
+      "too_small": "Ad en az 2 karakter olmalidir",
+      "too_big": "Ad 100 karakterden kisa olmalidir"
+    },
+    "email": {
+      "invalid_string": "Gecerli bir e-posta adresi giriniz"
+    },
+    "subject": {
+      "too_small": "Konu en az 3 karakter olmalidir",
+      "too_big": "Konu 200 karakterden kisa olmalidir"
+    },
+    "message": {
+      "too_small": "Mesaj en az 10 karakter olmalidir",
+      "too_big": "Mesaj 5000 karakterden kisa olmalidir"
+    },
+    "product": {
+      "too_small": "Urun adi en az 3 karakter olmalidir",
+      "too_big": "Urun adi 300 karakterden kisa olmalidir"
+    },
+    "quantity": {
+      "too_small": "Miktar alani zorunludur"
+    },
+    "destinationCountry": {
+      "too_small": "Hedef ulke alani zorunludur"
+    },
+    "targetCountry": {
+      "too_small": "Hedef ulke alani zorunludur"
+    },
+    "specifications": {
+      "too_small": "Teknik ozellikler en az 10 karakter olmalidir",
+      "too_big": "Teknik ozellikler 5000 karakterden kisa olmalidir"
+    },
+    "phone": {
+      "invalid_string": "Gecerli bir telefon numarasi giriniz"
+    },
+    "preferredTime": {
+      "too_small": "Tercih edilen zaman dilimini belirtiniz"
     }
   }
 }

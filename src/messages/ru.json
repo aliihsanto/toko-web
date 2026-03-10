@@ -43,6 +43,13 @@
       "linkedin": "LinkedIn",
       "twitter": "Twitter",
       "instagram": "Instagram"
+    },
+    "forms": {
+      "title": "Свяжитесь с нами",
+      "contact": "Форма обратной связи",
+      "quote": "Запросить коммерческое предложение",
+      "sourcing": "Заявка на поиск поставщиков",
+      "callback": "Заказать обратный звонок"
     }
   },
   "LanguageSwitcher": {
@@ -57,7 +64,8 @@
     "getQuote": "Запросить предложение",
     "backToHome": "На главную",
     "loading": "Загрузка...",
-    "whatsappChat": "Napisat v WhatsApp"
+    "whatsappChat": "Написать в WhatsApp",
+    "optional": "(необязательно)"
   },
   "NotFound": {
     "title": "Страница не найдена",
@@ -1284,114 +1292,154 @@
     "comingSoon": "Подробное содержание будет добавлено в ближайшее время."
   },
   "Forms": {
-    "success": "Vashe soobshchenie uspeshno otpravleno. My svyazhemsya s vami v blizhajshee vremya.",
+    "success": "Ваше сообщение успешно отправлено. Мы свяжемся с вами в ближайшее время.",
     "errors": {
-      "rateLimited": "Slishkom mnogo zaprosov. Poprobujte cherez minutu.",
-      "recaptchaFailed": "Proverka bezopasnosti ne udalas. Poprobujte eshche raz.",
-      "validationFailed": "Pozhalujsta, prover te formu na nalichie oshibok.",
-      "sendFailed": "Ne udalos otpravit soobshchenie. Poprobujte pozhe."
+      "rateLimited": "Слишком много запросов. Пожалуйста, попробуйте через минуту.",
+      "recaptchaFailed": "Проверка безопасности не пройдена. Пожалуйста, попробуйте снова.",
+      "validationFailed": "Пожалуйста, проверьте форму на наличие ошибок.",
+      "sendFailed": "Не удалось отправить сообщение. Пожалуйста, попробуйте позже."
     },
     "contact": {
-      "title": "Otpravte nam soobshchenie",
-      "name": "Polnoe imya",
-      "email": "Adres elektronnoj pochty",
-      "subject": "Tema",
-      "message": "Soobshchenie",
-      "submit": "Otpravit soobshchenie",
-      "namePlaceholder": "Ivan Ivanov",
+      "title": "Отправьте нам сообщение",
+      "name": "Полное имя",
+      "email": "Адрес электронной почты",
+      "subject": "Тема",
+      "message": "Сообщение",
+      "submit": "Отправить сообщение",
+      "namePlaceholder": "Иван Иванов",
       "emailPlaceholder": "ivan@primer.com",
-      "subjectPlaceholder": "Chem my mozhem pomoch?",
-      "messagePlaceholder": "Rassckazhite o vashikh trebovaniyakh..."
+      "subjectPlaceholder": "Чем мы можем помочь?",
+      "messagePlaceholder": "Расскажите о ваших требованиях..."
     },
     "quote": {
-      "title": "Zaprosit cenovoe predlozhenie",
-      "name": "Polnoe imya",
-      "email": "Adres elektronnoj pochty",
-      "company": "Nazvanie kompanii",
-      "product": "Produkt / Material",
-      "quantity": "Kolichestvo",
-      "destinationCountry": "Strana naznacheniya",
-      "details": "Dopolnitelnye detali",
-      "submit": "Zaprosit predlozhenie",
-      "namePlaceholder": "Ivan Ivanov",
+      "title": "Запросить коммерческое предложение",
+      "name": "Полное имя",
+      "email": "Адрес электронной почты",
+      "company": "Название компании",
+      "product": "Продукт / Материал",
+      "quantity": "Количество",
+      "destinationCountry": "Страна назначения",
+      "details": "Дополнительные сведения",
+      "submit": "Запросить предложение",
+      "namePlaceholder": "Иван Иванов",
       "emailPlaceholder": "ivan@kompaniya.com",
-      "companyPlaceholder": "Nazvanie vashej kompanii",
-      "productPlaceholder": "Napr. Stalnye truby, Tekstil, Khimikaty",
-      "quantityPlaceholder": "Napr. 500 tonn, 10 000 edinic",
-      "destinationCountryPlaceholder": "Napr. Germaniya, SSHA, OAE",
-      "detailsPlaceholder": "Specifikacii, sroki dostavki, trebovaniya k upakovke..."
+      "companyPlaceholder": "Название вашей компании",
+      "productPlaceholder": "Напр. Стальные трубы, Текстиль, Химикаты",
+      "quantityPlaceholder": "Напр. 500 тонн, 10 000 единиц",
+      "destinationCountryPlaceholder": "Напр. Германия, США, ОАЭ",
+      "detailsPlaceholder": "Спецификации, сроки поставки, требования к упаковке..."
     },
     "sourcing": {
-      "title": "Zayavka na poisk postavshchikov",
-      "name": "Polnoe imya",
-      "email": "Adres elektronnoj pochty",
-      "company": "Nazvanie kompanii",
-      "product": "Produkt / Material",
-      "specifications": "Specifikacii",
-      "quantity": "Kolichestvo",
-      "targetCountry": "Celevaya strana",
-      "submit": "Otpravit zayavku",
-      "namePlaceholder": "Ivan Ivanov",
+      "title": "Заявка на поиск поставщиков",
+      "name": "Полное имя",
+      "email": "Адрес электронной почты",
+      "company": "Название компании",
+      "product": "Продукт / Материал",
+      "specifications": "Спецификации",
+      "quantity": "Количество",
+      "targetCountry": "Целевая страна",
+      "submit": "Отправить заявку",
+      "namePlaceholder": "Иван Иванов",
       "emailPlaceholder": "ivan@kompaniya.com",
-      "companyPlaceholder": "Nazvanie vashej kompanii",
-      "productPlaceholder": "Napr. Organicheskij khlopok, Elektronika, Mramor",
-      "specificationsPlaceholder": "Standarty kachestva, sertifikaty, sort, razmery...",
-      "quantityPlaceholder": "Napr. 200 tonn, 5 000 shtuk",
-      "targetCountryPlaceholder": "Napr. Turciya, Indiya, Kitaj"
+      "companyPlaceholder": "Название вашей компании",
+      "productPlaceholder": "Напр. Органический хлопок, Электроника, Мрамор",
+      "specificationsPlaceholder": "Стандарты качества, сертификаты, сорт, размеры...",
+      "quantityPlaceholder": "Напр. 200 тонн, 5 000 штук",
+      "targetCountryPlaceholder": "Напр. Турция, Индия, Китай"
     },
     "callback": {
-      "title": "Zaprosit obratnyj zvonok",
-      "name": "Polnoe imya",
-      "phone": "Nomer telefona",
-      "preferredTime": "Predpochtitelnoe vremya",
-      "subject": "Tema",
-      "submit": "Zaprosit zvonok",
-      "namePlaceholder": "Ivan Ivanov",
+      "title": "Заказать обратный звонок",
+      "name": "Полное имя",
+      "phone": "Номер телефона",
+      "preferredTime": "Предпочтительное время",
+      "subject": "Тема",
+      "submit": "Заказать звонок",
+      "namePlaceholder": "Иван Иванов",
       "phonePlaceholder": "+7 900 000 00 00",
-      "preferredTimePlaceholder": "Napr. Budni 10:00-17:00",
-      "subjectPlaceholder": "Chto vy khoteli by obsudit?"
+      "preferredTimePlaceholder": "Напр. Будни 10:00-17:00",
+      "subjectPlaceholder": "Что вы хотели бы обсудить?"
     },
-    "optional": "neobyzatelno",
+    "optional": "необязательно",
     "validation": {
-      "required": "Eto pole obyazatelno.",
-      "tooShort": "Eto pole slishkom korotkoe.",
-      "tooLong": "Eto pole slishkom dlinnoe.",
-      "invalidEmail": "Vvedite dejstvitelnyj adres elektronnoj pochty.",
-      "invalidPhone": "Vvedite dejstvitelnyj nomer telefona."
+      "required": "Это поле обязательно для заполнения.",
+      "tooShort": "Значение слишком короткое.",
+      "tooLong": "Значение слишком длинное.",
+      "invalidEmail": "Пожалуйста, введите действительный адрес электронной почты.",
+      "invalidPhone": "Пожалуйста, введите действительный номер телефона."
     }
   },
   "ContactPage": {
-    "title": "Kontakty",
-    "subtitle": "Svyazhites s nami dlya resheniya vashikh potrebnostej v mezhdunarodnoj torgovle.",
-    "comingSoon": "Kontaktnaya forma budet dobavlena v blizhajshee vremya.",
-    "responseTime": "My obychno otvechaem v techenie 24 chasov.",
+    "title": "Контакты",
+    "subtitle": "Свяжитесь с нами для решения ваших потребностей в международной торговле.",
+    "comingSoon": "Контактная форма будет добавлена в ближайшее время.",
+    "responseTime": "Обычно мы отвечаем в течение 24 часов.",
     "info": {
-      "address": "Stambul, Turciya",
+      "address": "Стамбул, Турция",
       "phone": "+90 (212) 000 00 00",
       "email": "info@toko.com.tr"
     }
   },
   "QuotePage": {
-    "badge": "Besplatnoe predlozhenie",
-    "title": "Poluchit cenovoe predlozhenie",
-    "subtitle": "Soobshchite nam o vashikh potrebnostyakh v produkcii, i my predostavim konkurentnoe predlozhenie v techenie 24 chasov."
+    "badge": "Бесплатное предложение",
+    "title": "Получить коммерческое предложение",
+    "subtitle": "Сообщите нам о ваших потребностях в продукции, и мы предоставим конкурентное предложение в течение 24 часов."
   },
   "SourcingPage": {
-    "badge": "Poisk postavshchikov",
-    "title": "Zayavka na poisk produkcii",
-    "subtitle": "Pozvolte nam najti podkhodyashchikh postavshchikov i produkty dlya vashego biznesa."
+    "badge": "Поиск поставщиков",
+    "title": "Заявка на поиск продукции",
+    "subtitle": "Позвольте нам найти подходящих поставщиков и продукцию для вашего бизнеса. Наша команда специалистов проведёт тщательный отбор и проверку качества."
   },
   "CallbackPage": {
-    "badge": "Obratnyj zvonok",
-    "title": "Zaprosit obratnyj zvonok",
-    "subtitle": "Ostavte svoi dannye, i nashi eksperty po torgovle svyazhutsya s vami.",
+    "badge": "Обратный звонок",
+    "title": "Заказать обратный звонок",
+    "subtitle": "Оставьте ваши контактные данные, и наши эксперты по международной торговле свяжутся с вами в удобное время.",
     "benefits": {
-      "fastResponse": "Bystryj otvet",
-      "fastResponseDesc": "My perezvonim v techenie 2 chasov v rabochee vremya.",
-      "noObligation": "Bez obyazatelstv",
-      "noObligationDesc": "Besplatnaya konsultaciya bez kakih-libo obyazatelstv.",
-      "expertConsultation": "Ekspertnaya konsultaciya",
-      "expertConsultationDesc": "Govorite napryamuyu s opytnymi specialistami po torgovle."
+      "fastResponse": "Быстрый ответ",
+      "fastResponseDesc": "Мы перезвоним в течение 2 часов в рабочее время.",
+      "noObligation": "Без обязательств",
+      "noObligationDesc": "Бесплатная консультация без каких-либо обязательств с вашей стороны.",
+      "expertConsultation": "Экспертная консультация",
+      "expertConsultationDesc": "Прямое общение с опытными специалистами по международной торговле."
+    }
+  },
+  "Validation": {
+    "name": {
+      "too_small": "Имя должно содержать не менее 2 символов",
+      "too_big": "Имя не должно превышать 100 символов"
+    },
+    "email": {
+      "invalid_string": "Пожалуйста, введите действительный адрес электронной почты"
+    },
+    "subject": {
+      "too_small": "Тема должна содержать не менее 3 символов",
+      "too_big": "Тема не должна превышать 200 символов"
+    },
+    "message": {
+      "too_small": "Сообщение должно содержать не менее 10 символов",
+      "too_big": "Сообщение не должно превышать 5000 символов"
+    },
+    "product": {
+      "too_small": "Название продукта должно содержать не менее 3 символов",
+      "too_big": "Название продукта не должно превышать 300 символов"
+    },
+    "quantity": {
+      "too_small": "Поле количества обязательно для заполнения"
+    },
+    "destinationCountry": {
+      "too_small": "Страна назначения обязательна для заполнения"
+    },
+    "targetCountry": {
+      "too_small": "Целевая страна обязательна для заполнения"
+    },
+    "specifications": {
+      "too_small": "Спецификации должны содержать не менее 10 символов",
+      "too_big": "Спецификации не должны превышать 5000 символов"
+    },
+    "phone": {
+      "invalid_string": "Пожалуйста, введите действительный номер телефона"
+    },
+    "preferredTime": {
+      "too_small": "Пожалуйста, укажите предпочтительное время для звонка"
     }
   }
 }

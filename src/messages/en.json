@@ -43,6 +43,13 @@
       "linkedin": "LinkedIn",
       "twitter": "Twitter",
       "instagram": "Instagram"
+    },
+    "forms": {
+      "title": "Get in Touch",
+      "contact": "Contact Form",
+      "quote": "Request a Quote",
+      "sourcing": "Sourcing Request",
+      "callback": "Request Callback"
     }
   },
   "LanguageSwitcher": {
@@ -57,7 +64,8 @@
     "getQuote": "Get a Quote",
     "backToHome": "Back to Home",
     "loading": "Loading...",
-    "whatsappChat": "Chat on WhatsApp"
+    "whatsappChat": "Chat on WhatsApp",
+    "optional": "(optional)"
   },
   "NotFound": {
     "title": "Page Not Found",
@@ -1392,6 +1400,46 @@
       "noObligationDesc": "Free consultation with no commitments.",
       "expertConsultation": "Expert Consultation",
       "expertConsultationDesc": "Speak directly with experienced trade professionals."
+    }
+  },
+  "Validation": {
+    "name": {
+      "too_small": "Name must be at least 2 characters",
+      "too_big": "Name must be less than 100 characters"
+    },
+    "email": {
+      "invalid_string": "Please enter a valid email address"
+    },
+    "subject": {
+      "too_small": "Subject must be at least 3 characters",
+      "too_big": "Subject must be less than 200 characters"
+    },
+    "message": {
+      "too_small": "Message must be at least 10 characters",
+      "too_big": "Message must be less than 5000 characters"
+    },
+    "product": {
+      "too_small": "Product name must be at least 3 characters",
+      "too_big": "Product name must be less than 300 characters"
+    },
+    "quantity": {
+      "too_small": "Quantity is required"
+    },
+    "destinationCountry": {
+      "too_small": "Destination country is required"
+    },
+    "targetCountry": {
+      "too_small": "Target country is required"
+    },
+    "specifications": {
+      "too_small": "Specifications must be at least 10 characters",
+      "too_big": "Specifications must be less than 5000 characters"
+    },
+    "phone": {
+      "invalid_string": "Please enter a valid phone number"
+    },
+    "preferredTime": {
+      "too_small": "Please specify a preferred time"
     }
   }
 }

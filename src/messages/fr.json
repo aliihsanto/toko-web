@@ -43,6 +43,13 @@
       "linkedin": "LinkedIn",
       "twitter": "Twitter",
       "instagram": "Instagram"
+    },
+    "forms": {
+      "title": "Nous Contacter",
+      "contact": "Formulaire de Contact",
+      "quote": "Demander un Devis",
+      "sourcing": "Demande d'Approvisionnement",
+      "callback": "Demander un Rappel"
     }
   },
   "LanguageSwitcher": {
@@ -57,7 +64,8 @@
     "getQuote": "Demander un Devis",
     "backToHome": "Retour a l'Accueil",
     "loading": "Chargement...",
-    "whatsappChat": "Discuter sur WhatsApp"
+    "whatsappChat": "Discuter sur WhatsApp",
+    "optional": "(facultatif)"
   },
   "NotFound": {
     "title": "Page Non Trouvee",
@@ -1392,6 +1400,46 @@
       "noObligationDesc": "Consultation gratuite sans aucun engagement.",
       "expertConsultation": "Consultation d experts",
       "expertConsultationDesc": "Parlez directement avec des professionnels du commerce experimentes."
+    }
+  },
+  "Validation": {
+    "name": {
+      "too_small": "Le nom doit comporter au moins 2 caracteres",
+      "too_big": "Le nom ne doit pas depasser 100 caracteres"
+    },
+    "email": {
+      "invalid_string": "Veuillez saisir une adresse e-mail valide"
+    },
+    "subject": {
+      "too_small": "Le sujet doit comporter au moins 3 caracteres",
+      "too_big": "Le sujet ne doit pas depasser 200 caracteres"
+    },
+    "message": {
+      "too_small": "Le message doit comporter au moins 10 caracteres",
+      "too_big": "Le message ne doit pas depasser 5000 caracteres"
+    },
+    "product": {
+      "too_small": "Le nom du produit doit comporter au moins 3 caracteres",
+      "too_big": "Le nom du produit ne doit pas depasser 300 caracteres"
+    },
+    "quantity": {
+      "too_small": "La quantite est obligatoire"
+    },
+    "destinationCountry": {
+      "too_small": "Le pays de destination est obligatoire"
+    },
+    "targetCountry": {
+      "too_small": "Le pays cible est obligatoire"
+    },
+    "specifications": {
+      "too_small": "Les specifications doivent comporter au moins 10 caracteres",
+      "too_big": "Les specifications ne doivent pas depasser 5000 caracteres"
+    },
+    "phone": {
+      "invalid_string": "Veuillez saisir un numero de telephone valide"
+    },
+    "preferredTime": {
+      "too_small": "Veuillez indiquer un horaire prefere"
     }
   }
 }
