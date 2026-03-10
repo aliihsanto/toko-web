@@ -9,7 +9,7 @@
 
 - [x] **I18N-01**: Site supports 4 languages: Turkish, English, French, Russian with URL prefix routing (/tr/, /en/, /fr/, /ru/)
 - [x] **I18N-02**: Middleware auto-detects browser language and redirects to matching locale on first visit
-- [ ] **I18N-03**: User can switch language via header language selector on any page
+- [x] **I18N-03**: User can switch language via header language selector on any page
 - [x] **I18N-04**: All static UI text (navigation, buttons, labels, footers) translated to all 4 languages
 - [x] **I18N-05**: Each page has correct hreflang tags pointing to all language variants
 
@@ -65,8 +65,8 @@
 ### Design & UX
 
 - [x] **UX-01**: Modern corporate design — clean, professional, trust-building aesthetic
-- [ ] **UX-02**: Fully responsive layout — mobile, tablet, desktop breakpoints
-- [ ] **UX-03**: Consistent navigation with logo, main menu, language switcher, CTA button
+- [x] **UX-02**: Fully responsive layout — mobile, tablet, desktop breakpoints
+- [x] **UX-03**: Consistent navigation with logo, main menu, language switcher, CTA button
 - [ ] **UX-04**: Footer with company info, quick links, contact details, social media links
 - [x] **UX-05**: Dark/light color scheme appropriate for B2B corporate identity
 
@@ -105,7 +105,7 @@
 |-------------|-------|--------|
 | I18N-01 | Phase 1 | Complete (01-01) |
 | I18N-02 | Phase 1 | Complete (01-01) |
-| I18N-03 | Phase 1 | Pending |
+| I18N-03 | Phase 1 | Complete |
 | I18N-04 | Phase 1 | Complete (01-01) |
 | I18N-05 | Phase 1 | Complete (01-01) |
 | PAGE-01 | Phase 2 | Pending |
@@ -143,8 +143,8 @@
 | SEO-06 | Phase 4 | Pending |
 | SEO-07 | Phase 4 | Pending |
 | UX-01 | Phase 1 | Complete |
-| UX-02 | Phase 1 | Pending |
-| UX-03 | Phase 1 | Pending |
+| UX-02 | Phase 1 | Complete |
+| UX-03 | Phase 1 | Complete |
 | UX-04 | Phase 1 | Pending |
 | UX-05 | Phase 1 | Complete |
 

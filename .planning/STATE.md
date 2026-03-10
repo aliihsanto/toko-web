@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 01-02-PLAN.md
-last_updated: "2026-03-10T09:21:04Z"
-last_activity: 2026-03-10 -- Plan 01-02 executed
+stopped_at: Completed 01-03-PLAN.md
+last_updated: "2026-03-10T09:28:03Z"
+last_activity: 2026-03-10 -- Plan 01-03 executed
 progress:
   total_phases: 6
   completed_phases: 0
   total_plans: 5
-  completed_plans: 2
-  percent: 7
+  completed_plans: 3
+  percent: 10
 ---
 
 # Project State
@@ -26,27 +26,27 @@ See: .planning/PROJECT.md (updated 2026-03-10)
 ## Current Position
 
 Phase: 1 of 6 (Foundation and i18n)
-Plan: 2 of 5 in current phase
-Status: Plan 01-02 complete, ready for 01-03
-Last activity: 2026-03-10 -- Plan 01-02 executed
+Plan: 3 of 5 in current phase
+Status: Plan 01-03 complete, ready for 01-04
+Last activity: 2026-03-10 -- Plan 01-03 executed
 
-Progress: [#░░░░░░░░░] 7%
+Progress: [#░░░░░░░░░] 10%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 2
-- Average duration: 10min
-- Total execution time: 0.3 hours
+- Total plans completed: 3
+- Average duration: 8min
+- Total execution time: 0.4 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| 1 - Foundation and i18n | 2/5 | 20min | 10min |
+| 1 - Foundation and i18n | 3/5 | 25min | 8min |
 
 **Recent Trend:**
-- Last 5 plans: 01-01 (13min), 01-02 (7min)
+- Last 5 plans: 01-01 (13min), 01-02 (7min), 01-03 (5min)
 - Trend: Accelerating
 
 *Updated after each plan completion*
@@ -68,6 +68,9 @@ Recent decisions affecting current work:
 - 01-02: Used oklch color space (matching Tailwind v4 + shadcn v4) instead of HSL for all theme tokens
 - 01-02: Kept globals.css at src/app/globals.css matching scaffolded structure rather than moving to src/styles/
 - 01-02: ThemeProvider placed inside NextIntlClientProvider in locale layout for proper i18n + theme integration
+- 01-03: Used onClick instead of onSelect for Base UI DropdownMenuItem (Base UI does not support onSelect)
+- 01-03: Text-based locale names in language switcher (no flags) for B2B corporate professionalism
+- 01-03: Passive scroll listener with 50px threshold for header shrink-on-scroll detection
 
 ### Pending Todos
 
@@ -81,6 +84,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-10T09:21:04Z
-Stopped at: Completed 01-02-PLAN.md
-Resume file: .planning/phases/01-foundation-and-i18n/01-02-SUMMARY.md
+Last session: 2026-03-10T09:28:03Z
+Stopped at: Completed 01-03-PLAN.md
+Resume file: .planning/phases/01-foundation-and-i18n/01-03-SUMMARY.md
