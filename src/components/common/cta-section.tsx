@@ -13,7 +13,7 @@ interface CTASectionProps {
 
 export function CTASection({ title, description, buttonText, buttonHref, note }: CTASectionProps) {
   return (
-    <section className="relative overflow-hidden bg-[#1e3043] py-24 dark:bg-[#14202e]">
+    <section className="relative overflow-hidden bg-brand-dark py-24">
       <div
         className="absolute inset-0 opacity-10"
         style={{
@@ -28,7 +28,7 @@ export function CTASection({ title, description, buttonText, buttonHref, note }:
           <h2 className="text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
             {title}
           </h2>
-          <p className="mx-auto mt-6 max-w-2xl text-lg text-blue-200">
+          <p className="mx-auto mt-6 max-w-2xl text-lg text-brand-dark-text">
             {description}
           </p>
         </ScrollReveal>
@@ -45,7 +45,7 @@ export function CTASection({ title, description, buttonText, buttonHref, note }:
             </Link>
           </div>
           {note && (
-            <p className="mt-4 text-sm text-blue-300/50">
+            <p className="mt-4 text-sm text-brand-dark-text-muted">
               {note}
             </p>
           )}

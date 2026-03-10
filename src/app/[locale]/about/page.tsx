@@ -170,7 +170,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
       </section>
 
       {/* ===== KEY ACHIEVEMENTS / STATS ===== */}
-      <section className="relative overflow-hidden bg-[#1e3043] py-24 text-white dark:bg-[#14202e]">
+      <section className="relative overflow-hidden bg-brand-dark py-24 text-white">
         <div
           className="absolute inset-0 opacity-10"
           style={{
@@ -193,7 +193,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
                 >
                   <stat.icon className="mb-4 h-10 w-10 text-amber-500 transition-transform group-hover:scale-110" />
                   <div className="mb-2 text-4xl font-extrabold">{stat.value}</div>
-                  <div className="text-xs font-medium uppercase tracking-wide text-blue-200">
+                  <div className="text-xs font-medium uppercase tracking-wide text-brand-dark-text">
                     {stat.label}
                   </div>
                 </div>

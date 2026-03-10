@@ -10,7 +10,7 @@ interface PageHeroProps {
 
 export function PageHero({ title, subtitle, backgroundImage, badge }: PageHeroProps) {
   return (
-    <section className="relative flex min-h-[40vh] items-center overflow-hidden bg-[#1e3043] dark:bg-[#14202e]">
+    <section className="relative flex min-h-[40vh] items-center overflow-hidden bg-brand-dark">
       {/* Optional background image with overlay */}
       {backgroundImage && (
         <div className="absolute inset-0 z-0">
@@ -22,7 +22,7 @@ export function PageHero({ title, subtitle, backgroundImage, badge }: PageHeroPr
             className="h-full w-full object-cover opacity-30"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-[#14202e]/60 to-[#1e3043]/80" />
+          <div className="absolute inset-0 bg-gradient-to-b from-brand-dark/60 to-brand-dark/80" />
         </div>
       )}
 
@@ -41,7 +41,7 @@ export function PageHero({ title, subtitle, backgroundImage, badge }: PageHeroPr
             </h1>
           </ScrollReveal>
           <ScrollReveal delay={0.2}>
-            <p className="mx-auto mt-6 max-w-2xl text-lg font-light leading-relaxed text-blue-200">
+            <p className="mx-auto mt-6 max-w-2xl text-lg font-light leading-relaxed text-brand-dark-text">
               {subtitle}
             </p>
           </ScrollReveal>

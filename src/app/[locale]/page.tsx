@@ -53,7 +53,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             className="h-full w-full object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#14202e]/95 via-[#1e3043]/80 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-r from-brand-dark/95 via-brand-dark/80 to-transparent" />
         </div>
 
         <div className="relative z-10 mx-auto w-full max-w-7xl px-4 pt-20 sm:px-6 lg:px-8">
@@ -69,14 +69,14 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             <ScrollReveal delay={0.1}>
               <h1 className="text-5xl font-extrabold leading-tight tracking-tight text-white sm:text-6xl md:text-7xl">
                 {t('title')} <br />
-                <span className="bg-gradient-to-r from-blue-200 to-white bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-amber-200 to-white bg-clip-text text-transparent">
                   {t('titleHighlight')}
                 </span>
               </h1>
             </ScrollReveal>
 
             <ScrollReveal delay={0.2}>
-              <p className="mt-6 max-w-2xl text-xl font-light leading-relaxed text-blue-100">
+              <p className="mt-6 max-w-2xl text-xl font-light leading-relaxed text-brand-dark-text">
                 {t('subtitle')}
               </p>
             </ScrollReveal>
@@ -120,7 +120,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                 >
                   <stat.icon className="mb-3 h-8 w-8 text-amber-500 transition-transform group-hover:scale-110" />
                   <div className="mb-1 text-3xl font-bold text-white">{stat.value}</div>
-                  <div className="text-xs font-medium uppercase tracking-wide text-blue-200">
+                  <div className="text-xs font-medium uppercase tracking-wide text-brand-dark-text">
                     {stat.label}
                   </div>
                 </div>
@@ -168,7 +168,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                           height={600}
                           className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
                         />
-                        <div className="absolute inset-0 bg-[#1e3043]/20 transition-colors group-hover:bg-transparent" />
+                        <div className="absolute inset-0 bg-brand-dark/20 transition-colors group-hover:bg-transparent" />
                       </div>
 
                       {/* Text */}
@@ -224,7 +224,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       </section>
 
       {/* ===== WHY US - Dark Section ===== */}
-      <section className="relative overflow-hidden bg-[#1e3043] py-24 text-white dark:bg-[#14202e]">
+      <section className="relative overflow-hidden bg-brand-dark py-24 text-white">
         <div
           className="absolute inset-0 opacity-10"
           style={{
@@ -258,16 +258,17 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                   <div className="group relative flex flex-col items-center text-center">
                     {/* Connector line (desktop) */}
                     {index < 3 && (
-                      <div className="absolute left-1/2 top-8 -z-10 hidden h-1 w-full bg-[#254363] md:block" />
+                      <div className="absolute left-1/2 top-8 -z-10 hidden h-1 w-full bg-brand-dark-border md:block" />
                     )}
-                    <div className="z-10 mb-6 flex h-16 w-16 items-center justify-center rounded-full border-4 border-[#254363] bg-[#203952] shadow-lg shadow-black/20 transition-colors duration-300 group-hover:border-amber-500">
+                    <div className="z-10 mb-6 flex h-16 w-16 items-center justify-center rounded-full border-4 border-brand-dark-border bg-brand-dark-card shadow-lg shadow-black/20 transition-colors duration-300 group-hover:border-amber-500">
                       <Icon className="h-8 w-8 text-amber-500" />
                     </div>
-                    <div className="w-full rounded-xl border border-[#254363] bg-[#203952]/50 p-6 transition-colors hover:bg-[#203952]">
+                    <div className="w-full rounded-xl border border-brand-dark-border bg-brand-dark-card/50 p-6 transition-colors hover:bg-brand-dark-card">
                       <h4 className="mb-3 text-xl font-bold">{t(`whyUs.${item.key}.title`)}</h4>
-                      <p className="text-sm leading-relaxed text-blue-200">
+                      <p className="text-sm leading-relaxed text-brand-dark-text">
                         {t(`whyUs.${item.key}.description`)}
                       </p>
+
                     </div>
                   </div>
                 </ScrollReveal>
@@ -397,7 +398,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       </section>
 
       {/* ===== CTA ===== */}
-      <section className="relative overflow-hidden bg-[#1e3043] py-24 dark:bg-[#14202e]">
+      <section className="relative overflow-hidden bg-brand-dark py-24">
         <div
           className="absolute inset-0 opacity-10"
           style={{
@@ -412,7 +413,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             <h2 className="text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
               {t('ctaSection.title')}
             </h2>
-            <p className="mx-auto mt-6 max-w-2xl text-lg text-blue-200">
+            <p className="mx-auto mt-6 max-w-2xl text-lg text-brand-dark-text">
               {t('ctaSection.description')}
             </p>
           </ScrollReveal>
@@ -428,7 +429,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                 </Button>
               </Link>
             </div>
-            <p className="mt-4 text-sm text-blue-300/50">
+            <p className="mt-4 text-sm text-brand-dark-text-muted">
               {t('ctaSection.note')}
             </p>
           </ScrollReveal>
