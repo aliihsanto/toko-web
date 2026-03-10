@@ -1283,16 +1283,6 @@
     "subtitle": "Актуальные статьи о международной торговле, таможенном регулировании и отраслевом анализе.",
     "comingSoon": "Подробное содержание будет добавлено в ближайшее время."
   },
-  "ContactPage": {
-    "title": "Контакты",
-    "subtitle": "Свяжитесь с нами для решения ваших потребностей в международной торговле.",
-    "comingSoon": "Контактная форма будет добавлена в ближайшее время.",
-    "info": {
-      "address": "Стамбул, Турция",
-      "phone": "+90 (212) 000 00 00",
-      "email": "info@toko.com.tr"
-    }
-  },
   "Forms": {
     "success": "Vashe soobshchenie uspeshno otpravleno. My svyazhemsya s vami v blizhajshee vremya.",
     "errors": {
@@ -1300,6 +1290,108 @@
       "recaptchaFailed": "Proverka bezopasnosti ne udalas. Poprobujte eshche raz.",
       "validationFailed": "Pozhalujsta, prover te formu na nalichie oshibok.",
       "sendFailed": "Ne udalos otpravit soobshchenie. Poprobujte pozhe."
+    },
+    "contact": {
+      "title": "Otpravte nam soobshchenie",
+      "name": "Polnoe imya",
+      "email": "Adres elektronnoj pochty",
+      "subject": "Tema",
+      "message": "Soobshchenie",
+      "submit": "Otpravit soobshchenie",
+      "namePlaceholder": "Ivan Ivanov",
+      "emailPlaceholder": "ivan@primer.com",
+      "subjectPlaceholder": "Chem my mozhem pomoch?",
+      "messagePlaceholder": "Rassckazhite o vashikh trebovaniyakh..."
+    },
+    "quote": {
+      "title": "Zaprosit cenovoe predlozhenie",
+      "name": "Polnoe imya",
+      "email": "Adres elektronnoj pochty",
+      "company": "Nazvanie kompanii",
+      "product": "Produkt / Material",
+      "quantity": "Kolichestvo",
+      "destinationCountry": "Strana naznacheniya",
+      "details": "Dopolnitelnye detali",
+      "submit": "Zaprosit predlozhenie",
+      "namePlaceholder": "Ivan Ivanov",
+      "emailPlaceholder": "ivan@kompaniya.com",
+      "companyPlaceholder": "Nazvanie vashej kompanii",
+      "productPlaceholder": "Napr. Stalnye truby, Tekstil, Khimikaty",
+      "quantityPlaceholder": "Napr. 500 tonn, 10 000 edinic",
+      "destinationCountryPlaceholder": "Napr. Germaniya, SSHA, OAE",
+      "detailsPlaceholder": "Specifikacii, sroki dostavki, trebovaniya k upakovke..."
+    },
+    "sourcing": {
+      "title": "Zayavka na poisk postavshchikov",
+      "name": "Polnoe imya",
+      "email": "Adres elektronnoj pochty",
+      "company": "Nazvanie kompanii",
+      "product": "Produkt / Material",
+      "specifications": "Specifikacii",
+      "quantity": "Kolichestvo",
+      "targetCountry": "Celevaya strana",
+      "submit": "Otpravit zayavku",
+      "namePlaceholder": "Ivan Ivanov",
+      "emailPlaceholder": "ivan@kompaniya.com",
+      "companyPlaceholder": "Nazvanie vashej kompanii",
+      "productPlaceholder": "Napr. Organicheskij khlopok, Elektronika, Mramor",
+      "specificationsPlaceholder": "Standarty kachestva, sertifikaty, sort, razmery...",
+      "quantityPlaceholder": "Napr. 200 tonn, 5 000 shtuk",
+      "targetCountryPlaceholder": "Napr. Turciya, Indiya, Kitaj"
+    },
+    "callback": {
+      "title": "Zaprosit obratnyj zvonok",
+      "name": "Polnoe imya",
+      "phone": "Nomer telefona",
+      "preferredTime": "Predpochtitelnoe vremya",
+      "subject": "Tema",
+      "submit": "Zaprosit zvonok",
+      "namePlaceholder": "Ivan Ivanov",
+      "phonePlaceholder": "+7 900 000 00 00",
+      "preferredTimePlaceholder": "Napr. Budni 10:00-17:00",
+      "subjectPlaceholder": "Chto vy khoteli by obsudit?"
+    },
+    "optional": "neobyzatelno",
+    "validation": {
+      "required": "Eto pole obyazatelno.",
+      "tooShort": "Eto pole slishkom korotkoe.",
+      "tooLong": "Eto pole slishkom dlinnoe.",
+      "invalidEmail": "Vvedite dejstvitelnyj adres elektronnoj pochty.",
+      "invalidPhone": "Vvedite dejstvitelnyj nomer telefona."
+    }
+  },
+  "ContactPage": {
+    "title": "Kontakty",
+    "subtitle": "Svyazhites s nami dlya resheniya vashikh potrebnostej v mezhdunarodnoj torgovle.",
+    "comingSoon": "Kontaktnaya forma budet dobavlena v blizhajshee vremya.",
+    "responseTime": "My obychno otvechaem v techenie 24 chasov.",
+    "info": {
+      "address": "Stambul, Turciya",
+      "phone": "+90 (212) 000 00 00",
+      "email": "info@toko.com.tr"
+    }
+  },
+  "QuotePage": {
+    "badge": "Besplatnoe predlozhenie",
+    "title": "Poluchit cenovoe predlozhenie",
+    "subtitle": "Soobshchite nam o vashikh potrebnostyakh v produkcii, i my predostavim konkurentnoe predlozhenie v techenie 24 chasov."
+  },
+  "SourcingPage": {
+    "badge": "Poisk postavshchikov",
+    "title": "Zayavka na poisk produkcii",
+    "subtitle": "Pozvolte nam najti podkhodyashchikh postavshchikov i produkty dlya vashego biznesa."
+  },
+  "CallbackPage": {
+    "badge": "Obratnyj zvonok",
+    "title": "Zaprosit obratnyj zvonok",
+    "subtitle": "Ostavte svoi dannye, i nashi eksperty po torgovle svyazhutsya s vami.",
+    "benefits": {
+      "fastResponse": "Bystryj otvet",
+      "fastResponseDesc": "My perezvonim v techenie 2 chasov v rabochee vremya.",
+      "noObligation": "Bez obyazatelstv",
+      "noObligationDesc": "Besplatnaya konsultaciya bez kakih-libo obyazatelstv.",
+      "expertConsultation": "Ekspertnaya konsultaciya",
+      "expertConsultationDesc": "Govorite napryamuyu s opytnymi specialistami po torgovle."
     }
   }
 }

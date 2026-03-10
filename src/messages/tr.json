@@ -1283,16 +1283,6 @@
     "subtitle": "Uluslararasi ticaret, gumruk mevzuati ve sektor analizleri hakkinda guncel yazilar.",
     "comingSoon": "Detayli icerik yakinda eklenecektir."
   },
-  "ContactPage": {
-    "title": "Iletisim",
-    "subtitle": "Uluslararasi ticaret ihtiyaclariniz icin bizimle iletisime gecin.",
-    "comingSoon": "Iletisim formu yakinda eklenecektir.",
-    "info": {
-      "address": "Istanbul, Turkiye",
-      "phone": "+90 (212) 000 00 00",
-      "email": "info@toko.com.tr"
-    }
-  },
   "Forms": {
     "success": "Mesajiniz basariyla gonderildi. En kisa surede size donecegiz.",
     "errors": {
@@ -1300,6 +1290,108 @@
       "recaptchaFailed": "Guvenlik dogrulamasi basarisiz oldu. Lutfen tekrar deneyin.",
       "validationFailed": "Lutfen formdaki hatalari kontrol edin.",
       "sendFailed": "Mesajiniz gonderilemedi. Lutfen daha sonra tekrar deneyin."
+    },
+    "contact": {
+      "title": "Bize Mesaj Gonderin",
+      "name": "Ad Soyad",
+      "email": "E-posta Adresi",
+      "subject": "Konu",
+      "message": "Mesaj",
+      "submit": "Mesaj Gonder",
+      "namePlaceholder": "Ahmet Yilmaz",
+      "emailPlaceholder": "ahmet@ornek.com",
+      "subjectPlaceholder": "Size nasil yardimci olabiliriz?",
+      "messagePlaceholder": "Gereksinimlerinizi bize anlatiniz..."
+    },
+    "quote": {
+      "title": "Fiyat Teklifi Isteyin",
+      "name": "Ad Soyad",
+      "email": "E-posta Adresi",
+      "company": "Sirket Adi",
+      "product": "Urun / Malzeme",
+      "quantity": "Miktar",
+      "destinationCountry": "Hedef Ulke",
+      "details": "Ek Detaylar",
+      "submit": "Teklif Isteyin",
+      "namePlaceholder": "Ahmet Yilmaz",
+      "emailPlaceholder": "ahmet@sirket.com",
+      "companyPlaceholder": "Sirketinizin adi",
+      "productPlaceholder": "Orn. Celik borular, Tekstil, Kimyasallar",
+      "quantityPlaceholder": "Orn. 500 ton, 10.000 adet",
+      "destinationCountryPlaceholder": "Orn. Almanya, ABD, BAE",
+      "detailsPlaceholder": "Teknik ozellikler, teslimat suresi, ambalaj gereksinimleri..."
+    },
+    "sourcing": {
+      "title": "Tedarik Talebi Gonderin",
+      "name": "Ad Soyad",
+      "email": "E-posta Adresi",
+      "company": "Sirket Adi",
+      "product": "Urun / Malzeme",
+      "specifications": "Teknik Ozellikler",
+      "quantity": "Miktar",
+      "targetCountry": "Hedef Ulke",
+      "submit": "Talep Gonderin",
+      "namePlaceholder": "Ahmet Yilmaz",
+      "emailPlaceholder": "ahmet@sirket.com",
+      "companyPlaceholder": "Sirketinizin adi",
+      "productPlaceholder": "Orn. Organik pamuk, Elektronik, Mermer",
+      "specificationsPlaceholder": "Kalite standartlari, sertifikalar, grade, boyutlar...",
+      "quantityPlaceholder": "Orn. 200 ton, 5.000 adet",
+      "targetCountryPlaceholder": "Orn. Turkiye, Hindistan, Cin"
+    },
+    "callback": {
+      "title": "Geri Arama Talebi",
+      "name": "Ad Soyad",
+      "phone": "Telefon Numarasi",
+      "preferredTime": "Tercih Edilen Zaman",
+      "subject": "Konu",
+      "submit": "Geri Arama Isteyin",
+      "namePlaceholder": "Ahmet Yilmaz",
+      "phonePlaceholder": "+90 555 000 00 00",
+      "preferredTimePlaceholder": "Orn. Hafta ici 10:00-17:00",
+      "subjectPlaceholder": "Neyi gorusmek istersiniz?"
+    },
+    "optional": "istege bagli",
+    "validation": {
+      "required": "Bu alan zorunludur.",
+      "tooShort": "Bu alan cok kisa.",
+      "tooLong": "Bu alan cok uzun.",
+      "invalidEmail": "Gecerli bir e-posta adresi giriniz.",
+      "invalidPhone": "Gecerli bir telefon numarasi giriniz."
+    }
+  },
+  "ContactPage": {
+    "title": "Iletisim",
+    "subtitle": "Uluslararasi ticaret ihtiyaclariniz icin bizimle iletisime gecin.",
+    "comingSoon": "Iletisim formu yakinda eklenecektir.",
+    "responseTime": "Genellikle 24 saat icinde yanit veririz.",
+    "info": {
+      "address": "Istanbul, Turkiye",
+      "phone": "+90 (212) 000 00 00",
+      "email": "info@toko.com.tr"
+    }
+  },
+  "QuotePage": {
+    "badge": "Ucretsiz Teklif",
+    "title": "Fiyat Teklifi Alin",
+    "subtitle": "Urun ihtiyaclarinizi bize bildirin, 24 saat icinde rekabetci bir teklif sunalim."
+  },
+  "SourcingPage": {
+    "badge": "Tedarik",
+    "title": "Urun Tedarik Talebi",
+    "subtitle": "Isletmeniz icin dogru tedarikci ve urunleri bulmamiza izin verin."
+  },
+  "CallbackPage": {
+    "badge": "Geri Arama",
+    "title": "Geri Arama Talebi",
+    "subtitle": "Bilgilerinizi birakin, ticaret uzmanlarimiz sizi geri arasin.",
+    "benefits": {
+      "fastResponse": "Hizli Yanit",
+      "fastResponseDesc": "Mesai saatlerinde 2 saat icinde geri arariz.",
+      "noObligation": "Baglayici Degil",
+      "noObligationDesc": "Hicbir taahhut olmaksizin ucretsiz danismanlik.",
+      "expertConsultation": "Uzman Danismanlik",
+      "expertConsultationDesc": "Deneyimli ticaret profesyonelleriyle dogrudan gorusun."
     }
   }
 }

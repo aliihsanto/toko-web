@@ -1283,16 +1283,6 @@
     "subtitle": "Current articles on international trade, customs regulations, and sector analyses.",
     "comingSoon": "Detailed content will be added soon."
   },
-  "ContactPage": {
-    "title": "Contact",
-    "subtitle": "Get in touch with us for your international trade needs.",
-    "comingSoon": "Contact form will be added soon.",
-    "info": {
-      "address": "Istanbul, Turkey",
-      "phone": "+90 (212) 000 00 00",
-      "email": "info@toko.com.tr"
-    }
-  },
   "Forms": {
     "success": "Your message has been sent successfully. We will get back to you soon.",
     "errors": {
@@ -1300,6 +1290,108 @@
       "recaptchaFailed": "Security verification failed. Please try again.",
       "validationFailed": "Please check the form for errors.",
       "sendFailed": "Failed to send your message. Please try again later."
+    },
+    "contact": {
+      "title": "Send Us a Message",
+      "name": "Full Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message",
+      "namePlaceholder": "John Doe",
+      "emailPlaceholder": "john@example.com",
+      "subjectPlaceholder": "How can we help?",
+      "messagePlaceholder": "Tell us about your requirements..."
+    },
+    "quote": {
+      "title": "Request a Quote",
+      "name": "Full Name",
+      "email": "Email Address",
+      "company": "Company Name",
+      "product": "Product / Material",
+      "quantity": "Quantity",
+      "destinationCountry": "Destination Country",
+      "details": "Additional Details",
+      "submit": "Request Quote",
+      "namePlaceholder": "John Doe",
+      "emailPlaceholder": "john@company.com",
+      "companyPlaceholder": "Your company name",
+      "productPlaceholder": "e.g. Steel pipes, Textiles, Chemicals",
+      "quantityPlaceholder": "e.g. 500 tons, 10,000 units",
+      "destinationCountryPlaceholder": "e.g. Germany, USA, UAE",
+      "detailsPlaceholder": "Specifications, delivery timeline, packaging requirements..."
+    },
+    "sourcing": {
+      "title": "Submit Sourcing Request",
+      "name": "Full Name",
+      "email": "Email Address",
+      "company": "Company Name",
+      "product": "Product / Material",
+      "specifications": "Specifications",
+      "quantity": "Quantity",
+      "targetCountry": "Target Country",
+      "submit": "Submit Request",
+      "namePlaceholder": "John Doe",
+      "emailPlaceholder": "john@company.com",
+      "companyPlaceholder": "Your company name",
+      "productPlaceholder": "e.g. Organic cotton, Electronics, Marble",
+      "specificationsPlaceholder": "Describe quality standards, certifications, grade, dimensions...",
+      "quantityPlaceholder": "e.g. 200 tons, 5,000 pieces",
+      "targetCountryPlaceholder": "e.g. Turkey, India, China"
+    },
+    "callback": {
+      "title": "Request a Callback",
+      "name": "Full Name",
+      "phone": "Phone Number",
+      "preferredTime": "Preferred Time",
+      "subject": "Subject",
+      "submit": "Request Callback",
+      "namePlaceholder": "John Doe",
+      "phonePlaceholder": "+90 555 000 00 00",
+      "preferredTimePlaceholder": "e.g. Weekdays 10:00-17:00",
+      "subjectPlaceholder": "What would you like to discuss?"
+    },
+    "optional": "optional",
+    "validation": {
+      "required": "This field is required.",
+      "tooShort": "This field is too short.",
+      "tooLong": "This field is too long.",
+      "invalidEmail": "Please enter a valid email address.",
+      "invalidPhone": "Please enter a valid phone number."
+    }
+  },
+  "ContactPage": {
+    "title": "Contact",
+    "subtitle": "Get in touch with us for your international trade needs.",
+    "comingSoon": "Contact form will be added soon.",
+    "responseTime": "We typically respond within 24 hours.",
+    "info": {
+      "address": "Istanbul, Turkey",
+      "phone": "+90 (212) 000 00 00",
+      "email": "info@toko.com.tr"
+    }
+  },
+  "QuotePage": {
+    "badge": "Free Quote",
+    "title": "Get a Price Quote",
+    "subtitle": "Tell us about your product needs and we will provide a competitive quote within 24 hours."
+  },
+  "SourcingPage": {
+    "badge": "Sourcing",
+    "title": "Product Sourcing Request",
+    "subtitle": "Let us find the right suppliers and products for your business needs."
+  },
+  "CallbackPage": {
+    "badge": "Callback",
+    "title": "Request a Callback",
+    "subtitle": "Leave your details and our trade experts will call you back.",
+    "benefits": {
+      "fastResponse": "Fast Response",
+      "fastResponseDesc": "We call back within 2 hours during business hours.",
+      "noObligation": "No Obligation",
+      "noObligationDesc": "Free consultation with no commitments.",
+      "expertConsultation": "Expert Consultation",
+      "expertConsultationDesc": "Speak directly with experienced trade professionals."
     }
   }
 }

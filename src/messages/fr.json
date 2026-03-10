@@ -1283,16 +1283,6 @@
     "subtitle": "Articles actuels sur le commerce international, la reglementation douaniere et les analyses sectorielles.",
     "comingSoon": "Le contenu detaille sera ajoute prochainement."
   },
-  "ContactPage": {
-    "title": "Contact",
-    "subtitle": "Contactez-nous pour vos besoins en commerce international.",
-    "comingSoon": "Le formulaire de contact sera ajoute prochainement.",
-    "info": {
-      "address": "Istanbul, Turquie",
-      "phone": "+90 (212) 000 00 00",
-      "email": "info@toko.com.tr"
-    }
-  },
   "Forms": {
     "success": "Votre message a ete envoye avec succes. Nous vous repondrons bientot.",
     "errors": {
@@ -1300,6 +1290,108 @@
       "recaptchaFailed": "La verification de securite a echoue. Veuillez reessayer.",
       "validationFailed": "Veuillez verifier les erreurs dans le formulaire.",
       "sendFailed": "Echec de l envoi de votre message. Veuillez reessayer plus tard."
+    },
+    "contact": {
+      "title": "Envoyez-nous un message",
+      "name": "Nom complet",
+      "email": "Adresse e-mail",
+      "subject": "Sujet",
+      "message": "Message",
+      "submit": "Envoyer le message",
+      "namePlaceholder": "Jean Dupont",
+      "emailPlaceholder": "jean@exemple.com",
+      "subjectPlaceholder": "Comment pouvons-nous vous aider?",
+      "messagePlaceholder": "Decrivez vos besoins..."
+    },
+    "quote": {
+      "title": "Demander un devis",
+      "name": "Nom complet",
+      "email": "Adresse e-mail",
+      "company": "Nom de l entreprise",
+      "product": "Produit / Materiau",
+      "quantity": "Quantite",
+      "destinationCountry": "Pays de destination",
+      "details": "Details supplementaires",
+      "submit": "Demander un devis",
+      "namePlaceholder": "Jean Dupont",
+      "emailPlaceholder": "jean@entreprise.com",
+      "companyPlaceholder": "Nom de votre entreprise",
+      "productPlaceholder": "Ex. Tubes en acier, Textiles, Produits chimiques",
+      "quantityPlaceholder": "Ex. 500 tonnes, 10 000 unites",
+      "destinationCountryPlaceholder": "Ex. Allemagne, USA, EAU",
+      "detailsPlaceholder": "Specifications, delais de livraison, exigences d emballage..."
+    },
+    "sourcing": {
+      "title": "Demande d approvisionnement",
+      "name": "Nom complet",
+      "email": "Adresse e-mail",
+      "company": "Nom de l entreprise",
+      "product": "Produit / Materiau",
+      "specifications": "Specifications",
+      "quantity": "Quantite",
+      "targetCountry": "Pays cible",
+      "submit": "Envoyer la demande",
+      "namePlaceholder": "Jean Dupont",
+      "emailPlaceholder": "jean@entreprise.com",
+      "companyPlaceholder": "Nom de votre entreprise",
+      "productPlaceholder": "Ex. Coton biologique, Electronique, Marbre",
+      "specificationsPlaceholder": "Normes de qualite, certifications, grade, dimensions...",
+      "quantityPlaceholder": "Ex. 200 tonnes, 5 000 pieces",
+      "targetCountryPlaceholder": "Ex. Turquie, Inde, Chine"
+    },
+    "callback": {
+      "title": "Demander un rappel",
+      "name": "Nom complet",
+      "phone": "Numero de telephone",
+      "preferredTime": "Heure preferee",
+      "subject": "Sujet",
+      "submit": "Demander un rappel",
+      "namePlaceholder": "Jean Dupont",
+      "phonePlaceholder": "+33 6 00 00 00 00",
+      "preferredTimePlaceholder": "Ex. Jours ouvrables 10h-17h",
+      "subjectPlaceholder": "De quoi souhaitez-vous discuter?"
+    },
+    "optional": "facultatif",
+    "validation": {
+      "required": "Ce champ est obligatoire.",
+      "tooShort": "Ce champ est trop court.",
+      "tooLong": "Ce champ est trop long.",
+      "invalidEmail": "Veuillez entrer une adresse e-mail valide.",
+      "invalidPhone": "Veuillez entrer un numero de telephone valide."
+    }
+  },
+  "ContactPage": {
+    "title": "Contact",
+    "subtitle": "Contactez-nous pour vos besoins en commerce international.",
+    "comingSoon": "Le formulaire de contact sera ajoute prochainement.",
+    "responseTime": "Nous repondons generalement sous 24 heures.",
+    "info": {
+      "address": "Istanbul, Turquie",
+      "phone": "+90 (212) 000 00 00",
+      "email": "info@toko.com.tr"
+    }
+  },
+  "QuotePage": {
+    "badge": "Devis gratuit",
+    "title": "Obtenir un devis",
+    "subtitle": "Decrivez vos besoins en produits et nous vous fournirons un devis competitif sous 24 heures."
+  },
+  "SourcingPage": {
+    "badge": "Approvisionnement",
+    "title": "Demande d approvisionnement",
+    "subtitle": "Laissez-nous trouver les bons fournisseurs et produits pour votre entreprise."
+  },
+  "CallbackPage": {
+    "badge": "Rappel",
+    "title": "Demander un rappel",
+    "subtitle": "Laissez vos coordonnees et nos experts en commerce vous rappelleront.",
+    "benefits": {
+      "fastResponse": "Reponse rapide",
+      "fastResponseDesc": "Nous rappelons sous 2 heures pendant les heures ouvrables.",
+      "noObligation": "Sans engagement",
+      "noObligationDesc": "Consultation gratuite sans aucun engagement.",
+      "expertConsultation": "Consultation d experts",
+      "expertConsultationDesc": "Parlez directement avec des professionnels du commerce experimentes."
     }
   }
 }

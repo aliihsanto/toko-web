@@ -1,17 +1,18 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { ScrollReveal } from '@/components/common/scroll-reveal';
 import { WaveDivider } from '@/components/common/wave-divider';
-import { Mail, Phone, MapPin, Send, Clock } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import { Mail, Phone, MapPin, Clock } from 'lucide-react';
+import { ContactForm } from '@/components/forms/contact-form';
 
 export default async function ContactPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations('ContactPage');
+  const tForm = await getTranslations('Forms.contact');
 
   return (
     <div>
-      {/* Header — mesh gradient */}
+      {/* Header -- mesh gradient */}
       <section className="relative overflow-hidden pb-32 pt-24 mesh-hero">
         <div className="absolute -right-40 -top-40 h-[500px] w-[500px] rounded-full bg-primary/10 blur-[120px]" />
         <div className="absolute -bottom-40 -left-40 h-[400px] w-[400px] rounded-full bg-[#d4613c]/8 blur-[100px]" />
@@ -63,24 +64,14 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
           <div className="lg:col-span-7">
             <ScrollReveal delay={0.2}>
               <div className="rich-card rounded-2xl border-t-4 border-t-primary p-8 lg:p-10">
-                <h2 className="heading-serif text-xl">{t('title')}</h2>
+                <h2 className="heading-serif text-xl">{tForm('title')}</h2>
                 <div className="mt-2 h-1 w-12 rounded-full bg-gradient-to-r from-primary to-[#d4613c]" />
-                <div className="mt-6 space-y-4">
-                  <div className="grid gap-4 sm:grid-cols-2">
-                    <div className="h-12 rounded-xl border border-border bg-muted/30 animate-pulse" />
-                    <div className="h-12 rounded-xl border border-border bg-muted/30 animate-pulse" />
-                  </div>
-                  <div className="h-12 rounded-xl border border-border bg-muted/30 animate-pulse" />
-                  <div className="h-12 rounded-xl border border-border bg-muted/30 animate-pulse" />
-                  <div className="h-32 rounded-xl border border-border bg-muted/30 animate-pulse" />
-                  <Button disabled className="w-full rounded-full bg-primary text-white shadow-md shadow-primary/20 hover:bg-primary/90">
-                    <Send className="mr-2 h-4 w-4" />
-                    {t('comingSoon')}
-                  </Button>
+                <div className="mt-6">
+                  <ContactForm />
                 </div>
                 <div className="mt-4 flex items-center gap-2 text-sm text-muted-foreground">
                   <Clock className="h-4 w-4 text-primary" />
-                  <span>24 saat icinde donus yapilir</span>
+                  <span>{t('responseTime')}</span>
                 </div>
               </div>
             </ScrollReveal>
