@@ -120,11 +120,12 @@ Plans:
   3. All programmatic page types are generated across all 4 locales via generateStaticParams
   4. High-traffic pages are statically generated at build time; long-tail pages use ISR to avoid build timeout
   5. Each programmatic page has proper metadata, structured data (FAQPage where applicable), and appears in the sitemap
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 06-01: TBD
-- [ ] 06-02: TBD
+- [ ] 06-01-PLAN.md -- Data infrastructure: TypeScript interfaces, JSON data files for all 4 page types, utility helpers, validation tests
+- [ ] 06-02-PLAN.md -- Template pages: 4 route types (import, country, FAQ, customs) with generateStaticParams and ISR
+- [ ] 06-03-PLAN.md -- SEO integration: sitemap extension, route validation tests, full build verification
 
 ## Progress
 
@@ -138,4 +139,4 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6
 | 3. Forms and Lead Capture | 1/3 | In Progress|  |
 | 4. SEO Infrastructure | 3/3 | Complete   | 2026-03-10 |
 | 5. Blog System | 1/3 | In Progress | - |
-| 6. Programmatic SEO | 0/? | Not started | - |
+| 6. Programmatic SEO | 0/3 | Not started | - |
