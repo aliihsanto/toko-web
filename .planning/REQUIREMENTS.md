@@ -7,11 +7,11 @@
 
 ### i18n Infrastructure
 
-- [ ] **I18N-01**: Site supports 4 languages: Turkish, English, French, Russian with URL prefix routing (/tr/, /en/, /fr/, /ru/)
-- [ ] **I18N-02**: Middleware auto-detects browser language and redirects to matching locale on first visit
+- [x] **I18N-01**: Site supports 4 languages: Turkish, English, French, Russian with URL prefix routing (/tr/, /en/, /fr/, /ru/)
+- [x] **I18N-02**: Middleware auto-detects browser language and redirects to matching locale on first visit
 - [ ] **I18N-03**: User can switch language via header language selector on any page
-- [ ] **I18N-04**: All static UI text (navigation, buttons, labels, footers) translated to all 4 languages
-- [ ] **I18N-05**: Each page has correct hreflang tags pointing to all language variants
+- [x] **I18N-04**: All static UI text (navigation, buttons, labels, footers) translated to all 4 languages
+- [x] **I18N-05**: Each page has correct hreflang tags pointing to all language variants
 
 ### Core Pages
 
@@ -103,11 +103,11 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| I18N-01 | Phase 1 | Pending |
-| I18N-02 | Phase 1 | Pending |
+| I18N-01 | Phase 1 | Complete (01-01) |
+| I18N-02 | Phase 1 | Complete (01-01) |
 | I18N-03 | Phase 1 | Pending |
-| I18N-04 | Phase 1 | Pending |
-| I18N-05 | Phase 1 | Pending |
+| I18N-04 | Phase 1 | Complete (01-01) |
+| I18N-05 | Phase 1 | Complete (01-01) |
 | PAGE-01 | Phase 2 | Pending |
 | PAGE-02 | Phase 2 | Pending |
 | PAGE-03 | Phase 2 | Pending |

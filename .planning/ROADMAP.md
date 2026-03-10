@@ -34,7 +34,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans**: 5 plans
 
 Plans:
-- [ ] 01-01-PLAN.md -- Scaffold Next.js project and establish i18n routing infrastructure
+- [x] 01-01-PLAN.md -- Scaffold Next.js project and establish i18n routing infrastructure
 - [ ] 01-02-PLAN.md -- Design system, dark navy blue theme, and dark/light mode toggle
 - [ ] 01-03-PLAN.md -- Header with shrink-on-scroll, language switcher, and mobile navigation
 - [ ] 01-04-PLAN.md -- Footer with 4-column layout, contact info, and social links
@@ -126,7 +126,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation and i18n | 0/5 | Planning complete | - |
+| 1. Foundation and i18n | 1/5 | Executing | - |
 | 2. Core Pages | 0/? | Not started | - |
 | 3. Forms and Lead Capture | 0/? | Not started | - |
 | 4. SEO Infrastructure | 0/? | Not started | - |
