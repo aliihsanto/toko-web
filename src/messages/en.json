@@ -64,35 +64,110 @@
     "backHome": "Back to Home"
   },
   "HomePage": {
-    "title": "Toko Trading",
-    "subtitle": "International Trade and Sourcing Solutions",
-    "description": "Your trusted trade partner based in Turkey. With over 20 years of experience, we manage your import, export, and sourcing processes.",
-    "cta": "Get in Touch",
-    "ctaSecondary": "Our Services",
-    "features": {
-      "title": "Why Toko Trading?",
-      "subtitle": "Your reliable partner at every stage of international trade.",
+    "badge": "Turkey's Trusted Trade Partner",
+    "title": "Your Reliable Partner in",
+    "titleHighlight": "International Trade",
+    "subtitle": "With over 20 years of experience, we manage your import, export, and sourcing processes. Grow your business with our trade network spanning 50+ countries.",
+    "cta": "Free Consultation",
+    "ctaSecondary": "Explore Our Services",
+    "stats": {
+      "years": "Years Experience",
+      "countries": "Countries",
+      "clients": "Happy Clients",
+      "support": "Support"
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "Professional support at every stage of international trade",
       "import": {
         "title": "Import Services",
-        "description": "Raw material and product sourcing from around the world. Including customs procedures and logistics management."
+        "description": "Raw material and product sourcing from around the world. Comprehensive import solutions including customs procedures, logistics management, and cost optimization."
       },
       "export": {
         "title": "Export Services",
-        "description": "Product export from Turkey to global markets. Market research and buyer matching support."
+        "description": "Product export from Turkey to global markets. Market research, buyer matching, and export documentation support."
       },
       "sourcing": {
         "title": "Sourcing Solutions",
-        "description": "We provide products at the best price and quality through our global supply network."
+        "description": "We provide products at the best price and quality through our global supply network. Supplier auditing and quality control services."
       },
-      "trust": {
-        "title": "Trusted Partnership",
-        "description": "Transparent processes, on-time delivery, and 24/7 customer support for your trade security."
+      "transit": {
+        "title": "Transit Trade",
+        "description": "Transit trade operations through Turkey to third countries. Specialized solutions especially for Russia and CIS countries."
+      }
+    },
+    "whyUs": {
+      "title": "Why Toko Trading?",
+      "subtitle": "The values that make the difference in international trade",
+      "experience": {
+        "title": "Deep Industry Experience",
+        "description": "We add value to your trade with over 20 years of knowledge accumulated across different sectors."
+      },
+      "network": {
+        "title": "Global Trade Network",
+        "description": "Strong business partnerships and supply chains established in over 50 countries."
+      },
+      "transparency": {
+        "title": "Transparent Processes",
+        "description": "You are informed at every stage. Full transparency in customs, logistics, and payment processes."
+      },
+      "support": {
+        "title": "24/7 Customer Support",
+        "description": "Our expert team is always by your side. Uninterrupted support for your questions and needs."
+      }
+    },
+    "global": {
+      "title": "Global Reach",
+      "subtitle": "A trade bridge extending from Turkey to the world",
+      "description": "With our strong business network in Europe, Asia, Africa, and the Middle East, we take your business to new markets. We have deep expertise especially in Russia, CIS countries, and North African markets.",
+      "regions": {
+        "europe": "Europe",
+        "asia": "Asia",
+        "africa": "Africa",
+        "middleEast": "Middle East",
+        "russia": "Russia & CIS"
       }
     },
     "ctaSection": {
       "title": "Let's Grow Your Trade",
-      "description": "Contact us now for your international trade needs. Our expert team is ready to help you.",
-      "button": "Get Free Consultation"
+      "description": "Contact us now for your international trade needs. Our expert team is ready to create solutions tailored to you.",
+      "button": "Get Free Consultation",
+      "note": "First meeting is completely free"
+    }
+  },
+  "AboutPage": {
+    "title": "About Us",
+    "subtitle": "As one of Turkey's leading international trade companies, we provide trusted solutions worldwide.",
+    "comingSoon": "Detailed content will be added soon."
+  },
+  "ServicesPage": {
+    "title": "Our Services",
+    "subtitle": "We offer comprehensive services in import, export, transit trade, and sourcing.",
+    "comingSoon": "Detailed content will be added soon."
+  },
+  "SectorsPage": {
+    "title": "Sectors",
+    "subtitle": "Specialized trade solutions in food, textile, machinery, chemicals, and many more sectors.",
+    "comingSoon": "Detailed content will be added soon."
+  },
+  "ReferencesPage": {
+    "title": "References",
+    "subtitle": "We are proud of our business partners and successful projects.",
+    "comingSoon": "Detailed content will be added soon."
+  },
+  "BlogPage": {
+    "title": "Blog",
+    "subtitle": "Current articles on international trade, customs regulations, and sector analyses.",
+    "comingSoon": "Detailed content will be added soon."
+  },
+  "ContactPage": {
+    "title": "Contact",
+    "subtitle": "Get in touch with us for your international trade needs.",
+    "comingSoon": "Contact form will be added soon.",
+    "info": {
+      "address": "Istanbul, Turkey",
+      "phone": "+90 (212) 000 00 00",
+      "email": "info@toko.com.tr"
     }
   }
 }

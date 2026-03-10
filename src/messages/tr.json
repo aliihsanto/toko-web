@@ -64,35 +64,110 @@
     "backHome": "Ana Sayfaya Don"
   },
   "HomePage": {
-    "title": "Toko Trading",
-    "subtitle": "Uluslararasi Ticaret ve Tedarik Cozumleri",
-    "description": "Turkiye merkezli guvenilir ticaret ortaginiz. 20 yillik deneyimimizle ithalat, ihracat ve tedarik sureclerinizi yonetiyoruz.",
-    "cta": "Iletisime Gecin",
-    "ctaSecondary": "Hizmetlerimiz",
-    "features": {
-      "title": "Neden Toko Trading?",
-      "subtitle": "Uluslararasi ticaretin her asamasinda guvenilir cozum ortaginiz.",
+    "badge": "Turkiye'nin Guvenilir Ticaret Ortagi",
+    "title": "Uluslararasi Ticarette",
+    "titleHighlight": "Guvenilir Cozum Ortaginiz",
+    "subtitle": "20 yili askin deneyimimizle ithalat, ihracat ve tedarik sureclerinizi yonetiyoruz. 50'den fazla ulkeye ulasan ticaret agimizla isletmenizi buyutun.",
+    "cta": "Ucretsiz Danismanlik",
+    "ctaSecondary": "Hizmetlerimizi Inceleyin",
+    "stats": {
+      "years": "Yillik Deneyim",
+      "countries": "Ulke",
+      "clients": "Mutlu Musteri",
+      "support": "Destek"
+    },
+    "services": {
+      "title": "Hizmetlerimiz",
+      "subtitle": "Uluslararasi ticaretin her asamasinda profesyonel destek",
       "import": {
         "title": "Ithalat Hizmetleri",
-        "description": "Dunya genelinden hammadde ve urun tedariki. Gumruk islemleri ve lojistik yonetimi dahil."
+        "description": "Dunya genelinden hammadde ve urun tedariki. Gumruk islemleri, lojistik yonetimi ve maliyet optimizasyonu dahil kapsamli ithalat cozumleri."
       },
       "export": {
         "title": "Ihracat Hizmetleri",
-        "description": "Turkiye'den dunya pazarlarina urun ihracati. Pazar arastirmasi ve alici eslestirme destegi."
+        "description": "Turkiye'den dunya pazarlarina urun ihracati. Pazar arastirmasi, alici eslestirme ve ihracat dokumantasyonu destegi."
       },
       "sourcing": {
         "title": "Tedarik Cozumleri",
-        "description": "Global tedarik agimizla en uygun fiyat ve kalitede urun temini sagliyoruz."
+        "description": "Global tedarik agimizla en uygun fiyat ve kalitede urun temini. Tedarikci denetimi ve kalite kontrol hizmetleri."
       },
-      "trust": {
-        "title": "Guvenilir Ortaklik",
-        "description": "Seffaf surecler, zamaninda teslimat ve 7/24 musteri destegi ile ticaret guvenliginiz."
+      "transit": {
+        "title": "Transit Ticaret",
+        "description": "Turkiye uzerinden ucuncu ulkelere transit ticaret operasyonlari. Ozellikle Rusya ve BDT ulkeleri icin uzmanlasmis cozumler."
+      }
+    },
+    "whyUs": {
+      "title": "Neden Toko Trading?",
+      "subtitle": "Uluslararasi ticarette farki yaratan degerlerimiz",
+      "experience": {
+        "title": "Derin Sektorel Deneyim",
+        "description": "20 yili askin suredirfarkli sektorlerde edindigimiz bilgi birikimi ile ticaretinize deger katiyoruz."
+      },
+      "network": {
+        "title": "Global Ticaret Agi",
+        "description": "50'den fazla ulkede kurmus oldugumuz guclu is ortakliklari ve tedarik zincirleri."
+      },
+      "transparency": {
+        "title": "Seffaf Surecler",
+        "description": "Her asamada bilgilendirilirsiniz. Gumruk, lojistik ve odeme sureclerinde tam seffaflik."
+      },
+      "support": {
+        "title": "7/24 Musteri Destegi",
+        "description": "Uzman ekibimiz her zaman yaninizdadir. Sorulariniz ve ihtiyaclariniz icin kesintisiz destek."
+      }
+    },
+    "global": {
+      "title": "Kuresel Erisim",
+      "subtitle": "Turkiye'den dunyaya uzanan ticaret koprusu",
+      "description": "Avrupa, Asya, Afrika ve Ortadogu'daki guclu is agimizla, isletmenizi yeni pazarlara tasiyoruz. Ozellikle Rusya, BDT ulkeleri ve Kuzey Afrika pazarlarinda derin uzmanligi miza sahibiz.",
+      "regions": {
+        "europe": "Avrupa",
+        "asia": "Asya",
+        "africa": "Afrika",
+        "middleEast": "Ortadogu",
+        "russia": "Rusya & BDT"
       }
     },
     "ctaSection": {
       "title": "Ticaretinizi Buyutelim",
-      "description": "Uluslararasi ticaret ihtiyaclariniz icin hemen bizimle iletisime gecin. Uzman ekibimiz size yardimci olmak icin hazir.",
-      "button": "Ucretsiz Danismanlik Alin"
+      "description": "Uluslararasi ticaret ihtiyaclariniz icin hemen bizimle iletisime gecin. Uzman ekibimiz size ozel cozumler uretmek icin hazir.",
+      "button": "Ucretsiz Danismanlik Alin",
+      "note": "Ilk gorusme tamamen ucretsizdir"
+    }
+  },
+  "AboutPage": {
+    "title": "Hakkimizda",
+    "subtitle": "Turkiye'nin onde gelen uluslararasi ticaret sirketlerinden biri olarak, dunya genelinde guvenilir cozumler sunuyoruz.",
+    "comingSoon": "Detayli icerik yakinda eklenecektir."
+  },
+  "ServicesPage": {
+    "title": "Hizmetlerimiz",
+    "subtitle": "Ithalat, ihracat, transit ticaret ve tedarik alanlarinda kapsamli hizmetler sunuyoruz.",
+    "comingSoon": "Detayli icerik yakinda eklenecektir."
+  },
+  "SectorsPage": {
+    "title": "Sektorler",
+    "subtitle": "Gida, tekstil, makine, kimya ve daha bircok sektorde uzmanlasmis ticaret cozumleri.",
+    "comingSoon": "Detayli icerik yakinda eklenecektir."
+  },
+  "ReferencesPage": {
+    "title": "Referanslar",
+    "subtitle": "Is ortaklarimiz ve basarili projelerimizle gurur duyuyoruz.",
+    "comingSoon": "Detayli icerik yakinda eklenecektir."
+  },
+  "BlogPage": {
+    "title": "Blog",
+    "subtitle": "Uluslararasi ticaret, gumruk mevzuati ve sektor analizleri hakkinda guncel yazilar.",
+    "comingSoon": "Detayli icerik yakinda eklenecektir."
+  },
+  "ContactPage": {
+    "title": "Iletisim",
+    "subtitle": "Uluslararasi ticaret ihtiyaclariniz icin bizimle iletisime gecin.",
+    "comingSoon": "Iletisim formu yakinda eklenecektir.",
+    "info": {
+      "address": "Istanbul, Turkiye",
+      "phone": "+90 (212) 000 00 00",
+      "email": "info@toko.com.tr"
     }
   }
 }

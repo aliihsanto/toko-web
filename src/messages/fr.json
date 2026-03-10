@@ -64,35 +64,110 @@
     "backHome": "Retour a l'Accueil"
   },
   "HomePage": {
-    "title": "Toko Trading",
-    "subtitle": "Solutions de Commerce International et d'Approvisionnement",
-    "description": "Votre partenaire commercial de confiance base en Turquie. Avec plus de 20 ans d'experience, nous gerons vos processus d'importation, d'exportation et d'approvisionnement.",
-    "cta": "Contactez-nous",
-    "ctaSecondary": "Nos Services",
-    "features": {
-      "title": "Pourquoi Toko Trading?",
-      "subtitle": "Votre partenaire fiable a chaque etape du commerce international.",
+    "badge": "Partenaire Commercial de Confiance en Turquie",
+    "title": "Votre Partenaire Fiable en",
+    "titleHighlight": "Commerce International",
+    "subtitle": "Avec plus de 20 ans d'experience, nous gerons vos processus d'importation, d'exportation et d'approvisionnement. Developpez votre activite grace a notre reseau commercial dans plus de 50 pays.",
+    "cta": "Consultation Gratuite",
+    "ctaSecondary": "Decouvrir Nos Services",
+    "stats": {
+      "years": "Ans d'Experience",
+      "countries": "Pays",
+      "clients": "Clients Satisfaits",
+      "support": "Support"
+    },
+    "services": {
+      "title": "Nos Services",
+      "subtitle": "Un accompagnement professionnel a chaque etape du commerce international",
       "import": {
         "title": "Services d'Importation",
-        "description": "Approvisionnement en matieres premieres et produits du monde entier. Y compris les procedures douanieres et la gestion logistique."
+        "description": "Approvisionnement en matieres premieres et produits du monde entier. Solutions d'importation completes incluant procedures douanieres, gestion logistique et optimisation des couts."
       },
       "export": {
         "title": "Services d'Exportation",
-        "description": "Exportation de produits de Turquie vers les marches mondiaux. Recherche de marche et mise en relation avec les acheteurs."
+        "description": "Exportation de produits de Turquie vers les marches mondiaux. Recherche de marche, mise en relation avec les acheteurs et support documentaire."
       },
       "sourcing": {
         "title": "Solutions d'Approvisionnement",
-        "description": "Nous fournissons des produits au meilleur prix et qualite grace a notre reseau d'approvisionnement mondial."
+        "description": "Nous fournissons des produits au meilleur rapport qualite-prix grace a notre reseau d'approvisionnement mondial. Audit fournisseurs et controle qualite."
       },
-      "trust": {
-        "title": "Partenariat de Confiance",
-        "description": "Processus transparents, livraison a temps et support client 24/7 pour la securite de votre commerce."
+      "transit": {
+        "title": "Commerce de Transit",
+        "description": "Operations de commerce de transit via la Turquie vers des pays tiers. Solutions specialisees notamment pour la Russie et les pays de la CEI."
+      }
+    },
+    "whyUs": {
+      "title": "Pourquoi Toko Trading?",
+      "subtitle": "Les valeurs qui font la difference dans le commerce international",
+      "experience": {
+        "title": "Experience Sectorielle Approfondie",
+        "description": "Nous ajoutons de la valeur a votre commerce avec plus de 20 ans de connaissances accumulees dans differents secteurs."
+      },
+      "network": {
+        "title": "Reseau Commercial Mondial",
+        "description": "Des partenariats commerciaux solides et des chaines d'approvisionnement etablis dans plus de 50 pays."
+      },
+      "transparency": {
+        "title": "Processus Transparents",
+        "description": "Vous etes informe a chaque etape. Transparence totale dans les processus douaniers, logistiques et de paiement."
+      },
+      "support": {
+        "title": "Support Client 24/7",
+        "description": "Notre equipe d'experts est toujours a vos cotes. Un support continu pour vos questions et besoins."
+      }
+    },
+    "global": {
+      "title": "Portee Mondiale",
+      "subtitle": "Un pont commercial de la Turquie vers le monde",
+      "description": "Grace a notre solide reseau d'affaires en Europe, Asie, Afrique et Moyen-Orient, nous emmenons votre entreprise vers de nouveaux marches. Nous possedons une expertise approfondie notamment en Russie, dans les pays de la CEI et les marches d'Afrique du Nord.",
+      "regions": {
+        "europe": "Europe",
+        "asia": "Asie",
+        "africa": "Afrique",
+        "middleEast": "Moyen-Orient",
+        "russia": "Russie & CEI"
       }
     },
     "ctaSection": {
       "title": "Developpons Votre Commerce",
-      "description": "Contactez-nous maintenant pour vos besoins en commerce international. Notre equipe d'experts est prete a vous aider.",
-      "button": "Consultation Gratuite"
+      "description": "Contactez-nous maintenant pour vos besoins en commerce international. Notre equipe d'experts est prete a creer des solutions sur mesure pour vous.",
+      "button": "Consultation Gratuite",
+      "note": "La premiere consultation est entierement gratuite"
+    }
+  },
+  "AboutPage": {
+    "title": "A Propos",
+    "subtitle": "En tant que l'une des principales societes de commerce international de Turquie, nous fournissons des solutions fiables dans le monde entier.",
+    "comingSoon": "Le contenu detaille sera ajoute prochainement."
+  },
+  "ServicesPage": {
+    "title": "Nos Services",
+    "subtitle": "Nous offrons des services complets en importation, exportation, commerce de transit et approvisionnement.",
+    "comingSoon": "Le contenu detaille sera ajoute prochainement."
+  },
+  "SectorsPage": {
+    "title": "Secteurs",
+    "subtitle": "Solutions commerciales specialisees dans l'alimentaire, le textile, la machinerie, la chimie et bien d'autres secteurs.",
+    "comingSoon": "Le contenu detaille sera ajoute prochainement."
+  },
+  "ReferencesPage": {
+    "title": "References",
+    "subtitle": "Nous sommes fiers de nos partenaires commerciaux et de nos projets reussis.",
+    "comingSoon": "Le contenu detaille sera ajoute prochainement."
+  },
+  "BlogPage": {
+    "title": "Blog",
+    "subtitle": "Articles actuels sur le commerce international, la reglementation douaniere et les analyses sectorielles.",
+    "comingSoon": "Le contenu detaille sera ajoute prochainement."
+  },
+  "ContactPage": {
+    "title": "Contact",
+    "subtitle": "Contactez-nous pour vos besoins en commerce international.",
+    "comingSoon": "Le formulaire de contact sera ajoute prochainement.",
+    "info": {
+      "address": "Istanbul, Turquie",
+      "phone": "+90 (212) 000 00 00",
+      "email": "info@toko.com.tr"
     }
   }
 }
