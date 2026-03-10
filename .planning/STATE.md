@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 02-00-PLAN.md
-last_updated: "2026-03-10T11:34:00Z"
-last_activity: 2026-03-10 -- Plan 02-00 executed
+stopped_at: Completed 02-01-PLAN.md
+last_updated: "2026-03-10T11:40:36Z"
+last_activity: 2026-03-10 -- Plan 02-01 executed
 progress:
   total_phases: 6
   completed_phases: 0
   total_plans: 11
-  completed_plans: 5
-  percent: 45
+  completed_plans: 7
+  percent: 55
 ---
 
 # Project State
@@ -26,29 +26,29 @@ See: .planning/PROJECT.md (updated 2026-03-10)
 ## Current Position
 
 Phase: 2 of 6 (Core Pages)
-Plan: 1 of 6 in current phase
-Status: Plan 02-00 complete, ready for 02-01
-Last activity: 2026-03-10 -- Plan 02-00 executed
+Plan: 2 of 6 in current phase
+Status: Plan 02-01 complete, ready for 02-02
+Last activity: 2026-03-10 -- Plan 02-01 executed
 
-Progress: [█████░░░░░] 45%
+Progress: [██████░░░░] 55%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 5
+- Total plans completed: 7
 - Average duration: 6min
-- Total execution time: 0.5 hours
+- Total execution time: 0.7 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
 | 1 - Foundation and i18n | 4/5 | 28min | 7min |
-| 2 - Core Pages | 1/6 | 3min | 3min |
+| 2 - Core Pages | 2/6 | 13min | 7min |
 
 **Recent Trend:**
-- Last 5 plans: 01-01 (13min), 01-02 (7min), 01-03 (5min), 01-04 (3min), 02-00 (3min)
-- Trend: Accelerating
+- Last 5 plans: 01-03 (5min), 01-04 (3min), 02-00 (3min), 02-01 (10min)
+- Trend: Stable
 
 *Updated after each plan completion*
 
@@ -76,6 +76,10 @@ Recent decisions affecting current work:
 - 01-04: Social media icons use aria-label from translation keys for accessibility
 - 01-04: Homepage simplified to clean hero section now that header scroll behavior is verified
 - 02-00: Used next-intl/server mocks (getTranslations, setRequestLocale) for server component test stubs instead of next-intl client mocks
+- 02-01: Service cards link to /services/[slug] using imported data from services.ts rather than inline arrays
+- 02-01: Sectors preview shows first 4 of 8 sectors with amber-50 background for visual variety
+- 02-01: About page uses PageHero, CTASection, Breadcrumb shared components to prevent duplication
+- 02-01: Company values use varied icon colors (amber, emerald, blue, rose) for visual interest
 
 ### Pending Todos
 
@@ -89,6 +93,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-10T11:34:00Z
-Stopped at: Completed 02-00-PLAN.md
-Resume file: .planning/phases/02-core-pages/02-00-SUMMARY.md
+Last session: 2026-03-10T11:40:36Z
+Stopped at: Completed 02-01-PLAN.md
+Resume file: .planning/phases/02-core-pages/02-01-SUMMARY.md
