@@ -132,7 +132,7 @@
 | PSEO-02 | Phase 6 | Complete |
 | PSEO-03 | Phase 6 | Complete |
 | PSEO-04 | Phase 6 | Complete |
-| PSEO-05 | Phase 6 | Pending |
+| PSEO-05 | Phase 6 | Complete |
 | PSEO-06 | Phase 6 | Complete |
 | PSEO-07 | Phase 6 | Complete |
 | SEO-01 | Phase 4 | Complete |

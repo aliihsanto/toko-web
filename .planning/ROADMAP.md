@@ -14,10 +14,10 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundation and i18n** - Next.js project with 4-language routing, base layout, design system, and responsive navigation (completed 2026-03-10)
 - [x] **Phase 2: Core Pages** - All static content pages (homepage, about, services, sectors, references, Russia transit trade) (completed 2026-03-10)
-- [ ] **Phase 3: Forms and Lead Capture** - Contact, quote, supply, callback forms with email notifications, spam protection, and WhatsApp button
+- [x] **Phase 3: Forms and Lead Capture** - Contact, quote, supply, callback forms with email notifications, spam protection, and WhatsApp button (completed 2026-03-10)
 - [x] **Phase 4: SEO Infrastructure** - Metadata, structured data, sitemap, robots.txt, hreflang, Core Web Vitals optimization across all existing pages (completed 2026-03-10)
-- [ ] **Phase 5: Blog System** - MDX-based blog with Velite, listing/detail pages, categories, and seed content in all 4 languages
-- [ ] **Phase 6: Programmatic SEO** - Template-driven page generation for sectors, countries, FAQ, and customs/regulations across all locales
+- [x] **Phase 5: Blog System** - MDX-based blog with Velite, listing/detail pages, categories, and seed content in all 4 languages (completed 2026-03-10)
+- [x] **Phase 6: Programmatic SEO** - Template-driven page generation for sectors, countries, FAQ, and customs/regulations across all locales (completed 2026-03-10)
 
 ## Phase Details
 
@@ -72,9 +72,9 @@ Plans:
 **Plans**: 3 plans
 
 Plans:
-- [ ] 03-01-PLAN.md -- Form infrastructure: schemas, server actions, email pipeline, spam protection, WhatsApp button
-- [ ] 03-02-PLAN.md -- Form UI components: contact, quote, sourcing, callback forms with page routes
-- [ ] 03-03-PLAN.md -- i18n translations for all forms, navigation updates, server action tests
+- [x] 03-01-PLAN.md -- Form infrastructure: schemas, server actions, email pipeline, spam protection, WhatsApp button
+- [x] 03-02-PLAN.md -- Form UI components: contact, quote, sourcing, callback forms with page routes
+- [x] 03-03-PLAN.md -- i18n translations for all forms, navigation updates, server action tests
 
 ### Phase 4: SEO Infrastructure
 **Goal**: Every existing page is discoverable by search engines with correct metadata, structured data, hreflang alternates, and optimized performance
@@ -89,9 +89,9 @@ Plans:
 **Plans**: 3 plans
 
 Plans:
-- [ ] 04-01-PLAN.md -- SEO metadata fundamentals: generateMetadata on all pages, shared SEO helpers, company info constants
-- [ ] 04-02-PLAN.md -- JSON-LD structured data components, multilingual sitemap.ts, robots.ts
-- [ ] 04-03-PLAN.md -- Wire JSON-LD into pages, Core Web Vitals optimization, image alt text audit, OG image generation
+- [x] 04-01-PLAN.md -- SEO metadata fundamentals: generateMetadata on all pages, shared SEO helpers, company info constants
+- [x] 04-02-PLAN.md -- JSON-LD structured data components, multilingual sitemap.ts, robots.ts
+- [x] 04-03-PLAN.md -- Wire JSON-LD into pages, Core Web Vitals optimization, image alt text audit, OG image generation
 
 ### Phase 5: Blog System
 **Goal**: Toko publishes import/export content that ranks in search, with a fully functional MDX blog in all 4 languages
@@ -107,8 +107,8 @@ Plans:
 
 Plans:
 - [x] 05-01-PLAN.md -- Blog infrastructure: Velite config, MDX schema, build integration, blog utilities, MDX renderer
-- [ ] 05-02-PLAN.md -- Blog pages: listing with pagination, detail with TOC/reading time, category filtering, i18n
-- [ ] 05-03-PLAN.md -- Seed content (4 posts x 4 locales), Article JSON-LD, sitemap integration
+- [x] 05-02-PLAN.md -- Blog pages: listing with pagination, detail with TOC/reading time, category filtering, i18n
+- [x] 05-03-PLAN.md -- Seed content (4 posts x 4 locales), Article JSON-LD, sitemap integration
 
 ### Phase 6: Programmatic SEO
 **Goal**: Toko captures long-tail search traffic through hundreds of auto-generated, substantive pages covering sectors, countries, FAQs, and customs/regulations in all 4 languages
@@ -124,8 +124,8 @@ Plans:
 
 Plans:
 - [x] 06-01-PLAN.md -- Data infrastructure: TypeScript interfaces, JSON data files for all 4 page types, utility helpers, validation tests
-- [ ] 06-02-PLAN.md -- Template pages: 4 route types (import, country, FAQ, customs) with generateStaticParams and ISR
-- [ ] 06-03-PLAN.md -- SEO integration: sitemap extension, route validation tests, full build verification
+- [x] 06-02-PLAN.md -- Template pages: 4 route types (import, country, FAQ, customs) with generateStaticParams and ISR
+- [x] 06-03-PLAN.md -- SEO integration: sitemap extension, route validation tests, full build verification
 
 ## Progress
 
@@ -136,7 +136,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6
 |-------|----------------|--------|-----------|
 | 1. Foundation and i18n | 5/5 | Complete   | 2026-03-10 |
 | 2. Core Pages | 6/6 | Complete   | 2026-03-10 |
-| 3. Forms and Lead Capture | 1/3 | In Progress|  |
+| 3. Forms and Lead Capture | 3/3 | Complete   | 2026-03-10 |
 | 4. SEO Infrastructure | 3/3 | Complete   | 2026-03-10 |
-| 5. Blog System | 1/3 | In Progress | - |
-| 6. Programmatic SEO | 2/3 | In Progress|  |
+| 5. Blog System | 3/3 | Complete   | 2026-03-10 |
+| 6. Programmatic SEO | 3/3 | Complete   | 2026-03-10 |
