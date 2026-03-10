@@ -37,9 +37,9 @@
 ### Blog System
 
 - [x] **BLOG-01**: MDX-based blog infrastructure with Velite — posts organized by locale
-- [ ] **BLOG-02**: Blog listing page with pagination, showing post title, excerpt, date, category
-- [ ] **BLOG-03**: Blog detail page with full MDX content rendering, table of contents, reading time
-- [ ] **BLOG-04**: Blog categories/tags for filtering (import, export, customs, regulations, etc.)
+- [x] **BLOG-02**: Blog listing page with pagination, showing post title, excerpt, date, category
+- [x] **BLOG-03**: Blog detail page with full MDX content rendering, table of contents, reading time
+- [x] **BLOG-04**: Blog categories/tags for filtering (import, export, customs, regulations, etc.)
 - [ ] **BLOG-05**: Seed content — minimum 3-5 blog posts per locale at launch
 
 ### Programmatic SEO
@@ -124,9 +124,9 @@
 | FORM-06 | Phase 3 | Complete |
 | FORM-07 | Phase 3 | Complete |
 | BLOG-01 | Phase 5 | Complete |
-| BLOG-02 | Phase 5 | Pending |
-| BLOG-03 | Phase 5 | Pending |
-| BLOG-04 | Phase 5 | Pending |
+| BLOG-02 | Phase 5 | Complete |
+| BLOG-03 | Phase 5 | Complete |
+| BLOG-04 | Phase 5 | Complete |
 | BLOG-05 | Phase 5 | Pending |
 | PSEO-01 | Phase 6 | Pending |
 | PSEO-02 | Phase 6 | Pending |

@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 05-01-PLAN.md (Velite MDX infrastructure, blog utilities, MDX renderer)
-last_updated: "2026-03-10T18:01:00Z"
-last_activity: 2026-03-10 -- Plan 05-01 executed (Velite infrastructure, blog utils, MDXContent component)
+stopped_at: Completed 05-02-PLAN.md (Blog listing, detail, pagination pages with category filtering)
+last_updated: "2026-03-10T18:11:53Z"
+last_activity: 2026-03-10 -- Plan 05-02 executed (Blog pages, components, tests, translations)
 progress:
   total_phases: 6
   completed_phases: 4
   total_plans: 20
-  completed_plans: 18
-  percent: 90
+  completed_plans: 19
+  percent: 95
 ---
 
 # Project State
@@ -26,11 +26,11 @@ See: .planning/PROJECT.md (updated 2026-03-10)
 ## Current Position
 
 Phase: 5 of 6 (Blog System)
-Plan: 1 of 3 in current phase (05-01 complete)
-Status: Executing Phase 5 -- blog infrastructure built, pages and content remaining
-Last activity: 2026-03-10 -- Plan 05-01 executed (Velite infrastructure, blog utils, MDXContent component)
+Plan: 2 of 3 in current phase (05-02 complete)
+Status: Executing Phase 5 -- blog pages and components built, seed content remaining
+Last activity: 2026-03-10 -- Plan 05-02 executed (Blog listing, detail, pagination pages with category filtering)
 
-Progress: [█████████ ] 90% (18/20 plans complete)
+Progress: [█████████▌] 95% (19/20 plans complete)
 
 ## Performance Metrics
 
@@ -49,8 +49,8 @@ Progress: [█████████ ] 90% (18/20 plans complete)
 | 4 - SEO Infrastructure | 3/3 | 27min | 9min |
 
 **Recent Trend:**
-- Last 5 plans: 03-03 (8min), 04-02 (5min), 04-01 (10min), 04-03 (12min), 05-01 (7min)
-- Trend: Phase 5 started, blog infrastructure complete
+- Last 5 plans: 04-02 (5min), 04-01 (10min), 04-03 (12min), 05-01 (7min), 05-02 (7min)
+- Trend: Phase 5 progressing, blog pages and components built
 
 *Updated after each plan completion*
 | Phase 03 P01 | 7min | 2 tasks | 31 files |
@@ -60,6 +60,7 @@ Progress: [█████████ ] 90% (18/20 plans complete)
 | Phase 04 P01 | 10min | 1 task (TDD) | 21 files |
 | Phase 04 P03 | 12min | 2 tasks | 22 files |
 | Phase 05 P01 | 7min | 2 tasks (TDD) | 13 files |
+| Phase 05 P02 | 7min | 2 tasks | 15 files |
 
 ## Accumulated Context
 
@@ -129,6 +130,10 @@ Recent decisions affecting current work:
 - 05-01: #site/content path alias for .velite imports instead of relative imports or @/ prefix
 - 05-01: MDXContent as client component using new Function() for MDX body hydration
 - 05-01: Folder-based locale organization (content/blog/{locale}/) with s.path() auto-generating locale-aware slugs
+- 05-02: Client-side category filtering via BlogListingClient wrapper to preserve static generation (avoids searchParams dynamic rendering)
+- 05-02: Shared BlogListingClient component between /blog and /blog/page/[page] to avoid duplication
+- 05-02: Path-based pagination (/blog/page/[page]) with page 1 linking to /blog for canonical URLs
+- 05-02: Mobile TOC uses native details/summary, desktop uses sticky sidebar
 
 ### Pending Todos
 
@@ -142,6 +147,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-10T18:01:00Z
-Stopped at: Completed 05-01-PLAN.md (Velite MDX infrastructure, blog utilities, MDX renderer)
+Last session: 2026-03-10T18:11:53Z
+Stopped at: Completed 05-02-PLAN.md (Blog listing, detail, pagination pages with category filtering)
 Resume file: None
