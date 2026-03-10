@@ -1,55 +1,84 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { notFound } from 'next/navigation';
 import { getPageMetadata, BASE_URL } from '@/lib/seo/metadata';
 import { JsonLd } from '@/lib/seo/json-ld';
 import { getBreadcrumbSchema } from '@/lib/seo/structured-data';
-import { getPostsByLocale, getCategories, POSTS_PER_PAGE } from '@/lib/blog/utils';
+import {
+  getPostsByLocale,
+  getPaginatedPosts,
+  getCategories,
+  POSTS_PER_PAGE,
+} from '@/lib/blog/utils';
 import { BlogListingClient } from '@/components/blog/blog-listing-client';
 import { BlogPagination } from '@/components/blog/blog-pagination';
 import { routing } from '@/i18n/routing';
 import type { Metadata } from 'next';
 
 export function generateStaticParams() {
-  return routing.locales.map((locale) => ({ locale }));
+  const params: { locale: string; page: string }[] = [];
+
+  for (const locale of routing.locales) {
+    const allPosts = getPostsByLocale(locale);
+    const totalPages = Math.max(1, Math.ceil(allPosts.length / POSTS_PER_PAGE));
+    for (let page = 1; page <= totalPages; page++) {
+      params.push({ locale, page: String(page) });
+    }
+  }
+
+  return params;
 }
 
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ locale: string }>;
+  params: Promise<{ locale: string; page: string }>;
 }): Promise<Metadata> {
-  const { locale } = await params;
+  const { locale, page } = await params;
   const t = await getTranslations({ locale, namespace: 'BlogPage' });
+  const pageNum = parseInt(page, 10);
 
   return getPageMetadata({
     locale,
-    path: '/blog',
-    title: t('seo.title'),
+    path: `/blog/page/${page}`,
+    title: `${t('seo.title')} - ${t('pagination.page', { current: String(pageNum), total: '' })}`.replace(/\s*$/, ''),
     description: t('seo.description'),
   });
 }
 
-export default async function BlogPage({
+export default async function BlogPaginatedPage({
   params,
 }: {
-  params: Promise<{ locale: string }>;
+  params: Promise<{ locale: string; page: string }>;
 }) {
-  const { locale } = await params;
+  const { locale, page } = await params;
+  const pageNum = parseInt(page, 10);
+
+  if (isNaN(pageNum) || pageNum < 1) {
+    notFound();
+  }
+
   setRequestLocale(locale);
   const t = await getTranslations('BlogPage');
   const tNav = await getTranslations('Header.nav');
 
   const allPosts = getPostsByLocale(locale);
-  const categories = getCategories(locale);
-  const totalPages = Math.ceil(allPosts.length / POSTS_PER_PAGE);
+  const totalPages = Math.max(1, Math.ceil(allPosts.length / POSTS_PER_PAGE));
 
-  // Prepare category labels from translations
+  if (pageNum > totalPages) {
+    notFound();
+  }
+
+  const categories = getCategories(locale);
+  const { posts: pagePosts } = getPaginatedPosts(locale, pageNum);
+
+  // Prepare category labels
   const categoryLabels: Record<string, string> = {};
   for (const cat of categories) {
     categoryLabels[cat] = t(`categories.${cat}` as 'categories.general', { defaultValue: cat } as Record<string, string>);
   }
 
   // Serialize posts for client component
-  const postsData = allPosts.map((post) => ({
+  const postsData = pagePosts.map((post) => ({
     title: post.title,
     excerpt: post.excerpt,
     date: post.date,
@@ -97,16 +126,19 @@ export default async function BlogPage({
         noPostsInCategoryMessage={t('noPostsInCategory')}
       />
 
-      {/* Pagination (only shown when not filtering by category) */}
+      {/* Pagination */}
       <BlogPagination
-        currentPage={1}
+        currentPage={pageNum}
         totalPages={totalPages}
         basePath="/blog/page"
         locale={locale}
         labels={{
           previous: t('pagination.previous'),
           next: t('pagination.next'),
-          page: t('pagination.page', { current: '1', total: String(totalPages) }),
+          page: t('pagination.page', {
+            current: String(pageNum),
+            total: String(totalPages),
+          }),
         }}
       />
     </div>
