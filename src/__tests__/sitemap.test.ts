@@ -6,6 +6,11 @@ import { sectors } from '@/data/sectors';
 describe('sitemap', () => {
   const entries = sitemap();
 
+  // Blog entries are locale-specific (no cross-locale alternates)
+  const staticEntryCount = 11 + services.length + sectors.length; // 11 + 4 + 8 = 23
+  const blogEntries = entries.filter((e) => e.url.includes('/blog/'));
+  const staticEntries = entries.filter((e) => !e.url.includes('/blog/'));
+
   it('returns entries for all static pages (11 total)', () => {
     // Static pages: home, about, services, sectors, references, contact, quote, sourcing, callback, russia-transit, blog
     const staticPaths = [
@@ -48,12 +53,18 @@ describe('sitemap', () => {
     }
   });
 
-  it('has total sitemap entries = 11 + 4 + 8 = 23', () => {
-    expect(entries).toHaveLength(23);
+  it('has at least 23 static entries (11 + 4 + 8)', () => {
+    // Static/service/sector entries use makeEntry with hreflang alternates
+    // Blog entries are separate (locale-specific, no cross-locale alternates)
+    expect(staticEntries.length).toBe(staticEntryCount);
   });
 
-  it('each entry has alternates.languages with keys tr, en, fr, ru', () => {
-    for (const entry of entries) {
+  it('includes blog post entries (at least 16 for seed content)', () => {
+    expect(blogEntries.length).toBeGreaterThanOrEqual(16);
+  });
+
+  it('static entries have alternates.languages with keys tr, en, fr, ru', () => {
+    for (const entry of staticEntries) {
       const languages = (entry as any).alternates?.languages;
       expect(languages, `Missing alternates for ${entry.url}`).toBeDefined();
       expect(Object.keys(languages)).toContain('tr');
@@ -64,13 +75,20 @@ describe('sitemap', () => {
   });
 
   it('each alternate URL contains the correct locale prefix', () => {
-    for (const entry of entries) {
+    for (const entry of staticEntries) {
       const languages = (entry as any).alternates?.languages;
       if (languages) {
         for (const [locale, url] of Object.entries(languages)) {
           expect(url as string).toContain(`/${locale}`);
         }
       }
+    }
+  });
+
+  it('blog entries have locale in URL', () => {
+    const localePattern = /\/(tr|en|fr|ru)\/blog\//;
+    for (const entry of blogEntries) {
+      expect(entry.url).toMatch(localePattern);
     }
   });
 

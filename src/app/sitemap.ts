@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next';
 import { routing } from '@/i18n/routing';
 import { services } from '@/data/services';
 import { sectors } from '@/data/sectors';
+import { getPostsByLocale, getPostSlug } from '@/lib/blog/utils';
 
 const BASE_URL = 'https://toko.com.tr';
 
@@ -63,5 +64,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     makeEntry(`/sectors/${sector.slug}`, 0.8)
   );
 
-  return [...staticEntries, ...serviceEntries, ...sectorEntries];
+  // Blog post entries -- each locale has unique slugs, so create individual entries
+  const blogEntries: MetadataRoute.Sitemap = [];
+  for (const locale of routing.locales) {
+    const localePosts = getPostsByLocale(locale);
+    for (const post of localePosts) {
+      const slug = getPostSlug(post);
+      blogEntries.push({
+        url: `${BASE_URL}/${locale}/blog/${slug}`,
+        lastModified: new Date(post.date),
+        changeFrequency: 'weekly',
+        priority: 0.7,
+      });
+    }
+  }
+
+  return [...staticEntries, ...serviceEntries, ...sectorEntries, ...blogEntries];
 }

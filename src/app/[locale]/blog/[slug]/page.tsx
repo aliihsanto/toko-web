@@ -5,7 +5,10 @@ import { Calendar, Clock, ArrowLeft } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
 import { getPageMetadata, BASE_URL, LOCALE_TO_OG } from '@/lib/seo/metadata';
 import { JsonLd } from '@/lib/seo/json-ld';
-import { getBreadcrumbSchema } from '@/lib/seo/structured-data';
+import {
+  getBreadcrumbSchema,
+  getArticleSchema,
+} from '@/lib/seo/structured-data';
 import {
   getPostBySlug,
   getPostSlug,
@@ -101,6 +104,16 @@ export default async function BlogDetailPage({
             url: `${BASE_URL}/${locale}/blog/${slug}`,
           },
         ])}
+      />
+      <JsonLd
+        data={getArticleSchema({
+          title: post.title,
+          description: post.description,
+          datePublished: post.date,
+          url: `${BASE_URL}/${locale}/blog/${slug}`,
+          image: post.image,
+          locale,
+        })}
       />
 
       {/* Breadcrumb */}

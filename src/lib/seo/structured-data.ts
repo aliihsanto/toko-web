@@ -4,6 +4,7 @@ import type {
   LocalBusiness,
   BreadcrumbList,
   FAQPage,
+  Article,
 } from 'schema-dts';
 import { COMPANY_INFO } from './company-info';
 
@@ -89,5 +90,41 @@ export function getFAQSchema(
         text: q.answer,
       },
     })),
+  };
+}
+
+export function getArticleSchema(opts: {
+  title: string;
+  description: string;
+  datePublished: string;
+  dateModified?: string;
+  url: string;
+  image?: string;
+  locale: string;
+}): WithContext<Article> {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: opts.title,
+    description: opts.description,
+    datePublished: opts.datePublished,
+    dateModified: opts.dateModified || opts.datePublished,
+    url: opts.url,
+    ...(opts.image && { image: opts.image }),
+    inLanguage: opts.locale,
+    author: {
+      '@type': 'Organization',
+      name: COMPANY_INFO.name,
+      url: COMPANY_INFO.url,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: COMPANY_INFO.name,
+      url: COMPANY_INFO.url,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${COMPANY_INFO.url}/logo.png`,
+      },
+    },
   };
 }

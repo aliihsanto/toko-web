@@ -1345,7 +1345,10 @@
       "page": "Sayfa {current} / {total}"
     },
     "backToBlog": "Blog'a Don",
-    "shareArticle": "Bu makaleyi paylas"
+    "shareArticle": "Bu makaleyi paylas",
+    "images": {
+      "post": "Blog yazısı kapak resmi"
+    }
   },
   "Forms": {
     "success": "Mesajiniz basariyla gonderildi. En kisa surede size donecegiz.",

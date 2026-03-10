@@ -1345,7 +1345,10 @@
       "page": "Page {current} sur {total}"
     },
     "backToBlog": "Retour au Blog",
-    "shareArticle": "Partager cet article"
+    "shareArticle": "Partager cet article",
+    "images": {
+      "post": "Image de couverture de l'article de blog"
+    }
   },
   "Forms": {
     "success": "Votre message a ete envoye avec succes. Nous vous repondrons bientot.",
