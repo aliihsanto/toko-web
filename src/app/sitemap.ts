@@ -3,6 +3,10 @@ import { routing } from '@/i18n/routing';
 import { services } from '@/data/services';
 import { sectors } from '@/data/sectors';
 import { getPostsByLocale, getPostSlug } from '@/lib/blog/utils';
+import { productPages } from '@/data/pseo/products';
+import { countryPages } from '@/data/pseo/countries';
+import { faqPages } from '@/data/pseo/faqs';
+import { customsPages } from '@/data/pseo/customs';
 
 const BASE_URL = 'https://toko.com.tr';
 
@@ -79,5 +83,31 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  return [...staticEntries, ...serviceEntries, ...sectorEntries, ...blogEntries];
+  // Programmatic SEO entries -- all use /trade/ prefix with hreflang alternates
+  const pseoProductEntries = productPages.map((page) =>
+    makeEntry(`/trade/import/${page.slug}`, 0.7)
+  );
+
+  const pseoCountryEntries = countryPages.map((page) =>
+    makeEntry(`/trade/country/${page.slug}`, 0.7)
+  );
+
+  const pseoFAQEntries = faqPages.map((page) =>
+    makeEntry(`/trade/faq/${page.slug}`, 0.6)
+  );
+
+  const pseoCustomsEntries = customsPages.map((page) =>
+    makeEntry(`/trade/customs/${page.slug}`, 0.6)
+  );
+
+  return [
+    ...staticEntries,
+    ...serviceEntries,
+    ...sectorEntries,
+    ...blogEntries,
+    ...pseoProductEntries,
+    ...pseoCountryEntries,
+    ...pseoFAQEntries,
+    ...pseoCustomsEntries,
+  ];
 }
