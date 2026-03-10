@@ -49,8 +49,8 @@
 - [x] **PSEO-03**: FAQ template pages answering common import/export questions per sector/country
 - [x] **PSEO-04**: Customs/regulations template pages with trade procedures, HS codes, duty information
 - [x] **PSEO-05**: Each programmatic page has 500+ words of unique, substantive content (not thin templates)
-- [ ] **PSEO-06**: Programmatic pages generated across all 4 locales via generateStaticParams
-- [ ] **PSEO-07**: ISR strategy for pages exceeding SSG build limits — tiered rendering (SSG top pages, ISR long tail)
+- [x] **PSEO-06**: Programmatic pages generated across all 4 locales via generateStaticParams
+- [x] **PSEO-07**: ISR strategy for pages exceeding SSG build limits — tiered rendering (SSG top pages, ISR long tail)
 
 ### SEO & Performance
 
@@ -128,13 +128,13 @@
 | BLOG-03 | Phase 5 | Complete |
 | BLOG-04 | Phase 5 | Complete |
 | BLOG-05 | Phase 5 | Complete |
-| PSEO-01 | Phase 6 | Pending |
-| PSEO-02 | Phase 6 | Pending |
-| PSEO-03 | Phase 6 | Pending |
-| PSEO-04 | Phase 6 | Pending |
+| PSEO-01 | Phase 6 | Complete |
+| PSEO-02 | Phase 6 | Complete |
+| PSEO-03 | Phase 6 | Complete |
+| PSEO-04 | Phase 6 | Complete |
 | PSEO-05 | Phase 6 | Pending |
-| PSEO-06 | Phase 6 | Pending |
-| PSEO-07 | Phase 6 | Pending |
+| PSEO-06 | Phase 6 | Complete |
+| PSEO-07 | Phase 6 | Complete |
 | SEO-01 | Phase 4 | Complete |
 | SEO-02 | Phase 4 | Complete |
 | SEO-03 | Phase 4 | Complete |
