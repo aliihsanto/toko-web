@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 02-05-PLAN.md (Phase 2 complete), ready for Phase 3
-last_updated: "2026-03-10T15:57:23Z"
-last_activity: 2026-03-10 -- Plan 02-05 executed (build verification + visual checkpoint approved)
+stopped_at: Completed 03-01-PLAN.md (form infrastructure)
+last_updated: "2026-03-10T16:22:33Z"
+last_activity: 2026-03-10 -- Plan 03-01 executed (form schemas, server actions, email pipeline, spam protection, WhatsApp button)
 progress:
   total_phases: 6
   completed_phases: 2
-  total_plans: 12
-  completed_plans: 12
-  percent: 100
+  total_plans: 14
+  completed_plans: 13
+  percent: 93
 ---
 
 # Project State
@@ -21,23 +21,23 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-10)
 
 **Core value:** Businesses looking for import/export services or trade information find Toko through search, understand its capabilities, and submit an inquiry -- in their own language.
-**Current focus:** Phase 2: Core Pages
+**Current focus:** Phase 3: Forms and Lead Capture
 
 ## Current Position
 
-Phase: 2 of 6 (Core Pages) -- COMPLETE
-Plan: 6 of 6 in current phase (all done)
-Status: Phase 2 complete, ready for Phase 3 (Forms and Lead Capture)
-Last activity: 2026-03-10 -- Plan 02-05 executed (build verification + visual checkpoint approved)
+Phase: 3 of 6 (Forms and Lead Capture)
+Plan: 1 of 2 in current phase
+Status: Plan 03-01 complete, ready for Plan 03-02 (form UI components)
+Last activity: 2026-03-10 -- Plan 03-01 executed (form schemas, server actions, email pipeline, spam protection, WhatsApp button)
 
-Progress: [██████████] 100% (Phases 1-2 complete)
+Progress: [█████████░] 93% (13/14 plans complete)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 12
+- Total plans completed: 13
 - Average duration: 8min
-- Total execution time: 1.2 hours
+- Total execution time: 1.3 hours
 
 **By Phase:**
 
@@ -45,13 +45,14 @@ Progress: [██████████] 100% (Phases 1-2 complete)
 |-------|-------|-------|----------|
 | 1 - Foundation and i18n | 5/5 | 33min | 7min |
 | 2 - Core Pages | 6/6 | 88min | 15min |
+| 3 - Forms and Lead Capture | 1/2 | 7min | 7min |
 
 **Recent Trend:**
-- Last 5 plans: 02-01 (10min), 02-02 (13min), 02-04 (14min), 02-03 (45min), 02-05 (3min)
-- Trend: 02-05 was fast (verification only), 02-03 took longer due to 8 sectors x 4 locales translation volume
+- Last 5 plans: 02-02 (13min), 02-04 (14min), 02-03 (45min), 02-05 (3min), 03-01 (7min)
+- Trend: 03-01 was fast -- pure infrastructure creation, no UI iteration
 
 *Updated after each plan completion*
-| Phase 02 P05 | 3min | 2 tasks | 21 files |
+| Phase 03 P01 | 7min | 2 tasks | 31 files |
 
 ## Accumulated Context
 
@@ -95,6 +96,10 @@ Recent decisions affecting current work:
 - [Phase 01]: ScrollReveal uses whileInView with viewport once:true for natural reveal timing without repeat animations
 - 02-05: Round 3 Bold Mediterranean redesign confirmed as final design direction
 - 02-05: All 8 PAGE requirements verified working across 4 locales (84 static pages)
+- 03-01: RecaptchaProvider renders children without wrapper when NEXT_PUBLIC_RECAPTCHA_SITE_KEY is not set (dev-mode passthrough)
+- 03-01: Resend email client skips sending when RESEND_API_KEY is not set (dev-mode logging only)
+- 03-01: Email templates use typed component props matching Zod schema inferred types for full type safety
+- 03-01: Server Action pipeline: rate limit -> honeypot check -> reCAPTCHA verify -> zod validate -> send email
 
 ### Pending Todos
 
@@ -108,6 +113,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-10T15:57:23Z
-Stopped at: Completed 02-05-PLAN.md (Phase 2 complete)
+Last session: 2026-03-10T16:22:33Z
+Stopped at: Completed 03-01-PLAN.md (form infrastructure)
 Resume file: None

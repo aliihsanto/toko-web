@@ -133,7 +133,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6
 |-------|----------------|--------|-----------|
 | 1. Foundation and i18n | 5/5 | Complete   | 2026-03-10 |
 | 2. Core Pages | 6/6 | Complete   | 2026-03-10 |
-| 3. Forms and Lead Capture | 0/3 | Planning complete | - |
+| 3. Forms and Lead Capture | 1/3 | In Progress|  |
 | 4. SEO Infrastructure | 0/? | Not started | - |
 | 5. Blog System | 0/? | Not started | - |
 | 6. Programmatic SEO | 0/? | Not started | - |
