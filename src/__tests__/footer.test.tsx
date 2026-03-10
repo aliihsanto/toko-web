@@ -58,9 +58,9 @@ vi.mock('@/components/ui/separator', () => ({
 }));
 
 describe('Footer', () => {
-  it('renders the TOKO logo text in the about column', () => {
+  it('renders the Toko logo text in the about column', () => {
     render(<Footer />);
-    expect(screen.getByText('TOKO')).toBeInTheDocument();
+    expect(screen.getByText('Toko')).toBeInTheDocument();
   });
 
   it('renders all 4 column headings', () => {

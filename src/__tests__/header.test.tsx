@@ -54,9 +54,9 @@ vi.mock('@/components/layout/mobile-nav', () => ({
 }));
 
 describe('Header', () => {
-  it('renders the TOKO logo text', () => {
+  it('renders the Toko logo text', () => {
     render(<Header />);
-    expect(screen.getByText('TOKO')).toBeInTheDocument();
+    expect(screen.getByText('Toko')).toBeInTheDocument();
   });
 
   it('renders all 7 navigation items', () => {
@@ -75,9 +75,9 @@ describe('Header', () => {
     expect(screen.getByTestId('language-switcher')).toBeInTheDocument();
   });
 
-  it('renders ThemeToggle component', () => {
+  it('does not render ThemeToggle (dark mode removed)', () => {
     render(<Header />);
-    expect(screen.getByTestId('theme-toggle')).toBeInTheDocument();
+    expect(screen.queryByTestId('theme-toggle')).not.toBeInTheDocument();
   });
 
   it('renders MobileNav component', () => {
@@ -97,7 +97,7 @@ describe('Header', () => {
 
   it('logo links to the homepage', () => {
     render(<Header />);
-    const logoLink = screen.getByText('TOKO').closest('a');
+    const logoLink = screen.getByText('Toko').closest('a');
     expect(logoLink).toHaveAttribute('href', '/');
   });
 
