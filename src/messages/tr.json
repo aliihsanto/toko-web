@@ -154,9 +154,61 @@
     }
   },
   "AboutPage": {
-    "title": "Hakkimizda",
-    "subtitle": "Turkiye'nin onde gelen uluslararasi ticaret sirketlerinden biri olarak, dunya genelinde guvenilir cozumler sunuyoruz.",
-    "comingSoon": "Detayli icerik yakinda eklenecektir."
+    "hero": {
+      "title": "Toko Trading Hakkinda",
+      "subtitle": "Turkiye'nin onde gelen uluslararasi ticaret sirketlerinden biri olarak, 20 yili askin deneyimimizle dunya genelinde guvenilir cozumler sunuyoruz.",
+      "badge": "2003'ten Beri"
+    },
+    "breadcrumb": {
+      "home": "Ana Sayfa",
+      "about": "Hakkimizda"
+    },
+    "overview": {
+      "heading": "Hikayemiz",
+      "p1": "Toko Trading, 2003 yilinda Istanbul'da kurulan ve uluslararasi ticaret alaninda uzmanlasmis bir sirket olarak faaliyetlerine baslamistir. Kurulusumuzdan bu yana, Turkiye ile dunya arasinda guvenilir bir ticaret koprusu olma vizyonuyla calisiyoruz.",
+      "p2": "20 yili askin suredeki deneyimimiz boyunca, gida, tekstil, makine, kimya ve daha bircok sektorde binlerce basarili ticaret operasyonu gerceklestirdik. 50'den fazla ulkedeki guclu is ortakliklarimiz sayesinde musterilerimize en uygun cozumleri sunuyoruz.",
+      "p3": "Ekibimiz, uluslararasi ticaretin her asamasinda profesyonel destek saglayan deneyimli uzmanlardan olusmaktadir. Gumruk islemlerinden lojistik yonetimine, pazar arastirmasindan kalite kontrolune kadar genis bir yelpazede hizmet veriyoruz."
+    },
+    "vision": {
+      "title": "Vizyonumuz",
+      "description": "Turkiye'nin kuresel ticaretteki stratejik konumunu en iyi sekilde degerlendirerek, musterilerimizi dunya pazarlarina baglayan lider bir ticaret platformu olmak. Teknoloji ve inovasyonu is sureclerimize entegre ederek sektorun gelecegini sekillendirmeyi hedefliyoruz."
+    },
+    "mission": {
+      "title": "Misyonumuz",
+      "description": "Musterilerimizin uluslararasi ticaret sureclerini seffaf, guvenilir ve verimli bir sekilde yoneterek islerini buyutmelerine yardimci olmak. Her projede en yuksek kalite standartlarini uygulayarak uzun vadeli is ortakliklari kurmak."
+    },
+    "values": {
+      "title": "Degerlerimiz",
+      "subtitle": "Is anlayisimizi sekillendiren temel ilkeler",
+      "reliability": {
+        "title": "Guvenilirlik",
+        "description": "Her sozumuzun arkasinda durur, vaatlerimizi zamaninda ve eksiksiz yerine getiririz. Musterilerimizin bize olan guveni en buyuk sermayemizdir."
+      },
+      "transparency": {
+        "title": "Seffaflik",
+        "description": "Tum is sureclerimizde acik ve seffaf iletisim saglariz. Musterilerimiz her asamada bilgilendirilir ve sureche dahil edilir."
+      },
+      "innovation": {
+        "title": "Yenilikcilik",
+        "description": "Sektordeki gelismeleri yakindan takip eder, is sureclerimizi surekli gelistirir ve musterilerimize en modern cozumleri sunariz."
+      },
+      "partnership": {
+        "title": "Is Ortakligi",
+        "description": "Musterilerimizle sadece bir hizmet saglayici degil, uzun vadeli stratejik is ortagi olarak calisir, basarilarini kendi basarimiz olarak goruruz."
+      }
+    },
+    "stats": {
+      "years": "Yillik Deneyim",
+      "countries": "Ulke",
+      "clients": "Musteri",
+      "team": "Uzman Ekip"
+    },
+    "cta": {
+      "title": "Birlikte Calismaya Hazir misiniz?",
+      "description": "Uluslararasi ticaret ihtiyaclariniz icin hemen bizimle iletisime gecin. Isletmenize ozel cozumler uretelim.",
+      "button": "Iletisime Gecin",
+      "note": "Ilk gorusme tamamen ucretsizdir"
+    }
   },
   "ServicesPage": {
     "title": "Hizmetlerimiz",

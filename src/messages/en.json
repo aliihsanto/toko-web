@@ -154,9 +154,61 @@
     }
   },
   "AboutPage": {
-    "title": "About Us",
-    "subtitle": "As one of Turkey's leading international trade companies, we provide trusted solutions worldwide.",
-    "comingSoon": "Detailed content will be added soon."
+    "hero": {
+      "title": "About Toko Trading",
+      "subtitle": "As one of Turkey's leading international trade companies, we have been providing trusted solutions worldwide for over 20 years.",
+      "badge": "Since 2003"
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "about": "About Us"
+    },
+    "overview": {
+      "heading": "Our Story",
+      "p1": "Toko Trading was established in 2003 in Istanbul as a company specializing in international trade. Since our founding, we have been working with the vision of being a reliable trade bridge between Turkey and the world.",
+      "p2": "Throughout our 20+ years of experience, we have carried out thousands of successful trade operations in food, textile, machinery, chemicals, and many other sectors. Thanks to our strong business partnerships in over 50 countries, we offer our clients the most suitable solutions.",
+      "p3": "Our team consists of experienced professionals who provide professional support at every stage of international trade. We serve a wide range of areas from customs procedures to logistics management, from market research to quality control."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To become a leading trade platform connecting our clients to global markets by leveraging Turkey's strategic position in international trade. We aim to shape the future of the industry by integrating technology and innovation into our business processes."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To help our clients grow their businesses by managing their international trade processes transparently, reliably, and efficiently. To build long-term business partnerships by applying the highest quality standards in every project."
+    },
+    "values": {
+      "title": "Our Values",
+      "subtitle": "Core principles that shape our business approach",
+      "reliability": {
+        "title": "Reliability",
+        "description": "We stand behind every commitment and deliver on our promises on time and in full. Our clients' trust in us is our greatest asset."
+      },
+      "transparency": {
+        "title": "Transparency",
+        "description": "We maintain open and transparent communication throughout all our business processes. Our clients are informed and involved at every stage."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "We closely follow industry developments, continuously improve our processes, and offer our clients the most modern solutions available."
+      },
+      "partnership": {
+        "title": "Partnership",
+        "description": "We work with our clients not just as a service provider but as a long-term strategic partner, viewing their success as our own."
+      }
+    },
+    "stats": {
+      "years": "Years Experience",
+      "countries": "Countries",
+      "clients": "Clients",
+      "team": "Expert Team"
+    },
+    "cta": {
+      "title": "Ready to Partner With Us?",
+      "description": "Contact us today for your international trade needs. Let us create solutions tailored to your business.",
+      "button": "Get in Touch",
+      "note": "First meeting is completely free"
+    }
   },
   "ServicesPage": {
     "title": "Our Services",

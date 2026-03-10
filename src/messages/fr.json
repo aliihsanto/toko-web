@@ -154,9 +154,61 @@
     }
   },
   "AboutPage": {
-    "title": "A Propos",
-    "subtitle": "En tant que l'une des principales societes de commerce international de Turquie, nous fournissons des solutions fiables dans le monde entier.",
-    "comingSoon": "Le contenu detaille sera ajoute prochainement."
+    "hero": {
+      "title": "A Propos de Toko Trading",
+      "subtitle": "En tant que l'une des principales societes de commerce international de Turquie, nous fournissons des solutions fiables dans le monde entier depuis plus de 20 ans.",
+      "badge": "Depuis 2003"
+    },
+    "breadcrumb": {
+      "home": "Accueil",
+      "about": "A Propos"
+    },
+    "overview": {
+      "heading": "Notre Histoire",
+      "p1": "Toko Trading a ete fondee en 2003 a Istanbul en tant qu'entreprise specialisee dans le commerce international. Depuis notre creation, nous travaillons avec la vision d'etre un pont commercial fiable entre la Turquie et le monde.",
+      "p2": "Au cours de nos plus de 20 ans d'experience, nous avons realise des milliers d'operations commerciales reussies dans les secteurs alimentaire, textile, machinerie, chimie et bien d'autres. Grace a nos solides partenariats dans plus de 50 pays, nous offrons a nos clients les solutions les plus adaptees.",
+      "p3": "Notre equipe est composee de professionnels experimentes qui fournissent un accompagnement professionnel a chaque etape du commerce international. Nous intervenons dans un large eventail de domaines, des procedures douanieres a la gestion logistique, de l'etude de marche au controle qualite."
+    },
+    "vision": {
+      "title": "Notre Vision",
+      "description": "Devenir une plateforme commerciale de premier plan reliant nos clients aux marches mondiaux en exploitant la position strategique de la Turquie dans le commerce international. Nous visons a faconner l'avenir du secteur en integrant la technologie et l'innovation dans nos processus."
+    },
+    "mission": {
+      "title": "Notre Mission",
+      "description": "Aider nos clients a developper leur activite en gerant leurs processus de commerce international de maniere transparente, fiable et efficace. Batir des partenariats commerciaux a long terme en appliquant les normes de qualite les plus elevees dans chaque projet."
+    },
+    "values": {
+      "title": "Nos Valeurs",
+      "subtitle": "Les principes fondamentaux qui guident notre approche",
+      "reliability": {
+        "title": "Fiabilite",
+        "description": "Nous respectons chacun de nos engagements et tenons nos promesses dans les delais. La confiance de nos clients est notre plus grand atout."
+      },
+      "transparency": {
+        "title": "Transparence",
+        "description": "Nous maintenons une communication ouverte et transparente dans tous nos processus. Nos clients sont informes et impliques a chaque etape."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Nous suivons de pres les evolutions du secteur, ameliorons continuellement nos processus et proposons a nos clients les solutions les plus modernes."
+      },
+      "partnership": {
+        "title": "Partenariat",
+        "description": "Nous travaillons avec nos clients non pas comme un simple prestataire, mais comme un partenaire strategique a long terme, considerant leur succes comme le notre."
+      }
+    },
+    "stats": {
+      "years": "Ans d'Experience",
+      "countries": "Pays",
+      "clients": "Clients",
+      "team": "Equipe d'Experts"
+    },
+    "cta": {
+      "title": "Pret a Collaborer Avec Nous?",
+      "description": "Contactez-nous des aujourd'hui pour vos besoins en commerce international. Creeons ensemble des solutions adaptees a votre entreprise.",
+      "button": "Contactez-nous",
+      "note": "La premiere consultation est entierement gratuite"
+    }
   },
   "ServicesPage": {
     "title": "Nos Services",
