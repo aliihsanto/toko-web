@@ -290,6 +290,252 @@
       "note": "First meeting is completely free"
     }
   },
+  "ServiceDetail": {
+    "import": {
+      "metaTitle": "Import Services | Toko Trading",
+      "metaDescription": "Comprehensive solutions for raw material and product import from around the world. Professional import services including customs procedures, logistics management, and cost optimization.",
+      "title": "Import Services",
+      "subtitle": "End-to-end professional import solutions for raw material and product sourcing worldwide",
+      "badge": "Import Expertise",
+      "overview": {
+        "p1": "At Toko Trading, we provide comprehensive solutions for importing all types of raw materials and products from around the world. We offer professional support at every stage of the import process, from customs procedures to logistics planning, supplier selection to quality control.",
+        "p2": "Leveraging Turkey's strategic location, we source products from Europe, Asia, and Africa under the most favorable conditions. With over 20 years of experience, we closely monitor changes in customs regulations and provide cost advantages to our clients.",
+        "p3": "We assign a dedicated team for each import project, ensuring transparent communication from start to finish. We meticulously manage critical stages such as finding suitable suppliers, price negotiations, quality control, and shipment tracking."
+      },
+      "features": {
+        "customs": {
+          "title": "Customs Procedures Management",
+          "description": "Our expert team ensures fast and seamless customs clearance for all declaration procedures, tariff classification, and import duty calculations."
+        },
+        "logistics": {
+          "title": "International Logistics",
+          "description": "Optimal cost and time-efficient shipping planning via sea, air, and land. Comprehensive logistics services including container management and warehousing solutions."
+        },
+        "costOptimization": {
+          "title": "Cost Optimization",
+          "description": "We analyze all your import expenses from procurement costs to freight charges, customs duties to insurance costs, creating savings opportunities at every step."
+        },
+        "qualityControl": {
+          "title": "Quality Control & Inspection",
+          "description": "Pre-shipment factory inspections, product sample testing, and production process monitoring ensure delivery of products meeting your quality standards."
+        },
+        "documentation": {
+          "title": "Import Documentation",
+          "description": "Complete preparation and tracking of invoices, bills of lading, certificates of origin, and all other import documents. Regulation-compliant documentation management."
+        }
+      },
+      "process": {
+        "step1": {
+          "title": "Needs Analysis",
+          "description": "We perform detailed analysis of your import needs, determining product specifications and quantity requirements."
+        },
+        "step2": {
+          "title": "Supplier Selection",
+          "description": "We find the most suitable suppliers from our global network, compare prices, and finalize suppliers with your approval."
+        },
+        "step3": {
+          "title": "Order & Shipment",
+          "description": "We manage the ordering process, track production, and plan shipment via the most optimal logistics route."
+        },
+        "step4": {
+          "title": "Customs & Delivery",
+          "description": "We swiftly complete customs procedures and safely deliver your products to your desired location."
+        }
+      },
+      "sectionTitles": {
+        "features": "What We Offer",
+        "process": "How We Work"
+      },
+      "cta": {
+        "title": "Get Support for Your Import Project",
+        "description": "Talk to our expert team about your import needs. We manage the entire process from the country of origin to your doorstep.",
+        "button": "Free Consultation"
+      }
+    },
+    "export": {
+      "metaTitle": "Export Services | Toko Trading",
+      "metaDescription": "Product export from Turkey to global markets. Market research, buyer matching, and export documentation support to grow your exports.",
+      "title": "Export Services",
+      "subtitle": "Professional export support to help you reach global markets from Turkey",
+      "badge": "Export Expertise",
+      "overview": {
+        "p1": "We offer comprehensive export services to help you bring Turkey's rich manufacturing capabilities to global markets. We professionally manage all processes including target market identification, buyer sourcing, pricing strategy, and export documentation.",
+        "p2": "Thanks to our business partnerships and buyer network in over 50 countries, we identify the best markets and buyers for your products. We accelerate your exports with our strong position especially in European, Middle Eastern, and CIS markets.",
+        "p3": "We are by your side at every stage of the export process. We carefully manage all details from letter of credit procedures to customs declarations, freight organization to insurance procedures."
+      },
+      "features": {
+        "marketResearch": {
+          "title": "Market Research & Analysis",
+          "description": "We shape your export strategy by analyzing demand structures, competitive conditions, and price dynamics of target markets."
+        },
+        "buyerMatching": {
+          "title": "Buyer Sourcing & Matching",
+          "description": "We find qualified buyers for your products through our extensive buyer network and international trade fair participation."
+        },
+        "documentation": {
+          "title": "Export Documentation",
+          "description": "Complete preparation and management of letters of credit, bills of lading, certificates of origin, ATR documents, and other export documents."
+        },
+        "compliance": {
+          "title": "Regulatory Consulting",
+          "description": "We ensure compliance with target countries' import regulations, standard requirements, and certification processes with expert support."
+        },
+        "logistics": {
+          "title": "Export Logistics",
+          "description": "On-time and safe delivery through container planning, freight negotiation, and shipment tracking. Sea, air, and land options available."
+        }
+      },
+      "process": {
+        "step1": {
+          "title": "Market Assessment",
+          "description": "We research potential markets for your products and identify target markets that will provide the highest returns."
+        },
+        "step2": {
+          "title": "Buyer Matching",
+          "description": "We find qualified buyers in target markets, managing initial contact and negotiation processes."
+        },
+        "step3": {
+          "title": "Documentation & Order",
+          "description": "We prepare all export documents, manage the order confirmation process, and coordinate production planning."
+        },
+        "step4": {
+          "title": "Shipment & Tracking",
+          "description": "We organize logistics, complete customs procedures, and track delivery of your products to the buyer."
+        }
+      },
+      "sectionTitles": {
+        "features": "Our Export Services",
+        "process": "Our Export Process"
+      },
+      "cta": {
+        "title": "Let's Grow Your Exports",
+        "description": "Talk to our expert team about expanding from Turkey to global markets. We develop strategies specific to your target market.",
+        "button": "Export Consulting"
+      }
+    },
+    "sourcing": {
+      "metaTitle": "Sourcing Solutions | Toko Trading",
+      "metaDescription": "Product sourcing at the best price and quality through our global supply network. Supplier auditing, quality control, and price negotiation services.",
+      "title": "Sourcing Solutions",
+      "subtitle": "We source the best-fit products for your business through our global supply network",
+      "badge": "Sourcing Expertise",
+      "overview": {
+        "p1": "We source the products your business needs at the best price and quality through our global supply network. We help you build reliable supply chains through supplier research, factory visits, and quality audits.",
+        "p2": "With our extensive supplier network in Turkey, China, India, Southeast Asia, and other manufacturing centers, we meet your product needs across different sectors. We evaluate each supplier through independent audits and reference checks.",
+        "p3": "We provide professional support at every stage of the sourcing process, from sample management to bulk order coordination, production tracking to quality control. We offer transparent reporting and regular updates to our clients."
+      },
+      "features": {
+        "supplierAudit": {
+          "title": "Supplier Auditing",
+          "description": "We identify reliable business partners by conducting on-site audits of potential suppliers' production capacity, quality standards, and financial structure."
+        },
+        "qualityControl": {
+          "title": "Quality Control",
+          "description": "We guarantee your quality through pre-production sample approval, production process monitoring, and pre-shipment final inspection."
+        },
+        "priceNegotiation": {
+          "title": "Price Negotiation",
+          "description": "We secure the most competitive prices with our market knowledge and volume advantage. Transparent pricing through cost breakdown analysis."
+        },
+        "sampleManagement": {
+          "title": "Sample Management",
+          "description": "We manage product sample procurement, evaluation, and approval processes. We offer prototype development support for custom production requests."
+        },
+        "supplyChain": {
+          "title": "Supply Chain Management",
+          "description": "We minimize risks through supply continuity, stock planning, and alternative supplier management."
+        }
+      },
+      "process": {
+        "step1": {
+          "title": "Requirements Gathering",
+          "description": "We determine your product specifications, quantities, and quality requirements in detail."
+        },
+        "step2": {
+          "title": "Supplier Search",
+          "description": "We find suitable suppliers from our network, conduct factory audits, and forward your sample requests."
+        },
+        "step3": {
+          "title": "Negotiation & Order",
+          "description": "We negotiate the most favorable terms, define contract conditions, and initiate the ordering process."
+        },
+        "step4": {
+          "title": "Tracking & Delivery",
+          "description": "We monitor production, perform quality checks, and ensure timely delivery of your products."
+        }
+      },
+      "sectionTitles": {
+        "features": "Our Sourcing Services",
+        "process": "Our Sourcing Process"
+      },
+      "cta": {
+        "title": "Looking for Reliable Suppliers?",
+        "description": "Let us source the products you need under the most favorable conditions through our global supply network. Our expert team creates solutions tailored for you.",
+        "button": "Create Sourcing Request"
+      }
+    },
+    "transit-trade": {
+      "metaTitle": "Transit Trade | Toko Trading",
+      "metaDescription": "Transit trade operations from Turkey to third countries. Specialized transit trade solutions for Russia and CIS countries.",
+      "title": "Transit Trade",
+      "subtitle": "Efficient transit trade operations leveraging Turkey's strategic location",
+      "badge": "Transit Trade Expertise",
+      "overview": {
+        "p1": "We conduct effective transit trade operations leveraging Turkey's strategic position at the crossroads of Europe, Asia, and the Middle East. We offer specialized solutions particularly for trade flows between Russia and CIS countries and Europe.",
+        "p2": "In transit trade operations, we manage critical elements such as customs regulations, sanctions compliance, logistics planning, and warehousing with our experienced team. By simplifying multi-customs crossings and complex trade routes, we provide cost and time advantages to our clients.",
+        "p3": "We conduct detailed feasibility studies for each transit trade project, determining the most suitable routes and logistics solutions. We optimize your trade flows by evaluating free zone and bonded warehouse facilities."
+      },
+      "features": {
+        "transitRoutes": {
+          "title": "Strategic Route Planning",
+          "description": "We create route plans that optimize trade flows. We determine the most efficient routes by balancing cost, time, and risk factors."
+        },
+        "cisExpertise": {
+          "title": "Russia & CIS Expertise",
+          "description": "We have deep knowledge of trade regulations and customs procedures in Russia, Kazakhstan, Uzbekistan, and other CIS countries, turning this expertise into your advantage."
+        },
+        "compliance": {
+          "title": "Regulatory Compliance",
+          "description": "We ensure full compliance with international sanctions, trade restrictions, and customs regulations. We minimize legal risks."
+        },
+        "customs": {
+          "title": "Multi-Customs Management",
+          "description": "We coordinate all declarations and procedures for goods passing through multiple countries' customs in a coordinated manner."
+        },
+        "warehousing": {
+          "title": "Warehousing & Distribution",
+          "description": "We offer warehousing, consolidation, and distribution services at free zone and bonded warehouse facilities in Turkey."
+        }
+      },
+      "process": {
+        "step1": {
+          "title": "Feasibility Analysis",
+          "description": "We analyze the viability of your transit trade project, perform cost-benefit calculations, and determine the most suitable strategy."
+        },
+        "step2": {
+          "title": "Route & Logistics Planning",
+          "description": "We determine the optimal transit route, coordinate with our logistics partners, and plan warehousing needs."
+        },
+        "step3": {
+          "title": "Customs & Compliance",
+          "description": "We manage customs procedures of relevant countries, obtain necessary permits and documents."
+        },
+        "step4": {
+          "title": "Operations & Delivery",
+          "description": "We manage the transit trade operation from start to finish, ensuring goods safely reach the destination country."
+        }
+      },
+      "sectionTitles": {
+        "features": "Our Transit Trade Advantages",
+        "process": "Our Operations Process"
+      },
+      "cta": {
+        "title": "Let's Explore Transit Trade Opportunities",
+        "description": "Talk to our expert team about evaluating your transit trade potential through Turkey.",
+        "button": "Transit Trade Consulting"
+      }
+    }
+  },
   "SectorsPage": {
     "hero": {
       "title": "Industry Sectors",
@@ -352,6 +598,108 @@
       "description": "Contact us to discuss your sector-specific sourcing needs. Our industry experts are ready to find the right suppliers for you.",
       "button": "Get a Quote",
       "note": "Free initial consultation for all sectors"
+    }
+  },
+  "SectorDetail": {
+    "food": {
+      "metaTitle": "Food & Agriculture Sourcing | Toko Trading",
+      "metaDescription": "Source grains, pulses, edible oils, dairy products, and spices from verified suppliers through Toko Trading.",
+      "title": "Food & Agriculture",
+      "subtitle": "Reliable sourcing of food products and agricultural commodities from verified global suppliers",
+      "overview": {
+        "p1": "Toko Trading specializes in sourcing high-quality food products and agricultural commodities from verified suppliers worldwide. From grains and pulses to edible oils and dairy products, we ensure food safety standards and traceability throughout the supply chain.",
+        "p2": "With deep expertise in the food industry's regulatory requirements and quality standards, we help importers access competitive pricing while maintaining strict compliance with international food safety certifications."
+      },
+      "products": {
+        "grains": { "title": "Grains & Pulses", "description": "Wheat, barley, corn, lentils, and chickpeas sourced from premium agricultural regions." },
+        "dairyProducts": { "title": "Dairy Products", "description": "Milk powder, butter, cheese, and processed dairy from certified facilities meeting international standards." },
+        "cannedGoods": { "title": "Canned Goods", "description": "Canned vegetables, fruits, and preserves from trusted producers with full traceability." },
+        "spices": { "title": "Spices & Herbs", "description": "Premium spices, herbs, and seasonings sourced directly from origin countries with purity guarantees." }
+      },
+      "advantages": {
+        "title": "Why Source Food Through Toko",
+        "a1": { "title": "Verified Suppliers", "description": "Every food supplier undergoes rigorous auditing for food safety, hygiene, and production capacity." },
+        "a2": { "title": "Quality Assurance", "description": "Pre-shipment lab testing and certificate verification to meet destination country regulations." },
+        "a3": { "title": "Competitive Pricing", "description": "Direct sourcing from producers and volume negotiations for the best bulk prices." },
+        "a4": { "title": "Cold Chain Logistics", "description": "Temperature-controlled shipping and storage for perishable food products across all transit points." }
+      },
+      "sectionTitles": { "products": "What We Source", "advantages": "Sourcing Advantages" },
+      "cta": { "title": "Need Food & Agriculture Sourcing?", "description": "Contact us to discuss your food sourcing requirements with verified suppliers meeting international standards.", "button": "Get a Quote" }
+    },
+    "textile": {
+      "metaTitle": "Textile & Apparel Sourcing | Toko Trading",
+      "metaDescription": "Source raw cotton, yarn, fabrics, garments, and home textiles from Turkey's leading manufacturers through Toko Trading.",
+      "title": "Textile & Apparel",
+      "subtitle": "Premium textile sourcing from Turkey's world-renowned manufacturing base",
+      "overview": {
+        "p1": "Turkey is one of the world's top textile producers, and Toko Trading leverages this advantage to connect global buyers with the finest cotton, yarn, fabric, and garment manufacturers.",
+        "p2": "Our textile sourcing team understands fabric specifications, color matching requirements, and production lead times. We help brands source competitively while maintaining quality standards."
+      },
+      "products": {
+        "fabrics": { "title": "Raw Cotton & Yarn", "description": "High-quality cotton fiber, blended yarns, and synthetic yarns from Turkey's top spinning mills." },
+        "readyToWear": { "title": "Woven Fabrics", "description": "Cotton, polyester, and blended woven fabrics in various weights and finishes." },
+        "homeTextiles": { "title": "Ready-Made Garments", "description": "Men's, women's, and children's clothing from established manufacturers with flexible MOQ." },
+        "industrialTextiles": { "title": "Home Textiles", "description": "Bed linens, towels, curtains, and upholstery from Turkey's renowned home textile producers." }
+      },
+      "advantages": {
+        "title": "Why Source Textiles Through Toko",
+        "a1": { "title": "Factory-Verified Quality", "description": "We audit every textile supplier for production capabilities, quality control, and ethical compliance." },
+        "a2": { "title": "Design & Sample Support", "description": "Sample development, fabric swatching, and color matching to meet your exact specifications." },
+        "a3": { "title": "Competitive Bulk Pricing", "description": "Direct access to Turkish manufacturers eliminates middlemen for factory-direct pricing." },
+        "a4": { "title": "Fast Turnaround", "description": "Turkey's proximity to Europe and logistics infrastructure enable shorter delivery times." }
+      },
+      "sectionTitles": { "products": "What We Source", "advantages": "Sourcing Advantages" },
+      "cta": { "title": "Need Textile Sourcing?", "description": "Let us connect you with Turkey's best textile manufacturers for raw materials to finished products.", "button": "Request Samples" }
+    },
+    "machinery": {
+      "metaTitle": "Machinery & Equipment Sourcing | Toko Trading",
+      "metaDescription": "Source industrial equipment, agricultural machinery, construction equipment, and packaging machines through Toko Trading.",
+      "title": "Machinery & Equipment",
+      "subtitle": "Industrial machinery and equipment sourcing with technical expertise and after-sales support",
+      "overview": {
+        "p1": "Toko Trading provides comprehensive machinery sourcing for businesses seeking reliable industrial equipment. We match your technical requirements with the right manufacturers worldwide.",
+        "p2": "Our machinery team includes engineers who understand specifications, certifications, and installation requirements. We handle technical evaluation through shipping logistics for heavy equipment."
+      },
+      "products": {
+        "industrialMachinery": { "title": "Industrial Equipment", "description": "CNC machines, production lines, processing equipment, and factory automation systems." },
+        "agriculturalEquipment": { "title": "Agricultural Machinery", "description": "Tractors, harvesters, irrigation systems, and food processing equipment for modern agriculture." },
+        "spareParts": { "title": "Construction Equipment", "description": "Excavators, loaders, concrete mixers, and construction site equipment from trusted brands." },
+        "automation": { "title": "Packaging Machines", "description": "Automated packaging lines, filling machines, labeling systems, and shrink wrap equipment." }
+      },
+      "advantages": {
+        "title": "Why Source Machinery Through Toko",
+        "a1": { "title": "Technical Evaluation", "description": "Our engineering team evaluates specifications, performance benchmarks, and CE/ISO certifications." },
+        "a2": { "title": "Installation Support", "description": "We coordinate manufacturer technicians for on-site installation, commissioning, and training." },
+        "a3": { "title": "Competitive Financing", "description": "Access to favorable payment terms and financing options through manufacturer partnerships." },
+        "a4": { "title": "Heavy Freight Logistics", "description": "Specialized shipping for oversized machinery including customs clearance for industrial equipment." }
+      },
+      "sectionTitles": { "products": "What We Source", "advantages": "Sourcing Advantages" },
+      "cta": { "title": "Need Industrial Equipment?", "description": "Discuss your machinery requirements with our technical team for the right equipment at the right price.", "button": "Technical Consultation" }
+    },
+    "chemicals": {
+      "metaTitle": "Chemical Sourcing | Toko Trading",
+      "metaDescription": "Source industrial chemicals, agricultural chemicals, cosmetic ingredients, and cleaning products through Toko Trading.",
+      "title": "Chemicals & Petrochemicals",
+      "subtitle": "Safe and compliant chemical sourcing with full regulatory documentation",
+      "overview": {
+        "p1": "Toko Trading provides reliable sourcing of industrial and specialty chemicals from manufacturers meeting international safety and quality standards. We understand regulatory compliance, documentation, and safe handling in the chemical industry.",
+        "p2": "From bulk industrial chemicals to specialty ingredients for cosmetics and agriculture, our team manages the complex logistics and documentation requirements unique to chemical trade."
+      },
+      "products": {
+        "industrialChemicals": { "title": "Industrial Chemicals", "description": "Solvents, acids, bases, and industrial-grade chemicals from ISO-certified manufacturers with MSDS." },
+        "petrochemicals": { "title": "Agricultural Chemicals", "description": "Fertilizers, pesticides, and crop protection products meeting national agricultural safety standards." },
+        "pharmaceuticals": { "title": "Cosmetic Ingredients", "description": "Raw materials and active ingredients for cosmetics and personal care with GMP certification." },
+        "fertilizers": { "title": "Cleaning Products", "description": "Industrial and commercial cleaning chemicals, detergents, and sanitization products in bulk." }
+      },
+      "advantages": {
+        "title": "Why Source Chemicals Through Toko",
+        "a1": { "title": "Regulatory Compliance", "description": "Full REACH, CLP, and GHS compliance documentation for every chemical product we source." },
+        "a2": { "title": "Safety Certified", "description": "All chemical suppliers are audited for safety protocols, storage conditions, and handling procedures." },
+        "a3": { "title": "Volume Pricing", "description": "Bulk purchasing agreements with major producers for competitive pricing on recurring orders." },
+        "a4": { "title": "Hazmat Shipping", "description": "Specialized dangerous goods shipping with proper classification, packaging, and transport documentation." }
+      },
+      "sectionTitles": { "products": "What We Source", "advantages": "Sourcing Advantages" },
+      "cta": { "title": "Need Chemical Sourcing?", "description": "Contact our chemical sourcing specialists for full regulatory compliance and safe delivery.", "button": "Request Documentation" }
     }
   },
   "ReferencesPage": {
@@ -451,6 +799,134 @@
       "description": "Contact us today for your international trade needs. Our experienced team is ready to create tailored solutions for you.",
       "button": "Get in Touch",
       "note": "First meeting is completely free"
+    }
+  },
+  "RussiaTransitPage": {
+    "hero": {
+      "badge": "Turkey - Russia Trade Corridor",
+      "title": "Transit Trade to Russia & CIS via Turkey",
+      "subtitle": "Leveraging Turkey's strategic position, we provide safe, fast, and compliant transit trade solutions to Russia and CIS countries.",
+      "ctaQuote": "Request Quote",
+      "ctaCall": "Call Us"
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "russiaTransit": "Russia Transit Trade"
+    },
+    "whatIs": {
+      "badge": "What Is Transit Trade?",
+      "title": "Turkey: The Trade Bridge Between Europe and Russia",
+      "p1": "Transit trade involves shipping goods from one country to another through a third country. Turkey, with its geographic location, advanced port infrastructure, and customs expertise, serves as an ideal transit hub between Europe, the Middle East, and Russia.",
+      "p2": "At Toko Trading, we have over 20 years of experience in transit trade operations to Russia and CIS countries via Turkey. We professionally manage all processes from customs procedures to logistics management, regulatory compliance to documentation.",
+      "p3": "In recent years, changing trade dynamics have made Turkey's role in transit trade even more important. Our company provides clients with the most up-to-date and compliant solutions adapted to these changes.",
+      "floatingBadge": "Fully Compliant"
+    },
+    "advantages": {
+      "badge": "Our Advantages",
+      "title": "Why Transit Through Turkey?",
+      "location": {
+        "title": "Strategic Location",
+        "description": "Turkey's unique geographic position connecting Europe and Asia makes it an ideal hub for transit trade operations."
+      },
+      "customs": {
+        "title": "Customs Expertise",
+        "description": "Deep knowledge and experience in Turkish customs regulations and re-export procedures for seamless processing."
+      },
+      "logistics": {
+        "title": "Logistics Network",
+        "description": "Advanced warehousing, freight forwarding, and port infrastructure enabling uninterrupted logistics services."
+      },
+      "market": {
+        "title": "CIS Market Knowledge",
+        "description": "Deep expertise in Russia and CIS countries' trade regulations and market dynamics for informed decision-making."
+      },
+      "cost": {
+        "title": "Cost Efficiency",
+        "description": "Competitive routing and cost optimization compared to direct imports, maximizing your trade margins."
+      },
+      "compliance": {
+        "title": "Compliance Support",
+        "description": "Sanctions compliance, documentation, and regulatory consulting services to ensure fully compliant operations."
+      }
+    },
+    "routes": {
+      "badge": "Trade Routes",
+      "title": "Key Trade Corridors",
+      "from": "Turkey",
+      "russia": {
+        "destination": "Russia",
+        "goods": "Textiles, food, machinery, chemicals"
+      },
+      "kazakhstan": {
+        "destination": "Kazakhstan",
+        "goods": "Construction materials, food, electronics"
+      },
+      "azerbaijan": {
+        "destination": "Azerbaijan",
+        "goods": "Food, textiles, building materials"
+      },
+      "georgia": {
+        "destination": "Georgia",
+        "goods": "Food, chemicals, consumer goods"
+      },
+      "uzbekistan": {
+        "destination": "Uzbekistan",
+        "goods": "Machinery, textiles, medical devices"
+      }
+    },
+    "process": {
+      "title": "How It Works",
+      "subtitle": "Our transit trade process is completed in 5 simple steps",
+      "inquiry": {
+        "title": "Inquiry",
+        "description": "We analyze your needs and determine the most suitable transit route."
+      },
+      "planning": {
+        "title": "Route Planning",
+        "description": "We plan your logistics route for optimal cost and time efficiency."
+      },
+      "documentation": {
+        "title": "Documentation",
+        "description": "We prepare all customs and trade documents on your behalf."
+      },
+      "shipment": {
+        "title": "Shipment",
+        "description": "We safely transport your goods from the transit point to the destination."
+      },
+      "delivery": {
+        "title": "Delivery Confirmation",
+        "description": "We provide a comprehensive report after delivery is completed."
+      }
+    },
+    "faq": {
+      "badge": "Frequently Asked Questions",
+      "title": "Common Questions About Transit Trade",
+      "q1": {
+        "question": "What is transit trade?",
+        "answer": "Transit trade is a form of international trade where goods are shipped from the producing country to the consuming country through a third country (in this case, Turkey). Goods pass through Turkey's customs zone or are re-exported to the destination country."
+      },
+      "q2": {
+        "question": "What products can be transited through Turkey?",
+        "answer": "Food products, textiles, machinery, chemicals, construction materials, electronics, and many other product categories can be transited through Turkey. However, different customs and regulatory requirements may apply to each product group."
+      },
+      "q3": {
+        "question": "How long does transit trade typically take?",
+        "answer": "The process varies depending on the product type, route, and customs procedures. A typical transit transaction is completed within 2-6 weeks. Sea shipments take longer while land routes offer faster delivery options."
+      },
+      "q4": {
+        "question": "What documentation is required?",
+        "answer": "Commercial invoices, certificates of origin, bills of lading, packing lists, and any special product certifications are required. Customs declarations and transit documents are prepared by Toko Trading."
+      },
+      "q5": {
+        "question": "How does compliance work?",
+        "answer": "Toko Trading operates in full compliance with international sanctions and trade regulations. We work with expert legal consultants to follow the latest legislation and manage all transactions transparently and with proper documentation."
+      }
+    },
+    "cta": {
+      "title": "Contact Our Russia Desk Directly",
+      "description": "Reach out to our expert team for your transit trade needs. You can also reach us via WhatsApp for quick support.",
+      "button": "Get in Touch",
+      "note": "Quick support via WhatsApp: +90 (212) 000 00 00"
     }
   },
   "BlogPage": {

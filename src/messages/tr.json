@@ -290,6 +290,252 @@
       "note": "Ilk gorusme tamamen ucretsizdir"
     }
   },
+  "ServiceDetail": {
+    "import": {
+      "metaTitle": "Ithalat Hizmetleri | Toko Trading",
+      "metaDescription": "Dunya genelinden hammadde ve urun ithalati icin kapsamli cozumler. Gumruk islemleri, lojistik yonetimi ve maliyet optimizasyonu dahil profesyonel ithalat hizmetleri.",
+      "title": "Ithalat Hizmetleri",
+      "subtitle": "Dunya genelinden hammadde ve urun tedariki icin uctan uca profesyonel ithalat cozumleri",
+      "badge": "Ithalat Uzmanligi",
+      "overview": {
+        "p1": "Toko Trading olarak, dunya genelinden her turlu hammadde ve urun ithalati icin kapsamli cozumler sunuyoruz. Gumruk islemlerinden lojistik planlamasina, tedarikci seciminden kalite kontrolune kadar ithalat surecinin her asamasinda profesyonel destek sagliyoruz.",
+        "p2": "Turkiye'nin stratejik konumunu kullanarak Avrupa, Asya ve Afrika'dan en uygun kosullarda urun temini gerceklestiriyoruz. 20 yili askin deneyimimiz ile gumruk mevzuatindaki degisiklikleri yakindan takip ediyor ve musterilerimize maliyet avantaji sagliyoruz.",
+        "p3": "Her ithalat projesi icin ozel bir ekip atayarak surecin basindan sonuna kadar seffaf bilgilendirme sagliyoruz. Uygun tedarikci bulma, fiyat muzakeresi, kalite kontrol ve sevkiyat takibi gibi kritik asamalari titizlikle yonetiyoruz."
+      },
+      "features": {
+        "customs": {
+          "title": "Gumruk Islemleri Yonetimi",
+          "description": "Tum gumruk beyanname islemleri, tarife siniflandirmasi ve ithalat vergisi hesaplamalari konusunda uzman kadromuzla hizli ve sorunsuz gumrukleme saglariz."
+        },
+        "logistics": {
+          "title": "Uluslararasi Lojistik",
+          "description": "Deniz, hava ve kara yolu ile en uygun maliyet ve sureli nakliye planlamasi. Konteyner yonetimi ve depolama cozumleri de dahil kapsamli lojistik hizmetler."
+        },
+        "costOptimization": {
+          "title": "Maliyet Optimizasyonu",
+          "description": "Tedarik maliyetlerinden navlun giderlerine, gumruk vergilerinden sigorta maliyetlerine kadar tum ithalat giderlerinizi analiz ederek tasarruf firsatlari olusturuyoruz."
+        },
+        "qualityControl": {
+          "title": "Kalite Kontrol ve Denetim",
+          "description": "Sevkiyat oncesi fabrika denetimleri, urun numune testleri ve uretim sureci izleme ile kalite standartlariniza uygun urunlerin teslimatini garantileriz."
+        },
+        "documentation": {
+          "title": "Ithalat Dokumantasyonu",
+          "description": "Fatura, konisamento, mensei sertifikasi ve diger tum ithalat evraklarinin eksiksiz hazirlanmasi ve takibi. Mevzuata uygun dokumantasyon yonetimi."
+        }
+      },
+      "process": {
+        "step1": {
+          "title": "Ihtiyac Analizi",
+          "description": "Ithalat ihtiyacinizi detayli analiz eder, urun spesifikasyonlarini ve miktar gereksinimlerinizi belirleriz."
+        },
+        "step2": {
+          "title": "Tedarikci Secimi",
+          "description": "Global agimizdan en uygun tedarikcileri bulur, fiyat karsilastirmasi yapar ve sizin onayanizla tedarikcileri belirleriz."
+        },
+        "step3": {
+          "title": "Siparis ve Sevkiyat",
+          "description": "Siparis surecini yonetir, uretim takibi yapar ve en uygun lojistik rota ile sevkiyati planlariz."
+        },
+        "step4": {
+          "title": "Gumruk ve Teslimat",
+          "description": "Gumruk islemlerini hizla tamamlar, urunlerinizi istediginiz lokasyona guvenle teslim ederiz."
+        }
+      },
+      "sectionTitles": {
+        "features": "Neler Sunuyoruz",
+        "process": "Nasil Calisiyoruz"
+      },
+      "cta": {
+        "title": "Ithalat Projeniz icin Destek Alin",
+        "description": "Ithalat ihtiyaclariniz icin uzman ekibimizle gorusun. Urunun mensei ulkeden kapilarinizia kadar tum sureci yonetiyoruz.",
+        "button": "Ucretsiz Danismanlik"
+      }
+    },
+    "export": {
+      "metaTitle": "Ihracat Hizmetleri | Toko Trading",
+      "metaDescription": "Turkiye'den dunya pazarlarina urun ihracati. Pazar arastirmasi, alici eslestirme ve ihracat dokumantasyonu destegi ile ihracatinizi buyutun.",
+      "title": "Ihracat Hizmetleri",
+      "subtitle": "Turkiye'den dunya pazarlarina acilmaniz icin profesyonel ihracat destegi",
+      "badge": "Ihracat Uzmanligi",
+      "overview": {
+        "p1": "Turkiye'nin zengin uretim altyapisini dunya pazarlarina tasimaniz icin kapsamli ihracat hizmetleri sunuyoruz. Hedef pazar belirleme, alici bulma, fiyatlandirma stratejisi ve ihracat dokumantasyonu dahil tum surecleri profesyonelce yonetiyoruz.",
+        "p2": "50'den fazla ulkedeki is ortakliklarimiz ve alici agimiz sayesinde urunleriniz icin en uygun pazarlari ve alicilari belirliyoruz. Ozellikle Avrupa, Ortadogu ve BDT pazarlarinda guclu pozisyonumuzla ihracatinizi hizlandiriyoruz.",
+        "p3": "Ihracat surecinin her asamasinda yaninizdayiz. Akreditif islemlerinden gumruk beyannamelerine, nakliye organizasyonundan sigorta islemlerine kadar tum detaylari ozenle takip ediyoruz."
+      },
+      "features": {
+        "marketResearch": {
+          "title": "Pazar Arastirmasi ve Analizi",
+          "description": "Hedef pazarlarin talep yapisini, rekabet kosullarini ve fiyat dinamiklerini analiz ederek ihracat stratejinizi sekillendiriyoruz."
+        },
+        "buyerMatching": {
+          "title": "Alici Bulma ve Eslestirme",
+          "description": "Genis alici agimiz ve uluslararasi fuar katilimlarimiz araciligiyla urunleriniz icin nitelikli alicilari buluyoruz."
+        },
+        "documentation": {
+          "title": "Ihracat Dokumantasyonu",
+          "description": "Akreditif, konisamento, mensei sertifikasi, ATR belgesi ve diger ihracat dokumanlari nin eksiksiz hazirlanmasi ve yonetimi."
+        },
+        "compliance": {
+          "title": "Mevzuat Danismanligi",
+          "description": "Hedef ulkelerin ithalat duzenlemeleri, standart gereksinimleri ve sertifikasyon sureclerinde uzman destegiyle uyumluluk saglariz."
+        },
+        "logistics": {
+          "title": "Ihracat Lojistigi",
+          "description": "Konteyner planlamasi, navlun muzakeresi ve sevkiyat takibi ile zamaninda ve guvenli teslimat. Deniz, hava ve kara yolu secenekleri."
+        }
+      },
+      "process": {
+        "step1": {
+          "title": "Pazar Degerlendirme",
+          "description": "Urunleriniz icin potansiyel pazarlari arastirarak en yuksek getiri saglayacak hedef pazarlari belirleriz."
+        },
+        "step2": {
+          "title": "Alici Eslestirme",
+          "description": "Hedef pazarlarda nitelikli alicilari bulur, ilk temas ve muzakere sureclerini yonetiriz."
+        },
+        "step3": {
+          "title": "Dokumantasyon ve Siparis",
+          "description": "Tum ihracat evraklarini hazirlar, siparis onay surecini yonetir ve uretim planlamasini koordine ederiz."
+        },
+        "step4": {
+          "title": "Sevkiyat ve Takip",
+          "description": "Lojistik organizasyonu yapar, gumruk islemlerini tamamlar ve urunlerinizin aliciya ulasmasini takip ederiz."
+        }
+      },
+      "sectionTitles": {
+        "features": "Ihracat Hizmetlerimiz",
+        "process": "Ihracat Surecimiz"
+      },
+      "cta": {
+        "title": "Ihracatinizi Buyutelim",
+        "description": "Turkiye'den dunya pazarlarina acilmak icin uzman ekibimizle gorusun. Hedef pazariniza ozel strateji gelistirelim.",
+        "button": "Ihracat Danismanligi"
+      }
+    },
+    "sourcing": {
+      "metaTitle": "Tedarik Cozumleri | Toko Trading",
+      "metaDescription": "Global tedarik agimizla en uygun fiyat ve kalitede urun temini. Tedarikci denetimi, kalite kontrol ve fiyat muzakeresi hizmetleri.",
+      "title": "Tedarik Cozumleri",
+      "subtitle": "Kuresel tedarik agimizla isletmenize en uygun urunleri temin ediyoruz",
+      "badge": "Tedarik Uzmanligi",
+      "overview": {
+        "p1": "Isletmenizin ihtiyac duydugu urunleri global tedarik agimiz uzerinden en uygun fiyat ve kalitede temin ediyoruz. Tedarikci arastirmasi, fabrika ziyaretleri ve kalite denetimleri ile guvenilir tedarik zincirleri kurmaniza yardimci oluyoruz.",
+        "p2": "Turkiye, Cin, Hindistan, Guneydogu Asya ve diger uretim merkezlerindeki genis tedarikci agimiz ile farkli sektorlerdeki urun ihtiyaclarinizi karsiliyoruz. Her tedarikciyi bagimsiz denetimleri ve referans kontrolleriyle degerlendiriyoruz.",
+        "p3": "Numune yonetiminden toplu siparis koordinasyonuna, uretim takibinden kalite kontrolune kadar tedarik surecinin her asamasinda profesyonel destek sagliyoruz. Musterilerimize seffaf raporlama ve duzenli bilgilendirme sunuyoruz."
+      },
+      "features": {
+        "supplierAudit": {
+          "title": "Tedarikci Denetimi",
+          "description": "Potansiyel tedarikcilerin uretim kapasitesi, kalite standartlari ve mali yapisini yerinde denetleyerek guvenilir is ortaklari belirliyoruz."
+        },
+        "qualityControl": {
+          "title": "Kalite Kontrol",
+          "description": "Uretim oncesi numune onay, uretim sureci izleme ve sevkiyat oncesi son kontrol ile kalitenizi garantiliyoruz."
+        },
+        "priceNegotiation": {
+          "title": "Fiyat Muzakeresi",
+          "description": "Pazar bilgimiz ve hacim avantajimizla en rekabetci fiyatlari elde ediyoruz. Maliyet kirilimi analizi ile seffaf fiyatlandirma sagliyoruz."
+        },
+        "sampleManagement": {
+          "title": "Numune Yonetimi",
+          "description": "Urun numunelerinin temini, degerlendirmesi ve onay surecini yonetiyoruz. Ozel uretim talepleri icin prototip gelistirme destegi sunuyoruz."
+        },
+        "supplyChain": {
+          "title": "Tedarik Zinciri Yonetimi",
+          "description": "Tedarik surekliligi, stok planlama ve alternatif tedarikci yonetimi ile riskleri minimize ediyoruz."
+        }
+      },
+      "process": {
+        "step1": {
+          "title": "Ihtiyac Tespiti",
+          "description": "Urun spesifikasyonlari, miktar ve kalite gereksinimlerinizi detayli sekilde belirleriz."
+        },
+        "step2": {
+          "title": "Tedarikci Arama",
+          "description": "Agimizdan uygun tedarikcileri bulur, fabrika denetimleri yapar ve numune taleplerinizi ileteriz."
+        },
+        "step3": {
+          "title": "Muzakere ve Siparis",
+          "description": "En uygun kosullari muzakere eder, sozlesme sartlarini belirler ve siparis surecini baslatiriz."
+        },
+        "step4": {
+          "title": "Takip ve Teslimat",
+          "description": "Uretimi izler, kalite kontrollerini yapar ve urunlerinizin zamaninda teslimatini saglariz."
+        }
+      },
+      "sectionTitles": {
+        "features": "Tedarik Hizmetlerimiz",
+        "process": "Tedarik Surecimiz"
+      },
+      "cta": {
+        "title": "Guvenilir Tedarikci Arayisiniz mi?",
+        "description": "Global tedarik agimizla ihtiyaciniz olan urunleri en uygun kosullarda temin edelim. Uzman ekibimiz size ozel cozum uretiyor.",
+        "button": "Tedarik Talebi Olustur"
+      }
+    },
+    "transit-trade": {
+      "metaTitle": "Transit Ticaret | Toko Trading",
+      "metaDescription": "Turkiye uzerinden ucuncu ulkelere transit ticaret operasyonlari. Rusya ve BDT ulkeleri icin uzmanlasmis transit ticaret cozumleri.",
+      "title": "Transit Ticaret",
+      "subtitle": "Turkiye'nin stratejik konumunu kullanarak verimli transit ticaret operasyonlari",
+      "badge": "Transit Ticaret Uzmanligi",
+      "overview": {
+        "p1": "Turkiye'nin Avrupa, Asya ve Ortadogu'nun kesisim noktasindaki stratejik konumunu kullanarak etkili transit ticaret operasyonlari gerceklestiriyoruz. Ozellikle Rusya ve BDT ulkeleri ile Avrupa arasindaki ticaret akislarinda uzmanlasmis cozumler sunuyoruz.",
+        "p2": "Transit ticaret operasyonlarinda gumruk mevzuati, yaptirimlara uyum, lojistik planlama ve depolama gibi kritik unsurlari deneyimli ekibimizle yonetiyoruz. Coklu gumruk gecisleri ve karmasik ticaret rotalarini basitlestirerek musterilerimize maliyet ve zaman avantaji sagliyoruz.",
+        "p3": "Her transit ticaret projesi icin detayli fizibilite calismalari yapiyor, en uygun rotalari ve lojistik cozumleri belirliyoruz. Serbest bolge ve antrepo imkanlarini degerlendirerek ticaret akislarinizi optimize ediyoruz."
+      },
+      "features": {
+        "transitRoutes": {
+          "title": "Stratejik Rota Planlamasi",
+          "description": "Ticaret akislarini optimize eden rota planlari olusturuyoruz. Maliyet, sure ve risk faktorlerini dengeleyerek en verimli guzergahlari belirliyoruz."
+        },
+        "cisExpertise": {
+          "title": "Rusya ve BDT Uzmanligi",
+          "description": "Rusya, Kazakistan, Ozbekistan ve diger BDT ulkelerinin ticaret mevzuati, gumruk prosedurlerini yakindan biliyoruz ve bu bilgiyi avantiajinizia ceviriyoruz."
+        },
+        "compliance": {
+          "title": "Mevzuat Uyumu",
+          "description": "Uluslararasi yaptirimlar, ticaret kisitlamalari ve gumruk duzenlemelerine tam uyum sagliyoruz. Hukuki riskleri minimize ediyoruz."
+        },
+        "customs": {
+          "title": "Coklu Gumruk Yonetimi",
+          "description": "Birden fazla ulke gumrugunden gecen mallarin tum beyanname ve prosedurlerini koordineli sekilde yonetiyoruz."
+        },
+        "warehousing": {
+          "title": "Depolama ve Dagitim",
+          "description": "Turkiye'deki serbest bolge ve antrepo tesislerinde depolama, konsolidasyon ve dagitim hizmetleri sunuyoruz."
+        }
+      },
+      "process": {
+        "step1": {
+          "title": "Fizibilite Analizi",
+          "description": "Transit ticaret projenizin yapilabilirligini analiz eder, maliyet-fayda hesabi yapar ve en uygun stratejiyi belirleriz."
+        },
+        "step2": {
+          "title": "Rota ve Lojistik Planlama",
+          "description": "En uygun transit rotayi belirler, lojistik ortaklarimizla koordinasyon saglar ve depolama ihtiyaclarini planlariz."
+        },
+        "step3": {
+          "title": "Gumruk ve Mevzuat",
+          "description": "Ilgili ulkelerin gumruk prosedurlerini yonetir, gerekli izin ve belgeleri temin ederiz."
+        },
+        "step4": {
+          "title": "Operasyon ve Teslimat",
+          "description": "Transit ticaret operasyonunu bastan sona yonetir, mallarin hedef ulkeye guvenle ulasmasini saglariz."
+        }
+      },
+      "sectionTitles": {
+        "features": "Transit Ticaret Avantajlarimiz",
+        "process": "Operasyon Surecimiz"
+      },
+      "cta": {
+        "title": "Transit Ticaret Firsatlarini Kesfedelim",
+        "description": "Turkiye uzerinden transit ticaret potansiyelinizi degerlendirmek icin uzman ekibimizle gorusun.",
+        "button": "Transit Ticaret Danismanligi"
+      }
+    }
+  },
   "SectorsPage": {
     "hero": {
       "title": "Sektorler",
@@ -352,6 +598,108 @@
       "description": "Sektore ozel tedarik ihtiyaclarinizi gorusmek icin bizimle iletisime gecin. Sektor uzmanlarimiz sizin icin dogru tedarikcileri bulmaya hazir.",
       "button": "Teklif Alin",
       "note": "Tum sektorler icin ucretsiz ilk gorusme"
+    }
+  },
+  "SectorDetail": {
+    "food": {
+      "metaTitle": "Gida ve Tarim Tedariki | Toko Trading",
+      "metaDescription": "Dogrulanmis tedarikcilerden tahil, baklagiller, yenilebilir yaglar, sut urunleri ve baharat tedariki.",
+      "title": "Gida ve Tarim",
+      "subtitle": "Dogrulanmis kuresel tedarikcilerden guvenilir gida urunleri ve tarimsal emtia tedariki",
+      "overview": {
+        "p1": "Toko Trading, dunya genelinden dogrulanmis tedarikcilerden yuksek kaliteli gida urunleri ve tarimsal emtia tedarikinde uzmanlasmistir. Tahillardan baklagi llere, yenilebilir yaglardan sut urunlerine kadar tedarik zinciri boyunca gida guvenligi standartlari ve izlenebilirlik saglariz.",
+        "p2": "Gida endustrisinin mevzuat gereksinimleri ve kalite standartlarindaki derin uzmanlgimizla, ithalatcilarin uluslararasi gida guvenligi sertifikalarina tam uyumla rekabetci fiyatlara erisimini sagliyoruz."
+      },
+      "products": {
+        "grains": { "title": "Tahil ve Baklagiller", "description": "Premium tarim bolgelerinden temin edilen bugday, arpa, misir, mercimek ve nohut." },
+        "dairyProducts": { "title": "Sut Urunleri", "description": "Uluslararasi standartlari karsilayan sertifikali tesislerden sut tozu, tereyagi, peynir ve islenmis sut urunleri." },
+        "cannedGoods": { "title": "Konserve Urunler", "description": "Tam izlenebilirlik ve kalite sertifikasyon ile guvenilir ureticilerden konserve sebze, meyve ve receller." },
+        "spices": { "title": "Baharat ve Otlar", "description": "Safiyet garantisi ile dogrudan mensei ulkelerden temin edilen premium baharatlar ve otlar." }
+      },
+      "advantages": {
+        "title": "Gida Tedarikinde Neden Toko",
+        "a1": { "title": "Dogrulanmis Tedarikciler", "description": "Her gida tedarikcisi gida guvenligi, hijyen standartlari ve uretim kapasitesi icin titiz denetime tabi tutulur." },
+        "a2": { "title": "Kalite Guvencesi", "description": "Sevkiyat oncesi laboratuvar testleri ve sertifika dogrulamasi ile hedef ulke mevzuatina uyum saglanir." },
+        "a3": { "title": "Rekabetci Fiyatlandirma", "description": "Ureticilerden dogrudan tedarik ve hacim muzakereleri ile toplu gida emtialari icin en iyi fiyatlar." },
+        "a4": { "title": "Soguk Zincir Lojistik", "description": "Bozulabilir gida urunleri icin tum transit noktalarinda sicaklik kontollu nakliye ve depolama cozumleri." }
+      },
+      "sectionTitles": { "products": "Neler Tedarik Ediyoruz", "advantages": "Tedarik Avantajlari" },
+      "cta": { "title": "Gida ve Tarim Tedarikine mi Ihtiyaciniz Var?", "description": "Gida tedarik gereksinimlerinizi gorusmek icin bizimle iletisime gecin.", "button": "Teklif Alin" }
+    },
+    "textile": {
+      "metaTitle": "Tekstil ve Giyim Tedariki | Toko Trading",
+      "metaDescription": "Turkiye'nin onde gelen ureticilerinden ham pamuk, iplik, kumaslar, hazir giyim ve ev tekstili tedariki.",
+      "title": "Tekstil ve Giyim",
+      "subtitle": "Turkiye'nin dunya capinda taninmis uretim tabanindan premium tekstil tedariki",
+      "overview": {
+        "p1": "Turkiye dunyanin en buyuk tekstil ureticilerinden biridir ve Toko Trading bu avantaji kullanarak kuresel alicilari en iyi pamuk, iplik, kumas ve konfeksiyon ureticileriyle bulusturur.",
+        "p2": "Tekstil tedarik ekibimiz kumas spesifikasyonlarini, renk eslestirme gereksinimlerini ve uretim sure cilerini anlar. Markalarin kalite standartlarini korurken rekabetci fiyatlarla tedarik yapmasina yardimci oluyoruz."
+      },
+      "products": {
+        "fabrics": { "title": "Ham Pamuk ve Iplik", "description": "Turkiye'nin en iyi iplik fabrikalarindan yuksek kaliteli pamuk elyafi, karisim ve sentetik iplikler." },
+        "readyToWear": { "title": "Dokuma Kumaslar", "description": "Cesitli agirlik ve isleme seeneklerinde pamuk, polyester ve karisim dokuma kumaslar." },
+        "homeTextiles": { "title": "Hazir Giyim", "description": "Esnek minimum siparis miktarlari ile taninmis ureticilerden erkek, kadin ve cocuk giyimi." },
+        "industrialTextiles": { "title": "Ev Tekstili", "description": "Turkiye'nin unlu ev tekstili ureticilerinden yatak takimlari, havlular, perdeler ve dosemelik kumaslar." }
+      },
+      "advantages": {
+        "title": "Tekstil Tedarikinde Neden Toko",
+        "a1": { "title": "Fabrika Dogrulamali Kalite", "description": "Her tekstil tedarikcisini uretim kapasitesi, kalite kontrol ve etik uyum icin denetliyoruz." },
+        "a2": { "title": "Tasarim ve Numune Destegi", "description": "Numune gelistirme, kumas ornekleme ve renk eslestirme ile tam spesifikasyonlarinizi karsiliyoruz." },
+        "a3": { "title": "Rekabetci Toplu Fiyatlandirma", "description": "Turk ureticilere dogrudan erisim aracilarni ortadan kaldirarak fabrika fiyatlari sunar." },
+        "a4": { "title": "Hizli Teslimat", "description": "Turkiye'nin Avrupa'ya yakinligi ve lojistik altyapisi Uzak Dogu alternatiflerine gore daha kisa teslimat sureleri saglar." }
+      },
+      "sectionTitles": { "products": "Neler Tedarik Ediyoruz", "advantages": "Tedarik Avantajlari" },
+      "cta": { "title": "Tekstil Tedarikine mi Ihtiyaciniz Var?", "description": "Sizi Turkiye'nin en iyi tekstil ureticileriyle bulusturalim.", "button": "Numune Talep Edin" }
+    },
+    "machinery": {
+      "metaTitle": "Makine ve Ekipman Tedariki | Toko Trading",
+      "metaDescription": "Endustriyel ekipman, tarim makinalari, insaat ekipmani ve paketleme makineleri tedariki.",
+      "title": "Makine ve Ekipman",
+      "subtitle": "Teknik uzmanlik ve satis sonrasi destekle endustriyel makine ve ekipman tedariki",
+      "overview": {
+        "p1": "Toko Trading, guvenilir endustriyel ekipman arayan isletmeler icin kapsamli makine tedarik hizmetleri sunmaktadir. Teknik gereksinimlerinizi dunya genelindeki dogru ureticilerle eslestiriyoruz.",
+        "p2": "Makine tedarik ekibimiz spesifikasyonlari, sertifikalari ve kurulum gereksinimlerini anlayan muhendislerden olusur. Teknik degerlendirmeden agir ekipman nakliyesine kadar her seyi yonetiyoruz."
+      },
+      "products": {
+        "industrialMachinery": { "title": "Endustriyel Ekipman", "description": "CNC tezgahlar, uretim hatlari, isleme ekipmanlari ve fabrika otomasyon sistemleri." },
+        "agriculturalEquipment": { "title": "Tarim Makinalari", "description": "Traktorler, bicerdoverler, sulama sistemleri ve modern tarim icin gida isleme ekipmanlari." },
+        "spareParts": { "title": "Insaat Ekipmani", "description": "Guvenilir kuresel markalardan eksavatorler, yukleyiciler, beton mikserler ve santiye ekipmanlari." },
+        "automation": { "title": "Paketleme Makineleri", "description": "Otomatik paketleme hatlari, dolum makineleri, etiketleme ve shrink ambalaj sistemleri." }
+      },
+      "advantages": {
+        "title": "Makine Tedarikinde Neden Toko",
+        "a1": { "title": "Teknik Degerlendirme", "description": "Muhendislik ekibimiz spesifikasyonlari, performans kriterlerini ve CE/ISO sertifikalarini degerlendirir." },
+        "a2": { "title": "Kurulum Destegi", "description": "Yerinde kurulum, devreye alma ve operator egitimi icin uretici teknisyenlerini koordine ediyoruz." },
+        "a3": { "title": "Rekabetci Finansman", "description": "Uretici ortakliklarimiz araciligiyla uygun odeme kosullari ve finansman seceneklerine erisim." },
+        "a4": { "title": "Agir Yuk Lojistigi", "description": "Endustriyel ekipman icin gumrukleme dahil buyuk boyutlu makine nakliyesi icin ozel cozumler." }
+      },
+      "sectionTitles": { "products": "Neler Tedarik Ediyoruz", "advantages": "Tedarik Avantajlari" },
+      "cta": { "title": "Endustriyel Ekipmana mi Ihtiyaciniz Var?", "description": "Makine gereksinimlerinizi teknik ekibimizle gorusun.", "button": "Teknik Danismanlik" }
+    },
+    "chemicals": {
+      "metaTitle": "Kimya Tedariki | Toko Trading",
+      "metaDescription": "Endustriyel kimyasallar, tarim kimyasallari, kozmetik bilesenleri ve temizlik urunleri tedariki.",
+      "title": "Kimya ve Petrokimya",
+      "subtitle": "Tam mevzuat dokumantasyonu ile guvenli ve uyumlu kimyasal tedariki",
+      "overview": {
+        "p1": "Toko Trading, uluslararasi guvenlik ve kalite standartlarini karsilayan ureticilerden endustriyel ve ozel kimyasallarin guvenilir tedarikini saglar. Kimya endustrisinde mevzuat uyumu, dokumantasyon ve guvenli tasima konularinin kritik onemini anliyoruz.",
+        "p2": "Toplu endustriyel kimyasallardan kozmetik ve tarim icin ozel bilesenlere kadar, ekibimiz kimya ticaretine ozgu karmasik lojistik ve dokumantasyon gereksinimlerini yonetir."
+      },
+      "products": {
+        "industrialChemicals": { "title": "Endustriyel Kimyasallar", "description": "MSDS dokumantasyonu ile ISO sertifikali ureticilerden cozucular, asitler, bazlar ve endustriyel kalite kimyasallar." },
+        "petrochemicals": { "title": "Tarim Kimyasallari", "description": "Ulusal tarimsal guvenlik standartlarini karsilayan gubreler, pestisitler ve bitki koruma urunleri." },
+        "pharmaceuticals": { "title": "Kozmetik Bilesenleri", "description": "GMP sertifikasyonu ile kozmetik ve kisisel bakim urunleri icin hammaddeler ve aktif bilesenler." },
+        "fertilizers": { "title": "Temizlik Urunleri", "description": "Toplu miktarlarda endustriyel ve ticari temizlik kimyasallari, deterjanlar ve sanitizasyon urunleri." }
+      },
+      "advantages": {
+        "title": "Kimyasal Tedarikinde Neden Toko",
+        "a1": { "title": "Mevzuat Uyumu", "description": "Tedarik ettigimiz her kimyasal urun icin tam REACH, CLP ve GHS uyumluluk dokumantasyonu." },
+        "a2": { "title": "Guvenlik Sertifikali", "description": "Tum kimyasal tedarikciler guvenlik protokolleri, depolama kosullari ve tasima prosdurleri icin denetlenir." },
+        "a3": { "title": "Hacim Fiyatlandirmasi", "description": "Buyuk kimya ureticileriyle toplu alis anlasmalaryla tekrarlayan siparisler icin rekabetci fiyatlar." },
+        "a4": { "title": "Tehlikeli Madde Nakliyesi", "description": "Uygun siniflandirma, paketleme ve nakliye dokumantasyonu ile ozel tehlikeli madde tasimaciligi." }
+      },
+      "sectionTitles": { "products": "Neler Tedarik Ediyoruz", "advantages": "Tedarik Avantajlari" },
+      "cta": { "title": "Kimyasal Tedarikine mi Ihtiyaciniz Var?", "description": "Kimyasal tedarik uzmanlarimizla tam mevzuat uyumu ve guvenli teslimat icin iletisime gecin.", "button": "Dokumantasyon Talep Edin" }
     }
   },
   "ReferencesPage": {
@@ -451,6 +799,134 @@
       "description": "Uluslararasi ticaret ihtiyaclariniz icin hemen bizimle iletisime gecin. Deneyimli ekibimiz size ozel cozumler uretmek icin hazir.",
       "button": "Iletisime Gecin",
       "note": "Ilk gorusme tamamen ucretsizdir"
+    }
+  },
+  "RussiaTransitPage": {
+    "hero": {
+      "badge": "Turkiye - Rusya Ticaret Koridoru",
+      "title": "Turkiye Uzerinden Rusya ve BDT'ye Transit Ticaret",
+      "subtitle": "Turkiye'nin stratejik konumunu kullanarak Rusya ve BDT ulkelerine guvenli, hizli ve uyumlu transit ticaret cozumleri sunuyoruz.",
+      "ctaQuote": "Teklif Isteyin",
+      "ctaCall": "Bizi Arayin"
+    },
+    "breadcrumb": {
+      "home": "Ana Sayfa",
+      "russiaTransit": "Rusya Transit Ticaret"
+    },
+    "whatIs": {
+      "badge": "Transit Ticaret Nedir?",
+      "title": "Turkiye: Avrupa ile Rusya Arasinda Ticaret Koprusu",
+      "p1": "Transit ticaret, mallarin bir ulkeden baska bir ulkeye ucuncu bir ulke uzerinden gonderilmesidir. Turkiye, cografi konumu, gelismis liman altyapisi ve gumruk uzmanligi ile Avrupa, Ortadogu ve Rusya arasinda ideal bir transit merkez gorevini ustlenmektedir.",
+      "p2": "Toko Trading olarak, Turkiye uzerinden Rusya ve BDT ulkelerine yonelik transit ticaret operasyonlarinda 20 yili askin deneyime sahibiz. Gumruk islemlerinden lojistik yonetimine, mevzuat uyumundan dokumantasyona kadar tum surecleri profesyonelce yonetiyoruz.",
+      "p3": "Ozellikle son yillarda degisen ticaret dinamikleri, Turkiye'nin transit ticaret rolunu daha da onemli hale getirmistir. Firmamiz, bu degisime uygun olarak musterilerine en guncel ve uyumlu cozumleri sunmaktadir.",
+      "floatingBadge": "Mevzuat Uyumlu"
+    },
+    "advantages": {
+      "badge": "Avantajlarimiz",
+      "title": "Neden Turkiye Uzerinden Transit?",
+      "location": {
+        "title": "Stratejik Konum",
+        "description": "Turkiye, Avrupa ve Asya'yi birbirine baglayan benzersiz cografi konumuyla transit ticaret icin ideal bir merkezdir."
+      },
+      "customs": {
+        "title": "Gumruk Uzmanligi",
+        "description": "Turk gumruk mevzuati ve yeniden ihracat prosedurlerinde derin bilgi birikimi ve deneyim."
+      },
+      "logistics": {
+        "title": "Lojistik Agi",
+        "description": "Gelismis depolama, yuk tasimaciligi ve liman altyapisi ile kesintisiz lojistik hizmetleri."
+      },
+      "market": {
+        "title": "BDT Pazar Bilgisi",
+        "description": "Rusya ve BDT ulkelerinin ticaret duzenlemeleri ve pazar dinamikleri hakkinda derin uzmanlik."
+      },
+      "cost": {
+        "title": "Maliyet Verimliligi",
+        "description": "Dogrudan ithalata kiyasla rekabetci rotalama ve maliyet optimizasyonu saglar."
+      },
+      "compliance": {
+        "title": "Uyumluluk Destegi",
+        "description": "Yaptirimlara uyumluluk, dokumantasyon ve mevzuat danismanligi hizmetleri."
+      }
+    },
+    "routes": {
+      "badge": "Ticaret Rotalari",
+      "title": "Onemli Ticaret Koridorlari",
+      "from": "Turkiye",
+      "russia": {
+        "destination": "Rusya",
+        "goods": "Tekstil, gida, makine, kimyasal urunler"
+      },
+      "kazakhstan": {
+        "destination": "Kazakistan",
+        "goods": "Insaat malzemeleri, gida, elektronik"
+      },
+      "azerbaijan": {
+        "destination": "Azerbaycan",
+        "goods": "Gida, tekstil, yapi malzemeleri"
+      },
+      "georgia": {
+        "destination": "Gurcistan",
+        "goods": "Gida, kimyasallar, tuketim mallari"
+      },
+      "uzbekistan": {
+        "destination": "Ozbekistan",
+        "goods": "Makine, tekstil, tibbi cihazlar"
+      }
+    },
+    "process": {
+      "title": "Nasil Calisir?",
+      "subtitle": "Transit ticaret surecimiz 5 basit adimda tamamlanir",
+      "inquiry": {
+        "title": "Sorgulama",
+        "description": "Ihtiyaclarinizi analiz eder ve en uygun transit rotayi belirleriz."
+      },
+      "planning": {
+        "title": "Rota Planlama",
+        "description": "Optimum maliyet ve sure icin lojistik rotanizi planlariz."
+      },
+      "documentation": {
+        "title": "Dokumantasyon",
+        "description": "Tum gumruk ve ticaret belgelerini sizin adiniza hazirlariz."
+      },
+      "shipment": {
+        "title": "Sevkiyat",
+        "description": "Mallarinizi guvenli bir sekilde transit noktasindan hedefe ulastiririz."
+      },
+      "delivery": {
+        "title": "Teslimat Onayi",
+        "description": "Teslimat tamamlandiktan sonra kapsamli bir rapor sunariz."
+      }
+    },
+    "faq": {
+      "badge": "Sikca Sorulan Sorular",
+      "title": "Transit Ticaret Hakkinda Merak Edilenler",
+      "q1": {
+        "question": "Transit ticaret nedir?",
+        "answer": "Transit ticaret, mallarin uretici ulkeden tuketici ulkeye ucuncu bir ulke (bu durumda Turkiye) uzerinden transit gecisi ile gerceklestirilen uluslararasi ticaret bicimidir. Mallar, Turkiye'deki gumruk bolgesinden gecerek veya yeniden ihrac edilerek hedef ulkeye gonderilir."
+      },
+      "q2": {
+        "question": "Turkiye uzerinden hangi urunler transit edilebilir?",
+        "answer": "Gida urunleri, tekstil, makine, kimyasallar, insaat malzemeleri, elektronik ve daha bircok urun kategorisi Turkiye uzerinden transit edilebilir. Ancak her urun grubu icin farkli gumruk ve mevzuat gereklilikleri uygulanabilir."
+      },
+      "q3": {
+        "question": "Transit ticaret sureci ne kadar surer?",
+        "answer": "Surec, urunun cinsine, rotaya ve gumruk islemlerine bagli olarak degisir. Tipik bir transit islem 2-6 hafta arasinda tamamlanir. Deniz yoluyla yapilan sevkiyatlar daha uzun sururken, kara yolu ile daha hizli teslimat mumkundur."
+      },
+      "q4": {
+        "question": "Hangi belgeler gereklidir?",
+        "answer": "Ticari fatura, mensei sertifikasi, konisamento, paketleme listesi ve varsa ozel urun sertifikalari gereklidir. Gumruk beyanlari ve transit belgeleri Toko Trading tarafindan hazirlanir."
+      },
+      "q5": {
+        "question": "Mevzuat uyumuna nasil dikkat ediyorsunuz?",
+        "answer": "Toko Trading, uluslararasi yaptirimlara ve ticaret mevzuatina tam uyum saglayarak calismaktadir. Uzman hukuk danismanlari ile isbirligi icinde en guncel mevzuati takip ediyor, tum islemlerimizi seffaf ve belgelenmis sekilde yonetiyoruz."
+      }
+    },
+    "cta": {
+      "title": "Rusya Masasiyla Dogrudan Iletisime Gecin",
+      "description": "Transit ticaret ihtiyaclariniz icin uzman ekibimize ulasin. WhatsApp uzerinden de bize ulasabilirsiniz.",
+      "button": "Iletisime Gecin",
+      "note": "WhatsApp ile hizli destek: +90 (212) 000 00 00"
     }
   },
   "BlogPage": {

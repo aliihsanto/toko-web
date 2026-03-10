@@ -290,6 +290,252 @@
       "note": "La premiere consultation est entierement gratuite"
     }
   },
+  "ServiceDetail": {
+    "import": {
+      "metaTitle": "Services d'Importation | Toko Trading",
+      "metaDescription": "Solutions completes pour l'importation de matieres premieres et produits du monde entier. Services d'importation professionnels incluant procedures douanieres, gestion logistique et optimisation des couts.",
+      "title": "Services d'Importation",
+      "subtitle": "Solutions d'importation professionnelles de bout en bout pour l'approvisionnement en matieres premieres et produits dans le monde entier",
+      "badge": "Expertise Importation",
+      "overview": {
+        "p1": "Chez Toko Trading, nous proposons des solutions completes pour l'importation de tous types de matieres premieres et produits du monde entier. Nous assurons un accompagnement professionnel a chaque etape du processus d'importation, des procedures douanieres a la planification logistique, de la selection des fournisseurs au controle qualite.",
+        "p2": "En tirant parti de la position strategique de la Turquie, nous approvisionnons des produits d'Europe, d'Asie et d'Afrique dans les conditions les plus favorables. Avec plus de 20 ans d'experience, nous suivons de pres les evolutions de la reglementation douaniere et offrons des avantages tarifaires a nos clients.",
+        "p3": "Nous affectons une equipe dediee a chaque projet d'importation, assurant une communication transparente du debut a la fin. Nous gerons avec rigueur les etapes critiques telles que la recherche de fournisseurs, la negociation des prix, le controle qualite et le suivi des expeditions."
+      },
+      "features": {
+        "customs": {
+          "title": "Gestion des Procedures Douanieres",
+          "description": "Notre equipe d'experts assure un dedouanement rapide et fluide pour toutes les procedures de declaration, la classification tarifaire et le calcul des droits d'importation."
+        },
+        "logistics": {
+          "title": "Logistique Internationale",
+          "description": "Planification d'expeditions optimales en termes de cout et de delai par voie maritime, aerienne et terrestre. Services logistiques complets incluant la gestion des conteneurs et les solutions d'entreposage."
+        },
+        "costOptimization": {
+          "title": "Optimisation des Couts",
+          "description": "Nous analysons l'ensemble de vos depenses d'importation, des couts d'approvisionnement aux frais de fret, des droits de douane aux couts d'assurance, pour creer des opportunites d'economies a chaque etape."
+        },
+        "qualityControl": {
+          "title": "Controle Qualite et Inspection",
+          "description": "Inspections d'usines avant expedition, tests d'echantillons de produits et suivi du processus de production garantissent la livraison de produits conformes a vos standards de qualite."
+        },
+        "documentation": {
+          "title": "Documentation d'Importation",
+          "description": "Preparation et suivi complets des factures, connaissements, certificats d'origine et de tous les autres documents d'importation. Gestion documentaire conforme a la reglementation."
+        }
+      },
+      "process": {
+        "step1": {
+          "title": "Analyse des Besoins",
+          "description": "Nous realisons une analyse detaillee de vos besoins d'importation, determinant les specifications produit et les exigences en quantite."
+        },
+        "step2": {
+          "title": "Selection des Fournisseurs",
+          "description": "Nous trouvons les fournisseurs les plus adaptes de notre reseau mondial, comparons les prix et finalisons les fournisseurs avec votre approbation."
+        },
+        "step3": {
+          "title": "Commande et Expedition",
+          "description": "Nous gerons le processus de commande, suivons la production et planifions l'expedition via la route logistique la plus optimale."
+        },
+        "step4": {
+          "title": "Douane et Livraison",
+          "description": "Nous completons rapidement les procedures douanieres et livrons vos produits en toute securite a l'emplacement souhaite."
+        }
+      },
+      "sectionTitles": {
+        "features": "Ce Que Nous Offrons",
+        "process": "Notre Methode de Travail"
+      },
+      "cta": {
+        "title": "Obtenez un Accompagnement pour Votre Projet d'Importation",
+        "description": "Echangez avec notre equipe d'experts sur vos besoins d'importation. Nous gerons l'ensemble du processus, du pays d'origine a votre porte.",
+        "button": "Consultation Gratuite"
+      }
+    },
+    "export": {
+      "metaTitle": "Services d'Exportation | Toko Trading",
+      "metaDescription": "Exportation de produits de Turquie vers les marches mondiaux. Etude de marche, mise en relation avec les acheteurs et documentation d'exportation pour developper vos exportations.",
+      "title": "Services d'Exportation",
+      "subtitle": "Accompagnement professionnel a l'export pour atteindre les marches mondiaux depuis la Turquie",
+      "badge": "Expertise Exportation",
+      "overview": {
+        "p1": "Nous proposons des services d'exportation complets pour porter les capacites de production turques vers les marches mondiaux. Nous gerons professionnellement tous les processus, de l'identification des marches cibles a la recherche d'acheteurs, de la strategie de prix a la documentation d'exportation.",
+        "p2": "Grace a nos partenariats commerciaux et notre reseau d'acheteurs dans plus de 50 pays, nous identifions les meilleurs marches et acheteurs pour vos produits. Nous accelerons vos exportations avec notre position forte sur les marches europeens, moyen-orientaux et de la CEI.",
+        "p3": "Nous sommes a vos cotes a chaque etape du processus d'exportation. Nous gerons minutieusement tous les details, des procedures de credit documentaire aux declarations en douane, de l'organisation du fret aux procedures d'assurance."
+      },
+      "features": {
+        "marketResearch": {
+          "title": "Etude et Analyse de Marche",
+          "description": "Nous faconnons votre strategie d'exportation en analysant les structures de demande, les conditions concurrentielles et les dynamiques de prix des marches cibles."
+        },
+        "buyerMatching": {
+          "title": "Recherche et Mise en Relation d'Acheteurs",
+          "description": "Nous trouvons des acheteurs qualifies pour vos produits grace a notre vaste reseau d'acheteurs et notre participation aux salons internationaux."
+        },
+        "documentation": {
+          "title": "Documentation d'Exportation",
+          "description": "Preparation et gestion completes des credits documentaires, connaissements, certificats d'origine, documents ATR et autres documents d'exportation."
+        },
+        "compliance": {
+          "title": "Conseil Reglementaire",
+          "description": "Nous assurons la conformite avec les reglementations d'importation, les exigences de normes et les processus de certification des pays cibles grace a un accompagnement expert."
+        },
+        "logistics": {
+          "title": "Logistique d'Exportation",
+          "description": "Livraison a temps et en toute securite par la planification de conteneurs, la negociation de fret et le suivi des expeditions. Options maritime, aerienne et terrestre."
+        }
+      },
+      "process": {
+        "step1": {
+          "title": "Evaluation du Marche",
+          "description": "Nous etudions les marches potentiels pour vos produits et identifions les marches cibles qui offriront les meilleurs rendements."
+        },
+        "step2": {
+          "title": "Mise en Relation Acheteurs",
+          "description": "Nous trouvons des acheteurs qualifies sur les marches cibles, gerant les premiers contacts et les processus de negociation."
+        },
+        "step3": {
+          "title": "Documentation et Commande",
+          "description": "Nous preparons tous les documents d'exportation, gerons le processus de confirmation de commande et coordonnons la planification de production."
+        },
+        "step4": {
+          "title": "Expedition et Suivi",
+          "description": "Nous organisons la logistique, completons les procedures douanieres et suivons la livraison de vos produits a l'acheteur."
+        }
+      },
+      "sectionTitles": {
+        "features": "Nos Services d'Exportation",
+        "process": "Notre Processus d'Exportation"
+      },
+      "cta": {
+        "title": "Developpons Vos Exportations",
+        "description": "Echangez avec notre equipe d'experts pour vous developper de la Turquie vers les marches mondiaux. Nous elaborons des strategies specifiques a votre marche cible.",
+        "button": "Conseil a l'Export"
+      }
+    },
+    "sourcing": {
+      "metaTitle": "Solutions d'Approvisionnement | Toko Trading",
+      "metaDescription": "Approvisionnement en produits au meilleur rapport qualite-prix via notre reseau mondial. Audit des fournisseurs, controle qualite et negociation des prix.",
+      "title": "Solutions d'Approvisionnement",
+      "subtitle": "Nous approvisionnons les produits les plus adaptes pour votre entreprise via notre reseau mondial de fournisseurs",
+      "badge": "Expertise Approvisionnement",
+      "overview": {
+        "p1": "Nous approvisionnons les produits dont votre entreprise a besoin au meilleur rapport qualite-prix via notre reseau mondial de fournisseurs. Nous vous aidons a construire des chaines d'approvisionnement fiables grace a la recherche de fournisseurs, aux visites d'usines et aux audits qualite.",
+        "p2": "Avec notre vaste reseau de fournisseurs en Turquie, en Chine, en Inde, en Asie du Sud-Est et dans d'autres centres de production, nous repondons a vos besoins produits dans differents secteurs. Nous evaluons chaque fournisseur par des audits independants et des verifications de references.",
+        "p3": "Nous assurons un accompagnement professionnel a chaque etape du processus d'approvisionnement, de la gestion des echantillons a la coordination des commandes en gros, du suivi de production au controle qualite. Nous offrons a nos clients un reporting transparent et des mises a jour regulieres."
+      },
+      "features": {
+        "supplierAudit": {
+          "title": "Audit des Fournisseurs",
+          "description": "Nous identifions des partenaires commerciaux fiables en auditant sur site la capacite de production, les standards qualite et la structure financiere des fournisseurs potentiels."
+        },
+        "qualityControl": {
+          "title": "Controle Qualite",
+          "description": "Nous garantissons votre qualite par l'approbation des echantillons pre-production, le suivi du processus de production et l'inspection finale avant expedition."
+        },
+        "priceNegotiation": {
+          "title": "Negociation des Prix",
+          "description": "Nous obtenons les prix les plus competitifs grace a notre connaissance du marche et notre avantage de volume. Tarification transparente par analyse detaillee des couts."
+        },
+        "sampleManagement": {
+          "title": "Gestion des Echantillons",
+          "description": "Nous gerons l'approvisionnement, l'evaluation et l'approbation des echantillons de produits. Nous offrons un support au developpement de prototypes pour les demandes de production sur mesure."
+        },
+        "supplyChain": {
+          "title": "Gestion de la Chaine d'Approvisionnement",
+          "description": "Nous minimisons les risques par la continuite d'approvisionnement, la planification des stocks et la gestion de fournisseurs alternatifs."
+        }
+      },
+      "process": {
+        "step1": {
+          "title": "Recueil des Besoins",
+          "description": "Nous determinons en detail vos specifications produit, quantites et exigences qualite."
+        },
+        "step2": {
+          "title": "Recherche de Fournisseurs",
+          "description": "Nous trouvons les fournisseurs adaptes dans notre reseau, realisons des audits d'usines et transmettons vos demandes d'echantillons."
+        },
+        "step3": {
+          "title": "Negociation et Commande",
+          "description": "Nous negocions les conditions les plus favorables, definissons les termes contractuels et lancons le processus de commande."
+        },
+        "step4": {
+          "title": "Suivi et Livraison",
+          "description": "Nous suivons la production, effectuons les controles qualite et assurons la livraison de vos produits dans les delais."
+        }
+      },
+      "sectionTitles": {
+        "features": "Nos Services d'Approvisionnement",
+        "process": "Notre Processus d'Approvisionnement"
+      },
+      "cta": {
+        "title": "A la Recherche de Fournisseurs Fiables?",
+        "description": "Laissez-nous approvisionner les produits dont vous avez besoin dans les meilleures conditions via notre reseau mondial. Notre equipe d'experts cree des solutions sur mesure pour vous.",
+        "button": "Demande d'Approvisionnement"
+      }
+    },
+    "transit-trade": {
+      "metaTitle": "Commerce de Transit | Toko Trading",
+      "metaDescription": "Operations de commerce de transit via la Turquie vers des pays tiers. Solutions specialisees de commerce de transit pour la Russie et les pays de la CEI.",
+      "title": "Commerce de Transit",
+      "subtitle": "Operations de commerce de transit efficaces exploitant la position strategique de la Turquie",
+      "badge": "Expertise Commerce de Transit",
+      "overview": {
+        "p1": "Nous menons des operations de commerce de transit efficaces en exploitant la position strategique de la Turquie au carrefour de l'Europe, de l'Asie et du Moyen-Orient. Nous proposons des solutions specialisees notamment pour les flux commerciaux entre la Russie et les pays de la CEI et l'Europe.",
+        "p2": "Dans les operations de commerce de transit, nous gerons les elements critiques tels que la reglementation douaniere, la conformite aux sanctions, la planification logistique et l'entreposage avec notre equipe experimentee. En simplifiant les passages douaniers multiples et les routes commerciales complexes, nous offrons des avantages de cout et de temps a nos clients.",
+        "p3": "Nous realisons des etudes de faisabilite detaillees pour chaque projet de commerce de transit, determinant les routes et solutions logistiques les plus adaptees. Nous optimisons vos flux commerciaux en evaluant les installations de zones franches et d'entrepots sous douane."
+      },
+      "features": {
+        "transitRoutes": {
+          "title": "Planification Strategique des Routes",
+          "description": "Nous creons des plans de routes qui optimisent les flux commerciaux. Nous determinons les itineraires les plus efficaces en equilibrant les facteurs de cout, de delai et de risque."
+        },
+        "cisExpertise": {
+          "title": "Expertise Russie et CEI",
+          "description": "Nous avons une connaissance approfondie des reglementations commerciales et des procedures douanieres en Russie, au Kazakhstan, en Ouzbekistan et dans d'autres pays de la CEI, transformant cette expertise en votre avantage."
+        },
+        "compliance": {
+          "title": "Conformite Reglementaire",
+          "description": "Nous assurons une pleine conformite avec les sanctions internationales, les restrictions commerciales et les reglementations douanieres. Nous minimisons les risques juridiques."
+        },
+        "customs": {
+          "title": "Gestion Multi-Douanes",
+          "description": "Nous coordonnons toutes les declarations et procedures pour les marchandises traversant les douanes de plusieurs pays de maniere coordonnee."
+        },
+        "warehousing": {
+          "title": "Entreposage et Distribution",
+          "description": "Nous offrons des services d'entreposage, de consolidation et de distribution dans les installations de zones franches et d'entrepots sous douane en Turquie."
+        }
+      },
+      "process": {
+        "step1": {
+          "title": "Analyse de Faisabilite",
+          "description": "Nous analysons la viabilite de votre projet de commerce de transit, calculons le rapport cout-benefice et determinons la strategie la plus adaptee."
+        },
+        "step2": {
+          "title": "Planification Route et Logistique",
+          "description": "Nous determinons la route de transit optimale, coordonnons avec nos partenaires logistiques et planifions les besoins d'entreposage."
+        },
+        "step3": {
+          "title": "Douane et Conformite",
+          "description": "Nous gerons les procedures douanieres des pays concernes, obtenons les permis et documents necessaires."
+        },
+        "step4": {
+          "title": "Operations et Livraison",
+          "description": "Nous gerons l'operation de commerce de transit de bout en bout, assurant que les marchandises arrivent en toute securite dans le pays de destination."
+        }
+      },
+      "sectionTitles": {
+        "features": "Nos Avantages en Commerce de Transit",
+        "process": "Notre Processus Operationnel"
+      },
+      "cta": {
+        "title": "Explorons les Opportunites de Commerce de Transit",
+        "description": "Echangez avec notre equipe d'experts pour evaluer votre potentiel de commerce de transit via la Turquie.",
+        "button": "Conseil en Commerce de Transit"
+      }
+    }
+  },
   "SectorsPage": {
     "hero": {
       "title": "Secteurs d'Activite",
@@ -352,6 +598,108 @@
       "description": "Contactez-nous pour discuter de vos besoins d'approvisionnement specifiques. Nos experts sectoriels sont prets a trouver les bons fournisseurs pour vous.",
       "button": "Demander un Devis",
       "note": "Premiere consultation gratuite pour tous les secteurs"
+    }
+  },
+  "SectorDetail": {
+    "food": {
+      "metaTitle": "Approvisionnement Agroalimentaire | Toko Trading",
+      "metaDescription": "Cereales, legumineuses, huiles alimentaires, produits laitiers et epices de fournisseurs verifies via Toko Trading.",
+      "title": "Agroalimentaire",
+      "subtitle": "Approvisionnement fiable en produits alimentaires et matieres premieres agricoles aupres de fournisseurs mondiaux verifies",
+      "overview": {
+        "p1": "Toko Trading est specialise dans l'approvisionnement de produits alimentaires de haute qualite et de matieres premieres agricoles aupres de fournisseurs verifies dans le monde entier. Des cereales aux legumineuses, des huiles alimentaires aux produits laitiers, nous garantissons les normes de securite alimentaire et la tracabilite tout au long de la chaine d'approvisionnement.",
+        "p2": "Grace a notre expertise approfondie des exigences reglementaires et des normes de qualite de l'industrie alimentaire, nous aidons les importateurs a acceder a des prix competitifs tout en maintenant une conformite stricte avec les certifications internationales de securite alimentaire."
+      },
+      "products": {
+        "grains": { "title": "Cereales et Legumineuses", "description": "Ble, orge, mais, lentilles et pois chiches provenant de regions agricoles premium." },
+        "dairyProducts": { "title": "Produits Laitiers", "description": "Lait en poudre, beurre, fromage et produits laitiers transformes d'installations certifiees." },
+        "cannedGoods": { "title": "Conserves", "description": "Legumes, fruits et confitures en conserve de producteurs de confiance avec tracabilite complete." },
+        "spices": { "title": "Epices et Herbes", "description": "Epices, herbes et assaisonnements premium provenant directement des pays d'origine avec garantie de purete." }
+      },
+      "advantages": {
+        "title": "Pourquoi s'Approvisionner en Alimentaire via Toko",
+        "a1": { "title": "Fournisseurs Verifies", "description": "Chaque fournisseur alimentaire subit un audit rigoureux en matiere de securite alimentaire, d'hygiene et de capacite de production." },
+        "a2": { "title": "Assurance Qualite", "description": "Tests en laboratoire avant expedition et verification des certificats pour conformite aux reglementations du pays de destination." },
+        "a3": { "title": "Prix Competitifs", "description": "Approvisionnement direct aupres des producteurs et negociations de volume pour les meilleurs prix en gros." },
+        "a4": { "title": "Logistique Chaine du Froid", "description": "Expedition et stockage a temperature controlee pour les produits alimentaires perissables a tous les points de transit." }
+      },
+      "sectionTitles": { "products": "Ce Que Nous Approvisionnons", "advantages": "Avantages d'Approvisionnement" },
+      "cta": { "title": "Besoin d'Approvisionnement Alimentaire?", "description": "Contactez-nous pour discuter de vos besoins en approvisionnement alimentaire avec des fournisseurs verifies.", "button": "Demander un Devis" }
+    },
+    "textile": {
+      "metaTitle": "Approvisionnement Textile | Toko Trading",
+      "metaDescription": "Coton brut, fils, tissus, pret-a-porter et textiles de maison des meilleurs fabricants turcs via Toko Trading.",
+      "title": "Textile et Habillement",
+      "subtitle": "Approvisionnement textile premium depuis la base manufacturiere de renommee mondiale de la Turquie",
+      "overview": {
+        "p1": "La Turquie est l'un des plus grands producteurs textiles au monde, et Toko Trading exploite cet avantage pour connecter les acheteurs mondiaux avec les meilleurs fabricants de coton, fils, tissus et vetements.",
+        "p2": "Notre equipe d'approvisionnement textile comprend les specifications des tissus, les exigences de correspondance des couleurs et les delais de production. Nous aidons les marques a s'approvisionner de maniere competitive tout en maintenant les standards de qualite."
+      },
+      "products": {
+        "fabrics": { "title": "Coton Brut et Fils", "description": "Fibres de coton de haute qualite, fils melanges et fils synthetiques des meilleures filatures turques." },
+        "readyToWear": { "title": "Tissus", "description": "Tissus en coton, polyester et melanges de differents grammages et finitions." },
+        "homeTextiles": { "title": "Pret-a-Porter", "description": "Vetements homme, femme et enfant de fabricants etablis avec MOQ flexibles." },
+        "industrialTextiles": { "title": "Textiles de Maison", "description": "Linge de lit, serviettes, rideaux et tissus d'ameublement des producteurs turcs renommes." }
+      },
+      "advantages": {
+        "title": "Pourquoi s'Approvisionner en Textile via Toko",
+        "a1": { "title": "Qualite Verifiee en Usine", "description": "Nous auditons chaque fournisseur textile pour les capacites de production, le controle qualite et la conformite ethique." },
+        "a2": { "title": "Support Design et Echantillons", "description": "Developpement d'echantillons, echantillonnage de tissus et correspondance de couleurs selon vos specifications exactes." },
+        "a3": { "title": "Prix de Gros Competitifs", "description": "L'acces direct aux fabricants turcs elimine les intermediaires pour des prix usine directs." },
+        "a4": { "title": "Delais Rapides", "description": "La proximite de la Turquie avec l'Europe et son infrastructure logistique permettent des delais de livraison plus courts." }
+      },
+      "sectionTitles": { "products": "Ce Que Nous Approvisionnons", "advantages": "Avantages d'Approvisionnement" },
+      "cta": { "title": "Besoin d'Approvisionnement Textile?", "description": "Laissez-nous vous connecter avec les meilleurs fabricants textiles de Turquie.", "button": "Demander des Echantillons" }
+    },
+    "machinery": {
+      "metaTitle": "Approvisionnement Machines | Toko Trading",
+      "metaDescription": "Equipements industriels, machines agricoles, engins de construction et machines d'emballage via Toko Trading.",
+      "title": "Machines et Equipements",
+      "subtitle": "Approvisionnement en machines et equipements industriels avec expertise technique et support apres-vente",
+      "overview": {
+        "p1": "Toko Trading fournit des services complets d'approvisionnement en machines pour les entreprises recherchant des equipements industriels fiables. Nous faisons correspondre vos exigences techniques avec les bons fabricants dans le monde entier.",
+        "p2": "Notre equipe machines comprend des ingenieurs qui maitrisent les specifications, les certifications et les exigences d'installation. Nous gerons de l'evaluation technique a la logistique d'expedition pour les equipements lourds."
+      },
+      "products": {
+        "industrialMachinery": { "title": "Equipements Industriels", "description": "Machines CNC, lignes de production, equipements de transformation et systemes d'automatisation." },
+        "agriculturalEquipment": { "title": "Machines Agricoles", "description": "Tracteurs, moissonneuses, systemes d'irrigation et equipements de transformation alimentaire." },
+        "spareParts": { "title": "Engins de Construction", "description": "Excavatrices, chargeurs, betonieres et equipements de chantier de marques de confiance." },
+        "automation": { "title": "Machines d'Emballage", "description": "Lignes d'emballage automatisees, machines de remplissage, systemes d'etiquetage et machines de film retractable." }
+      },
+      "advantages": {
+        "title": "Pourquoi s'Approvisionner en Machines via Toko",
+        "a1": { "title": "Evaluation Technique", "description": "Notre equipe d'ingenieurs evalue les specifications, les performances et les certifications CE/ISO." },
+        "a2": { "title": "Support d'Installation", "description": "Nous coordonnons les techniciens du fabricant pour l'installation, la mise en service et la formation sur site." },
+        "a3": { "title": "Financement Competitif", "description": "Acces a des conditions de paiement et options de financement avantageuses via nos partenariats fabricants." },
+        "a4": { "title": "Logistique Fret Lourd", "description": "Solutions d'expedition specialisees pour les machines surdimensionnees incluant le dedouanement." }
+      },
+      "sectionTitles": { "products": "Ce Que Nous Approvisionnons", "advantages": "Avantages d'Approvisionnement" },
+      "cta": { "title": "Besoin d'Equipements Industriels?", "description": "Discutez de vos besoins en machines avec notre equipe technique.", "button": "Consultation Technique" }
+    },
+    "chemicals": {
+      "metaTitle": "Approvisionnement Chimique | Toko Trading",
+      "metaDescription": "Produits chimiques industriels, chimie agricole, ingredients cosmetiques et produits de nettoyage via Toko Trading.",
+      "title": "Chimie et Petrochimie",
+      "subtitle": "Approvisionnement chimique sur et conforme avec documentation reglementaire complete",
+      "overview": {
+        "p1": "Toko Trading assure l'approvisionnement fiable en produits chimiques industriels et de specialite aupres de fabricants respectant les normes internationales de securite et de qualite. Nous comprenons l'importance critique de la conformite reglementaire et de la manutention securisee dans l'industrie chimique.",
+        "p2": "Des produits chimiques industriels en vrac aux ingredients de specialite pour les cosmetiques et l'agriculture, notre equipe gere les exigences complexes de logistique et de documentation propres au commerce chimique."
+      },
+      "products": {
+        "industrialChemicals": { "title": "Produits Chimiques Industriels", "description": "Solvants, acides, bases et produits chimiques de qualite industrielle de fabricants certifies ISO avec FDS." },
+        "petrochemicals": { "title": "Chimie Agricole", "description": "Engrais, pesticides et produits de protection des cultures conformes aux normes de securite agricole." },
+        "pharmaceuticals": { "title": "Ingredients Cosmetiques", "description": "Matieres premieres et principes actifs pour cosmetiques et soins personnels avec certification GMP." },
+        "fertilizers": { "title": "Produits de Nettoyage", "description": "Produits chimiques de nettoyage industriels et commerciaux, detergents et produits de desinfection en gros." }
+      },
+      "advantages": {
+        "title": "Pourquoi s'Approvisionner en Chimie via Toko",
+        "a1": { "title": "Conformite Reglementaire", "description": "Documentation complete de conformite REACH, CLP et SGH pour chaque produit chimique approvisionne." },
+        "a2": { "title": "Certifie Securite", "description": "Tous les fournisseurs chimiques sont audites pour les protocoles de securite, les conditions de stockage et les procedures de manutention." },
+        "a3": { "title": "Prix Volume", "description": "Accords d'achat en volume avec les grands producteurs pour des prix competitifs sur les commandes recurrentes." },
+        "a4": { "title": "Transport Matieres Dangereuses", "description": "Expedition specialisee de marchandises dangereuses avec classification, emballage et documentation de transport conformes." }
+      },
+      "sectionTitles": { "products": "Ce Que Nous Approvisionnons", "advantages": "Avantages d'Approvisionnement" },
+      "cta": { "title": "Besoin d'Approvisionnement Chimique?", "description": "Contactez nos specialistes pour une conformite reglementaire complete et une livraison securisee.", "button": "Demander la Documentation" }
     }
   },
   "ReferencesPage": {
@@ -451,6 +799,134 @@
       "description": "Contactez-nous des aujourd'hui pour vos besoins en commerce international. Notre equipe experimentee est prete a creer des solutions sur mesure pour vous.",
       "button": "Contactez-nous",
       "note": "La premiere consultation est entierement gratuite"
+    }
+  },
+  "RussiaTransitPage": {
+    "hero": {
+      "badge": "Corridor Commercial Turquie - Russie",
+      "title": "Commerce de Transit vers la Russie et la CEI via la Turquie",
+      "subtitle": "En exploitant la position strategique de la Turquie, nous offrons des solutions de commerce de transit sures, rapides et conformes vers la Russie et les pays de la CEI.",
+      "ctaQuote": "Demander un Devis",
+      "ctaCall": "Appelez-nous"
+    },
+    "breadcrumb": {
+      "home": "Accueil",
+      "russiaTransit": "Commerce Transit Russie"
+    },
+    "whatIs": {
+      "badge": "Qu'est-ce que le Commerce de Transit?",
+      "title": "La Turquie: Pont Commercial entre l'Europe et la Russie",
+      "p1": "Le commerce de transit consiste a expedier des marchandises d'un pays a un autre via un pays tiers. La Turquie, grace a sa situation geographique, son infrastructure portuaire avancee et son expertise douaniere, sert de plaque tournante ideale entre l'Europe, le Moyen-Orient et la Russie.",
+      "p2": "Chez Toko Trading, nous avons plus de 20 ans d'experience dans les operations de commerce de transit vers la Russie et les pays de la CEI via la Turquie. Nous gerons professionnellement tous les processus, des procedures douanieres a la gestion logistique, de la conformite reglementaire a la documentation.",
+      "p3": "Ces dernieres annees, l'evolution des dynamiques commerciales a rendu le role de la Turquie dans le commerce de transit encore plus important. Notre entreprise fournit a ses clients les solutions les plus actuelles et conformes.",
+      "floatingBadge": "Entierement Conforme"
+    },
+    "advantages": {
+      "badge": "Nos Avantages",
+      "title": "Pourquoi Transiter par la Turquie?",
+      "location": {
+        "title": "Position Strategique",
+        "description": "La position geographique unique de la Turquie reliant l'Europe et l'Asie en fait un hub ideal pour le commerce de transit."
+      },
+      "customs": {
+        "title": "Expertise Douaniere",
+        "description": "Connaissance approfondie et experience des reglementations douanieres turques et des procedures de reexportation."
+      },
+      "logistics": {
+        "title": "Reseau Logistique",
+        "description": "Infrastructure avancee d'entreposage, de fret et portuaire permettant des services logistiques ininterrompus."
+      },
+      "market": {
+        "title": "Connaissance du Marche CEI",
+        "description": "Expertise approfondie des reglementations commerciales et dynamiques des marches de la Russie et des pays de la CEI."
+      },
+      "cost": {
+        "title": "Efficacite des Couts",
+        "description": "Routage competitif et optimisation des couts par rapport aux importations directes, maximisant vos marges."
+      },
+      "compliance": {
+        "title": "Support de Conformite",
+        "description": "Conformite aux sanctions, documentation et services de conseil reglementaire pour des operations entierement conformes."
+      }
+    },
+    "routes": {
+      "badge": "Routes Commerciales",
+      "title": "Corridors Commerciaux Cles",
+      "from": "Turquie",
+      "russia": {
+        "destination": "Russie",
+        "goods": "Textiles, alimentation, machines, produits chimiques"
+      },
+      "kazakhstan": {
+        "destination": "Kazakhstan",
+        "goods": "Materiaux de construction, alimentation, electronique"
+      },
+      "azerbaijan": {
+        "destination": "Azerbaidjan",
+        "goods": "Alimentation, textiles, materiaux de construction"
+      },
+      "georgia": {
+        "destination": "Georgie",
+        "goods": "Alimentation, produits chimiques, biens de consommation"
+      },
+      "uzbekistan": {
+        "destination": "Ouzbekistan",
+        "goods": "Machines, textiles, dispositifs medicaux"
+      }
+    },
+    "process": {
+      "title": "Comment Ca Marche",
+      "subtitle": "Notre processus de commerce de transit se deroule en 5 etapes simples",
+      "inquiry": {
+        "title": "Demande",
+        "description": "Nous analysons vos besoins et determinons la route de transit la plus adaptee."
+      },
+      "planning": {
+        "title": "Planification d'Itineraire",
+        "description": "Nous planifions votre itineraire logistique pour un cout et un delai optimaux."
+      },
+      "documentation": {
+        "title": "Documentation",
+        "description": "Nous preparons tous les documents douaniers et commerciaux en votre nom."
+      },
+      "shipment": {
+        "title": "Expedition",
+        "description": "Nous transportons vos marchandises en toute securite du point de transit a la destination."
+      },
+      "delivery": {
+        "title": "Confirmation de Livraison",
+        "description": "Nous fournissons un rapport complet une fois la livraison effectuee."
+      }
+    },
+    "faq": {
+      "badge": "Questions Frequentes",
+      "title": "Questions Courantes sur le Commerce de Transit",
+      "q1": {
+        "question": "Qu'est-ce que le commerce de transit?",
+        "answer": "Le commerce de transit est une forme de commerce international ou les marchandises sont expediees du pays producteur au pays consommateur via un pays tiers (dans ce cas, la Turquie). Les marchandises transitent par la zone douaniere turque ou sont reexportees vers le pays de destination."
+      },
+      "q2": {
+        "question": "Quels produits peuvent transiter par la Turquie?",
+        "answer": "Produits alimentaires, textiles, machines, produits chimiques, materiaux de construction, electronique et bien d'autres categories de produits peuvent transiter par la Turquie. Cependant, des exigences douanieres et reglementaires differentes peuvent s'appliquer a chaque groupe de produits."
+      },
+      "q3": {
+        "question": "Combien de temps dure le commerce de transit?",
+        "answer": "Le processus varie en fonction du type de produit, de l'itineraire et des procedures douanieres. Une transaction de transit typique est realisee en 2 a 6 semaines. Les expeditions maritimes sont plus longues tandis que les routes terrestres offrent des options de livraison plus rapides."
+      },
+      "q4": {
+        "question": "Quelle documentation est requise?",
+        "answer": "Factures commerciales, certificats d'origine, connaissements, listes de colisage et certifications speciales de produits sont necessaires. Les declarations douanieres et documents de transit sont prepares par Toko Trading."
+      },
+      "q5": {
+        "question": "Comment la conformite est-elle assuree?",
+        "answer": "Toko Trading opere en pleine conformite avec les sanctions internationales et les reglementations commerciales. Nous travaillons avec des conseillers juridiques experts pour suivre la legislation la plus recente et gerer toutes les transactions de maniere transparente et documentee."
+      }
+    },
+    "cta": {
+      "title": "Contactez Directement Notre Bureau Russie",
+      "description": "Contactez notre equipe d'experts pour vos besoins en commerce de transit. Vous pouvez egalement nous joindre via WhatsApp.",
+      "button": "Contactez-nous",
+      "note": "Support rapide via WhatsApp: +90 (212) 000 00 00"
     }
   },
   "BlogPage": {
