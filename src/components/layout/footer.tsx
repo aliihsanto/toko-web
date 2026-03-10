@@ -101,20 +101,30 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Column 3: Blog */}
+          {/* Column 3: Get in Touch (Form Pages) */}
           <div>
             <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-foreground">
-              {t('blog.title')}
+              {t('forms.title')}
             </h4>
             <ul className="space-y-2.5">
               <li>
-                <Link href="/blog" className="text-sm text-muted-foreground transition-colors hover:text-primary">
-                  {t('blog.latest')}
+                <Link href="/contact" className="text-sm text-muted-foreground transition-colors hover:text-primary">
+                  {t('forms.contact')}
                 </Link>
               </li>
               <li>
-                <Link href="/blog" className="text-sm text-muted-foreground transition-colors hover:text-primary">
-                  {t('blog.categories')}
+                <Link href="/quote" className="text-sm text-muted-foreground transition-colors hover:text-primary">
+                  {t('forms.quote')}
+                </Link>
+              </li>
+              <li>
+                <Link href="/sourcing" className="text-sm text-muted-foreground transition-colors hover:text-primary">
+                  {t('forms.sourcing')}
+                </Link>
+              </li>
+              <li>
+                <Link href="/callback" className="text-sm text-muted-foreground transition-colors hover:text-primary">
+                  {t('forms.callback')}
                 </Link>
               </li>
             </ul>

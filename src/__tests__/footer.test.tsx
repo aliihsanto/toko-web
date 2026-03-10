@@ -14,9 +14,11 @@ vi.mock('next-intl', () => ({
         'services.export': 'Export',
         'services.transitTrade': 'Transit Trade',
         'services.sourcing': 'Sourcing',
-        'blog.title': 'Blog',
-        'blog.latest': 'Latest Posts',
-        'blog.categories': 'Categories',
+        'forms.title': 'Get in Touch',
+        'forms.contact': 'Contact Form',
+        'forms.quote': 'Request a Quote',
+        'forms.sourcing': 'Sourcing Request',
+        'forms.callback': 'Request Callback',
         'contact.title': 'Contact',
         'contact.address': 'Istanbul, Turkey',
         'contact.phone': '+90 (212) 000 00 00',
@@ -71,9 +73,9 @@ describe('Footer', () => {
         'Toko Trading is your trusted partner in international trade and sourcing.'
       )
     ).toBeInTheDocument();
-    // Services, Blog, Contact headings
+    // Services, Get in Touch, Contact headings
     expect(screen.getByText('Services')).toBeInTheDocument();
-    expect(screen.getByText('Blog')).toBeInTheDocument();
+    expect(screen.getByText('Get in Touch')).toBeInTheDocument();
     expect(screen.getByText('Contact')).toBeInTheDocument();
   });
 
@@ -139,9 +141,11 @@ describe('Footer', () => {
     expect(screen.getByText('Sourcing')).toBeInTheDocument();
   });
 
-  it('renders blog links', () => {
+  it('renders form page links', () => {
     render(<Footer />);
-    expect(screen.getByText('Latest Posts')).toBeInTheDocument();
-    expect(screen.getByText('Categories')).toBeInTheDocument();
+    expect(screen.getByText('Contact Form')).toBeInTheDocument();
+    expect(screen.getByText('Request a Quote')).toBeInTheDocument();
+    expect(screen.getByText('Sourcing Request')).toBeInTheDocument();
+    expect(screen.getByText('Request Callback')).toBeInTheDocument();
   });
 });
