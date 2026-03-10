@@ -1,56 +1,226 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { ScrollReveal } from '@/components/common/scroll-reveal';
-import { Ship, TrendingUp, PackageCheck, BarChart3, Briefcase } from 'lucide-react';
+import { PageHero } from '@/components/common/page-hero';
+import { CTASection } from '@/components/common/cta-section';
+import { Breadcrumb } from '@/components/common/breadcrumb';
+import { Link } from '@/i18n/navigation';
+import { Button } from '@/components/ui/button';
+import {
+  Ship,
+  TrendingUp,
+  PackageCheck,
+  BarChart3,
+  ArrowRight,
+  CheckCircle2,
+  Headphones,
+  Award,
+  Globe,
+} from 'lucide-react';
+import Image from 'next/image';
+import { services } from '@/data/services';
 
-export default async function ServicesPage({ params }: { params: Promise<{ locale: string }> }) {
+const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
+  Ship,
+  TrendingUp,
+  PackageCheck,
+  BarChart3,
+};
+
+export default async function ServicesPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations('ServicesPage');
-  const tHome = await getTranslations('HomePage');
+
+  const colorMap: Record<string, { bg: string; text: string }> = {
+    blue: {
+      bg: 'bg-blue-100 dark:bg-blue-900/30',
+      text: 'text-blue-600 dark:text-blue-400',
+    },
+    emerald: {
+      bg: 'bg-emerald-100 dark:bg-emerald-900/30',
+      text: 'text-emerald-600 dark:text-emerald-400',
+    },
+    amber: {
+      bg: 'bg-amber-100 dark:bg-amber-900/30',
+      text: 'text-amber-600 dark:text-amber-400',
+    },
+    rose: {
+      bg: 'bg-rose-100 dark:bg-rose-900/30',
+      text: 'text-rose-600 dark:text-rose-400',
+    },
+  };
+
+  const whyChooseItems = [
+    {
+      key: 'endToEnd',
+      icon: Headphones,
+      color: 'text-amber-600',
+      bg: 'bg-amber-100 dark:bg-amber-900/30',
+    },
+    {
+      key: 'expertise',
+      icon: Award,
+      color: 'text-emerald-600',
+      bg: 'bg-emerald-100 dark:bg-emerald-900/30',
+    },
+    {
+      key: 'network',
+      icon: Globe,
+      color: 'text-blue-600',
+      bg: 'bg-blue-100 dark:bg-blue-900/30',
+    },
+  ];
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
-      <ScrollReveal>
-        <div className="mx-auto max-w-3xl text-center">
-          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-4 py-1.5 text-sm font-medium text-primary">
-            <Briefcase className="h-4 w-4" />
-            {t('title')}
-          </div>
-          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">{t('title')}</h1>
-          <p className="mt-6 text-lg text-muted-foreground leading-relaxed">{t('subtitle')}</p>
-        </div>
-      </ScrollReveal>
+    <>
+      {/* ===== PAGE HERO ===== */}
+      <PageHero
+        title={t('hero.title')}
+        subtitle={t('hero.subtitle')}
+        backgroundImage="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&q=80&w=2070"
+        badge={t('hero.badge')}
+      />
 
-      <div className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-2">
-        {[
-          { key: 'import', icon: Ship, gradient: 'from-blue-500/10 to-cyan-500/10', iconColor: 'text-blue-600 dark:text-blue-400' },
-          { key: 'export', icon: TrendingUp, gradient: 'from-emerald-500/10 to-teal-500/10', iconColor: 'text-emerald-600 dark:text-emerald-400' },
-          { key: 'sourcing', icon: PackageCheck, gradient: 'from-violet-500/10 to-purple-500/10', iconColor: 'text-violet-600 dark:text-violet-400' },
-          { key: 'transit', icon: BarChart3, gradient: 'from-amber-500/10 to-orange-500/10', iconColor: 'text-amber-600 dark:text-amber-400' },
-        ].map((service, index) => {
-          const Icon = service.icon;
-          return (
-            <ScrollReveal key={service.key} delay={index * 0.1} direction="up">
-              <div className={`relative overflow-hidden rounded-2xl border bg-card p-8`}>
-                <div className={`absolute inset-0 bg-gradient-to-br ${service.gradient} opacity-50`} />
-                <div className="relative">
-                  <div className={`flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10 ${service.iconColor}`}>
-                    <Icon className="h-6 w-6" />
-                  </div>
-                  <h2 className="mt-6 text-xl font-semibold">{tHome(`services.${service.key}.title`)}</h2>
-                  <p className="mt-3 text-muted-foreground leading-relaxed">{tHome(`services.${service.key}.description`)}</p>
-                </div>
-              </div>
-            </ScrollReveal>
-          );
-        })}
+      {/* ===== BREADCRUMB ===== */}
+      <div className="bg-white dark:bg-background">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <Breadcrumb
+            items={[
+              { label: t('breadcrumb.home'), href: '/' },
+              { label: t('breadcrumb.services') },
+            ]}
+          />
+        </div>
       </div>
 
-      <ScrollReveal delay={0.4}>
-        <div className="mt-12 rounded-2xl border bg-muted/30 p-8 text-center">
-          <p className="text-muted-foreground">{t('comingSoon')}</p>
+      {/* ===== SERVICES GRID (alternating layout) ===== */}
+      <section className="bg-white py-24 dark:bg-background">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="space-y-16">
+            {services.map((service, index) => {
+              const Icon = iconMap[service.iconName] || Ship;
+              const isReversed = index % 2 === 1;
+              const colors = colorMap[service.color] || colorMap.blue;
+
+              return (
+                <ScrollReveal key={service.slug} delay={0.1} direction="up">
+                  <div className="group overflow-hidden rounded-2xl border border-border bg-card shadow-sm transition-all hover:shadow-xl">
+                    <div
+                      className={`grid gap-0 lg:grid-cols-12 ${isReversed ? 'lg:grid-flow-dense' : ''}`}
+                    >
+                      {/* Image */}
+                      <div
+                        className={`relative h-64 overflow-hidden lg:col-span-5 lg:h-auto ${isReversed ? 'lg:col-start-8' : ''}`}
+                      >
+                        <Image
+                          src={service.image}
+                          alt={t(`services.${service.slug}.title`)}
+                          width={800}
+                          height={500}
+                          className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                        />
+                        <div className="absolute inset-0 bg-brand-dark/20 transition-colors group-hover:bg-transparent" />
+                      </div>
+
+                      {/* Content */}
+                      <div className="flex flex-col justify-center p-8 lg:col-span-7 lg:p-12">
+                        <div
+                          className={`mb-4 flex h-12 w-12 items-center justify-center rounded-lg ${colors.bg}`}
+                        >
+                          <Icon className={`h-6 w-6 ${colors.text}`} />
+                        </div>
+                        <h2 className="text-2xl font-extrabold">
+                          {t(`services.${service.slug}.title`)}
+                        </h2>
+                        <p className="mt-4 leading-relaxed text-muted-foreground">
+                          {t(`services.${service.slug}.description`)}
+                        </p>
+
+                        <ul className="mt-6 space-y-2">
+                          {service.featureKeys.map((featureKey) => (
+                            <li
+                              key={featureKey}
+                              className="flex items-center gap-2 text-sm"
+                            >
+                              <CheckCircle2 className="h-4 w-4 shrink-0 text-amber-600" />
+                              <span>
+                                {t(
+                                  `services.${service.slug}.features.${featureKey}`
+                                )}
+                              </span>
+                            </li>
+                          ))}
+                        </ul>
+
+                        <div className="mt-8">
+                          <Link href={`/services/${service.slug}`}>
+                            <Button className="bg-amber-600 text-white hover:bg-amber-700">
+                              {t('learnMore')}
+                              <ArrowRight className="ml-2 h-4 w-4" />
+                            </Button>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </ScrollReveal>
+              );
+            })}
+          </div>
         </div>
-      </ScrollReveal>
-    </div>
+      </section>
+
+      {/* ===== WHY CHOOSE OUR SERVICES ===== */}
+      <section className="bg-brand-dark py-24">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <ScrollReveal>
+            <div className="mx-auto mb-16 max-w-3xl text-center">
+              <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
+                {t('whyChoose.title')}
+              </h2>
+              <p className="mt-4 text-lg text-brand-dark-text">
+                {t('whyChoose.subtitle')}
+              </p>
+            </div>
+          </ScrollReveal>
+
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+            {whyChooseItems.map((item, index) => {
+              const ItemIcon = item.icon;
+              return (
+                <ScrollReveal key={item.key} delay={index * 0.1} direction="up">
+                  <div className="group rounded-2xl border border-white/10 bg-white/5 p-8 text-center backdrop-blur-md transition-colors hover:bg-white/10">
+                    <div
+                      className={`mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-2xl ${item.bg}`}
+                    >
+                      <ItemIcon className={`h-8 w-8 ${item.color}`} />
+                    </div>
+                    <h3 className="mb-3 text-xl font-bold text-white">
+                      {t(`whyChoose.${item.key}.title`)}
+                    </h3>
+                    <p className="text-sm leading-relaxed text-brand-dark-text">
+                      {t(`whyChoose.${item.key}.description`)}
+                    </p>
+                  </div>
+                </ScrollReveal>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* ===== CTA ===== */}
+      <CTASection
+        title={t('cta.title')}
+        description={t('cta.description')}
+        buttonText={t('cta.button')}
+        buttonHref="/contact"
+        note={t('cta.note')}
+      />
+    </>
   );
 }

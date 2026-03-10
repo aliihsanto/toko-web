@@ -211,33 +211,247 @@
     }
   },
   "ServicesPage": {
-    "title": "Nos Services",
-    "subtitle": "Nous offrons des services complets en importation, exportation, commerce de transit et approvisionnement.",
-    "comingSoon": "Le contenu detaille sera ajoute prochainement.",
-    "features": {
-      "customs": "Gestion des procedures douanieres",
-      "logistics": "Planification logistique et transport",
-      "costOptimization": "Optimisation des couts",
-      "marketResearch": "Etude de marche",
-      "buyerMatching": "Mise en relation acheteurs",
-      "documentation": "Documentation d'exportation",
-      "supplierAudit": "Audit des fournisseurs",
-      "qualityControl": "Controle qualite",
-      "priceNegotiation": "Negociation des prix",
-      "transitRoutes": "Planification des routes de transit",
-      "cisExpertise": "Expertise Russie & CEI",
-      "compliance": "Conformite reglementaire"
+    "hero": {
+      "title": "Nos Services",
+      "subtitle": "Nous proposons des solutions completes et professionnelles en importation, exportation, approvisionnement et commerce de transit. Developpez votre activite avec notre equipe experimentee a vos cotes a chaque etape.",
+      "badge": "Solutions Completes"
+    },
+    "breadcrumb": {
+      "home": "Accueil",
+      "services": "Services"
+    },
+    "learnMore": "En Savoir Plus",
+    "services": {
+      "import": {
+        "title": "Services d'Importation",
+        "description": "Solutions completes d'importation pour l'approvisionnement en matieres premieres et produits du monde entier. Nous gerons professionnellement l'ensemble du processus, des procedures douanieres a la gestion logistique, de l'analyse des couts au controle qualite.",
+        "features": {
+          "customs": "Dedouanement et gestion des declarations",
+          "logistics": "Planification logistique et transport international",
+          "costOptimization": "Analyse et optimisation des couts",
+          "qualityControl": "Controle qualite et inspection des produits",
+          "documentation": "Documentation d'importation et gestion administrative"
+        }
+      },
+      "export": {
+        "title": "Services d'Exportation",
+        "description": "Solutions expertes pour l'exportation de produits et matieres premieres de Turquie vers les marches mondiaux. Nous gerons tous vos processus d'exportation, de l'etude de marche a la mise en relation avec les acheteurs, de la documentation a la coordination logistique.",
+        "features": {
+          "marketResearch": "Etude et analyse des marches cibles",
+          "buyerMatching": "Recherche et mise en relation internationale d'acheteurs",
+          "documentation": "Documentation d'exportation et gestion des credits documentaires",
+          "compliance": "Conseil en reglementation et conformite a l'exportation",
+          "logistics": "Logistique d'exportation et coordination des expeditions"
+        }
+      },
+      "sourcing": {
+        "title": "Solutions d'Approvisionnement",
+        "description": "Nous approvisionnons des produits au meilleur rapport qualite-prix pour votre entreprise grace a notre reseau mondial de fournisseurs. Nous vous accompagnons a chaque etape, de l'audit fournisseurs a la negociation des prix, de la gestion des echantillons a l'optimisation de la chaine d'approvisionnement.",
+        "features": {
+          "supplierAudit": "Audit des fournisseurs et visites d'usines",
+          "qualityControl": "Controle qualite pre et post-production",
+          "priceNegotiation": "Negociation competitive des prix et analyse des couts",
+          "sampleManagement": "Gestion des echantillons et support au developpement produit",
+          "supplyChain": "Optimisation de la chaine d'approvisionnement et gestion des risques"
+        }
+      },
+      "transit-trade": {
+        "title": "Commerce de Transit",
+        "description": "Operations de commerce de transit via la Turquie vers des pays tiers. Grace a nos solutions specialisees pour la Russie et les pays de la CEI, nous simplifions les routes commerciales complexes et les rendons plus efficaces.",
+        "features": {
+          "transitRoutes": "Planification strategique des routes de transit",
+          "cisExpertise": "Expertise approfondie des marches russes et de la CEI",
+          "compliance": "Conformite aux reglementations du commerce international",
+          "customs": "Gestion des procedures multi-douanieres",
+          "warehousing": "Logistique d'entreposage et de distribution"
+        }
+      }
+    },
+    "whyChoose": {
+      "title": "Pourquoi Choisir Nos Services?",
+      "subtitle": "Nous renforcons votre entreprise avec les valeurs qui font la difference dans le commerce international",
+      "endToEnd": {
+        "title": "Accompagnement de Bout en Bout",
+        "description": "Nous offrons un accompagnement professionnel a chaque etape du processus commercial. Une equipe a vos cotes du premier contact jusqu'a l'apres-livraison."
+      },
+      "expertise": {
+        "title": "Expertise Sectorielle",
+        "description": "Avec plus de 20 ans d'experience, nous comprenons les dynamiques de differents secteurs. Nous creons des solutions sur mesure pour chaque industrie."
+      },
+      "network": {
+        "title": "Reseau Mondial",
+        "description": "Nous facilitons votre commerce mondial grace a des partenariats solides et des chaines d'approvisionnement etablis dans plus de 50 pays."
+      }
+    },
+    "cta": {
+      "title": "Besoin d'une Solution Commerciale Sur Mesure?",
+      "description": "Echangez avec notre equipe d'experts sur des solutions d'importation, d'exportation et d'approvisionnement adaptees a votre entreprise. Premiere consultation gratuite.",
+      "button": "Consultation Gratuite",
+      "note": "La premiere consultation est entierement gratuite"
     }
   },
   "SectorsPage": {
-    "title": "Secteurs",
-    "subtitle": "Solutions commerciales specialisees dans l'alimentaire, le textile, la machinerie, la chimie et bien d'autres secteurs.",
-    "comingSoon": "Le contenu detaille sera ajoute prochainement."
+    "hero": {
+      "title": "Secteurs d'Activite",
+      "subtitle": "Solutions d'approvisionnement et de commerce specialisees dans plus de 8 industries. Nous comprenons les exigences uniques de chaque secteur et proposons des strategies d'achat sur mesure.",
+      "badge": "8+ Industries"
+    },
+    "breadcrumb": {
+      "home": "Accueil",
+      "sectors": "Secteurs"
+    },
+    "grid": {
+      "title": "Nos Secteurs d'Activite",
+      "subtitle": "Decouvrez notre expertise sectorielle et trouvez des solutions d'approvisionnement adaptees"
+    },
+    "sectors": {
+      "food": {
+        "title": "Agroalimentaire",
+        "description": "Cereales, legumineuses, huiles alimentaires, produits laitiers et epices de fournisseurs verifies."
+      },
+      "textile": {
+        "title": "Textile et Habillement",
+        "description": "Coton brut, fils, tissus, pret-a-porter et textiles de maison des meilleures usines turques."
+      },
+      "machinery": {
+        "title": "Machines et Equipements",
+        "description": "Equipements industriels, machines agricoles, engins de construction et machines d'emballage."
+      },
+      "chemicals": {
+        "title": "Chimie et Petrochimie",
+        "description": "Produits chimiques industriels, chimie agricole, ingredients cosmetiques et produits de nettoyage."
+      },
+      "construction": {
+        "title": "Materiaux de Construction",
+        "description": "Acier, armatures, ciment, ceramiques, carrelages et accessoires de plomberie pour projets mondiaux."
+      },
+      "raw-materials": {
+        "title": "Matieres Premieres",
+        "description": "Metaux, alliages, mineraux, polymeres, plastiques et bois de sources mondiales fiables."
+      },
+      "electronics": {
+        "title": "Electronique et Technologie",
+        "description": "Composants electroniques, electronique grand public, electronique industrielle et equipements telecom."
+      },
+      "automotive": {
+        "title": "Automobile et Pieces",
+        "description": "Pieces auto, accessoires, pneumatiques et fluides automobiles pour le marche mondial de rechange."
+      }
+    },
+    "explore": "Explorer",
+    "stats": {
+      "title": "Notre Portee Sectorielle",
+      "subtitle": "Des resultats dans divers secteurs grace a une expertise approfondie",
+      "sectors": "Secteurs Desservis",
+      "products": "Categories de Produits",
+      "countries": "Pays d'Export",
+      "certifications": "Certifie Qualite"
+    },
+    "cta": {
+      "title": "Besoin d'Approvisionnement dans Votre Secteur?",
+      "description": "Contactez-nous pour discuter de vos besoins d'approvisionnement specifiques. Nos experts sectoriels sont prets a trouver les bons fournisseurs pour vous.",
+      "button": "Demander un Devis",
+      "note": "Premiere consultation gratuite pour tous les secteurs"
+    }
   },
   "ReferencesPage": {
-    "title": "References",
-    "subtitle": "Nous sommes fiers de nos partenaires commerciaux et de nos projets reussis.",
-    "comingSoon": "Le contenu detaille sera ajoute prochainement."
+    "hero": {
+      "title": "Nos References",
+      "subtitle": "Des resultats prouves dans le commerce international. Avec plus de 20 ans d'experience, nous faisons la difference en tant que partenaire de confiance.",
+      "badge": "Partenaire de Confiance"
+    },
+    "breadcrumb": {
+      "home": "Accueil",
+      "references": "References"
+    },
+    "stats": {
+      "title": "Toko Trading en Chiffres",
+      "subtitle": "Nous mesurons notre succes par les resultats",
+      "transactions": "Transactions Realisees",
+      "countries": "Pays Atteints",
+      "experience": "Ans d'Experience",
+      "sectors": "Secteurs d'Activite"
+    },
+    "industries": {
+      "badge": "Nos Domaines",
+      "title": "Secteurs Desservis",
+      "food": {
+        "title": "Agroalimentaire",
+        "description": "Cereales, produits laitiers, conserves et epices"
+      },
+      "textile": {
+        "title": "Textile",
+        "description": "Tissus, pret-a-porter et textiles de maison"
+      },
+      "machinery": {
+        "title": "Machinerie",
+        "description": "Machines industrielles et pieces detachees"
+      },
+      "chemicals": {
+        "title": "Chimie",
+        "description": "Produits chimiques industriels et petrochimiques"
+      },
+      "construction": {
+        "title": "Construction",
+        "description": "Materiaux de construction, acier et ciment"
+      },
+      "rawMaterials": {
+        "title": "Matieres Premieres",
+        "description": "Metaux, mineraux et polymeres"
+      },
+      "electronics": {
+        "title": "Electronique",
+        "description": "Composants electroniques et produits grand public"
+      },
+      "automotive": {
+        "title": "Automobile",
+        "description": "Pieces detachees et accessoires automobiles"
+      }
+    },
+    "testimonials": {
+      "badge": "Temoignages Clients",
+      "title": "Ce Que Disent Nos Partenaires",
+      "t1": {
+        "quote": "Travailler avec Toko Trading a completement transforme nos processus d'approvisionnement depuis la Turquie. Leur expertise en procedures douanieres et leur ponctualite sont inegalees.",
+        "company": "Grand Fabricant Textile, Allemagne",
+        "role": "Responsable des Achats"
+      },
+      "t2": {
+        "quote": "Les connaissances de Toko sur les marches de la CEI dans nos operations de transit sont inestimables. Ils gerent parfaitement les processus logistiques complexes.",
+        "company": "Societe de Distribution Alimentaire, EAU",
+        "role": "Directeur des Operations"
+      },
+      "t3": {
+        "quote": "Nous travaillons avec Toko depuis plus de 5 ans. Grace a leur transparence et fiabilite, nous avons pu nous developper en toute confiance sur de nouveaux marches.",
+        "company": "Exportateur de Machines, Turquie",
+        "role": "Direction du Commerce Exterieur"
+      }
+    },
+    "global": {
+      "title": "Notre Empreinte Mondiale",
+      "subtitle": "Un reseau commercial solide de la Turquie vers le monde",
+      "countriesLabel": "pays",
+      "regions": {
+        "europe": "Europe",
+        "middleEast": "Moyen-Orient",
+        "asia": "Asie",
+        "africa": "Afrique",
+        "russiaCis": "Russie & CEI"
+      },
+      "corridorsTitle": "Corridors Commerciaux Cles",
+      "corridors": {
+        "turkeyGermany": "Turquie - Allemagne",
+        "turkeyRussia": "Turquie - Russie",
+        "turkeyUae": "Turquie - EAU",
+        "turkeyUsaUk": "Turquie - USA/UK"
+      }
+    },
+    "cta": {
+      "title": "Pret a Rejoindre Notre Reseau de Partenaires?",
+      "description": "Contactez-nous des aujourd'hui pour vos besoins en commerce international. Notre equipe experimentee est prete a creer des solutions sur mesure pour vous.",
+      "button": "Contactez-nous",
+      "note": "La premiere consultation est entierement gratuite"
+    }
   },
   "BlogPage": {
     "title": "Blog",

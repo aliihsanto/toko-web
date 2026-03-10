@@ -211,33 +211,247 @@
     }
   },
   "ServicesPage": {
-    "title": "Our Services",
-    "subtitle": "We offer comprehensive services in import, export, transit trade, and sourcing.",
-    "comingSoon": "Detailed content will be added soon.",
-    "features": {
-      "customs": "Customs procedures management",
-      "logistics": "Logistics and transport planning",
-      "costOptimization": "Cost optimization",
-      "marketResearch": "Market research",
-      "buyerMatching": "Buyer matching",
-      "documentation": "Export documentation",
-      "supplierAudit": "Supplier auditing",
-      "qualityControl": "Quality control",
-      "priceNegotiation": "Price negotiation",
-      "transitRoutes": "Transit route planning",
-      "cisExpertise": "Russia & CIS expertise",
-      "compliance": "Regulatory compliance"
+    "hero": {
+      "title": "Our Services",
+      "subtitle": "We provide comprehensive and professional solutions in import, export, sourcing, and transit trade. Grow your business with our experienced team supporting you at every step.",
+      "badge": "Comprehensive Solutions"
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "services": "Services"
+    },
+    "learnMore": "Learn More",
+    "services": {
+      "import": {
+        "title": "Import Services",
+        "description": "Comprehensive import solutions for raw material and product sourcing from around the world. We professionally manage the entire process from customs procedures to logistics management, cost analysis to quality control.",
+        "features": {
+          "customs": "Customs clearance and declaration management",
+          "logistics": "International logistics and shipping planning",
+          "costOptimization": "Cost analysis and optimization consulting",
+          "qualityControl": "Product quality control and inspection services",
+          "documentation": "Import documentation and paperwork management"
+        }
+      },
+      "export": {
+        "title": "Export Services",
+        "description": "Expert solutions for product and raw material export from Turkey to global markets. We manage all your export processes from target market research to buyer matching, documentation to logistics coordination.",
+        "features": {
+          "marketResearch": "Target market research and analysis",
+          "buyerMatching": "International buyer sourcing and matching",
+          "documentation": "Export documentation and letter of credit management",
+          "compliance": "Export regulation and compliance consulting",
+          "logistics": "Export logistics and shipment coordination"
+        }
+      },
+      "sourcing": {
+        "title": "Sourcing Solutions",
+        "description": "We source products at the best price and quality for your business through our global supply network. We provide support at every stage from supplier auditing to price negotiation, sample management to supply chain optimization.",
+        "features": {
+          "supplierAudit": "Supplier auditing and factory visits",
+          "qualityControl": "Pre-production and post-production quality control",
+          "priceNegotiation": "Competitive price negotiation and cost analysis",
+          "sampleManagement": "Sample management and product development support",
+          "supplyChain": "Supply chain optimization and risk management"
+        }
+      },
+      "transit-trade": {
+        "title": "Transit Trade",
+        "description": "Transit trade operations from Turkey to third countries. With our specialized solutions for Russia and CIS countries, we simplify complex trade routes and make them more efficient.",
+        "features": {
+          "transitRoutes": "Strategic transit route planning",
+          "cisExpertise": "Deep expertise in Russia and CIS markets",
+          "compliance": "International trade regulation compliance",
+          "customs": "Multi-customs procedures management",
+          "warehousing": "Warehousing and distribution logistics"
+        }
+      }
+    },
+    "whyChoose": {
+      "title": "Why Choose Our Services?",
+      "subtitle": "We empower your business with the values that make the difference in international trade",
+      "endToEnd": {
+        "title": "End-to-End Support",
+        "description": "We provide professional guidance at every stage of the trade process. A team by your side from first contact through post-delivery."
+      },
+      "expertise": {
+        "title": "Industry Expertise",
+        "description": "With over 20 years of experience, we understand the dynamics of various industries. We create tailored solutions for each sector."
+      },
+      "network": {
+        "title": "Global Network",
+        "description": "We facilitate your global trade through strong business partnerships and supply chains established in over 50 countries."
+      }
+    },
+    "cta": {
+      "title": "Need a Custom Trade Solution?",
+      "description": "Talk to our expert team about import, export, and sourcing solutions tailored to your business. First consultation is free.",
+      "button": "Get Free Consultation",
+      "note": "First meeting is completely free"
     }
   },
   "SectorsPage": {
-    "title": "Sectors",
-    "subtitle": "Specialized trade solutions in food, textile, machinery, chemicals, and many more sectors.",
-    "comingSoon": "Detailed content will be added soon."
+    "hero": {
+      "title": "Industry Sectors",
+      "subtitle": "Specialized sourcing and trade solutions across 8+ diverse industries. We understand the unique demands of each sector and deliver tailored procurement strategies.",
+      "badge": "8+ Industries"
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "sectors": "Sectors"
+    },
+    "grid": {
+      "title": "Sectors We Serve",
+      "subtitle": "Explore our industry expertise and find sourcing solutions tailored to your sector"
+    },
+    "sectors": {
+      "food": {
+        "title": "Food & Agriculture",
+        "description": "Grains, pulses, edible oils, dairy products, and spices sourced from verified suppliers."
+      },
+      "textile": {
+        "title": "Textile & Apparel",
+        "description": "Raw cotton, yarn, woven fabrics, ready-made garments, and home textiles from Turkey's leading mills."
+      },
+      "machinery": {
+        "title": "Machinery & Equipment",
+        "description": "Industrial equipment, agricultural machinery, construction equipment, and packaging machines."
+      },
+      "chemicals": {
+        "title": "Chemicals & Petrochemicals",
+        "description": "Industrial chemicals, agricultural chemicals, cosmetic ingredients, and cleaning products."
+      },
+      "construction": {
+        "title": "Construction Materials",
+        "description": "Steel, rebar, cement, ceramics, tiles, and plumbing fittings for building projects worldwide."
+      },
+      "raw-materials": {
+        "title": "Raw Materials",
+        "description": "Metals, alloys, minerals, polymers, plastics, and timber from trusted global sources."
+      },
+      "electronics": {
+        "title": "Electronics & Technology",
+        "description": "Electronic components, consumer electronics, industrial electronics, and telecom equipment."
+      },
+      "automotive": {
+        "title": "Automotive & Parts",
+        "description": "Auto parts, spares, accessories, tires, and automotive fluids for the global aftermarket."
+      }
+    },
+    "explore": "Explore",
+    "stats": {
+      "title": "Our Industry Reach",
+      "subtitle": "Delivering results across diverse sectors with deep industry knowledge",
+      "sectors": "Sectors Served",
+      "products": "Product Categories",
+      "countries": "Export Countries",
+      "certifications": "Quality Certified"
+    },
+    "cta": {
+      "title": "Looking for Sourcing in Your Industry?",
+      "description": "Contact us to discuss your sector-specific sourcing needs. Our industry experts are ready to find the right suppliers for you.",
+      "button": "Get a Quote",
+      "note": "Free initial consultation for all sectors"
+    }
   },
   "ReferencesPage": {
-    "title": "References",
-    "subtitle": "We are proud of our business partners and successful projects.",
-    "comingSoon": "Detailed content will be added soon."
+    "hero": {
+      "title": "Our Track Record",
+      "subtitle": "Proven results in international trade. With over 20 years of experience, we make a difference as your trusted solution partner.",
+      "badge": "Trusted Partner"
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "references": "References"
+    },
+    "stats": {
+      "title": "Toko Trading by the Numbers",
+      "subtitle": "We measure our success in results",
+      "transactions": "Transactions Completed",
+      "countries": "Countries Reached",
+      "experience": "Years of Experience",
+      "sectors": "Industry Sectors"
+    },
+    "industries": {
+      "badge": "Our Expertise",
+      "title": "Industries We Serve",
+      "food": {
+        "title": "Food & Agriculture",
+        "description": "Grains, dairy, canned goods and spice trading"
+      },
+      "textile": {
+        "title": "Textile",
+        "description": "Fabrics, ready-to-wear and home textiles"
+      },
+      "machinery": {
+        "title": "Machinery",
+        "description": "Industrial machinery and spare parts"
+      },
+      "chemicals": {
+        "title": "Chemicals",
+        "description": "Industrial chemicals and petrochemicals"
+      },
+      "construction": {
+        "title": "Construction",
+        "description": "Building materials, steel and cement"
+      },
+      "rawMaterials": {
+        "title": "Raw Materials",
+        "description": "Metals, minerals and polymers"
+      },
+      "electronics": {
+        "title": "Electronics",
+        "description": "Electronic components and consumer products"
+      },
+      "automotive": {
+        "title": "Automotive",
+        "description": "Automotive spare parts and accessories"
+      }
+    },
+    "testimonials": {
+      "badge": "Client Feedback",
+      "title": "What Our Partners Say",
+      "t1": {
+        "quote": "Working with Toko Trading completely transformed our sourcing processes from Turkey. Their expertise in customs procedures and on-time delivery performance is unmatched.",
+        "company": "Leading Textile Manufacturer, Germany",
+        "role": "Procurement Manager"
+      },
+      "t2": {
+        "quote": "Toko's knowledge of CIS markets in our transit trade operations is invaluable. They manage complex logistics processes seamlessly.",
+        "company": "International Food Distribution Company, UAE",
+        "role": "Operations Director"
+      },
+      "t3": {
+        "quote": "We have been working with Toko for over 5 years. Thanks to their transparency and reliability, we have confidently expanded into new markets.",
+        "company": "Machinery Exporter, Turkey",
+        "role": "Foreign Trade Department"
+      }
+    },
+    "global": {
+      "title": "Our Global Footprint",
+      "subtitle": "A strong trade network extending from Turkey to the world",
+      "countriesLabel": "countries",
+      "regions": {
+        "europe": "Europe",
+        "middleEast": "Middle East",
+        "asia": "Asia",
+        "africa": "Africa",
+        "russiaCis": "Russia & CIS"
+      },
+      "corridorsTitle": "Key Trade Corridors",
+      "corridors": {
+        "turkeyGermany": "Turkey - Germany",
+        "turkeyRussia": "Turkey - Russia",
+        "turkeyUae": "Turkey - UAE",
+        "turkeyUsaUk": "Turkey - USA/UK"
+      }
+    },
+    "cta": {
+      "title": "Ready to Join Our Partner Network?",
+      "description": "Contact us today for your international trade needs. Our experienced team is ready to create tailored solutions for you.",
+      "button": "Get in Touch",
+      "note": "First meeting is completely free"
+    }
   },
   "BlogPage": {
     "title": "Blog",
