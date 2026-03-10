@@ -56,7 +56,8 @@
     "learnMore": "Learn More",
     "getQuote": "Get a Quote",
     "backToHome": "Back to Home",
-    "loading": "Loading..."
+    "loading": "Loading...",
+    "whatsappChat": "Chat on WhatsApp"
   },
   "NotFound": {
     "title": "Page Not Found",
@@ -611,20 +612,51 @@
         "p2": "With deep expertise in the food industry's regulatory requirements and quality standards, we help importers access competitive pricing while maintaining strict compliance with international food safety certifications."
       },
       "products": {
-        "grains": { "title": "Grains & Pulses", "description": "Wheat, barley, corn, lentils, and chickpeas sourced from premium agricultural regions." },
-        "dairyProducts": { "title": "Dairy Products", "description": "Milk powder, butter, cheese, and processed dairy from certified facilities meeting international standards." },
-        "cannedGoods": { "title": "Canned Goods", "description": "Canned vegetables, fruits, and preserves from trusted producers with full traceability." },
-        "spices": { "title": "Spices & Herbs", "description": "Premium spices, herbs, and seasonings sourced directly from origin countries with purity guarantees." }
+        "grains": {
+          "title": "Grains & Pulses",
+          "description": "Wheat, barley, corn, lentils, and chickpeas sourced from premium agricultural regions."
+        },
+        "dairyProducts": {
+          "title": "Dairy Products",
+          "description": "Milk powder, butter, cheese, and processed dairy from certified facilities meeting international standards."
+        },
+        "cannedGoods": {
+          "title": "Canned Goods",
+          "description": "Canned vegetables, fruits, and preserves from trusted producers with full traceability."
+        },
+        "spices": {
+          "title": "Spices & Herbs",
+          "description": "Premium spices, herbs, and seasonings sourced directly from origin countries with purity guarantees."
+        }
       },
       "advantages": {
         "title": "Why Source Food Through Toko",
-        "a1": { "title": "Verified Suppliers", "description": "Every food supplier undergoes rigorous auditing for food safety, hygiene, and production capacity." },
-        "a2": { "title": "Quality Assurance", "description": "Pre-shipment lab testing and certificate verification to meet destination country regulations." },
-        "a3": { "title": "Competitive Pricing", "description": "Direct sourcing from producers and volume negotiations for the best bulk prices." },
-        "a4": { "title": "Cold Chain Logistics", "description": "Temperature-controlled shipping and storage for perishable food products across all transit points." }
+        "a1": {
+          "title": "Verified Suppliers",
+          "description": "Every food supplier undergoes rigorous auditing for food safety, hygiene, and production capacity."
+        },
+        "a2": {
+          "title": "Quality Assurance",
+          "description": "Pre-shipment lab testing and certificate verification to meet destination country regulations."
+        },
+        "a3": {
+          "title": "Competitive Pricing",
+          "description": "Direct sourcing from producers and volume negotiations for the best bulk prices."
+        },
+        "a4": {
+          "title": "Cold Chain Logistics",
+          "description": "Temperature-controlled shipping and storage for perishable food products across all transit points."
+        }
       },
-      "sectionTitles": { "products": "What We Source", "advantages": "Sourcing Advantages" },
-      "cta": { "title": "Need Food & Agriculture Sourcing?", "description": "Contact us to discuss your food sourcing requirements with verified suppliers meeting international standards.", "button": "Get a Quote" }
+      "sectionTitles": {
+        "products": "What We Source",
+        "advantages": "Sourcing Advantages"
+      },
+      "cta": {
+        "title": "Need Food & Agriculture Sourcing?",
+        "description": "Contact us to discuss your food sourcing requirements with verified suppliers meeting international standards.",
+        "button": "Get a Quote"
+      }
     },
     "textile": {
       "metaTitle": "Textile & Apparel Sourcing | Toko Trading",
@@ -636,20 +668,51 @@
         "p2": "Our textile sourcing team understands fabric specifications, color matching requirements, and production lead times. We help brands source competitively while maintaining quality standards."
       },
       "products": {
-        "fabrics": { "title": "Raw Cotton & Yarn", "description": "High-quality cotton fiber, blended yarns, and synthetic yarns from Turkey's top spinning mills." },
-        "readyToWear": { "title": "Woven Fabrics", "description": "Cotton, polyester, and blended woven fabrics in various weights and finishes." },
-        "homeTextiles": { "title": "Ready-Made Garments", "description": "Men's, women's, and children's clothing from established manufacturers with flexible MOQ." },
-        "industrialTextiles": { "title": "Home Textiles", "description": "Bed linens, towels, curtains, and upholstery from Turkey's renowned home textile producers." }
+        "fabrics": {
+          "title": "Raw Cotton & Yarn",
+          "description": "High-quality cotton fiber, blended yarns, and synthetic yarns from Turkey's top spinning mills."
+        },
+        "readyToWear": {
+          "title": "Woven Fabrics",
+          "description": "Cotton, polyester, and blended woven fabrics in various weights and finishes."
+        },
+        "homeTextiles": {
+          "title": "Ready-Made Garments",
+          "description": "Men's, women's, and children's clothing from established manufacturers with flexible MOQ."
+        },
+        "industrialTextiles": {
+          "title": "Home Textiles",
+          "description": "Bed linens, towels, curtains, and upholstery from Turkey's renowned home textile producers."
+        }
       },
       "advantages": {
         "title": "Why Source Textiles Through Toko",
-        "a1": { "title": "Factory-Verified Quality", "description": "We audit every textile supplier for production capabilities, quality control, and ethical compliance." },
-        "a2": { "title": "Design & Sample Support", "description": "Sample development, fabric swatching, and color matching to meet your exact specifications." },
-        "a3": { "title": "Competitive Bulk Pricing", "description": "Direct access to Turkish manufacturers eliminates middlemen for factory-direct pricing." },
-        "a4": { "title": "Fast Turnaround", "description": "Turkey's proximity to Europe and logistics infrastructure enable shorter delivery times." }
+        "a1": {
+          "title": "Factory-Verified Quality",
+          "description": "We audit every textile supplier for production capabilities, quality control, and ethical compliance."
+        },
+        "a2": {
+          "title": "Design & Sample Support",
+          "description": "Sample development, fabric swatching, and color matching to meet your exact specifications."
+        },
+        "a3": {
+          "title": "Competitive Bulk Pricing",
+          "description": "Direct access to Turkish manufacturers eliminates middlemen for factory-direct pricing."
+        },
+        "a4": {
+          "title": "Fast Turnaround",
+          "description": "Turkey's proximity to Europe and logistics infrastructure enable shorter delivery times."
+        }
       },
-      "sectionTitles": { "products": "What We Source", "advantages": "Sourcing Advantages" },
-      "cta": { "title": "Need Textile Sourcing?", "description": "Let us connect you with Turkey's best textile manufacturers for raw materials to finished products.", "button": "Request Samples" }
+      "sectionTitles": {
+        "products": "What We Source",
+        "advantages": "Sourcing Advantages"
+      },
+      "cta": {
+        "title": "Need Textile Sourcing?",
+        "description": "Let us connect you with Turkey's best textile manufacturers for raw materials to finished products.",
+        "button": "Request Samples"
+      }
     },
     "machinery": {
       "metaTitle": "Machinery & Equipment Sourcing | Toko Trading",
@@ -661,20 +724,51 @@
         "p2": "Our machinery team includes engineers who understand specifications, certifications, and installation requirements. We handle technical evaluation through shipping logistics for heavy equipment."
       },
       "products": {
-        "industrialMachinery": { "title": "Industrial Equipment", "description": "CNC machines, production lines, processing equipment, and factory automation systems." },
-        "agriculturalEquipment": { "title": "Agricultural Machinery", "description": "Tractors, harvesters, irrigation systems, and food processing equipment for modern agriculture." },
-        "spareParts": { "title": "Construction Equipment", "description": "Excavators, loaders, concrete mixers, and construction site equipment from trusted brands." },
-        "automation": { "title": "Packaging Machines", "description": "Automated packaging lines, filling machines, labeling systems, and shrink wrap equipment." }
+        "industrialMachinery": {
+          "title": "Industrial Equipment",
+          "description": "CNC machines, production lines, processing equipment, and factory automation systems."
+        },
+        "agriculturalEquipment": {
+          "title": "Agricultural Machinery",
+          "description": "Tractors, harvesters, irrigation systems, and food processing equipment for modern agriculture."
+        },
+        "spareParts": {
+          "title": "Construction Equipment",
+          "description": "Excavators, loaders, concrete mixers, and construction site equipment from trusted brands."
+        },
+        "automation": {
+          "title": "Packaging Machines",
+          "description": "Automated packaging lines, filling machines, labeling systems, and shrink wrap equipment."
+        }
       },
       "advantages": {
         "title": "Why Source Machinery Through Toko",
-        "a1": { "title": "Technical Evaluation", "description": "Our engineering team evaluates specifications, performance benchmarks, and CE/ISO certifications." },
-        "a2": { "title": "Installation Support", "description": "We coordinate manufacturer technicians for on-site installation, commissioning, and training." },
-        "a3": { "title": "Competitive Financing", "description": "Access to favorable payment terms and financing options through manufacturer partnerships." },
-        "a4": { "title": "Heavy Freight Logistics", "description": "Specialized shipping for oversized machinery including customs clearance for industrial equipment." }
+        "a1": {
+          "title": "Technical Evaluation",
+          "description": "Our engineering team evaluates specifications, performance benchmarks, and CE/ISO certifications."
+        },
+        "a2": {
+          "title": "Installation Support",
+          "description": "We coordinate manufacturer technicians for on-site installation, commissioning, and training."
+        },
+        "a3": {
+          "title": "Competitive Financing",
+          "description": "Access to favorable payment terms and financing options through manufacturer partnerships."
+        },
+        "a4": {
+          "title": "Heavy Freight Logistics",
+          "description": "Specialized shipping for oversized machinery including customs clearance for industrial equipment."
+        }
       },
-      "sectionTitles": { "products": "What We Source", "advantages": "Sourcing Advantages" },
-      "cta": { "title": "Need Industrial Equipment?", "description": "Discuss your machinery requirements with our technical team for the right equipment at the right price.", "button": "Technical Consultation" }
+      "sectionTitles": {
+        "products": "What We Source",
+        "advantages": "Sourcing Advantages"
+      },
+      "cta": {
+        "title": "Need Industrial Equipment?",
+        "description": "Discuss your machinery requirements with our technical team for the right equipment at the right price.",
+        "button": "Technical Consultation"
+      }
     },
     "chemicals": {
       "metaTitle": "Chemical Sourcing | Toko Trading",
@@ -686,20 +780,51 @@
         "p2": "From bulk industrial chemicals to specialty ingredients for cosmetics and agriculture, our team manages the complex logistics and documentation requirements unique to chemical trade."
       },
       "products": {
-        "industrialChemicals": { "title": "Industrial Chemicals", "description": "Solvents, acids, bases, and industrial-grade chemicals from ISO-certified manufacturers with MSDS." },
-        "petrochemicals": { "title": "Agricultural Chemicals", "description": "Fertilizers, pesticides, and crop protection products meeting national agricultural safety standards." },
-        "pharmaceuticals": { "title": "Cosmetic Ingredients", "description": "Raw materials and active ingredients for cosmetics and personal care with GMP certification." },
-        "fertilizers": { "title": "Cleaning Products", "description": "Industrial and commercial cleaning chemicals, detergents, and sanitization products in bulk." }
+        "industrialChemicals": {
+          "title": "Industrial Chemicals",
+          "description": "Solvents, acids, bases, and industrial-grade chemicals from ISO-certified manufacturers with MSDS."
+        },
+        "petrochemicals": {
+          "title": "Agricultural Chemicals",
+          "description": "Fertilizers, pesticides, and crop protection products meeting national agricultural safety standards."
+        },
+        "pharmaceuticals": {
+          "title": "Cosmetic Ingredients",
+          "description": "Raw materials and active ingredients for cosmetics and personal care with GMP certification."
+        },
+        "fertilizers": {
+          "title": "Cleaning Products",
+          "description": "Industrial and commercial cleaning chemicals, detergents, and sanitization products in bulk."
+        }
       },
       "advantages": {
         "title": "Why Source Chemicals Through Toko",
-        "a1": { "title": "Regulatory Compliance", "description": "Full REACH, CLP, and GHS compliance documentation for every chemical product we source." },
-        "a2": { "title": "Safety Certified", "description": "All chemical suppliers are audited for safety protocols, storage conditions, and handling procedures." },
-        "a3": { "title": "Volume Pricing", "description": "Bulk purchasing agreements with major producers for competitive pricing on recurring orders." },
-        "a4": { "title": "Hazmat Shipping", "description": "Specialized dangerous goods shipping with proper classification, packaging, and transport documentation." }
+        "a1": {
+          "title": "Regulatory Compliance",
+          "description": "Full REACH, CLP, and GHS compliance documentation for every chemical product we source."
+        },
+        "a2": {
+          "title": "Safety Certified",
+          "description": "All chemical suppliers are audited for safety protocols, storage conditions, and handling procedures."
+        },
+        "a3": {
+          "title": "Volume Pricing",
+          "description": "Bulk purchasing agreements with major producers for competitive pricing on recurring orders."
+        },
+        "a4": {
+          "title": "Hazmat Shipping",
+          "description": "Specialized dangerous goods shipping with proper classification, packaging, and transport documentation."
+        }
       },
-      "sectionTitles": { "products": "What We Source", "advantages": "Sourcing Advantages" },
-      "cta": { "title": "Need Chemical Sourcing?", "description": "Contact our chemical sourcing specialists for full regulatory compliance and safe delivery.", "button": "Request Documentation" }
+      "sectionTitles": {
+        "products": "What We Source",
+        "advantages": "Sourcing Advantages"
+      },
+      "cta": {
+        "title": "Need Chemical Sourcing?",
+        "description": "Contact our chemical sourcing specialists for full regulatory compliance and safe delivery.",
+        "button": "Request Documentation"
+      }
     },
     "construction": {
       "metaTitle": "Construction Materials Sourcing | Toko Trading",
@@ -711,20 +836,51 @@
         "p2": "Our construction sourcing team understands project timelines, technical specifications, and compliance requirements. We ensure materials meet international standards while delivering competitive pricing for large-scale orders."
       },
       "products": {
-        "buildingMaterials": { "title": "Steel & Rebar", "description": "Structural steel, reinforcement bars, profiles, and metal fabrications from certified Turkish mills." },
-        "steel": { "title": "Cement & Concrete", "description": "Portland cement, ready-mix concrete, and specialty cements for infrastructure and building projects." },
-        "cement": { "title": "Ceramics & Tiles", "description": "Floor tiles, wall tiles, sanitary ceramics, and decorative surfaces from award-winning Turkish manufacturers." },
-        "plumbing": { "title": "Plumbing & Fittings", "description": "Pipes, valves, fittings, bathroom fixtures, and water systems from quality-certified producers." }
+        "buildingMaterials": {
+          "title": "Steel & Rebar",
+          "description": "Structural steel, reinforcement bars, profiles, and metal fabrications from certified Turkish mills."
+        },
+        "steel": {
+          "title": "Cement & Concrete",
+          "description": "Portland cement, ready-mix concrete, and specialty cements for infrastructure and building projects."
+        },
+        "cement": {
+          "title": "Ceramics & Tiles",
+          "description": "Floor tiles, wall tiles, sanitary ceramics, and decorative surfaces from award-winning Turkish manufacturers."
+        },
+        "plumbing": {
+          "title": "Plumbing & Fittings",
+          "description": "Pipes, valves, fittings, bathroom fixtures, and water systems from quality-certified producers."
+        }
       },
       "advantages": {
         "title": "Why Source Construction Materials Through Toko",
-        "a1": { "title": "Certified Standards", "description": "All materials tested and certified to international building codes including EN, ASTM, and ISO standards." },
-        "a2": { "title": "Project-Scale Supply", "description": "Capacity to fulfill large-scale orders with consistent quality and scheduled deliveries matching your timeline." },
-        "a3": { "title": "Competitive Bulk Pricing", "description": "Direct relationships with manufacturers and volume purchasing power for significant cost savings." },
-        "a4": { "title": "Heavy Cargo Logistics", "description": "Specialized freight solutions for heavy and oversized construction materials including containerized shipping." }
+        "a1": {
+          "title": "Certified Standards",
+          "description": "All materials tested and certified to international building codes including EN, ASTM, and ISO standards."
+        },
+        "a2": {
+          "title": "Project-Scale Supply",
+          "description": "Capacity to fulfill large-scale orders with consistent quality and scheduled deliveries matching your timeline."
+        },
+        "a3": {
+          "title": "Competitive Bulk Pricing",
+          "description": "Direct relationships with manufacturers and volume purchasing power for significant cost savings."
+        },
+        "a4": {
+          "title": "Heavy Cargo Logistics",
+          "description": "Specialized freight solutions for heavy and oversized construction materials including containerized shipping."
+        }
       },
-      "sectionTitles": { "products": "What We Source", "advantages": "Sourcing Advantages" },
-      "cta": { "title": "Need Construction Material Sourcing?", "description": "Contact us for competitive quotes on building materials from Turkey's top manufacturers.", "button": "Get a Quote" }
+      "sectionTitles": {
+        "products": "What We Source",
+        "advantages": "Sourcing Advantages"
+      },
+      "cta": {
+        "title": "Need Construction Material Sourcing?",
+        "description": "Contact us for competitive quotes on building materials from Turkey's top manufacturers.",
+        "button": "Get a Quote"
+      }
     },
     "raw-materials": {
       "metaTitle": "Raw Materials Sourcing | Toko Trading",
@@ -736,20 +892,51 @@
         "p2": "Our raw materials team monitors global commodity markets and maintains relationships with producers across key regions. We help clients secure stable supplies at competitive prices with full quality documentation."
       },
       "products": {
-        "metals": { "title": "Metals & Alloys", "description": "Steel, aluminum, copper, brass, and specialty alloys in various forms and grades for industrial applications." },
-        "minerals": { "title": "Minerals", "description": "Industrial minerals including marble, granite, boron, feldspar, and quartz from Turkey's rich mineral deposits." },
-        "timber": { "title": "Timber & Lumber", "description": "Construction timber, engineered wood, plywood, and specialty lumber from sustainable forestry sources." },
-        "polymers": { "title": "Polymers & Plastics", "description": "Raw polymer resins, plastic granules, compounds, and recycled materials for manufacturing applications." }
+        "metals": {
+          "title": "Metals & Alloys",
+          "description": "Steel, aluminum, copper, brass, and specialty alloys in various forms and grades for industrial applications."
+        },
+        "minerals": {
+          "title": "Minerals",
+          "description": "Industrial minerals including marble, granite, boron, feldspar, and quartz from Turkey's rich mineral deposits."
+        },
+        "timber": {
+          "title": "Timber & Lumber",
+          "description": "Construction timber, engineered wood, plywood, and specialty lumber from sustainable forestry sources."
+        },
+        "polymers": {
+          "title": "Polymers & Plastics",
+          "description": "Raw polymer resins, plastic granules, compounds, and recycled materials for manufacturing applications."
+        }
       },
       "advantages": {
         "title": "Why Source Raw Materials Through Toko",
-        "a1": { "title": "Market Intelligence", "description": "Real-time commodity pricing and market analysis to help you purchase at optimal timing and prices." },
-        "a2": { "title": "Quality Certified", "description": "Material certificates, test reports, and chemical analysis documents provided for every shipment." },
-        "a3": { "title": "Supply Continuity", "description": "Multiple verified supplier network ensures uninterrupted supply even during market disruptions." },
-        "a4": { "title": "Bulk Logistics", "description": "Container, breakbulk, and bulk vessel shipping solutions for large raw material consignments." }
+        "a1": {
+          "title": "Market Intelligence",
+          "description": "Real-time commodity pricing and market analysis to help you purchase at optimal timing and prices."
+        },
+        "a2": {
+          "title": "Quality Certified",
+          "description": "Material certificates, test reports, and chemical analysis documents provided for every shipment."
+        },
+        "a3": {
+          "title": "Supply Continuity",
+          "description": "Multiple verified supplier network ensures uninterrupted supply even during market disruptions."
+        },
+        "a4": {
+          "title": "Bulk Logistics",
+          "description": "Container, breakbulk, and bulk vessel shipping solutions for large raw material consignments."
+        }
       },
-      "sectionTitles": { "products": "What We Source", "advantages": "Sourcing Advantages" },
-      "cta": { "title": "Need Raw Material Sourcing?", "description": "Discuss your raw material requirements with our commodity specialists for reliable supply at competitive prices.", "button": "Request Pricing" }
+      "sectionTitles": {
+        "products": "What We Source",
+        "advantages": "Sourcing Advantages"
+      },
+      "cta": {
+        "title": "Need Raw Material Sourcing?",
+        "description": "Discuss your raw material requirements with our commodity specialists for reliable supply at competitive prices.",
+        "button": "Request Pricing"
+      }
     },
     "electronics": {
       "metaTitle": "Electronics Sourcing | Toko Trading",
@@ -761,20 +948,51 @@
         "p2": "Our electronics sourcing team verifies product authenticity, certifications, and manufacturer credentials. We help businesses avoid counterfeit risks while accessing competitive pricing from trusted supply chains."
       },
       "products": {
-        "components": { "title": "Electronic Components", "description": "Semiconductors, capacitors, resistors, connectors, and PCBs from authorized distributors and manufacturers." },
-        "consumerElectronics": { "title": "Consumer Electronics", "description": "Home appliances, audio equipment, smart devices, and consumer technology products from established brands." },
-        "cables": { "title": "Cables & Wiring", "description": "Power cables, data cables, fiber optics, and wiring harnesses from certified cable manufacturers." },
-        "lighting": { "title": "Lighting Solutions", "description": "LED lighting, industrial luminaires, smart lighting systems, and electrical fixtures for commercial and residential use." }
+        "components": {
+          "title": "Electronic Components",
+          "description": "Semiconductors, capacitors, resistors, connectors, and PCBs from authorized distributors and manufacturers."
+        },
+        "consumerElectronics": {
+          "title": "Consumer Electronics",
+          "description": "Home appliances, audio equipment, smart devices, and consumer technology products from established brands."
+        },
+        "cables": {
+          "title": "Cables & Wiring",
+          "description": "Power cables, data cables, fiber optics, and wiring harnesses from certified cable manufacturers."
+        },
+        "lighting": {
+          "title": "Lighting Solutions",
+          "description": "LED lighting, industrial luminaires, smart lighting systems, and electrical fixtures for commercial and residential use."
+        }
       },
       "advantages": {
         "title": "Why Source Electronics Through Toko",
-        "a1": { "title": "Authenticity Verified", "description": "Every component verified for authenticity with traceability to authorized manufacturers and distributors." },
-        "a2": { "title": "Compliance Certified", "description": "CE, RoHS, FCC, and other regional certifications verified and documented for every product sourced." },
-        "a3": { "title": "Competitive MOQ", "description": "Flexible minimum order quantities through consolidated purchasing from multiple verified sources." },
-        "a4": { "title": "Anti-Static Shipping", "description": "Specialized ESD-safe packaging and shipping for sensitive electronic components and assemblies." }
+        "a1": {
+          "title": "Authenticity Verified",
+          "description": "Every component verified for authenticity with traceability to authorized manufacturers and distributors."
+        },
+        "a2": {
+          "title": "Compliance Certified",
+          "description": "CE, RoHS, FCC, and other regional certifications verified and documented for every product sourced."
+        },
+        "a3": {
+          "title": "Competitive MOQ",
+          "description": "Flexible minimum order quantities through consolidated purchasing from multiple verified sources."
+        },
+        "a4": {
+          "title": "Anti-Static Shipping",
+          "description": "Specialized ESD-safe packaging and shipping for sensitive electronic components and assemblies."
+        }
       },
-      "sectionTitles": { "products": "What We Source", "advantages": "Sourcing Advantages" },
-      "cta": { "title": "Need Electronics Sourcing?", "description": "Connect with our electronics team for verified components and technology products at competitive prices.", "button": "Request Quote" }
+      "sectionTitles": {
+        "products": "What We Source",
+        "advantages": "Sourcing Advantages"
+      },
+      "cta": {
+        "title": "Need Electronics Sourcing?",
+        "description": "Connect with our electronics team for verified components and technology products at competitive prices.",
+        "button": "Request Quote"
+      }
     },
     "automotive": {
       "metaTitle": "Automotive Parts Sourcing | Toko Trading",
@@ -786,20 +1004,51 @@
         "p2": "Our automotive team understands OEM specifications, cross-references, and quality standards required in the aftermarket industry. We help you build a reliable parts supply chain with full traceability."
       },
       "products": {
-        "autoParts": { "title": "Auto Parts & Spares", "description": "Engine parts, brake systems, suspension components, and OEM-equivalent replacement parts from certified manufacturers." },
-        "tires": { "title": "Tires & Rubber", "description": "Passenger, commercial, and off-road tires from Turkish and international tire manufacturers with full warranty." },
-        "accessories": { "title": "Accessories & Add-ons", "description": "Interior and exterior accessories, car care products, and performance upgrades for all vehicle types." },
-        "commercialVehicles": { "title": "Commercial Vehicle Parts", "description": "Truck parts, bus components, trailer accessories, and heavy-duty vehicle systems for fleet operations." }
+        "autoParts": {
+          "title": "Auto Parts & Spares",
+          "description": "Engine parts, brake systems, suspension components, and OEM-equivalent replacement parts from certified manufacturers."
+        },
+        "tires": {
+          "title": "Tires & Rubber",
+          "description": "Passenger, commercial, and off-road tires from Turkish and international tire manufacturers with full warranty."
+        },
+        "accessories": {
+          "title": "Accessories & Add-ons",
+          "description": "Interior and exterior accessories, car care products, and performance upgrades for all vehicle types."
+        },
+        "commercialVehicles": {
+          "title": "Commercial Vehicle Parts",
+          "description": "Truck parts, bus components, trailer accessories, and heavy-duty vehicle systems for fleet operations."
+        }
       },
       "advantages": {
         "title": "Why Source Automotive Parts Through Toko",
-        "a1": { "title": "OEM-Grade Quality", "description": "Parts verified against OEM specifications with quality certificates and cross-reference documentation." },
-        "a2": { "title": "Wide Catalog", "description": "Access to parts for major brands and models through our extensive supplier network across manufacturers." },
-        "a3": { "title": "Competitive Pricing", "description": "Direct sourcing from manufacturers eliminates intermediary costs for aftermarket-competitive pricing." },
-        "a4": { "title": "Fast Fulfillment", "description": "Efficient order processing and logistics for quick turnaround on automotive parts orders worldwide." }
+        "a1": {
+          "title": "OEM-Grade Quality",
+          "description": "Parts verified against OEM specifications with quality certificates and cross-reference documentation."
+        },
+        "a2": {
+          "title": "Wide Catalog",
+          "description": "Access to parts for major brands and models through our extensive supplier network across manufacturers."
+        },
+        "a3": {
+          "title": "Competitive Pricing",
+          "description": "Direct sourcing from manufacturers eliminates intermediary costs for aftermarket-competitive pricing."
+        },
+        "a4": {
+          "title": "Fast Fulfillment",
+          "description": "Efficient order processing and logistics for quick turnaround on automotive parts orders worldwide."
+        }
       },
-      "sectionTitles": { "products": "What We Source", "advantages": "Sourcing Advantages" },
-      "cta": { "title": "Need Automotive Parts Sourcing?", "description": "Contact our automotive team for reliable parts sourcing with OEM-grade quality and competitive pricing.", "button": "Get Parts Quote" }
+      "sectionTitles": {
+        "products": "What We Source",
+        "advantages": "Sourcing Advantages"
+      },
+      "cta": {
+        "title": "Need Automotive Parts Sourcing?",
+        "description": "Contact our automotive team for reliable parts sourcing with OEM-grade quality and competitive pricing.",
+        "button": "Get Parts Quote"
+      }
     }
   },
   "ReferencesPage": {
@@ -1042,6 +1291,15 @@
       "address": "Istanbul, Turkey",
       "phone": "+90 (212) 000 00 00",
       "email": "info@toko.com.tr"
+    }
+  },
+  "Forms": {
+    "success": "Your message has been sent successfully. We will get back to you soon.",
+    "errors": {
+      "rateLimited": "Too many requests. Please try again in a minute.",
+      "recaptchaFailed": "Security verification failed. Please try again.",
+      "validationFailed": "Please check the form for errors.",
+      "sendFailed": "Failed to send your message. Please try again later."
     }
   }
 }
