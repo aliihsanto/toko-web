@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 01-01-PLAN.md
-last_updated: "2026-03-10T09:10:00Z"
-last_activity: 2026-03-10 -- Plan 01-01 executed
+stopped_at: Completed 01-02-PLAN.md
+last_updated: "2026-03-10T09:21:04Z"
+last_activity: 2026-03-10 -- Plan 01-02 executed
 progress:
   total_phases: 6
   completed_phases: 0
   total_plans: 5
-  completed_plans: 1
-  percent: 3
+  completed_plans: 2
+  percent: 7
 ---
 
 # Project State
@@ -26,28 +26,28 @@ See: .planning/PROJECT.md (updated 2026-03-10)
 ## Current Position
 
 Phase: 1 of 6 (Foundation and i18n)
-Plan: 1 of 5 in current phase
-Status: Plan 01-01 complete, ready for 01-02
-Last activity: 2026-03-10 -- Plan 01-01 executed
+Plan: 2 of 5 in current phase
+Status: Plan 01-02 complete, ready for 01-03
+Last activity: 2026-03-10 -- Plan 01-02 executed
 
-Progress: [#░░░░░░░░░] 3%
+Progress: [#░░░░░░░░░] 7%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 1
-- Average duration: 13min
-- Total execution time: 0.2 hours
+- Total plans completed: 2
+- Average duration: 10min
+- Total execution time: 0.3 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| 1 - Foundation and i18n | 1/5 | 13min | 13min |
+| 1 - Foundation and i18n | 2/5 | 20min | 10min |
 
 **Recent Trend:**
-- Last 5 plans: 01-01 (13min)
-- Trend: Starting
+- Last 5 plans: 01-01 (13min), 01-02 (7min)
+- Trend: Accelerating
 
 *Updated after each plan completion*
 
@@ -65,6 +65,9 @@ Recent decisions affecting current work:
 - 01-01: Turkish (tr) set as default locale matching toko.com.tr domain
 - 01-01: Inter font with latin + cyrillic subsets for Russian language support
 - 01-01: Mocked next/server in middleware tests to avoid Next.js Edge runtime dependency in vitest/jsdom
+- 01-02: Used oklch color space (matching Tailwind v4 + shadcn v4) instead of HSL for all theme tokens
+- 01-02: Kept globals.css at src/app/globals.css matching scaffolded structure rather than moving to src/styles/
+- 01-02: ThemeProvider placed inside NextIntlClientProvider in locale layout for proper i18n + theme integration
 
 ### Pending Todos
 
@@ -78,6 +81,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-10T09:10:00Z
-Stopped at: Completed 01-01-PLAN.md
-Resume file: .planning/phases/01-foundation-and-i18n/01-01-SUMMARY.md
+Last session: 2026-03-10T09:21:04Z
+Stopped at: Completed 01-02-PLAN.md
+Resume file: .planning/phases/01-foundation-and-i18n/01-02-SUMMARY.md

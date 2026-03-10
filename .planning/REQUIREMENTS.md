@@ -64,11 +64,11 @@
 
 ### Design & UX
 
-- [ ] **UX-01**: Modern corporate design — clean, professional, trust-building aesthetic
+- [x] **UX-01**: Modern corporate design — clean, professional, trust-building aesthetic
 - [ ] **UX-02**: Fully responsive layout — mobile, tablet, desktop breakpoints
 - [ ] **UX-03**: Consistent navigation with logo, main menu, language switcher, CTA button
 - [ ] **UX-04**: Footer with company info, quick links, contact details, social media links
-- [ ] **UX-05**: Dark/light color scheme appropriate for B2B corporate identity
+- [x] **UX-05**: Dark/light color scheme appropriate for B2B corporate identity
 
 ## v2 Requirements
 
@@ -142,11 +142,11 @@
 | SEO-05 | Phase 4 | Pending |
 | SEO-06 | Phase 4 | Pending |
 | SEO-07 | Phase 4 | Pending |
-| UX-01 | Phase 1 | Pending |
+| UX-01 | Phase 1 | Complete |
 | UX-02 | Phase 1 | Pending |
 | UX-03 | Phase 1 | Pending |
 | UX-04 | Phase 1 | Pending |
-| UX-05 | Phase 1 | Pending |
+| UX-05 | Phase 1 | Complete |
 
 **Coverage:**
 - v1 requirements: 44 total
