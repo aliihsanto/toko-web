@@ -5,6 +5,7 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
+import { PageTransition } from '@/components/common/page-transition';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -54,7 +55,9 @@ export default async function LocaleLayout({
         disableTransitionOnChange
       >
         <Header />
-        <main className="min-h-screen pt-24">{children}</main>
+        <main className="min-h-screen pt-24">
+          <PageTransition locale={locale}>{children}</PageTransition>
+        </main>
         <Footer />
       </ThemeProvider>
     </NextIntlClientProvider>

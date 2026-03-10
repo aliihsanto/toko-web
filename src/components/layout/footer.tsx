@@ -38,7 +38,7 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={t('social.linkedin')}
-                className="text-muted-foreground transition-colors hover:text-primary"
+                className="text-muted-foreground transition-colors duration-200 hover:text-primary"
               >
                 <Linkedin className="h-5 w-5" />
               </a>
@@ -47,7 +47,7 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={t('social.twitter')}
-                className="text-muted-foreground transition-colors hover:text-primary"
+                className="text-muted-foreground transition-colors duration-200 hover:text-primary"
               >
                 <Twitter className="h-5 w-5" />
               </a>
@@ -56,7 +56,7 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={t('social.instagram')}
-                className="text-muted-foreground transition-colors hover:text-primary"
+                className="text-muted-foreground transition-colors duration-200 hover:text-primary"
               >
                 <Instagram className="h-5 w-5" />
               </a>
@@ -141,7 +141,7 @@ export function Footer() {
               <p className="mt-2 text-sm text-muted-foreground">
                 <a
                   href="tel:+902120000000"
-                  className="transition-colors hover:text-primary"
+                  className="transition-colors duration-200 hover:text-primary"
                 >
                   {t('contact.phone')}
                 </a>
@@ -149,7 +149,7 @@ export function Footer() {
               <p className="mt-2 text-sm text-muted-foreground">
                 <a
                   href="mailto:info@toko.com.tr"
-                  className="transition-colors hover:text-primary"
+                  className="transition-colors duration-200 hover:text-primary"
                 >
                   {t('contact.email')}
                 </a>

@@ -66,6 +66,33 @@
   "HomePage": {
     "title": "Toko Trading",
     "subtitle": "Solutions de Commerce International et d'Approvisionnement",
-    "description": "Votre partenaire commercial de confiance base en Turquie"
+    "description": "Votre partenaire commercial de confiance base en Turquie. Avec plus de 20 ans d'experience, nous gerons vos processus d'importation, d'exportation et d'approvisionnement.",
+    "cta": "Contactez-nous",
+    "ctaSecondary": "Nos Services",
+    "features": {
+      "title": "Pourquoi Toko Trading?",
+      "subtitle": "Votre partenaire fiable a chaque etape du commerce international.",
+      "import": {
+        "title": "Services d'Importation",
+        "description": "Approvisionnement en matieres premieres et produits du monde entier. Y compris les procedures douanieres et la gestion logistique."
+      },
+      "export": {
+        "title": "Services d'Exportation",
+        "description": "Exportation de produits de Turquie vers les marches mondiaux. Recherche de marche et mise en relation avec les acheteurs."
+      },
+      "sourcing": {
+        "title": "Solutions d'Approvisionnement",
+        "description": "Nous fournissons des produits au meilleur prix et qualite grace a notre reseau d'approvisionnement mondial."
+      },
+      "trust": {
+        "title": "Partenariat de Confiance",
+        "description": "Processus transparents, livraison a temps et support client 24/7 pour la securite de votre commerce."
+      }
+    },
+    "ctaSection": {
+      "title": "Developpons Votre Commerce",
+      "description": "Contactez-nous maintenant pour vos besoins en commerce international. Notre equipe d'experts est prete a vous aider.",
+      "button": "Consultation Gratuite"
+    }
   }
 }

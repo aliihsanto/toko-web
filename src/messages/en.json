@@ -66,6 +66,33 @@
   "HomePage": {
     "title": "Toko Trading",
     "subtitle": "International Trade and Sourcing Solutions",
-    "description": "Your trusted trade partner based in Turkey"
+    "description": "Your trusted trade partner based in Turkey. With over 20 years of experience, we manage your import, export, and sourcing processes.",
+    "cta": "Get in Touch",
+    "ctaSecondary": "Our Services",
+    "features": {
+      "title": "Why Toko Trading?",
+      "subtitle": "Your reliable partner at every stage of international trade.",
+      "import": {
+        "title": "Import Services",
+        "description": "Raw material and product sourcing from around the world. Including customs procedures and logistics management."
+      },
+      "export": {
+        "title": "Export Services",
+        "description": "Product export from Turkey to global markets. Market research and buyer matching support."
+      },
+      "sourcing": {
+        "title": "Sourcing Solutions",
+        "description": "We provide products at the best price and quality through our global supply network."
+      },
+      "trust": {
+        "title": "Trusted Partnership",
+        "description": "Transparent processes, on-time delivery, and 24/7 customer support for your trade security."
+      }
+    },
+    "ctaSection": {
+      "title": "Let's Grow Your Trade",
+      "description": "Contact us now for your international trade needs. Our expert team is ready to help you.",
+      "button": "Get Free Consultation"
+    }
   }
 }

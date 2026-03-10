@@ -66,7 +66,7 @@ export function Header() {
               key={item.key}
               href={item.href}
               className={cn(
-                'rounded-md px-3 py-2 text-sm font-medium transition-colors hover:text-primary',
+                'rounded-md px-3 py-2 text-sm font-medium transition-colors duration-200 hover:text-primary',
                 pathname === item.href
                   ? 'text-primary'
                   : 'text-muted-foreground'

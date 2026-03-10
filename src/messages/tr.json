@@ -66,6 +66,33 @@
   "HomePage": {
     "title": "Toko Trading",
     "subtitle": "Uluslararasi Ticaret ve Tedarik Cozumleri",
-    "description": "Turkiye merkezli guvenilir ticaret ortaginiz"
+    "description": "Turkiye merkezli guvenilir ticaret ortaginiz. 20 yillik deneyimimizle ithalat, ihracat ve tedarik sureclerinizi yonetiyoruz.",
+    "cta": "Iletisime Gecin",
+    "ctaSecondary": "Hizmetlerimiz",
+    "features": {
+      "title": "Neden Toko Trading?",
+      "subtitle": "Uluslararasi ticaretin her asamasinda guvenilir cozum ortaginiz.",
+      "import": {
+        "title": "Ithalat Hizmetleri",
+        "description": "Dunya genelinden hammadde ve urun tedariki. Gumruk islemleri ve lojistik yonetimi dahil."
+      },
+      "export": {
+        "title": "Ihracat Hizmetleri",
+        "description": "Turkiye'den dunya pazarlarina urun ihracati. Pazar arastirmasi ve alici eslestirme destegi."
+      },
+      "sourcing": {
+        "title": "Tedarik Cozumleri",
+        "description": "Global tedarik agimizla en uygun fiyat ve kalitede urun temini sagliyoruz."
+      },
+      "trust": {
+        "title": "Guvenilir Ortaklik",
+        "description": "Seffaf surecler, zamaninda teslimat ve 7/24 musteri destegi ile ticaret guvenliginiz."
+      }
+    },
+    "ctaSection": {
+      "title": "Ticaretinizi Buyutelim",
+      "description": "Uluslararasi ticaret ihtiyaclariniz icin hemen bizimle iletisime gecin. Uzman ekibimiz size yardimci olmak icin hazir.",
+      "button": "Ucretsiz Danismanlik Alin"
+    }
   }
 }
