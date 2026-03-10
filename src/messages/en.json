@@ -79,6 +79,7 @@
     "services": {
       "title": "Our Services",
       "subtitle": "Professional support at every stage of international trade",
+      "learnMore": "Learn More",
       "import": {
         "title": "Import Services",
         "description": "Raw material and product sourcing from around the world. Comprehensive import solutions including customs procedures, logistics management, and cost optimization."
@@ -133,6 +134,23 @@
       "description": "Contact us now for your international trade needs. Our expert team is ready to create solutions tailored to you.",
       "button": "Get Free Consultation",
       "note": "First meeting is completely free"
+    },
+    "trust": {
+      "clients": "Clients",
+      "countries": "Countries",
+      "years": "Years Experience",
+      "certification": "Quality Certified"
+    },
+    "sectors": {
+      "title": "Sectors We Serve",
+      "subtitle": "Specialized trade solutions across diverse industries",
+      "viewAll": "View All Sectors",
+      "items": {
+        "food": "Food & Agriculture",
+        "textile": "Textile",
+        "machinery": "Machinery",
+        "chemicals": "Chemicals"
+      }
     }
   },
   "AboutPage": {
@@ -143,7 +161,21 @@
   "ServicesPage": {
     "title": "Our Services",
     "subtitle": "We offer comprehensive services in import, export, transit trade, and sourcing.",
-    "comingSoon": "Detailed content will be added soon."
+    "comingSoon": "Detailed content will be added soon.",
+    "features": {
+      "customs": "Customs procedures management",
+      "logistics": "Logistics and transport planning",
+      "costOptimization": "Cost optimization",
+      "marketResearch": "Market research",
+      "buyerMatching": "Buyer matching",
+      "documentation": "Export documentation",
+      "supplierAudit": "Supplier auditing",
+      "qualityControl": "Quality control",
+      "priceNegotiation": "Price negotiation",
+      "transitRoutes": "Transit route planning",
+      "cisExpertise": "Russia & CIS expertise",
+      "compliance": "Regulatory compliance"
+    }
   },
   "SectorsPage": {
     "title": "Sectors",

@@ -79,6 +79,7 @@
     "services": {
       "title": "Nos Services",
       "subtitle": "Un accompagnement professionnel a chaque etape du commerce international",
+      "learnMore": "En Savoir Plus",
       "import": {
         "title": "Services d'Importation",
         "description": "Approvisionnement en matieres premieres et produits du monde entier. Solutions d'importation completes incluant procedures douanieres, gestion logistique et optimisation des couts."
@@ -133,6 +134,23 @@
       "description": "Contactez-nous maintenant pour vos besoins en commerce international. Notre equipe d'experts est prete a creer des solutions sur mesure pour vous.",
       "button": "Consultation Gratuite",
       "note": "La premiere consultation est entierement gratuite"
+    },
+    "trust": {
+      "clients": "Clients",
+      "countries": "Pays",
+      "years": "Ans d'Experience",
+      "certification": "Certifie Qualite"
+    },
+    "sectors": {
+      "title": "Secteurs Desservis",
+      "subtitle": "Des solutions commerciales specialisees dans divers secteurs",
+      "viewAll": "Voir Tous les Secteurs",
+      "items": {
+        "food": "Agroalimentaire",
+        "textile": "Textile",
+        "machinery": "Machinerie",
+        "chemicals": "Chimie"
+      }
     }
   },
   "AboutPage": {
@@ -143,7 +161,21 @@
   "ServicesPage": {
     "title": "Nos Services",
     "subtitle": "Nous offrons des services complets en importation, exportation, commerce de transit et approvisionnement.",
-    "comingSoon": "Le contenu detaille sera ajoute prochainement."
+    "comingSoon": "Le contenu detaille sera ajoute prochainement.",
+    "features": {
+      "customs": "Gestion des procedures douanieres",
+      "logistics": "Planification logistique et transport",
+      "costOptimization": "Optimisation des couts",
+      "marketResearch": "Etude de marche",
+      "buyerMatching": "Mise en relation acheteurs",
+      "documentation": "Documentation d'exportation",
+      "supplierAudit": "Audit des fournisseurs",
+      "qualityControl": "Controle qualite",
+      "priceNegotiation": "Negociation des prix",
+      "transitRoutes": "Planification des routes de transit",
+      "cisExpertise": "Expertise Russie & CEI",
+      "compliance": "Conformite reglementaire"
+    }
   },
   "SectorsPage": {
     "title": "Secteurs",

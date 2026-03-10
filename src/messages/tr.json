@@ -79,6 +79,7 @@
     "services": {
       "title": "Hizmetlerimiz",
       "subtitle": "Uluslararasi ticaretin her asamasinda profesyonel destek",
+      "learnMore": "Detayli Bilgi",
       "import": {
         "title": "Ithalat Hizmetleri",
         "description": "Dunya genelinden hammadde ve urun tedariki. Gumruk islemleri, lojistik yonetimi ve maliyet optimizasyonu dahil kapsamli ithalat cozumleri."
@@ -133,6 +134,23 @@
       "description": "Uluslararasi ticaret ihtiyaclariniz icin hemen bizimle iletisime gecin. Uzman ekibimiz size ozel cozumler uretmek icin hazir.",
       "button": "Ucretsiz Danismanlik Alin",
       "note": "Ilk gorusme tamamen ucretsizdir"
+    },
+    "trust": {
+      "clients": "Musteri",
+      "countries": "Ulke",
+      "years": "Yillik Deneyim",
+      "certification": "Kalite Sertifikasi"
+    },
+    "sectors": {
+      "title": "Hizmet Verdigimiz Sektorler",
+      "subtitle": "Farkli sektorlerde uzmanlasmis ticaret cozumleri sunuyoruz",
+      "viewAll": "Tum Sektorleri Goruntule",
+      "items": {
+        "food": "Gida",
+        "textile": "Tekstil",
+        "machinery": "Makine",
+        "chemicals": "Kimya"
+      }
     }
   },
   "AboutPage": {
@@ -143,7 +161,21 @@
   "ServicesPage": {
     "title": "Hizmetlerimiz",
     "subtitle": "Ithalat, ihracat, transit ticaret ve tedarik alanlarinda kapsamli hizmetler sunuyoruz.",
-    "comingSoon": "Detayli icerik yakinda eklenecektir."
+    "comingSoon": "Detayli icerik yakinda eklenecektir.",
+    "features": {
+      "customs": "Gumruk islemleri yonetimi",
+      "logistics": "Lojistik ve nakliye planlamasi",
+      "costOptimization": "Maliyet optimizasyonu",
+      "marketResearch": "Pazar arastirmasi",
+      "buyerMatching": "Alici eslestirme",
+      "documentation": "Ihracat dokumantasyonu",
+      "supplierAudit": "Tedarikci denetimi",
+      "qualityControl": "Kalite kontrol",
+      "priceNegotiation": "Fiyat muzakeresi",
+      "transitRoutes": "Transit rota planlamasi",
+      "cisExpertise": "Rusya & BDT uzmanlik",
+      "compliance": "Mevzuat uyumu"
+    }
   },
   "SectorsPage": {
     "title": "Sektorler",
