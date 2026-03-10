@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 04-03-PLAN.md (JSON-LD integration, CWV fixes, OG images, image alt SEO)
-last_updated: "2026-03-10T17:32:00Z"
-last_activity: 2026-03-10 -- Plan 04-03 executed (JSON-LD, CWV fixes, OG images, locale-aware image alt)
+stopped_at: Completed 05-01-PLAN.md (Velite MDX infrastructure, blog utilities, MDX renderer)
+last_updated: "2026-03-10T18:01:00Z"
+last_activity: 2026-03-10 -- Plan 05-01 executed (Velite infrastructure, blog utils, MDXContent component)
 progress:
   total_phases: 6
   completed_phases: 4
-  total_plans: 17
-  completed_plans: 17
-  percent: 100
+  total_plans: 20
+  completed_plans: 18
+  percent: 90
 ---
 
 # Project State
@@ -21,23 +21,23 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-10)
 
 **Core value:** Businesses looking for import/export services or trade information find Toko through search, understand its capabilities, and submit an inquiry -- in their own language.
-**Current focus:** Phase 4: SEO Infrastructure -- COMPLETE
+**Current focus:** Phase 5: Blog System -- IN PROGRESS
 
 ## Current Position
 
-Phase: 4 of 6 (SEO Infrastructure) -- COMPLETE
-Plan: 3 of 3 in current phase (all plans complete)
-Status: Phase 4 complete, ready for Phase 5
-Last activity: 2026-03-10 -- Plan 04-03 executed (JSON-LD integration, CWV fixes, OG images, locale-aware image alt)
+Phase: 5 of 6 (Blog System)
+Plan: 1 of 3 in current phase (05-01 complete)
+Status: Executing Phase 5 -- blog infrastructure built, pages and content remaining
+Last activity: 2026-03-10 -- Plan 05-01 executed (Velite infrastructure, blog utils, MDXContent component)
 
-Progress: [██████████] 100% (17/17 plans complete)
+Progress: [█████████ ] 90% (18/20 plans complete)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 17
+- Total plans completed: 18
 - Average duration: 8min
-- Total execution time: ~1.9 hours
+- Total execution time: ~2.0 hours
 
 **By Phase:**
 
@@ -49,8 +49,8 @@ Progress: [██████████] 100% (17/17 plans complete)
 | 4 - SEO Infrastructure | 3/3 | 27min | 9min |
 
 **Recent Trend:**
-- Last 5 plans: 03-02 (11min), 03-03 (8min), 04-02 (5min), 04-01 (10min), 04-03 (12min)
-- Trend: All phases complete through Phase 4
+- Last 5 plans: 03-03 (8min), 04-02 (5min), 04-01 (10min), 04-03 (12min), 05-01 (7min)
+- Trend: Phase 5 started, blog infrastructure complete
 
 *Updated after each plan completion*
 | Phase 03 P01 | 7min | 2 tasks | 31 files |
@@ -59,6 +59,7 @@ Progress: [██████████] 100% (17/17 plans complete)
 | Phase 04 P02 | 5min | 2 tasks | 10 files |
 | Phase 04 P01 | 10min | 1 task (TDD) | 21 files |
 | Phase 04 P03 | 12min | 2 tasks | 22 files |
+| Phase 05 P01 | 7min | 2 tasks (TDD) | 13 files |
 
 ## Accumulated Context
 
@@ -124,6 +125,10 @@ Recent decisions affecting current work:
 - 04-03: Pages without breadcrumb keys use Header.nav namespace for breadcrumb names
 - 04-03: ScrollReveal completely removed from all above-fold hero content (not just noTransform) for zero CLS/optimal LCP
 - 04-03: OG image uses Satori built-in sans-serif font to avoid custom .ttf complexity
+- 05-01: Velite build triggered via NODE_ENV detection in next.config.ts (not process.argv or VeliteWebpackPlugin) for Next.js 16 Turbopack compatibility
+- 05-01: #site/content path alias for .velite imports instead of relative imports or @/ prefix
+- 05-01: MDXContent as client component using new Function() for MDX body hydration
+- 05-01: Folder-based locale organization (content/blog/{locale}/) with s.path() auto-generating locale-aware slugs
 
 ### Pending Todos
 
@@ -132,11 +137,11 @@ None yet.
 ### Blockers/Concerns
 
 - Research flag: next-intl 4.8 + Next.js 16 proxy.ts integration needs verification in Phase 1 -- RESOLVED: next-intl 4.8 works with Next.js 16.1 via createNextIntlPlugin
-- Research flag: Velite 0.3 + Next.js 16 compatibility needs testing in Phase 5
+- Research flag: Velite 0.3 + Next.js 16 compatibility needs testing in Phase 5 -- RESOLVED: Velite 0.3.1 works with Next.js 16.1.6 using NODE_ENV detection pattern
 - Research flag: Programmatic SEO content data model and uniqueness strategy needs phase-specific research in Phase 6
 
 ## Session Continuity
 
-Last session: 2026-03-10T17:32:00Z
-Stopped at: Completed 04-03-PLAN.md (JSON-LD integration, CWV fixes, OG images, image alt SEO)
+Last session: 2026-03-10T18:01:00Z
+Stopped at: Completed 05-01-PLAN.md (Velite MDX infrastructure, blog utilities, MDX renderer)
 Resume file: None

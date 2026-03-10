@@ -106,7 +106,7 @@ Plans:
 **Plans**: 3 plans
 
 Plans:
-- [ ] 05-01-PLAN.md -- Blog infrastructure: Velite config, MDX schema, build integration, blog utilities, MDX renderer
+- [x] 05-01-PLAN.md -- Blog infrastructure: Velite config, MDX schema, build integration, blog utilities, MDX renderer
 - [ ] 05-02-PLAN.md -- Blog pages: listing with pagination, detail with TOC/reading time, category filtering, i18n
 - [ ] 05-03-PLAN.md -- Seed content (4 posts x 4 locales), Article JSON-LD, sitemap integration
 
@@ -137,5 +137,5 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6
 | 2. Core Pages | 6/6 | Complete   | 2026-03-10 |
 | 3. Forms and Lead Capture | 1/3 | In Progress|  |
 | 4. SEO Infrastructure | 3/3 | Complete   | 2026-03-10 |
-| 5. Blog System | 0/3 | Not started | - |
+| 5. Blog System | 1/3 | In Progress | - |
 | 6. Programmatic SEO | 0/? | Not started | - |

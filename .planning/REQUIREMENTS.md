@@ -36,7 +36,7 @@
 
 ### Blog System
 
-- [ ] **BLOG-01**: MDX-based blog infrastructure with Velite — posts organized by locale
+- [x] **BLOG-01**: MDX-based blog infrastructure with Velite — posts organized by locale
 - [ ] **BLOG-02**: Blog listing page with pagination, showing post title, excerpt, date, category
 - [ ] **BLOG-03**: Blog detail page with full MDX content rendering, table of contents, reading time
 - [ ] **BLOG-04**: Blog categories/tags for filtering (import, export, customs, regulations, etc.)
@@ -123,7 +123,7 @@
 | FORM-05 | Phase 3 | Complete |
 | FORM-06 | Phase 3 | Complete |
 | FORM-07 | Phase 3 | Complete |
-| BLOG-01 | Phase 5 | Pending |
+| BLOG-01 | Phase 5 | Complete |
 | BLOG-02 | Phase 5 | Pending |
 | BLOG-03 | Phase 5 | Pending |
 | BLOG-04 | Phase 5 | Pending |
