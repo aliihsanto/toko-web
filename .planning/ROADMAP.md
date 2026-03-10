@@ -103,11 +103,12 @@ Plans:
   3. User can filter blog posts by category/tag (import, export, customs, regulations, etc.)
   4. At least 3-5 blog posts per locale are published and accessible at launch
   5. Blog pages include Article structured data and integrate with the sitemap
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 05-01: TBD
-- [ ] 05-02: TBD
+- [ ] 05-01-PLAN.md -- Blog infrastructure: Velite config, MDX schema, build integration, blog utilities, MDX renderer
+- [ ] 05-02-PLAN.md -- Blog pages: listing with pagination, detail with TOC/reading time, category filtering, i18n
+- [ ] 05-03-PLAN.md -- Seed content (4 posts x 4 locales), Article JSON-LD, sitemap integration
 
 ### Phase 6: Programmatic SEO
 **Goal**: Toko captures long-tail search traffic through hundreds of auto-generated, substantive pages covering sectors, countries, FAQs, and customs/regulations in all 4 languages
@@ -136,5 +137,5 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6
 | 2. Core Pages | 6/6 | Complete   | 2026-03-10 |
 | 3. Forms and Lead Capture | 1/3 | In Progress|  |
 | 4. SEO Infrastructure | 3/3 | Complete   | 2026-03-10 |
-| 5. Blog System | 0/? | Not started | - |
+| 5. Blog System | 0/3 | Not started | - |
 | 6. Programmatic SEO | 0/? | Not started | - |
