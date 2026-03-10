@@ -31,11 +31,14 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. All navigation items, buttons, labels, and footer text display correctly translated in each language
   4. The site layout renders properly on mobile, tablet, and desktop with consistent header, navigation, and footer
   5. Each page includes correct hreflang tags pointing to all language variants
-**Plans**: TBD
+**Plans**: 5 plans
 
 Plans:
-- [ ] 01-01: TBD
-- [ ] 01-02: TBD
+- [ ] 01-01-PLAN.md -- Scaffold Next.js project and establish i18n routing infrastructure
+- [ ] 01-02-PLAN.md -- Design system, dark navy blue theme, and dark/light mode toggle
+- [ ] 01-03-PLAN.md -- Header with shrink-on-scroll, language switcher, and mobile navigation
+- [ ] 01-04-PLAN.md -- Footer with 4-column layout, contact info, and social links
+- [ ] 01-05-PLAN.md -- Framer Motion animations and visual verification checkpoint
 
 ### Phase 2: Core Pages
 **Goal**: Visitors can learn about Toko's services, sectors, history, and Russia transit trade capabilities through complete, translated content pages
@@ -119,11 +122,11 @@ Plans:
 ## Progress
 
 **Execution Order:**
-Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6
+Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation and i18n | 0/? | Not started | - |
+| 1. Foundation and i18n | 0/5 | Planning complete | - |
 | 2. Core Pages | 0/? | Not started | - |
 | 3. Forms and Lead Capture | 0/? | Not started | - |
 | 4. SEO Infrastructure | 0/? | Not started | - |
