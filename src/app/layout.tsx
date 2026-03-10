@@ -1,11 +1,5 @@
-import { Inter } from 'next/font/google';
+import { inter } from '@/lib/fonts';
 import './globals.css';
-
-const inter = Inter({
-  subsets: ['latin', 'cyrillic'],
-  variable: '--font-inter',
-  display: 'swap',
-});
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
