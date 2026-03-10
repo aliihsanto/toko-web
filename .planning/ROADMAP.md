@@ -50,11 +50,13 @@ Plans:
   3. Services overview page lists all service categories, and each service type has its own detail page with specific information
   4. Sectors overview page shows all industries served, and each sector has a detail page with sourcing capabilities
   5. Russia transit trade landing page presents dedicated content with Russian-language priority and specialized CTAs
-**Plans**: TBD
+**Plans**: 4 plans
 
 Plans:
-- [ ] 02-01: TBD
-- [ ] 02-02: TBD
+- [ ] 02-01-PLAN.md -- Shared components, data files, homepage enhancement, and about page
+- [ ] 02-02-PLAN.md -- Services overview and service detail pages (4 services)
+- [ ] 02-03-PLAN.md -- Sectors overview and sector detail pages (8 sectors)
+- [ ] 02-04-PLAN.md -- References page, Russia transit trade landing page, and visual verification
 
 ### Phase 3: Forms and Lead Capture
 **Goal**: Visitors can submit inquiries through multiple form types and Toko receives email notifications for every submission, with spam kept out
@@ -127,7 +129,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation and i18n | 4/5 | In Progress|  |
-| 2. Core Pages | 0/? | Not started | - |
+| 2. Core Pages | 0/4 | Not started | - |
 | 3. Forms and Lead Capture | 0/? | Not started | - |
 | 4. SEO Infrastructure | 0/? | Not started | - |
 | 5. Blog System | 0/? | Not started | - |
