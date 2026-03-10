@@ -44,11 +44,11 @@
 
 ### Programmatic SEO
 
-- [ ] **PSEO-01**: Sector/product template pages generated from structured JSON data ("Import [product] from Turkey")
-- [ ] **PSEO-02**: Country trade template pages generated from structured JSON data ("Turkey-[Country] trade guide")
-- [ ] **PSEO-03**: FAQ template pages answering common import/export questions per sector/country
-- [ ] **PSEO-04**: Customs/regulations template pages with trade procedures, HS codes, duty information
-- [ ] **PSEO-05**: Each programmatic page has 500+ words of unique, substantive content (not thin templates)
+- [x] **PSEO-01**: Sector/product template pages generated from structured JSON data ("Import [product] from Turkey")
+- [x] **PSEO-02**: Country trade template pages generated from structured JSON data ("Turkey-[Country] trade guide")
+- [x] **PSEO-03**: FAQ template pages answering common import/export questions per sector/country
+- [x] **PSEO-04**: Customs/regulations template pages with trade procedures, HS codes, duty information
+- [x] **PSEO-05**: Each programmatic page has 500+ words of unique, substantive content (not thin templates)
 - [ ] **PSEO-06**: Programmatic pages generated across all 4 locales via generateStaticParams
 - [ ] **PSEO-07**: ISR strategy for pages exceeding SSG build limits — tiered rendering (SSG top pages, ISR long tail)
 
