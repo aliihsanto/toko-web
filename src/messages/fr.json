@@ -1318,15 +1318,34 @@
   },
   "BlogPage": {
     "seo": {
-      "title": "Blog - Actualites et Analyses du Commerce",
-      "description": "Actualites du commerce international, reglementations douanieres, analyses sectorielles et gestion de la chaine d'approvisionnement."
+      "title": "Blog | Toko Trading",
+      "description": "Articles sur le commerce international, l'import/export, la reglementation douaniere et l'approvisionnement depuis la Turquie"
     },
     "title": "Blog",
-    "subtitle": "Articles actuels sur le commerce international, la reglementation douaniere et les analyses sectorielles.",
-    "comingSoon": "Le contenu detaille sera ajoute prochainement.",
-    "images": {
-      "post": "Article sur le commerce international"
-    }
+    "subtitle": "Informations et guides sur le commerce international, l'import/export et l'approvisionnement",
+    "allCategories": "Tous",
+    "categories": {
+      "import": "Importation",
+      "export": "Exportation",
+      "customs": "Douanes",
+      "regulations": "Reglementations",
+      "logistics": "Logistique",
+      "sourcing": "Approvisionnement",
+      "general": "General"
+    },
+    "readMore": "Lire la suite",
+    "readingTime": "{minutes} min de lecture",
+    "tableOfContents": "Table des matieres",
+    "publishedOn": "Publie le",
+    "noPosts": "Aucun article publie pour le moment. Revenez bientot !",
+    "noPostsInCategory": "Aucun article dans cette categorie pour le moment.",
+    "pagination": {
+      "previous": "Precedent",
+      "next": "Suivant",
+      "page": "Page {current} sur {total}"
+    },
+    "backToBlog": "Retour au Blog",
+    "shareArticle": "Partager cet article"
   },
   "Forms": {
     "success": "Votre message a ete envoye avec succes. Nous vous repondrons bientot.",

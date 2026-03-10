@@ -1318,15 +1318,34 @@
   },
   "BlogPage": {
     "seo": {
-      "title": "Blog - Ticaret Haberleri ve Analizler",
-      "description": "Uluslararasi ticaret, gumruk mevzuati, sektor analizleri ve tedarik zinciri hakkinda guncel icerikler ve uzman gorusleri."
+      "title": "Blog | Toko Trading",
+      "description": "Uluslararasi ticaret, ithalat/ihracat, gumruk mevzuati ve Turkiye'den tedarik hakkinda makaleler"
     },
     "title": "Blog",
-    "subtitle": "Uluslararasi ticaret, gumruk mevzuati ve sektor analizleri hakkinda guncel yazilar.",
-    "comingSoon": "Detayli icerik yakinda eklenecektir.",
-    "images": {
-      "post": "Ticaret sektörü makalesi"
-    }
+    "subtitle": "Uluslararasi ticaret, ithalat/ihracat ve tedarik hakkinda bilgiler ve rehberler",
+    "allCategories": "Tumu",
+    "categories": {
+      "import": "Ithalat",
+      "export": "Ihracat",
+      "customs": "Gumruk",
+      "regulations": "Mevzuat",
+      "logistics": "Lojistik",
+      "sourcing": "Tedarik",
+      "general": "Genel"
+    },
+    "readMore": "Devamini oku",
+    "readingTime": "{minutes} dk okuma",
+    "tableOfContents": "Icindekiler",
+    "publishedOn": "Yayin tarihi",
+    "noPosts": "Henuz makale yayinlanmadi. Yakinda tekrar kontrol edin!",
+    "noPostsInCategory": "Bu kategoride henuz makale yok.",
+    "pagination": {
+      "previous": "Onceki",
+      "next": "Sonraki",
+      "page": "Sayfa {current} / {total}"
+    },
+    "backToBlog": "Blog'a Don",
+    "shareArticle": "Bu makaleyi paylas"
   },
   "Forms": {
     "success": "Mesajiniz basariyla gonderildi. En kisa surede size donecegiz.",

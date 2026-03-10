@@ -1318,15 +1318,34 @@
   },
   "BlogPage": {
     "seo": {
-      "title": "Blog - Trade News & Insights",
-      "description": "Latest insights on international trade, customs regulations, sector analysis, and supply chain management from Toko Trading experts."
+      "title": "Blog | Toko Trading",
+      "description": "Articles about international trade, import/export, customs regulations, and sourcing from Turkey"
     },
     "title": "Blog",
-    "subtitle": "Current articles on international trade, customs regulations, and sector analyses.",
-    "comingSoon": "Detailed content will be added soon.",
-    "images": {
-      "post": "Trade industry article"
-    }
+    "subtitle": "Insights and guides on international trade, import/export, and sourcing",
+    "allCategories": "All",
+    "categories": {
+      "import": "Import",
+      "export": "Export",
+      "customs": "Customs",
+      "regulations": "Regulations",
+      "logistics": "Logistics",
+      "sourcing": "Sourcing",
+      "general": "General"
+    },
+    "readMore": "Read more",
+    "readingTime": "{minutes} min read",
+    "tableOfContents": "Table of Contents",
+    "publishedOn": "Published on",
+    "noPosts": "No articles published yet. Check back soon!",
+    "noPostsInCategory": "No articles in this category yet.",
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next",
+      "page": "Page {current} of {total}"
+    },
+    "backToBlog": "Back to Blog",
+    "shareArticle": "Share this article"
   },
   "Forms": {
     "success": "Your message has been sent successfully. We will get back to you soon.",
