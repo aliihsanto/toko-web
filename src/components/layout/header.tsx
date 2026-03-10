@@ -27,7 +27,7 @@ export function Header() {
 
   useEffect(() => {
     function handleScroll() {
-      setScrolled(window.scrollY > 30);
+      setScrolled(window.scrollY > 50);
     }
 
     window.addEventListener('scroll', handleScroll, { passive: true });
@@ -38,55 +38,59 @@ export function Header() {
     };
   }, []);
 
-  const showSolid = !isHome || scrolled;
+  const isTransparent = isHome && !scrolled;
 
   return (
     <header
       role="banner"
       className={cn(
         'fixed top-0 right-0 left-0 z-50 transition-all duration-300',
-        showSolid ? 'glass-nav py-1 shadow-sm' : 'bg-transparent py-3'
+        isTransparent ? 'bg-transparent py-4' : 'glass-nav py-2 shadow-sm'
       )}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-1.5">
+        <Link href="/" className="flex items-center gap-1">
           <span
             className={cn(
-              'text-3xl font-extrabold tracking-tighter transition-all duration-300',
-              showSolid ? 'text-foreground' : 'text-white'
+              'text-2xl font-extrabold tracking-tight transition-colors duration-300',
+              isTransparent ? 'text-white' : 'text-foreground'
             )}
           >
             TOKO
           </span>
-          <div
-            className={cn(
-              'mt-2 h-1.5 w-1.5 rounded-full transition-colors',
-              showSolid ? 'bg-amber-600' : 'bg-white'
-            )}
-          />
+          <span className="text-2xl font-extrabold text-amber-500">.</span>
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden items-center gap-1 md:flex" aria-label="Main navigation">
-          {navItems.map((item) => (
-            <Link
-              key={item.key}
-              href={item.href}
-              className={cn(
-                'rounded-md px-3 py-2 text-sm font-semibold transition-colors duration-200',
-                pathname === item.href
-                  ? showSolid
-                    ? 'text-primary'
-                    : 'text-amber-500'
-                  : showSolid
-                    ? 'text-muted-foreground hover:text-primary'
-                    : 'text-gray-200 hover:text-white'
-              )}
-            >
-              {t(`nav.${item.key}`)}
-            </Link>
-          ))}
+        <nav className="hidden items-center gap-0.5 md:flex" aria-label="Main navigation">
+          {navItems.map((item) => {
+            const isActive = pathname === item.href;
+            return (
+              <Link
+                key={item.key}
+                href={item.href}
+                className={cn(
+                  'relative rounded-lg px-3 py-2 text-sm font-medium transition-colors duration-200',
+                  isTransparent
+                    ? isActive
+                      ? 'text-white'
+                      : 'text-white/70 hover:text-white'
+                    : isActive
+                      ? 'text-amber-700 dark:text-amber-500'
+                      : 'text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white'
+                )}
+              >
+                {t(`nav.${item.key}`)}
+                {isActive && (
+                  <span className={cn(
+                    'absolute bottom-0.5 left-3 right-3 h-0.5 rounded-full',
+                    isTransparent ? 'bg-white' : 'bg-amber-500'
+                  )} />
+                )}
+              </Link>
+            );
+          })}
         </nav>
 
         {/* Desktop Right Section */}
@@ -94,7 +98,15 @@ export function Header() {
           <LanguageSwitcher />
           <ThemeToggle />
           <Link href="/contact">
-            <Button size="sm" className="bg-amber-600 text-white hover:bg-amber-700">
+            <Button
+              size="sm"
+              className={cn(
+                'rounded-lg font-semibold transition-all',
+                isTransparent
+                  ? 'bg-white/15 text-white backdrop-blur-sm hover:bg-white/25 border border-white/20'
+                  : 'bg-amber-600 text-white hover:bg-amber-700 shadow-sm'
+              )}
+            >
               {t('cta')}
             </Button>
           </Link>

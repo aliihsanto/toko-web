@@ -41,9 +41,8 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
 
   return (
     <>
-      {/* ===== HERO - Full Screen ===== */}
+      {/* ===== HERO ===== */}
       <section className="relative flex min-h-screen items-center overflow-hidden">
-        {/* Background image + dark overlay */}
         <div className="absolute inset-0 z-0">
           <Image
             src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&q=80&w=2070"
@@ -53,40 +52,36 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             className="h-full w-full object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-brand-dark/95 via-brand-dark/80 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-900/85 via-slate-900/60 to-slate-900/30" />
         </div>
 
-        <div className="relative z-10 mx-auto w-full max-w-7xl px-4 pt-20 sm:px-6 lg:px-8">
-          <div className="max-w-3xl">
+        <div className="relative z-10 mx-auto w-full max-w-7xl px-4 pt-24 sm:px-6 lg:px-8">
+          <div className="max-w-2xl">
             <ScrollReveal>
-              <div className="mb-6 inline-block rounded-full border border-amber-600/30 bg-amber-600/10 px-4 py-1 backdrop-blur-sm">
-                <span className="text-sm font-semibold uppercase tracking-wide text-amber-500">
-                  Toko Global Trade
-                </span>
-              </div>
+              <span className="inline-block rounded-full border border-amber-400/30 bg-amber-500/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-amber-400 backdrop-blur-sm">
+                Toko Global Trade
+              </span>
             </ScrollReveal>
 
             <ScrollReveal delay={0.1}>
-              <h1 className="text-5xl font-extrabold leading-tight tracking-tight text-white sm:text-6xl md:text-7xl">
+              <h1 className="mt-6 text-5xl font-extrabold leading-[1.1] tracking-tight text-white sm:text-6xl lg:text-7xl">
                 {t('title')} <br />
-                <span className="bg-gradient-to-r from-amber-200 to-white bg-clip-text text-transparent">
-                  {t('titleHighlight')}
-                </span>
+                <span className="text-amber-400">{t('titleHighlight')}</span>
               </h1>
             </ScrollReveal>
 
             <ScrollReveal delay={0.2}>
-              <p className="mt-6 max-w-2xl text-xl font-light leading-relaxed text-brand-dark-text">
+              <p className="mt-6 max-w-xl text-lg leading-relaxed text-slate-300">
                 {t('subtitle')}
               </p>
             </ScrollReveal>
 
             <ScrollReveal delay={0.3}>
-              <div className="mt-10 flex flex-col gap-4 sm:flex-row">
+              <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <Link href="/contact">
                   <Button
                     size="lg"
-                    className="h-14 bg-amber-600 px-8 text-base font-bold text-white shadow-lg shadow-amber-600/20 transition-all hover:-translate-y-0.5 hover:bg-amber-700"
+                    className="h-13 rounded-xl bg-amber-500 px-7 text-base font-bold text-white shadow-lg shadow-amber-500/25 transition-all hover:-translate-y-0.5 hover:bg-amber-600"
                   >
                     {t('cta')}
                     <ArrowRight className="ml-2 h-5 w-5" />
@@ -96,7 +91,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                   <Button
                     size="lg"
                     variant="outline"
-                    className="h-14 border-white/20 bg-white/10 px-8 text-base font-bold text-white backdrop-blur-md hover:bg-white/20"
+                    className="h-13 rounded-xl border-white/20 bg-white/10 px-7 text-base font-semibold text-white backdrop-blur-sm hover:bg-white/20"
                   >
                     {t('ctaSecondary')}
                   </Button>
@@ -105,9 +100,9 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             </ScrollReveal>
           </div>
 
-          {/* Stats - glass cards */}
+          {/* Stats strip */}
           <ScrollReveal delay={0.4}>
-            <div className="mt-24 grid grid-cols-2 gap-4 pb-12 md:grid-cols-4 md:gap-8">
+            <div className="mt-20 grid grid-cols-2 gap-3 pb-10 md:grid-cols-4 md:gap-6">
               {[
                 { icon: Factory, value: '1000+', label: t('stats.clients') },
                 { icon: Globe, value: '50+', label: t('stats.countries') },
@@ -116,11 +111,11 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
               ].map((stat) => (
                 <div
                   key={stat.label}
-                  className="group rounded-xl border border-white/10 bg-white/5 p-6 backdrop-blur-md transition-colors hover:bg-white/10"
+                  className="rounded-xl border border-white/10 bg-white/5 px-5 py-4 backdrop-blur-md"
                 >
-                  <stat.icon className="mb-3 h-8 w-8 text-amber-500 transition-transform group-hover:scale-110" />
-                  <div className="mb-1 text-3xl font-bold text-white">{stat.value}</div>
-                  <div className="text-xs font-medium uppercase tracking-wide text-brand-dark-text">
+                  <stat.icon className="mb-2 h-6 w-6 text-amber-400" />
+                  <div className="text-2xl font-bold text-white">{stat.value}</div>
+                  <div className="text-xs font-medium uppercase tracking-wide text-slate-400">
                     {stat.label}
                   </div>
                 </div>
@@ -134,17 +129,17 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       <section className="bg-white py-24 dark:bg-background">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <ScrollReveal>
-            <div className="mx-auto mb-16 max-w-3xl text-center">
-              <h2 className="mb-2 text-sm font-bold uppercase tracking-wider text-primary">
+            <div className="mx-auto mb-16 max-w-2xl text-center">
+              <span className="text-sm font-semibold uppercase tracking-widest text-amber-600">
                 {t('services.title')}
-              </h2>
-              <h3 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
+              </span>
+              <h2 className="mt-3 text-3xl font-extrabold tracking-tight text-slate-900 dark:text-white sm:text-4xl">
                 {t('services.subtitle')}
-              </h3>
+              </h2>
             </div>
           </ScrollReveal>
 
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
             {services.map((service, index) => {
               const keyMap: Record<string, string> = {
                 'import': 'import',
@@ -157,35 +152,31 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
 
               return (
                 <ScrollReveal key={service.slug} delay={index * 0.1} direction="up">
-                  <Link href={`/services/${service.slug}`} className="block">
-                    <div className="group flex h-full cursor-pointer flex-col overflow-hidden rounded-2xl border border-border bg-card shadow-sm transition-all duration-300 hover:border-primary/20 hover:shadow-2xl md:flex-row">
-                      {/* Image */}
-                      <div className="relative h-64 w-full overflow-hidden md:h-auto md:w-2/5">
+                  <Link href={`/services/${service.slug}`} className="group block">
+                    <div className="flex h-full flex-col overflow-hidden rounded-2xl border border-slate-100 bg-white shadow-sm transition-all duration-300 hover:shadow-lg dark:border-slate-800 dark:bg-card md:flex-row">
+                      <div className="relative h-56 w-full overflow-hidden md:h-auto md:w-2/5">
                         <Image
                           src={service.image}
                           alt={t(`services.${tKey}.title`)}
                           width={800}
                           height={600}
-                          className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
+                          className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                         />
-                        <div className="absolute inset-0 bg-brand-dark/20 transition-colors group-hover:bg-transparent" />
                       </div>
-
-                      {/* Text */}
-                      <div className="relative flex flex-col justify-center p-8 md:w-3/5">
-                        <div className="absolute right-6 top-6 opacity-0 transition-opacity group-hover:opacity-100">
-                          <ArrowUpRight className="h-5 w-5 text-primary" />
+                      <div className="relative flex flex-col justify-center p-7 md:w-3/5">
+                        <div className="absolute right-5 top-5 opacity-0 transition-opacity group-hover:opacity-100">
+                          <ArrowUpRight className="h-5 w-5 text-amber-600" />
                         </div>
-                        <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/5 text-primary">
-                          <Icon className="h-6 w-6" />
+                        <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-amber-50 text-amber-600 dark:bg-amber-900/20">
+                          <Icon className="h-5 w-5" />
                         </div>
-                        <h4 className="mb-3 text-xl font-bold">{t(`services.${tKey}.title`)}</h4>
-                        <p className="text-sm leading-relaxed text-muted-foreground line-clamp-3">
+                        <h3 className="mb-2 text-lg font-bold text-slate-900 dark:text-white">{t(`services.${tKey}.title`)}</h3>
+                        <p className="text-sm leading-relaxed text-slate-500 line-clamp-3 dark:text-slate-400">
                           {t(`services.${tKey}.description`)}
                         </p>
-                        <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-primary">
+                        <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-amber-600">
                           {t('services.learnMore')}
-                          <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+                          <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-1" />
                         </span>
                       </div>
                     </div>
@@ -198,7 +189,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       </section>
 
       {/* ===== TRUST SIGNALS ===== */}
-      <section className="bg-gray-50 py-16 dark:bg-card">
+      <section className="border-y border-slate-100 bg-slate-50 py-14 dark:border-slate-800 dark:bg-card">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <ScrollReveal>
             <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
@@ -209,11 +200,11 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                 { value: 'ISO 9001', label: t('trust.certification'), icon: BadgeCheck },
               ].map((item) => (
                 <div key={item.label} className="flex flex-col items-center text-center">
-                  <item.icon className="mb-3 h-8 w-8 text-amber-600" />
-                  <div className="text-3xl font-extrabold tracking-tight text-foreground md:text-4xl">
+                  <item.icon className="mb-3 h-7 w-7 text-amber-500" />
+                  <div className="text-3xl font-extrabold tracking-tight text-slate-900 dark:text-white md:text-4xl">
                     {item.value}
                   </div>
-                  <div className="mt-1 text-sm font-medium text-muted-foreground">
+                  <div className="mt-1 text-sm font-medium text-slate-500 dark:text-slate-400">
                     {item.label}
                   </div>
                 </div>
@@ -223,53 +214,38 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         </div>
       </section>
 
-      {/* ===== WHY US - Dark Section ===== */}
-      <section className="relative overflow-hidden bg-brand-dark py-24 text-white">
-        <div
-          className="absolute inset-0 opacity-10"
-          style={{
-            backgroundImage: 'radial-gradient(#ffffff 1px, transparent 1px)',
-            backgroundSize: '30px 30px',
-          }}
-        />
-
-        <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      {/* ===== WHY US ===== */}
+      <section className="bg-white py-24 dark:bg-background">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <ScrollReveal>
-            <div className="mb-16 text-center">
-              <h2 className="mb-2 text-sm font-bold uppercase tracking-wider text-amber-500">
+            <div className="mx-auto mb-16 max-w-2xl text-center">
+              <span className="text-sm font-semibold uppercase tracking-widest text-amber-600">
                 {t('whyUs.title')}
-              </h2>
-              <h3 className="text-3xl font-extrabold sm:text-4xl">
+              </span>
+              <h2 className="mt-3 text-3xl font-extrabold tracking-tight text-slate-900 dark:text-white sm:text-4xl">
                 {t('whyUs.subtitle')}
-              </h3>
+              </h2>
             </div>
           </ScrollReveal>
 
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {[
-              { key: 'experience', icon: Search },
-              { key: 'network', icon: Globe },
-              { key: 'transparency', icon: ShieldCheck },
-              { key: 'support', icon: CheckCheck },
+              { key: 'experience', icon: Search, color: 'bg-blue-50 text-blue-600 dark:bg-blue-900/20 dark:text-blue-400' },
+              { key: 'network', icon: Globe, color: 'bg-emerald-50 text-emerald-600 dark:bg-emerald-900/20 dark:text-emerald-400' },
+              { key: 'transparency', icon: ShieldCheck, color: 'bg-amber-50 text-amber-600 dark:bg-amber-900/20 dark:text-amber-400' },
+              { key: 'support', icon: CheckCheck, color: 'bg-violet-50 text-violet-600 dark:bg-violet-900/20 dark:text-violet-400' },
             ].map((item, index) => {
               const Icon = item.icon;
               return (
                 <ScrollReveal key={item.key} delay={index * 0.1} direction="up">
-                  <div className="group relative flex flex-col items-center text-center">
-                    {/* Connector line (desktop) */}
-                    {index < 3 && (
-                      <div className="absolute left-1/2 top-8 -z-10 hidden h-1 w-full bg-brand-dark-border md:block" />
-                    )}
-                    <div className="z-10 mb-6 flex h-16 w-16 items-center justify-center rounded-full border-4 border-brand-dark-border bg-brand-dark-card shadow-lg shadow-black/20 transition-colors duration-300 group-hover:border-amber-500">
-                      <Icon className="h-8 w-8 text-amber-500" />
+                  <div className="group rounded-2xl border border-slate-100 bg-white p-7 transition-all duration-300 hover:border-slate-200 hover:shadow-lg dark:border-slate-800 dark:bg-card dark:hover:border-slate-700">
+                    <div className={`mb-5 flex h-12 w-12 items-center justify-center rounded-xl ${item.color}`}>
+                      <Icon className="h-6 w-6" />
                     </div>
-                    <div className="w-full rounded-xl border border-brand-dark-border bg-brand-dark-card/50 p-6 transition-colors hover:bg-brand-dark-card">
-                      <h4 className="mb-3 text-xl font-bold">{t(`whyUs.${item.key}.title`)}</h4>
-                      <p className="text-sm leading-relaxed text-brand-dark-text">
-                        {t(`whyUs.${item.key}.description`)}
-                      </p>
-
-                    </div>
+                    <h3 className="mb-2 text-lg font-bold text-slate-900 dark:text-white">{t(`whyUs.${item.key}.title`)}</h3>
+                    <p className="text-sm leading-relaxed text-slate-500 dark:text-slate-400">
+                      {t(`whyUs.${item.key}.description`)}
+                    </p>
                   </div>
                 </ScrollReveal>
               );
@@ -279,36 +255,36 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       </section>
 
       {/* ===== SECTORS PREVIEW ===== */}
-      <section className="bg-amber-50 py-24 dark:bg-amber-950/20">
+      <section className="bg-slate-50 py-24 dark:bg-card">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <ScrollReveal>
-            <div className="mx-auto mb-16 max-w-3xl text-center">
-              <h2 className="mb-2 text-sm font-bold uppercase tracking-wider text-amber-700 dark:text-amber-500">
+            <div className="mx-auto mb-16 max-w-2xl text-center">
+              <span className="text-sm font-semibold uppercase tracking-widest text-amber-600">
                 {t('sectors.title')}
-              </h2>
-              <h3 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
+              </span>
+              <h2 className="mt-3 text-3xl font-extrabold tracking-tight text-slate-900 dark:text-white sm:text-4xl">
                 {t('sectors.subtitle')}
-              </h3>
+              </h2>
             </div>
           </ScrollReveal>
 
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {sectors.slice(0, 4).map((sector, index) => (
               <ScrollReveal key={sector.slug} delay={index * 0.1} direction="up">
                 <Link href="/sectors" className="group block">
-                  <div className="relative h-72 overflow-hidden rounded-2xl shadow-md">
+                  <div className="relative h-72 overflow-hidden rounded-2xl">
                     <Image
                       src={sector.image}
                       alt={t(`sectors.items.${sector.slug}`)}
                       width={800}
                       height={600}
-                      className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
+                      className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
                     <div className="absolute bottom-0 left-0 right-0 p-5">
-                      <h4 className="text-lg font-bold text-white">
+                      <h3 className="text-lg font-bold text-white">
                         {t(`sectors.items.${sector.slug}`)}
-                      </h4>
+                      </h3>
                     </div>
                   </div>
                 </Link>
@@ -319,7 +295,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
           <ScrollReveal delay={0.4}>
             <div className="mt-12 text-center">
               <Link href="/sectors">
-                <Button className="bg-amber-600 text-white shadow-lg shadow-amber-600/20 hover:bg-amber-700">
+                <Button className="rounded-xl bg-amber-600 px-6 text-white shadow-sm hover:bg-amber-700">
                   {t('sectors.viewAll')}
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
@@ -330,23 +306,22 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       </section>
 
       {/* ===== GLOBAL REACH ===== */}
-      <section className="bg-gray-50 py-24 dark:bg-card">
+      <section className="bg-white py-24 dark:bg-background">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <ScrollReveal>
-            <div className="grid items-start gap-12 lg:grid-cols-12 lg:gap-16">
-              {/* Text */}
+            <div className="grid items-center gap-12 lg:grid-cols-12 lg:gap-16">
               <div className="lg:col-span-7">
-                <span className="rounded-full bg-primary/5 px-3 py-1 text-sm font-bold uppercase tracking-wider text-primary">
+                <span className="text-sm font-semibold uppercase tracking-widest text-amber-600">
                   {t('global.subtitle')}
                 </span>
-                <h2 className="mt-4 text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl">
+                <h2 className="mt-3 text-4xl font-extrabold leading-tight tracking-tight text-slate-900 dark:text-white sm:text-5xl">
                   {t('global.title')}
                 </h2>
-                <p className="mt-8 text-lg leading-relaxed text-muted-foreground">
+                <p className="mt-6 text-lg leading-relaxed text-slate-500 dark:text-slate-400">
                   {t('global.description')}
                 </p>
 
-                <div className="mt-8 flex flex-wrap gap-3">
+                <div className="mt-6 flex flex-wrap gap-2">
                   {[
                     { key: 'europe', count: '15+' },
                     { key: 'asia', count: '12+' },
@@ -356,16 +331,16 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                   ].map((region) => (
                     <span
                       key={region.key}
-                      className="inline-flex items-center gap-1.5 rounded-full bg-primary/5 px-3 py-1.5 text-sm font-semibold text-primary"
+                      className="inline-flex items-center gap-1.5 rounded-full bg-slate-100 px-3 py-1.5 text-sm font-medium text-slate-700 dark:bg-slate-800 dark:text-slate-300"
                     >
                       {t(`global.regions.${region.key}`)} · {region.count}
                     </span>
                   ))}
                 </div>
 
-                <div className="mt-10">
+                <div className="mt-8">
                   <Link href="/contact">
-                    <Button className="bg-amber-600 text-white shadow-lg shadow-amber-600/20 hover:bg-amber-700">
+                    <Button className="rounded-xl bg-amber-600 px-6 text-white shadow-sm hover:bg-amber-700">
                       {t('cta')}
                       <ArrowRight className="ml-2 h-4 w-4" />
                     </Button>
@@ -373,21 +348,18 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                 </div>
               </div>
 
-              {/* Image */}
               <div className="relative lg:col-span-5">
-                <div className="absolute -inset-4 rounded-3xl bg-primary/5 blur-2xl" />
                 <Image
                   src="https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=800"
                   alt="Istanbul - Trade Gateway"
                   width={800}
                   height={600}
-                  className="relative h-[500px] w-full rounded-3xl object-cover shadow-2xl"
+                  className="h-[480px] w-full rounded-2xl object-cover shadow-xl"
                 />
-                {/* Floating badge */}
-                <div className="absolute -bottom-6 -left-6 flex h-36 w-36 flex-col items-center justify-center rounded-3xl border border-border bg-card p-6 shadow-2xl">
-                  <Handshake className="mb-2 h-8 w-8 text-primary" />
-                  <span className="text-2xl font-extrabold leading-none text-primary">50+</span>
-                  <span className="mt-1 text-center text-[10px] font-bold uppercase tracking-widest text-muted-foreground">
+                <div className="absolute -bottom-5 -left-5 flex h-32 w-32 flex-col items-center justify-center rounded-2xl border border-slate-100 bg-white p-4 shadow-lg dark:border-slate-700 dark:bg-card">
+                  <Handshake className="mb-1.5 h-7 w-7 text-amber-500" />
+                  <span className="text-2xl font-extrabold leading-none text-slate-900 dark:text-white">50+</span>
+                  <span className="mt-1 text-center text-[10px] font-semibold uppercase tracking-widest text-slate-500">
                     {t('stats.countries')}
                   </span>
                 </div>
@@ -398,38 +370,36 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       </section>
 
       {/* ===== CTA ===== */}
-      <section className="relative overflow-hidden bg-brand-dark py-24">
+      <section className="relative overflow-hidden bg-gradient-to-br from-amber-500 via-amber-600 to-orange-600 py-24">
         <div
-          className="absolute inset-0 opacity-10"
+          className="absolute inset-0 opacity-[0.07]"
           style={{
-            backgroundImage: 'radial-gradient(#ffffff 1px, transparent 1px)',
-            backgroundSize: '32px 32px',
+            backgroundImage: 'radial-gradient(circle at 1px 1px, white 1px, transparent 0)',
+            backgroundSize: '28px 28px',
           }}
         />
-        <div className="absolute right-0 top-0 h-32 w-32 rounded-full bg-amber-500/10 blur-3xl" />
-
         <div className="relative z-10 mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <ScrollReveal>
             <h2 className="text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
               {t('ctaSection.title')}
             </h2>
-            <p className="mx-auto mt-6 max-w-2xl text-lg text-brand-dark-text">
+            <p className="mx-auto mt-5 max-w-2xl text-lg text-amber-100">
               {t('ctaSection.description')}
             </p>
           </ScrollReveal>
           <ScrollReveal delay={0.2}>
-            <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+            <div className="mt-10">
               <Link href="/contact">
                 <Button
                   size="lg"
-                  className="h-14 bg-amber-600 px-8 text-base font-bold text-white shadow-xl hover:bg-amber-700"
+                  className="h-14 rounded-xl bg-white px-8 text-base font-bold text-amber-700 shadow-xl shadow-amber-900/20 transition-all hover:-translate-y-0.5 hover:bg-amber-50"
                 >
                   {t('ctaSection.button')}
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
               </Link>
             </div>
-            <p className="mt-4 text-sm text-brand-dark-text-muted">
+            <p className="mt-4 text-sm text-amber-200/70">
               {t('ctaSection.note')}
             </p>
           </ScrollReveal>
