@@ -69,11 +69,12 @@ Plans:
   2. Every form submission triggers an email notification to the Toko team via Resend with all submitted details
   3. Spam is blocked by honeypot fields, rate limiting, and reCAPTCHA v3 -- legitimate submissions pass through reliably
   4. A WhatsApp floating button appears on every page and links to Toko's WhatsApp number
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 03-01: TBD
-- [ ] 03-02: TBD
+- [ ] 03-01-PLAN.md -- Form infrastructure: schemas, server actions, email pipeline, spam protection, WhatsApp button
+- [ ] 03-02-PLAN.md -- Form UI components: contact, quote, sourcing, callback forms with page routes
+- [ ] 03-03-PLAN.md -- i18n translations for all forms, navigation updates, server action tests
 
 ### Phase 4: SEO Infrastructure
 **Goal**: Every existing page is discoverable by search engines with correct metadata, structured data, hreflang alternates, and optimized performance
@@ -132,7 +133,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6
 |-------|----------------|--------|-----------|
 | 1. Foundation and i18n | 5/5 | Complete   | 2026-03-10 |
 | 2. Core Pages | 6/6 | Complete   | 2026-03-10 |
-| 3. Forms and Lead Capture | 0/? | Not started | - |
+| 3. Forms and Lead Capture | 0/3 | Planning complete | - |
 | 4. SEO Infrastructure | 0/? | Not started | - |
 | 5. Blog System | 0/? | Not started | - |
 | 6. Programmatic SEO | 0/? | Not started | - |
