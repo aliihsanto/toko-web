@@ -20,7 +20,7 @@ import {
   Truck,
   type LucideIcon,
 } from 'lucide-react';
-import { sectors, getSectorBySlug, getAllSectorSlugs } from '@/data/sectors';
+import { sectors, getSectorBySlug } from '@/data/sectors';
 import type { Metadata } from 'next';
 
 export const dynamicParams = false;
@@ -57,6 +57,12 @@ const iconMap: Record<string, LucideIcon> = {
 };
 
 const advantageIcons: LucideIcon[] = [CheckCircle2, Shield, DollarSign, Truck];
+const advantageColors = [
+  { bg: 'bg-primary/10', text: 'text-primary', border: 'border-t-primary' },
+  { bg: 'bg-[#2d8a6e]/12', text: 'text-[#2d8a6e]', border: 'border-t-[#2d8a6e]' },
+  { bg: 'bg-[#d4613c]/10', text: 'text-[#d4613c]', border: 'border-t-[#d4613c]' },
+  { bg: 'bg-[#e8a840]/10', text: 'text-[#e8a840]', border: 'border-t-[#e8a840]' },
+];
 
 export default async function SectorDetailPage({
   params,
@@ -78,15 +84,13 @@ export default async function SectorDetailPage({
 
   return (
     <>
-      {/* ===== PAGE HERO ===== */}
       <PageHero
         title={t(`${slug}.title`)}
         subtitle={t(`${slug}.subtitle`)}
         backgroundImage={sector.image}
       />
 
-      {/* ===== BREADCRUMB ===== */}
-      <div className="bg-white dark:bg-background">
+      <div className="bg-background">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <Breadcrumb
             items={[
@@ -98,11 +102,10 @@ export default async function SectorDetailPage({
         </div>
       </div>
 
-      {/* ===== INDUSTRY OVERVIEW SECTION ===== */}
-      <section className="bg-white py-24 dark:bg-background">
+      {/* Industry Overview */}
+      <section className="bg-background py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid items-start gap-12 lg:grid-cols-12 lg:gap-16">
-            {/* Text - 7 columns */}
             <div className="lg:col-span-7">
               <ScrollReveal>
                 <div className="space-y-6 text-lg leading-relaxed text-muted-foreground">
@@ -112,22 +115,20 @@ export default async function SectorDetailPage({
               </ScrollReveal>
             </div>
 
-            {/* Image - 5 columns */}
             <div className="relative lg:col-span-5">
               <ScrollReveal direction="right">
                 <div className="group relative">
-                  <div className="absolute -inset-4 rounded-3xl bg-primary/5 blur-2xl transition-colors group-hover:bg-amber-100/50 dark:group-hover:bg-amber-900/10" />
+                  <div className="absolute -inset-3 rounded-[2.5rem] bg-gradient-to-br from-primary/10 via-[#d4613c]/8 to-transparent blur-xl" />
                   <Image
                     src={sector.image}
                     alt={t(`${slug}.title`)}
                     width={800}
                     height={600}
-                    className="relative h-[400px] w-full rounded-3xl object-cover shadow-2xl"
+                    className="relative h-[400px] w-full rounded-[2rem] object-cover shadow-2xl ring-1 ring-white/50"
                   />
-                  {/* Floating stat badge */}
-                  <div className="absolute -bottom-4 -left-4 flex items-center gap-3 rounded-2xl bg-white px-5 py-3 shadow-xl dark:bg-card">
-                    <div className="flex h-10 w-10 items-center justify-center rounded-full bg-amber-100 dark:bg-amber-900/30">
-                      <SectorIcon className="h-5 w-5 text-amber-600" />
+                  <div className="glass-card absolute -bottom-4 -left-4 flex items-center gap-3 rounded-2xl px-5 py-3 shadow-xl">
+                    <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary/10">
+                      <SectorIcon className="h-5 w-5 text-primary" />
                     </div>
                     <div>
                       <div className="text-lg font-bold">{sector.productKeys.length}+</div>
@@ -141,23 +142,25 @@ export default async function SectorDetailPage({
         </div>
       </section>
 
-      {/* ===== PRODUCTS & CAPABILITIES SECTION ===== */}
-      <section className="bg-gray-50 py-24 dark:bg-card">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      {/* Products & Capabilities */}
+      <section className="relative overflow-hidden py-24">
+        <div className="absolute inset-0 mesh-warm" />
+        <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <ScrollReveal>
             <div className="mx-auto mb-16 max-w-3xl text-center">
-              <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
+              <h2 className="heading-serif text-3xl tracking-tight sm:text-4xl">
                 {t(`${slug}.sectionTitles.products`)}
               </h2>
+              <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-gradient-to-r from-primary to-[#2d8a6e]" />
             </div>
           </ScrollReveal>
 
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {sector.productKeys.map((productKey, index) => (
               <ScrollReveal key={productKey} delay={index * 0.1} direction="up">
-                <div className="group h-full rounded-2xl border border-border bg-white p-6 shadow-sm transition-all duration-300 hover:shadow-lg dark:bg-background">
-                  <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-amber-100 dark:bg-amber-900/30">
-                    <CheckCircle2 className="h-5 w-5 text-amber-600 dark:text-amber-400" />
+                <div className="rich-card h-full rounded-2xl border-t-4 border-t-primary p-6">
+                  <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-primary/10">
+                    <CheckCircle2 className="h-5 w-5 text-primary" />
                   </div>
                   <h3 className="mb-2 text-lg font-bold">
                     {t(`${slug}.products.${productKey}.title`)}
@@ -172,25 +175,27 @@ export default async function SectorDetailPage({
         </div>
       </section>
 
-      {/* ===== SOURCING ADVANTAGES SECTION ===== */}
-      <section className="bg-amber-50 py-24 dark:bg-amber-950/20">
+      {/* Sourcing Advantages */}
+      <section className="bg-background py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <ScrollReveal>
             <div className="mx-auto mb-16 max-w-3xl text-center">
-              <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
+              <h2 className="heading-serif text-3xl tracking-tight sm:text-4xl">
                 {t(`${slug}.advantages.title`)}
               </h2>
+              <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-gradient-to-r from-[#d4613c] to-[#e8a840]" />
             </div>
           </ScrollReveal>
 
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
             {[1, 2, 3, 4].map((num, index) => {
               const AdvIcon = advantageIcons[index];
+              const advColor = advantageColors[index];
               return (
                 <ScrollReveal key={num} delay={index * 0.15} direction="up">
-                  <div className="group rounded-2xl border border-amber-200 bg-white p-6 shadow-sm transition-all duration-300 hover:shadow-lg dark:border-amber-800/30 dark:bg-card">
-                    <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-amber-100 dark:bg-amber-900/30">
-                      <AdvIcon className="h-6 w-6 text-amber-600 dark:text-amber-400" />
+                  <div className={`rich-card group rounded-2xl border-t-4 ${advColor.border} p-6`}>
+                    <div className={`mb-4 flex h-12 w-12 items-center justify-center rounded-xl ${advColor.bg}`}>
+                      <AdvIcon className={`h-6 w-6 ${advColor.text}`} />
                     </div>
                     <h3 className="mb-2 text-lg font-bold">
                       {t(`${slug}.advantages.a${num}.title`)}
@@ -206,7 +211,6 @@ export default async function SectorDetailPage({
         </div>
       </section>
 
-      {/* ===== CTA ===== */}
       <CTASection
         title={t(`${slug}.cta.title`)}
         description={t(`${slug}.cta.description`)}

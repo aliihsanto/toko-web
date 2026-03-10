@@ -14,7 +14,6 @@ import {
   SheetHeader,
   SheetTitle,
 } from '@/components/ui/sheet';
-import { ThemeToggle } from '@/components/layout/theme-toggle';
 
 const navItems = [
   { key: 'home', href: '/' },
@@ -40,7 +39,7 @@ export function MobileNav() {
   }
 
   return (
-    <div className="md:hidden">
+    <div className="lg:hidden">
       <Sheet open={open} onOpenChange={setOpen}>
         <SheetTrigger
           render={
@@ -49,10 +48,10 @@ export function MobileNav() {
         >
           <Menu className="h-5 w-5" />
         </SheetTrigger>
-        <SheetContent side="right" className="w-[300px] p-0">
-          <SheetHeader className="border-b px-6 py-4">
-            <SheetTitle className="text-left font-bold tracking-wider uppercase">
-              TOKO
+        <SheetContent side="right" className="w-[300px] bg-background p-0">
+          <SheetHeader className="border-b border-border px-6 py-5">
+            <SheetTitle className="heading-serif text-left text-xl tracking-tight">
+              Toko<span className="text-[#d4613c]">.</span>
             </SheetTitle>
           </SheetHeader>
 
@@ -63,10 +62,10 @@ export function MobileNav() {
                 href={item.href}
                 onClick={() => setOpen(false)}
                 className={cn(
-                  'flex min-h-12 items-center rounded-md px-3 text-base font-medium transition-colors hover:bg-muted',
+                  'flex min-h-12 items-center rounded-xl px-4 text-[15px] font-medium transition-colors hover:bg-muted',
                   pathname === item.href
-                    ? 'text-primary'
-                    : 'text-foreground/80'
+                    ? 'bg-primary/8 text-primary'
+                    : 'text-foreground/70'
                 )}
               >
                 {t(`nav.${item.key}`)}
@@ -74,8 +73,8 @@ export function MobileNav() {
             ))}
           </nav>
 
-          <div className="border-t px-6 py-4">
-            <p className="mb-3 text-sm font-medium text-muted-foreground">
+          <div className="border-t border-border px-6 py-4">
+            <p className="mb-3 text-xs font-medium uppercase tracking-wider text-muted-foreground">
               {tLang('label')}
             </p>
             <div className="flex flex-wrap gap-2">
@@ -84,7 +83,7 @@ export function MobileNav() {
                   key={loc}
                   onClick={() => handleLocaleChange(loc)}
                   className={cn(
-                    'rounded-md px-3 py-1.5 text-sm transition-colors',
+                    'rounded-full px-3.5 py-1.5 text-sm transition-colors',
                     loc === locale
                       ? 'bg-primary text-primary-foreground'
                       : 'bg-muted text-foreground hover:bg-muted/80'
@@ -96,19 +95,14 @@ export function MobileNav() {
             </div>
           </div>
 
-          <div className="border-t px-6 py-4">
-            <div className="flex items-center justify-between">
-              <span className="text-sm text-muted-foreground">Theme</span>
-              <ThemeToggle />
-            </div>
-          </div>
-
-          <div className="mt-auto border-t px-6 py-4">
+          <div className="mt-auto border-t border-border px-6 py-4">
             <Link
               href="/contact"
               onClick={() => setOpen(false)}
             >
-              <Button className="w-full">{t('cta')}</Button>
+              <Button className="w-full rounded-full bg-primary text-primary-foreground shadow-md shadow-primary/20">
+                {t('cta')}
+              </Button>
             </Link>
           </div>
         </SheetContent>

@@ -26,6 +26,13 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   BarChart3,
 };
 
+const colorMap: Record<string, { bg: string; text: string; check: string; border: string }> = {
+  blue: { bg: 'bg-blue-50', text: 'text-blue-600', check: 'text-blue-500', border: 'border-l-blue-500' },
+  emerald: { bg: 'bg-emerald-50', text: 'text-emerald-600', check: 'text-emerald-500', border: 'border-l-emerald-500' },
+  amber: { bg: 'bg-[#d4613c]/10', text: 'text-[#d4613c]', check: 'text-[#d4613c]', border: 'border-l-[#d4613c]' },
+  rose: { bg: 'bg-violet-50', text: 'text-violet-600', check: 'text-violet-500', border: 'border-l-violet-500' },
+};
+
 export default async function ServicesPage({
   params,
 }: {
@@ -35,49 +42,14 @@ export default async function ServicesPage({
   setRequestLocale(locale);
   const t = await getTranslations('ServicesPage');
 
-  const colorMap: Record<string, { bg: string; text: string }> = {
-    blue: {
-      bg: 'bg-blue-100 dark:bg-blue-900/30',
-      text: 'text-blue-600 dark:text-blue-400',
-    },
-    emerald: {
-      bg: 'bg-emerald-100 dark:bg-emerald-900/30',
-      text: 'text-emerald-600 dark:text-emerald-400',
-    },
-    amber: {
-      bg: 'bg-amber-100 dark:bg-amber-900/30',
-      text: 'text-amber-600 dark:text-amber-400',
-    },
-    rose: {
-      bg: 'bg-rose-100 dark:bg-rose-900/30',
-      text: 'text-rose-600 dark:text-rose-400',
-    },
-  };
-
   const whyChooseItems = [
-    {
-      key: 'endToEnd',
-      icon: Headphones,
-      color: 'text-amber-600',
-      bg: 'bg-amber-100 dark:bg-amber-900/30',
-    },
-    {
-      key: 'expertise',
-      icon: Award,
-      color: 'text-emerald-600',
-      bg: 'bg-emerald-100 dark:bg-emerald-900/30',
-    },
-    {
-      key: 'network',
-      icon: Globe,
-      color: 'text-blue-600',
-      bg: 'bg-blue-100 dark:bg-blue-900/30',
-    },
+    { key: 'endToEnd', icon: Headphones, color: 'text-primary', bg: 'bg-primary/10', border: 'border-t-primary' },
+    { key: 'expertise', icon: Award, color: 'text-[#2d8a6e]', bg: 'bg-[#2d8a6e]/12', border: 'border-t-[#2d8a6e]' },
+    { key: 'network', icon: Globe, color: 'text-[#d4613c]', bg: 'bg-[#d4613c]/10', border: 'border-t-[#d4613c]' },
   ];
 
   return (
     <>
-      {/* ===== PAGE HERO ===== */}
       <PageHero
         title={t('hero.title')}
         subtitle={t('hero.subtitle')}
@@ -85,8 +57,7 @@ export default async function ServicesPage({
         badge={t('hero.badge')}
       />
 
-      {/* ===== BREADCRUMB ===== */}
-      <div className="bg-white dark:bg-background">
+      <div className="bg-background">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <Breadcrumb
             items={[
@@ -97,8 +68,8 @@ export default async function ServicesPage({
         </div>
       </div>
 
-      {/* ===== SERVICES GRID (alternating layout) ===== */}
-      <section className="bg-white py-24 dark:bg-background">
+      {/* Services Grid */}
+      <section className="bg-background py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="space-y-16">
             {services.map((service, index) => {
@@ -108,11 +79,10 @@ export default async function ServicesPage({
 
               return (
                 <ScrollReveal key={service.slug} delay={0.1} direction="up">
-                  <div className="group overflow-hidden rounded-2xl border border-border bg-card shadow-sm transition-all hover:shadow-xl">
+                  <div className={`rich-card group overflow-hidden rounded-2xl border-l-4 ${colors.border}`}>
                     <div
                       className={`grid gap-0 lg:grid-cols-12 ${isReversed ? 'lg:grid-flow-dense' : ''}`}
                     >
-                      {/* Image */}
                       <div
                         className={`relative h-64 overflow-hidden lg:col-span-5 lg:h-auto ${isReversed ? 'lg:col-start-8' : ''}`}
                       >
@@ -123,17 +93,14 @@ export default async function ServicesPage({
                           height={500}
                           className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
                         />
-                        <div className="absolute inset-0 bg-brand-dark/20 transition-colors group-hover:bg-transparent" />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent" />
                       </div>
 
-                      {/* Content */}
                       <div className="flex flex-col justify-center p-8 lg:col-span-7 lg:p-12">
-                        <div
-                          className={`mb-4 flex h-12 w-12 items-center justify-center rounded-lg ${colors.bg}`}
-                        >
+                        <div className={`mb-4 flex h-12 w-12 items-center justify-center rounded-xl ${colors.bg}`}>
                           <Icon className={`h-6 w-6 ${colors.text}`} />
                         </div>
-                        <h2 className="text-2xl font-extrabold">
+                        <h2 className="heading-serif text-2xl">
                           {t(`services.${service.slug}.title`)}
                         </h2>
                         <p className="mt-4 leading-relaxed text-muted-foreground">
@@ -142,23 +109,16 @@ export default async function ServicesPage({
 
                         <ul className="mt-6 space-y-2">
                           {service.featureKeys.map((featureKey) => (
-                            <li
-                              key={featureKey}
-                              className="flex items-center gap-2 text-sm"
-                            >
-                              <CheckCircle2 className="h-4 w-4 shrink-0 text-amber-600" />
-                              <span>
-                                {t(
-                                  `services.${service.slug}.features.${featureKey}`
-                                )}
-                              </span>
+                            <li key={featureKey} className="flex items-center gap-2 text-sm">
+                              <CheckCircle2 className={`h-4 w-4 shrink-0 ${colors.check}`} />
+                              <span>{t(`services.${service.slug}.features.${featureKey}`)}</span>
                             </li>
                           ))}
                         </ul>
 
                         <div className="mt-8">
                           <Link href={`/services/${service.slug}`}>
-                            <Button className="bg-amber-600 text-white hover:bg-amber-700">
+                            <Button className="rounded-full bg-primary text-white shadow-md shadow-primary/20 hover:bg-primary/90 hover:shadow-lg">
                               {t('learnMore')}
                               <ArrowRight className="ml-2 h-4 w-4" />
                             </Button>
@@ -174,17 +134,19 @@ export default async function ServicesPage({
         </div>
       </section>
 
-      {/* ===== WHY CHOOSE OUR SERVICES ===== */}
-      <section className="bg-brand-dark py-24">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      {/* Why Choose */}
+      <section className="relative overflow-hidden py-24">
+        <div className="absolute inset-0 mesh-warm" />
+        <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <ScrollReveal>
             <div className="mx-auto mb-16 max-w-3xl text-center">
-              <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
+              <h2 className="heading-serif text-3xl tracking-tight sm:text-4xl">
                 {t('whyChoose.title')}
               </h2>
-              <p className="mt-4 text-lg text-brand-dark-text">
+              <p className="mt-4 text-lg text-muted-foreground">
                 {t('whyChoose.subtitle')}
               </p>
+              <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-gradient-to-r from-primary to-[#d4613c]" />
             </div>
           </ScrollReveal>
 
@@ -193,16 +155,14 @@ export default async function ServicesPage({
               const ItemIcon = item.icon;
               return (
                 <ScrollReveal key={item.key} delay={index * 0.1} direction="up">
-                  <div className="group rounded-2xl border border-white/10 bg-white/5 p-8 text-center backdrop-blur-md transition-colors hover:bg-white/10">
-                    <div
-                      className={`mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-2xl ${item.bg}`}
-                    >
+                  <div className={`rich-card rounded-2xl border-t-4 ${item.border} p-8 text-center`}>
+                    <div className={`mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-2xl ${item.bg}`}>
                       <ItemIcon className={`h-8 w-8 ${item.color}`} />
                     </div>
-                    <h3 className="mb-3 text-xl font-bold text-white">
+                    <h3 className="mb-3 text-xl font-bold">
                       {t(`whyChoose.${item.key}.title`)}
                     </h3>
-                    <p className="text-sm leading-relaxed text-brand-dark-text">
+                    <p className="text-sm leading-relaxed text-muted-foreground">
                       {t(`whyChoose.${item.key}.description`)}
                     </p>
                   </div>
@@ -213,7 +173,6 @@ export default async function ServicesPage({
         </div>
       </section>
 
-      {/* ===== CTA ===== */}
       <CTASection
         title={t('cta.title')}
         description={t('cta.description')}

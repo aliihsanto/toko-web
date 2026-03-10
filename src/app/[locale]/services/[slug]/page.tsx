@@ -81,27 +81,31 @@ export default async function ServiceDetailPage({
   const t = await getTranslations('ServiceDetail');
   const tNav = await getTranslations('ServicesPage');
 
-  const colorMap: Record<string, { bg: string; text: string; border: string }> =
+  const colorMap: Record<string, { bg: string; text: string; border: string; topBorder: string }> =
     {
       blue: {
-        bg: 'bg-blue-100 dark:bg-blue-900/30',
-        text: 'text-blue-600 dark:text-blue-400',
-        border: 'border-blue-200 dark:border-blue-800/30',
+        bg: 'bg-blue-50',
+        text: 'text-blue-600',
+        border: 'border-blue-200',
+        topBorder: 'border-t-blue-500',
       },
       emerald: {
-        bg: 'bg-emerald-100 dark:bg-emerald-900/30',
-        text: 'text-emerald-600 dark:text-emerald-400',
-        border: 'border-emerald-200 dark:border-emerald-800/30',
+        bg: 'bg-emerald-50',
+        text: 'text-emerald-600',
+        border: 'border-emerald-200',
+        topBorder: 'border-t-emerald-500',
       },
       amber: {
-        bg: 'bg-amber-100 dark:bg-amber-900/30',
-        text: 'text-amber-600 dark:text-amber-400',
-        border: 'border-amber-200 dark:border-amber-800/30',
+        bg: 'bg-[#d4613c]/10',
+        text: 'text-[#d4613c]',
+        border: 'border-[#d4613c]/20',
+        topBorder: 'border-t-[#d4613c]',
       },
       rose: {
-        bg: 'bg-rose-100 dark:bg-rose-900/30',
-        text: 'text-rose-600 dark:text-rose-400',
-        border: 'border-rose-200 dark:border-rose-800/30',
+        bg: 'bg-violet-50',
+        text: 'text-violet-600',
+        border: 'border-violet-200',
+        topBorder: 'border-t-violet-500',
       },
     };
 
@@ -109,7 +113,6 @@ export default async function ServiceDetailPage({
 
   return (
     <>
-      {/* ===== PAGE HERO ===== */}
       <PageHero
         title={t(`${slug}.title`)}
         subtitle={t(`${slug}.subtitle`)}
@@ -117,8 +120,7 @@ export default async function ServiceDetailPage({
         badge={t(`${slug}.badge`)}
       />
 
-      {/* ===== BREADCRUMB ===== */}
-      <div className="bg-white dark:bg-background">
+      <div className="bg-background">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <Breadcrumb
             items={[
@@ -130,11 +132,10 @@ export default async function ServiceDetailPage({
         </div>
       </div>
 
-      {/* ===== OVERVIEW SECTION ===== */}
-      <section className="bg-white py-24 dark:bg-background">
+      {/* Overview */}
+      <section className="bg-background py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid items-start gap-12 lg:grid-cols-12 lg:gap-16">
-            {/* Text */}
             <div className="lg:col-span-7">
               <ScrollReveal>
                 <div className="space-y-6 text-lg leading-relaxed text-muted-foreground">
@@ -145,17 +146,16 @@ export default async function ServiceDetailPage({
               </ScrollReveal>
             </div>
 
-            {/* Image */}
             <div className="relative lg:col-span-5">
               <ScrollReveal direction="right">
                 <div className="group relative">
-                  <div className="absolute -inset-4 rounded-3xl bg-primary/5 blur-2xl transition-colors group-hover:bg-amber-100/50 dark:group-hover:bg-amber-900/10" />
+                  <div className="absolute -inset-3 rounded-[2.5rem] bg-gradient-to-br from-primary/10 via-[#d4613c]/8 to-transparent blur-xl" />
                   <Image
                     src={service.image}
                     alt={t(`${slug}.title`)}
                     width={800}
                     height={600}
-                    className="relative h-[400px] w-full rounded-3xl object-cover shadow-2xl"
+                    className="relative h-[400px] w-full rounded-[2rem] object-cover shadow-2xl ring-1 ring-white/50"
                   />
                 </div>
               </ScrollReveal>
@@ -164,14 +164,16 @@ export default async function ServiceDetailPage({
         </div>
       </section>
 
-      {/* ===== FEATURES SECTION ===== */}
-      <section className="bg-gray-50 py-24 dark:bg-card">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      {/* Features */}
+      <section className="relative overflow-hidden py-24">
+        <div className="absolute inset-0 mesh-warm" />
+        <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <ScrollReveal>
             <div className="mx-auto mb-16 max-w-3xl text-center">
-              <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
+              <h2 className="heading-serif text-3xl tracking-tight sm:text-4xl">
                 {t(`${slug}.sectionTitles.features`)}
               </h2>
+              <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-gradient-to-r from-primary to-[#d4613c]" />
             </div>
           </ScrollReveal>
 
@@ -185,12 +187,8 @@ export default async function ServiceDetailPage({
                   delay={index * 0.1}
                   direction="up"
                 >
-                  <div
-                    className={`group h-full rounded-2xl border ${colors.border} bg-white p-6 shadow-sm transition-all duration-300 hover:shadow-lg dark:bg-background`}
-                  >
-                    <div
-                      className={`mb-4 flex h-12 w-12 items-center justify-center rounded-xl ${colors.bg}`}
-                    >
+                  <div className={`rich-card h-full rounded-2xl border-t-4 ${colors.topBorder} p-6`}>
+                    <div className={`mb-4 flex h-12 w-12 items-center justify-center rounded-xl ${colors.bg}`}>
                       <FeatureIcon className={`h-6 w-6 ${colors.text}`} />
                     </div>
                     <h3 className="mb-2 text-lg font-bold">
@@ -207,22 +205,23 @@ export default async function ServiceDetailPage({
         </div>
       </section>
 
-      {/* ===== PROCESS SECTION ===== */}
-      <section className="bg-amber-50 py-24 dark:bg-amber-950/20">
+      {/* Process */}
+      <section className="bg-background py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <ScrollReveal>
             <div className="mx-auto mb-16 max-w-3xl text-center">
-              <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
+              <h2 className="heading-serif text-3xl tracking-tight sm:text-4xl">
                 {t(`${slug}.sectionTitles.process`)}
               </h2>
+              <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-gradient-to-r from-[#e8a840] to-[#d4613c]" />
             </div>
           </ScrollReveal>
 
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
             {[1, 2, 3, 4].map((step, index) => (
               <ScrollReveal key={step} delay={index * 0.15} direction="up">
-                <div className="group relative rounded-2xl border border-amber-200 bg-white p-6 shadow-sm transition-all duration-300 hover:shadow-lg dark:border-amber-800/30 dark:bg-card">
-                  <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-amber-600 text-lg font-bold text-white">
+                <div className="rich-card group rounded-2xl p-6">
+                  <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-primary text-lg font-bold text-white">
                     {step}
                   </div>
                   <h3 className="mb-2 text-lg font-bold">
@@ -238,7 +237,6 @@ export default async function ServiceDetailPage({
         </div>
       </section>
 
-      {/* ===== CTA ===== */}
       <CTASection
         title={t(`${slug}.cta.title`)}
         description={t(`${slug}.cta.description`)}

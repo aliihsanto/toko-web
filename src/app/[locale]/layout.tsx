@@ -50,12 +50,12 @@ export default async function LocaleLayout({
     <NextIntlClientProvider messages={messages}>
       <ThemeProvider
         attribute="class"
-        defaultTheme="system"
-        enableSystem
+        defaultTheme="light"
+        forcedTheme="light"
         disableTransitionOnChange
       >
         <Header />
-        <main className="min-h-screen pt-24">
+        <main className="min-h-screen pt-14">
           <PageTransition locale={locale}>{children}</PageTransition>
         </main>
         <Footer />

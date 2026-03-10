@@ -1,5 +1,6 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { ScrollReveal } from '@/components/common/scroll-reveal';
+import { WaveDivider } from '@/components/common/wave-divider';
 import { Mail, Phone, MapPin, Send, Clock } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -10,17 +11,25 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
 
   return (
     <div>
-      {/* Header with dark bg */}
-      <section className="bg-[#14202e] pb-32 pt-24">
-        <div className="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
+      {/* Header — mesh gradient */}
+      <section className="relative overflow-hidden pb-32 pt-24 mesh-hero">
+        <div className="absolute -right-40 -top-40 h-[500px] w-[500px] rounded-full bg-primary/10 blur-[120px]" />
+        <div className="absolute -bottom-40 -left-40 h-[400px] w-[400px] rounded-full bg-[#d4613c]/8 blur-[100px]" />
+        <div className="absolute inset-0 dot-grid text-[#0d7377]/[0.02]" />
+
+        <div className="relative mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
           <ScrollReveal>
-            <span className="rounded-full border border-amber-600/30 bg-amber-600/10 px-3 py-1 text-sm font-bold uppercase tracking-wider text-amber-500">
+            <span className="inline-flex items-center gap-2 rounded-full border border-primary/15 bg-white/60 px-5 py-2 text-xs font-semibold uppercase tracking-widest text-primary backdrop-blur-sm shadow-sm">
+              <span className="h-1.5 w-1.5 rounded-full bg-primary" />
               {t('title')}
             </span>
-            <h1 className="mt-4 text-4xl font-extrabold text-white sm:text-5xl">{t('title')}</h1>
-            <p className="mt-6 text-lg text-blue-200">{t('subtitle')}</p>
+            <h1 className="mt-4 heading-serif text-4xl text-foreground sm:text-5xl">{t('title')}</h1>
+            <div className="mx-auto mt-4 h-1 w-20 rounded-full bg-gradient-to-r from-primary to-[#d4613c]" />
+            <p className="mt-6 text-lg text-muted-foreground">{t('subtitle')}</p>
           </ScrollReveal>
         </div>
+
+        <WaveDivider color="#fefcf9" variant="gentle" />
       </section>
 
       {/* Content */}
@@ -30,22 +39,19 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
           <div className="space-y-6 lg:col-span-5">
             <ScrollReveal>
               {[
-                { icon: Phone, value: t('info.phone'), label: 'phone', bg: 'bg-card' },
-                { icon: Mail, value: t('info.email'), label: 'email', bg: 'bg-card' },
-                { icon: MapPin, value: t('info.address'), label: 'address', bg: 'bg-[#1e3043] text-white' },
+                { icon: Phone, value: t('info.phone'), label: 'phone', bg: 'bg-primary/10', iconColor: 'text-primary', border: 'border-l-4 border-l-primary' },
+                { icon: Mail, value: t('info.email'), label: 'email', bg: 'bg-[#d4613c]/10', iconColor: 'text-[#d4613c]', border: 'border-l-4 border-l-[#d4613c]' },
+                { icon: MapPin, value: t('info.address'), label: 'address', bg: 'bg-[#2d8a6e]/10', iconColor: 'text-[#2d8a6e]', border: 'border-l-4 border-l-[#2d8a6e]' },
               ].map((item) => {
                 const Icon = item.icon;
-                const isDark = item.label === 'address';
                 return (
-                  <div key={item.label} className={`flex items-center gap-4 rounded-2xl border p-6 shadow-sm ${item.bg}`}>
-                    <div className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-xl ${isDark ? 'bg-amber-600/20' : 'bg-primary/5'}`}>
-                      <Icon className={`h-6 w-6 ${isDark ? 'text-amber-500' : 'text-primary'}`} />
+                  <div key={item.label} className={`rich-card flex items-center gap-4 rounded-2xl ${item.border} p-6`}>
+                    <div className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-xl ${item.bg}`}>
+                      <Icon className={`h-6 w-6 ${item.iconColor}`} />
                     </div>
                     <div>
-                      <div className="text-xs font-bold uppercase tracking-wider text-muted-foreground">
-                        {item.label}
-                      </div>
-                      <div className={`font-semibold ${isDark ? 'text-white' : ''}`}>{item.value}</div>
+                      <div className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">{item.label}</div>
+                      <div className="font-semibold text-foreground">{item.value}</div>
                     </div>
                   </div>
                 );
@@ -56,23 +62,24 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
           {/* Form */}
           <div className="lg:col-span-7">
             <ScrollReveal delay={0.2}>
-              <div className="rounded-3xl border bg-card p-8 shadow-sm lg:p-10">
-                <h2 className="text-xl font-extrabold">{t('title')}</h2>
+              <div className="rich-card rounded-2xl border-t-4 border-t-primary p-8 lg:p-10">
+                <h2 className="heading-serif text-xl">{t('title')}</h2>
+                <div className="mt-2 h-1 w-12 rounded-full bg-gradient-to-r from-primary to-[#d4613c]" />
                 <div className="mt-6 space-y-4">
                   <div className="grid gap-4 sm:grid-cols-2">
-                    <div className="h-12 rounded-lg border bg-muted/30 animate-pulse" />
-                    <div className="h-12 rounded-lg border bg-muted/30 animate-pulse" />
+                    <div className="h-12 rounded-xl border border-border bg-muted/30 animate-pulse" />
+                    <div className="h-12 rounded-xl border border-border bg-muted/30 animate-pulse" />
                   </div>
-                  <div className="h-12 rounded-lg border bg-muted/30 animate-pulse" />
-                  <div className="h-12 rounded-lg border bg-muted/30 animate-pulse" />
-                  <div className="h-32 rounded-lg border bg-muted/30 animate-pulse" />
-                  <Button disabled className="w-full bg-amber-600 text-white hover:bg-amber-700">
+                  <div className="h-12 rounded-xl border border-border bg-muted/30 animate-pulse" />
+                  <div className="h-12 rounded-xl border border-border bg-muted/30 animate-pulse" />
+                  <div className="h-32 rounded-xl border border-border bg-muted/30 animate-pulse" />
+                  <Button disabled className="w-full rounded-full bg-primary text-white shadow-md shadow-primary/20 hover:bg-primary/90">
                     <Send className="mr-2 h-4 w-4" />
                     {t('comingSoon')}
                   </Button>
                 </div>
                 <div className="mt-4 flex items-center gap-2 text-sm text-muted-foreground">
-                  <Clock className="h-4 w-4 text-amber-600" />
+                  <Clock className="h-4 w-4 text-primary" />
                   <span>24 saat icinde donus yapilir</span>
                 </div>
               </div>
