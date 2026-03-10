@@ -101,7 +101,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
                   <div className="absolute -inset-1 rounded-[2.5rem] bg-gradient-to-br from-primary/15 via-transparent to-[#d4613c]/10" />
                   <Image
                     src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&q=80&w=800"
-                    alt="Toko Trading Team"
+                    alt={t('images.team')}
                     width={800}
                     height={600}
                     className="relative h-[500px] w-full rounded-[2rem] object-cover shadow-2xl ring-1 ring-white/50"

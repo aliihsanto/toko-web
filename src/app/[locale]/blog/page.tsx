@@ -58,7 +58,7 @@ export default async function BlogPage({ params }: { params: Promise<{ locale: s
           <ScrollReveal key={i} delay={i * 0.1} direction="up">
             <div className="rich-card group overflow-hidden rounded-2xl">
               <div className="relative h-48 overflow-hidden">
-                <Image src={post.image} alt="Blog post" width={800} height={400}
+                <Image src={post.image} alt={t('images.post')} width={800} height={400}
                   className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
                 <div className="absolute left-3 top-3 rounded-full bg-white/90 px-3 py-1 text-xs font-bold text-primary backdrop-blur-sm shadow-sm">
                   Trade

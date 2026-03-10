@@ -150,7 +150,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
               <div className="absolute -inset-1 rounded-[2.5rem] bg-gradient-to-br from-[#0d7377]/20 via-transparent to-[#d4613c]/15" />
               <Image
                 src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&q=80&w=2070"
-                alt="International Trade Container Port"
+                alt={t('images.hero')}
                 width={2070}
                 height={1380}
                 className="relative h-[500px] w-full rounded-[2rem] object-cover shadow-2xl ring-1 ring-white/50 lg:h-[560px]"
@@ -418,7 +418,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                 <div className="absolute -inset-1 rounded-[2.5rem] bg-gradient-to-br from-[#2d8a6e]/15 via-transparent to-[#d4613c]/10" />
                 <Image
                   src="https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=800"
-                  alt="Istanbul - Trade Gateway"
+                  alt={t('images.istanbul')}
                   width={800}
                   height={600}
                   className="relative h-[480px] w-full rounded-[2rem] object-cover shadow-2xl ring-1 ring-white/50"

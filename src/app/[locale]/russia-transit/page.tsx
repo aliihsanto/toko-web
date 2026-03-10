@@ -129,7 +129,7 @@ export default async function RussiaTransitPage({ params }: { params: Promise<{ 
                 <div className="group relative">
                   <div className="absolute -inset-3 rounded-[2.5rem] bg-gradient-to-br from-primary/12 via-[#2d8a6e]/8 to-[#d4613c]/8 blur-xl" />
                   <div className="absolute -inset-1 rounded-[2.5rem] bg-gradient-to-br from-primary/15 via-transparent to-[#2d8a6e]/10" />
-                  <Image src="https://images.unsplash.com/photo-1494412574643-ff11b0a5eb19?auto=format&fit=crop&q=80&w=800" alt="Turkey-Russia Trade" width={800} height={600} className="relative h-[450px] w-full rounded-[2rem] object-cover shadow-2xl ring-1 ring-white/50" />
+                  <Image src="https://images.unsplash.com/photo-1494412574643-ff11b0a5eb19?auto=format&fit=crop&q=80&w=800" alt={t('images.trade')} width={800} height={600} className="relative h-[450px] w-full rounded-[2rem] object-cover shadow-2xl ring-1 ring-white/50" />
                   <div className="glass-card absolute -bottom-6 -left-6 flex h-32 w-32 flex-col items-center justify-center rounded-2xl p-4 shadow-xl">
                     <ShieldCheck className="mb-2 h-8 w-8 text-[#2d8a6e]" />
                     <span className="text-center text-xs font-bold uppercase tracking-widest text-muted-foreground">{t('whatIs.floatingBadge')}</span>

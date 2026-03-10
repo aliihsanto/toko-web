@@ -160,6 +160,10 @@
         "machinery": "Machinerie",
         "chemicals": "Chimie"
       }
+    },
+    "images": {
+      "hero": "Port de conteneurs de commerce international avec navires cargo",
+      "istanbul": "Horizon d'Istanbul - Porte du commerce international"
     }
   },
   "AboutPage": {
@@ -221,6 +225,9 @@
       "description": "Contactez-nous des aujourd'hui pour vos besoins en commerce international. Creeons ensemble des solutions adaptees a votre entreprise.",
       "button": "Contactez-nous",
       "note": "La premiere consultation est entierement gratuite"
+    },
+    "images": {
+      "team": "Équipe professionnelle de Toko Trading en réunion"
     }
   },
   "ServicesPage": {
@@ -1304,6 +1311,9 @@
       "description": "Contactez notre equipe d'experts pour vos besoins en commerce de transit. Vous pouvez egalement nous joindre via WhatsApp.",
       "button": "Contactez-nous",
       "note": "Support rapide via WhatsApp: +90 (212) 000 00 00"
+    },
+    "images": {
+      "trade": "Route commerciale Turquie-Russie avec logistique de fret"
     }
   },
   "BlogPage": {
@@ -1313,7 +1323,10 @@
     },
     "title": "Blog",
     "subtitle": "Articles actuels sur le commerce international, la reglementation douaniere et les analyses sectorielles.",
-    "comingSoon": "Le contenu detaille sera ajoute prochainement."
+    "comingSoon": "Le contenu detaille sera ajoute prochainement.",
+    "images": {
+      "post": "Article sur le commerce international"
+    }
   },
   "Forms": {
     "success": "Votre message a ete envoye avec succes. Nous vous repondrons bientot.",

@@ -160,6 +160,10 @@
         "machinery": "Machinery",
         "chemicals": "Chemicals"
       }
+    },
+    "images": {
+      "hero": "International trade container port with cargo ships",
+      "istanbul": "Istanbul skyline - Gateway for international trade"
     }
   },
   "AboutPage": {
@@ -221,6 +225,9 @@
       "description": "Contact us today for your international trade needs. Let us create solutions tailored to your business.",
       "button": "Get in Touch",
       "note": "First meeting is completely free"
+    },
+    "images": {
+      "team": "Toko Trading professional team in meeting"
     }
   },
   "ServicesPage": {
@@ -1304,6 +1311,9 @@
       "description": "Reach out to our expert team for your transit trade needs. You can also reach us via WhatsApp for quick support.",
       "button": "Get in Touch",
       "note": "Quick support via WhatsApp: +90 (212) 000 00 00"
+    },
+    "images": {
+      "trade": "Turkey-Russia trade route with cargo logistics"
     }
   },
   "BlogPage": {
@@ -1313,7 +1323,10 @@
     },
     "title": "Blog",
     "subtitle": "Current articles on international trade, customs regulations, and sector analyses.",
-    "comingSoon": "Detailed content will be added soon."
+    "comingSoon": "Detailed content will be added soon.",
+    "images": {
+      "post": "Trade industry article"
+    }
   },
   "Forms": {
     "success": "Your message has been sent successfully. We will get back to you soon.",

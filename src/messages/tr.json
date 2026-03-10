@@ -160,6 +160,10 @@
         "machinery": "Makine",
         "chemicals": "Kimya"
       }
+    },
+    "images": {
+      "hero": "Uluslararası ticaret konteyner limanı ve kargo gemileri",
+      "istanbul": "İstanbul silueti - Uluslararası ticaret kapısı"
     }
   },
   "AboutPage": {
@@ -221,6 +225,9 @@
       "description": "Uluslararasi ticaret ihtiyaclariniz icin hemen bizimle iletisime gecin. Isletmenize ozel cozumler uretelim.",
       "button": "Iletisime Gecin",
       "note": "Ilk gorusme tamamen ucretsizdir"
+    },
+    "images": {
+      "team": "Toko Trading profesyonel ekibi toplantıda"
     }
   },
   "ServicesPage": {
@@ -1304,6 +1311,9 @@
       "description": "Transit ticaret ihtiyaclariniz icin uzman ekibimize ulasin. WhatsApp uzerinden de bize ulasabilirsiniz.",
       "button": "Iletisime Gecin",
       "note": "WhatsApp ile hizli destek: +90 (212) 000 00 00"
+    },
+    "images": {
+      "trade": "Türkiye-Rusya ticaret rotası ve kargo lojistiği"
     }
   },
   "BlogPage": {
@@ -1313,7 +1323,10 @@
     },
     "title": "Blog",
     "subtitle": "Uluslararasi ticaret, gumruk mevzuati ve sektor analizleri hakkinda guncel yazilar.",
-    "comingSoon": "Detayli icerik yakinda eklenecektir."
+    "comingSoon": "Detayli icerik yakinda eklenecektir.",
+    "images": {
+      "post": "Ticaret sektörü makalesi"
+    }
   },
   "Forms": {
     "success": "Mesajiniz basariyla gonderildi. En kisa surede size donecegiz.",
