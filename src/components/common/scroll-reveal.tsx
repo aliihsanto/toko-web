@@ -8,6 +8,7 @@ interface ScrollRevealProps {
   className?: string;
   delay?: number;
   direction?: 'up' | 'down' | 'left' | 'right';
+  noTransform?: boolean;
 }
 
 const directionVariants: Record<string, Variants> = {
@@ -29,11 +30,17 @@ const directionVariants: Record<string, Variants> = {
   },
 };
 
+const fadeOnlyVariants: Variants = {
+  hidden: { opacity: 0 },
+  visible: { opacity: 1 },
+};
+
 export function ScrollReveal({
   children,
   className,
   delay = 0,
   direction = 'up',
+  noTransform = false,
 }: ScrollRevealProps) {
   return (
     <motion.div
@@ -41,7 +48,7 @@ export function ScrollReveal({
       whileInView="visible"
       viewport={{ once: true, margin: '-50px' }}
       transition={{ duration: 0.5, delay, ease: 'easeOut' }}
-      variants={directionVariants[direction]}
+      variants={noTransform ? fadeOnlyVariants : directionVariants[direction]}
       className={cn(className)}
     >
       {children}

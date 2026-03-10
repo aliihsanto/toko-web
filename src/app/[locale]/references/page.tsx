@@ -4,7 +4,9 @@ import { PageHero } from '@/components/common/page-hero';
 import { CTASection } from '@/components/common/cta-section';
 import { Breadcrumb } from '@/components/common/breadcrumb';
 import { Wheat, Shirt, Cog, FlaskConical, Building2, Mountain, Cpu, Car, Star, Quote, Globe } from 'lucide-react';
-import { getPageMetadata } from '@/lib/seo/metadata';
+import { getPageMetadata, BASE_URL } from '@/lib/seo/metadata';
+import { JsonLd } from '@/lib/seo/json-ld';
+import { getBreadcrumbSchema } from '@/lib/seo/structured-data';
 import type { Metadata } from 'next';
 
 export async function generateMetadata({
@@ -55,6 +57,10 @@ export default async function ReferencesPage({ params }: { params: Promise<{ loc
 
   return (
     <>
+      <JsonLd data={getBreadcrumbSchema([
+        { name: t('breadcrumb.home'), url: `${BASE_URL}/${locale}` },
+        { name: t('breadcrumb.references'), url: `${BASE_URL}/${locale}/references` },
+      ])} />
       <PageHero title={t('hero.title')} subtitle={t('hero.subtitle')}
         backgroundImage="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&q=80&w=2070"
         badge={t('hero.badge')} />

@@ -2,7 +2,9 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { ScrollReveal } from '@/components/common/scroll-reveal';
 import { WaveDivider } from '@/components/common/wave-divider';
 import { SourcingForm } from '@/components/forms/sourcing-form';
-import { getPageMetadata } from '@/lib/seo/metadata';
+import { getPageMetadata, BASE_URL } from '@/lib/seo/metadata';
+import { JsonLd } from '@/lib/seo/json-ld';
+import { getBreadcrumbSchema } from '@/lib/seo/structured-data';
 import type { Metadata } from 'next';
 
 export async function generateMetadata({
@@ -25,10 +27,15 @@ export default async function SourcingPage({ params }: { params: Promise<{ local
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations('SourcingPage');
+  const tNav = await getTranslations('Header.nav');
   const tForm = await getTranslations('Forms.sourcing');
 
   return (
     <div>
+      <JsonLd data={getBreadcrumbSchema([
+        { name: tNav('home'), url: `${BASE_URL}/${locale}` },
+        { name: t('title'), url: `${BASE_URL}/${locale}/sourcing` },
+      ])} />
       {/* Hero */}
       <section className="relative overflow-hidden pb-32 pt-24 mesh-hero">
         <div className="absolute -right-40 -top-40 h-[500px] w-[500px] rounded-full bg-[#2d8a6e]/10 blur-[120px]" />
@@ -36,15 +43,13 @@ export default async function SourcingPage({ params }: { params: Promise<{ local
         <div className="absolute inset-0 dot-grid text-[#2d8a6e]/[0.02]" />
 
         <div className="relative mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
-          <ScrollReveal>
-            <span className="inline-flex items-center gap-2 rounded-full border border-[#2d8a6e]/15 bg-white/60 px-5 py-2 text-xs font-semibold uppercase tracking-widest text-[#2d8a6e] backdrop-blur-sm shadow-sm">
-              <span className="h-1.5 w-1.5 rounded-full bg-[#2d8a6e]" />
-              {t('badge')}
-            </span>
-            <h1 className="mt-4 heading-serif text-4xl text-foreground sm:text-5xl">{t('title')}</h1>
-            <div className="mx-auto mt-4 h-1 w-20 rounded-full bg-gradient-to-r from-[#2d8a6e] to-primary" />
-            <p className="mt-6 text-lg text-muted-foreground">{t('subtitle')}</p>
-          </ScrollReveal>
+          <span className="inline-flex items-center gap-2 rounded-full border border-[#2d8a6e]/15 bg-white/60 px-5 py-2 text-xs font-semibold uppercase tracking-widest text-[#2d8a6e] backdrop-blur-sm shadow-sm">
+            <span className="h-1.5 w-1.5 rounded-full bg-[#2d8a6e]" />
+            {t('badge')}
+          </span>
+          <h1 className="mt-4 heading-serif text-4xl text-foreground sm:text-5xl">{t('title')}</h1>
+          <div className="mx-auto mt-4 h-1 w-20 rounded-full bg-gradient-to-r from-[#2d8a6e] to-primary" />
+          <p className="mt-6 text-lg text-muted-foreground">{t('subtitle')}</p>
         </div>
 
         <WaveDivider color="#fefcf9" variant="gentle" />

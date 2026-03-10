@@ -22,6 +22,8 @@ import {
 } from 'lucide-react';
 import { sectors, getSectorBySlug } from '@/data/sectors';
 import { getAlternates, LOCALE_TO_OG, BASE_URL } from '@/lib/seo/metadata';
+import { JsonLd } from '@/lib/seo/json-ld';
+import { getBreadcrumbSchema } from '@/lib/seo/structured-data';
 import type { Metadata } from 'next';
 
 export const dynamicParams = false;
@@ -96,6 +98,11 @@ export default async function SectorDetailPage({
 
   return (
     <>
+      <JsonLd data={getBreadcrumbSchema([
+        { name: tSectors('breadcrumb.home'), url: `${BASE_URL}/${locale}` },
+        { name: tSectors('breadcrumb.sectors'), url: `${BASE_URL}/${locale}/sectors` },
+        { name: t(`${slug}.title`), url: `${BASE_URL}/${locale}/sectors/${slug}` },
+      ])} />
       <PageHero
         title={t(`${slug}.title`)}
         subtitle={t(`${slug}.subtitle`)}

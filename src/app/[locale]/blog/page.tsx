@@ -2,7 +2,9 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { ScrollReveal } from '@/components/common/scroll-reveal';
 import { Calendar, ArrowUpRight } from 'lucide-react';
 import Image from 'next/image';
-import { getPageMetadata } from '@/lib/seo/metadata';
+import { getPageMetadata, BASE_URL } from '@/lib/seo/metadata';
+import { JsonLd } from '@/lib/seo/json-ld';
+import { getBreadcrumbSchema } from '@/lib/seo/structured-data';
 import type { Metadata } from 'next';
 
 export async function generateMetadata({
@@ -25,6 +27,7 @@ export default async function BlogPage({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations('BlogPage');
+  const tNav = await getTranslations('Header.nav');
 
   const posts = [
     { image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800' },
@@ -34,6 +37,10 @@ export default async function BlogPage({ params }: { params: Promise<{ locale: s
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
+      <JsonLd data={getBreadcrumbSchema([
+        { name: tNav('home'), url: `${BASE_URL}/${locale}` },
+        { name: tNav('blog'), url: `${BASE_URL}/${locale}/blog` },
+      ])} />
       <ScrollReveal>
         <div className="mx-auto mb-16 max-w-3xl text-center">
           <span className="inline-flex items-center gap-2 rounded-full border border-primary/15 bg-primary/5 px-5 py-2 text-xs font-semibold uppercase tracking-widest text-primary">

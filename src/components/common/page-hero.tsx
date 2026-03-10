@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import { ScrollReveal } from '@/components/common/scroll-reveal';
 import { WaveDivider } from '@/components/common/wave-divider';
 
 interface PageHeroProps {
@@ -37,29 +36,21 @@ export function PageHero({ title, subtitle, backgroundImage, badge }: PageHeroPr
       {/* Dot pattern for texture */}
       <div className="absolute inset-0 dot-grid text-[#0d7377]/[0.03]" />
 
-      {/* Content — centered for impact */}
+      {/* Content — centered for impact, renders immediately (no ScrollReveal for LCP) */}
       <div className="relative z-10 mx-auto w-full max-w-7xl px-4 py-28 text-center sm:px-6 lg:px-8 lg:py-32">
         {badge && (
-          <ScrollReveal>
-            <span className="mb-6 inline-flex items-center gap-2 rounded-full border border-primary/20 bg-white/60 px-5 py-2 text-xs font-semibold uppercase tracking-widest text-primary backdrop-blur-sm">
-              <span className="h-1.5 w-1.5 rounded-full bg-primary" />
-              {badge}
-            </span>
-          </ScrollReveal>
+          <span className="mb-6 inline-flex items-center gap-2 rounded-full border border-primary/20 bg-white/60 px-5 py-2 text-xs font-semibold uppercase tracking-widest text-primary backdrop-blur-sm">
+            <span className="h-1.5 w-1.5 rounded-full bg-primary" />
+            {badge}
+          </span>
         )}
-        <ScrollReveal delay={0.1}>
-          <h1 className="heading-serif text-4xl leading-tight tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-            {title}
-          </h1>
-        </ScrollReveal>
-        <ScrollReveal delay={0.15}>
-          <div className="mx-auto mt-5 h-1 w-20 rounded-full bg-gradient-to-r from-[#0d7377] to-[#d4613c]" />
-        </ScrollReveal>
-        <ScrollReveal delay={0.2}>
-          <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground">
-            {subtitle}
-          </p>
-        </ScrollReveal>
+        <h1 className="heading-serif text-4xl leading-tight tracking-tight text-foreground sm:text-5xl lg:text-6xl">
+          {title}
+        </h1>
+        <div className="mx-auto mt-5 h-1 w-20 rounded-full bg-gradient-to-r from-[#0d7377] to-[#d4613c]" />
+        <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground">
+          {subtitle}
+        </p>
       </div>
 
       {/* Wave divider to next section */}

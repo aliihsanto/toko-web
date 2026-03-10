@@ -18,7 +18,9 @@ import {
 } from 'lucide-react';
 import Image from 'next/image';
 import { services } from '@/data/services';
-import { getPageMetadata } from '@/lib/seo/metadata';
+import { getPageMetadata, BASE_URL } from '@/lib/seo/metadata';
+import { JsonLd } from '@/lib/seo/json-ld';
+import { getBreadcrumbSchema } from '@/lib/seo/structured-data';
 import type { Metadata } from 'next';
 
 export async function generateMetadata({
@@ -68,6 +70,10 @@ export default async function ServicesPage({
 
   return (
     <>
+      <JsonLd data={getBreadcrumbSchema([
+        { name: t('breadcrumb.home'), url: `${BASE_URL}/${locale}` },
+        { name: t('breadcrumb.services'), url: `${BASE_URL}/${locale}/services` },
+      ])} />
       <PageHero
         title={t('hero.title')}
         subtitle={t('hero.subtitle')}

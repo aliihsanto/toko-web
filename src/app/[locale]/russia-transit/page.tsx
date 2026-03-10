@@ -7,7 +7,9 @@ import { Link } from '@/i18n/navigation';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
 import { ArrowRight, Phone, MapPin, FileCheck, ShieldCheck, Truck, Globe, DollarSign, Scale, ChevronRight } from 'lucide-react';
-import { getPageMetadata } from '@/lib/seo/metadata';
+import { getPageMetadata, BASE_URL } from '@/lib/seo/metadata';
+import { JsonLd } from '@/lib/seo/json-ld';
+import { getBreadcrumbSchema, getFAQSchema } from '@/lib/seo/structured-data';
 import type { Metadata } from 'next';
 
 export async function generateMetadata({
@@ -53,8 +55,18 @@ export default async function RussiaTransitPage({ params }: { params: Promise<{ 
 
   const faqs = ['q1', 'q2', 'q3', 'q4', 'q5'];
 
+  const faqItems = faqs.map((faq) => ({
+    question: t(`faq.${faq}.question`),
+    answer: t(`faq.${faq}.answer`),
+  }));
+
   return (
     <>
+      <JsonLd data={getBreadcrumbSchema([
+        { name: t('breadcrumb.home'), url: `${BASE_URL}/${locale}` },
+        { name: t('breadcrumb.russiaTransit'), url: `${BASE_URL}/${locale}/russia-transit` },
+      ])} />
+      <JsonLd data={getFAQSchema(faqItems)} />
       {/* Hero — mesh gradient */}
       <section className="relative overflow-hidden mesh-hero">
         <div className="absolute -right-40 top-0 h-[500px] w-[500px] rounded-full bg-primary/10 blur-[120px]" />
@@ -67,35 +79,25 @@ export default async function RussiaTransitPage({ params }: { params: Promise<{ 
 
         <div className="relative z-10 mx-auto w-full max-w-7xl px-4 py-28 sm:px-6 lg:px-8">
           <div className="max-w-2xl">
-            <ScrollReveal>
-              <span className="mb-6 inline-flex items-center gap-2 rounded-full border border-primary/15 bg-white/60 px-5 py-2 text-sm font-semibold uppercase tracking-wide text-primary backdrop-blur-sm shadow-sm">
-                <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
-                {t('hero.badge')}
-              </span>
-            </ScrollReveal>
-            <ScrollReveal delay={0.1}>
-              <h1 className="heading-serif text-4xl leading-tight tracking-tight text-foreground sm:text-5xl md:text-6xl">{t('hero.title')}</h1>
-            </ScrollReveal>
-            <ScrollReveal delay={0.15}>
-              <div className="mt-4 h-1 w-20 rounded-full bg-gradient-to-r from-primary to-[#d4613c]" />
-            </ScrollReveal>
-            <ScrollReveal delay={0.2}>
-              <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">{t('hero.subtitle')}</p>
-            </ScrollReveal>
-            <ScrollReveal delay={0.3}>
-              <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-                <Link href="/contact">
-                  <Button size="lg" className="h-14 rounded-full bg-primary px-8 text-base font-semibold text-white shadow-lg shadow-primary/25 hover:-translate-y-1 hover:bg-primary/90 hover:shadow-xl">
-                    {t('hero.ctaQuote')}<ArrowRight className="ml-2 h-5 w-5" />
-                  </Button>
-                </Link>
-                <Link href="/contact">
-                  <Button variant="outline" size="lg" className="h-14 rounded-full border-border/60 bg-white/70 px-8 text-base font-semibold backdrop-blur-sm hover:bg-white hover:shadow-md">
-                    <Phone className="mr-2 h-5 w-5" />{t('hero.ctaCall')}
-                  </Button>
-                </Link>
-              </div>
-            </ScrollReveal>
+            <span className="mb-6 inline-flex items-center gap-2 rounded-full border border-primary/15 bg-white/60 px-5 py-2 text-sm font-semibold uppercase tracking-wide text-primary backdrop-blur-sm shadow-sm">
+              <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
+              {t('hero.badge')}
+            </span>
+            <h1 className="heading-serif text-4xl leading-tight tracking-tight text-foreground sm:text-5xl md:text-6xl">{t('hero.title')}</h1>
+            <div className="mt-4 h-1 w-20 rounded-full bg-gradient-to-r from-primary to-[#d4613c]" />
+            <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">{t('hero.subtitle')}</p>
+            <div className="mt-10 flex flex-col gap-4 sm:flex-row">
+              <Link href="/contact">
+                <Button size="lg" className="h-14 rounded-full bg-primary px-8 text-base font-semibold text-white shadow-lg shadow-primary/25 hover:-translate-y-1 hover:bg-primary/90 hover:shadow-xl">
+                  {t('hero.ctaQuote')}<ArrowRight className="ml-2 h-5 w-5" />
+                </Button>
+              </Link>
+              <Link href="/contact">
+                <Button variant="outline" size="lg" className="h-14 rounded-full border-border/60 bg-white/70 px-8 text-base font-semibold backdrop-blur-sm hover:bg-white hover:shadow-md">
+                  <Phone className="mr-2 h-5 w-5" />{t('hero.ctaCall')}
+                </Button>
+              </Link>
+            </div>
           </div>
         </div>
 

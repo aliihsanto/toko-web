@@ -2,7 +2,9 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { ScrollReveal } from '@/components/common/scroll-reveal';
 import { WaveDivider } from '@/components/common/wave-divider';
 import { QuoteForm } from '@/components/forms/quote-form';
-import { getPageMetadata } from '@/lib/seo/metadata';
+import { getPageMetadata, BASE_URL } from '@/lib/seo/metadata';
+import { JsonLd } from '@/lib/seo/json-ld';
+import { getBreadcrumbSchema } from '@/lib/seo/structured-data';
 import type { Metadata } from 'next';
 
 export async function generateMetadata({
@@ -25,10 +27,15 @@ export default async function QuotePage({ params }: { params: Promise<{ locale: 
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations('QuotePage');
+  const tNav = await getTranslations('Header.nav');
   const tForm = await getTranslations('Forms.quote');
 
   return (
     <div>
+      <JsonLd data={getBreadcrumbSchema([
+        { name: tNav('home'), url: `${BASE_URL}/${locale}` },
+        { name: t('title'), url: `${BASE_URL}/${locale}/quote` },
+      ])} />
       {/* Hero */}
       <section className="relative overflow-hidden pb-32 pt-24 mesh-hero">
         <div className="absolute -right-40 -top-40 h-[500px] w-[500px] rounded-full bg-primary/10 blur-[120px]" />
@@ -36,15 +43,13 @@ export default async function QuotePage({ params }: { params: Promise<{ locale: 
         <div className="absolute inset-0 dot-grid text-[#0d7377]/[0.02]" />
 
         <div className="relative mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
-          <ScrollReveal>
-            <span className="inline-flex items-center gap-2 rounded-full border border-primary/15 bg-white/60 px-5 py-2 text-xs font-semibold uppercase tracking-widest text-primary backdrop-blur-sm shadow-sm">
-              <span className="h-1.5 w-1.5 rounded-full bg-primary" />
-              {t('badge')}
-            </span>
-            <h1 className="mt-4 heading-serif text-4xl text-foreground sm:text-5xl">{t('title')}</h1>
-            <div className="mx-auto mt-4 h-1 w-20 rounded-full bg-gradient-to-r from-primary to-[#e8a840]" />
-            <p className="mt-6 text-lg text-muted-foreground">{t('subtitle')}</p>
-          </ScrollReveal>
+          <span className="inline-flex items-center gap-2 rounded-full border border-primary/15 bg-white/60 px-5 py-2 text-xs font-semibold uppercase tracking-widest text-primary backdrop-blur-sm shadow-sm">
+            <span className="h-1.5 w-1.5 rounded-full bg-primary" />
+            {t('badge')}
+          </span>
+          <h1 className="mt-4 heading-serif text-4xl text-foreground sm:text-5xl">{t('title')}</h1>
+          <div className="mx-auto mt-4 h-1 w-20 rounded-full bg-gradient-to-r from-primary to-[#e8a840]" />
+          <p className="mt-6 text-lg text-muted-foreground">{t('subtitle')}</p>
         </div>
 
         <WaveDivider color="#fefcf9" variant="gentle" />

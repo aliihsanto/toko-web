@@ -84,106 +84,94 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         <div className="relative z-10 mx-auto flex max-w-7xl flex-col items-center gap-12 px-4 pt-20 pb-24 sm:px-6 lg:flex-row lg:gap-16 lg:px-8 lg:pt-24 lg:pb-32">
           {/* Left content */}
           <div className="flex-1">
-            <ScrollReveal>
-              <span className="inline-flex items-center gap-2 rounded-full border border-primary/15 bg-white/60 px-5 py-2 text-xs font-semibold uppercase tracking-widest text-primary backdrop-blur-sm shadow-sm">
-                <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
-                Toko Global Trade
-              </span>
-            </ScrollReveal>
+            <span className="inline-flex items-center gap-2 rounded-full border border-primary/15 bg-white/60 px-5 py-2 text-xs font-semibold uppercase tracking-widest text-primary backdrop-blur-sm shadow-sm">
+              <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
+              Toko Global Trade
+            </span>
 
-            <ScrollReveal delay={0.1}>
-              <h1 className="mt-7 heading-serif text-5xl leading-[1.08] tracking-tight text-foreground sm:text-6xl lg:text-7xl">
-                {t('title')} <br />
-                <span className="gradient-text">{t('titleHighlight')}</span>
-              </h1>
-            </ScrollReveal>
+            <h1 className="mt-7 heading-serif text-5xl leading-[1.08] tracking-tight text-foreground sm:text-6xl lg:text-7xl">
+              {t('title')} <br />
+              <span className="gradient-text">{t('titleHighlight')}</span>
+            </h1>
 
-            <ScrollReveal delay={0.2}>
-              <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
-                {t('subtitle')}
-              </p>
-            </ScrollReveal>
+            <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
+              {t('subtitle')}
+            </p>
 
-            <ScrollReveal delay={0.3}>
-              <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-                <Link href="/contact">
-                  <Button
-                    size="lg"
-                    className="h-13 rounded-full bg-primary px-7 text-base font-semibold text-white shadow-lg shadow-primary/25 transition-all hover:-translate-y-1 hover:bg-primary/90 hover:shadow-xl hover:shadow-primary/30"
-                  >
-                    {t('cta')}
-                    <ArrowRight className="ml-2 h-5 w-5" />
-                  </Button>
-                </Link>
-                <Link href="/services">
-                  <Button
-                    size="lg"
-                    variant="outline"
-                    className="h-13 rounded-full border-border/60 bg-white/70 px-7 text-base font-semibold text-foreground backdrop-blur-sm transition-all hover:bg-white hover:shadow-md"
-                  >
-                    {t('ctaSecondary')}
-                  </Button>
-                </Link>
-              </div>
-            </ScrollReveal>
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+              <Link href="/contact">
+                <Button
+                  size="lg"
+                  className="h-13 rounded-full bg-primary px-7 text-base font-semibold text-white shadow-lg shadow-primary/25 transition-all hover:-translate-y-1 hover:bg-primary/90 hover:shadow-xl hover:shadow-primary/30"
+                >
+                  {t('cta')}
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </Button>
+              </Link>
+              <Link href="/services">
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="h-13 rounded-full border-border/60 bg-white/70 px-7 text-base font-semibold text-foreground backdrop-blur-sm transition-all hover:bg-white hover:shadow-md"
+                >
+                  {t('ctaSecondary')}
+                </Button>
+              </Link>
+            </div>
 
             {/* Stats strip */}
-            <ScrollReveal delay={0.4}>
-              <div className="mt-14 grid grid-cols-2 gap-4 md:grid-cols-4">
-                {[
-                  { icon: Factory, value: '1000+', label: t('stats.clients'), color: 'text-primary', bg: 'bg-primary/8' },
-                  { icon: Globe, value: '50+', label: t('stats.countries'), color: 'text-[#d4613c]', bg: 'bg-[#d4613c]/8' },
-                  { icon: Clock, value: '24/7', label: t('stats.support'), color: 'text-[#2d8a6e]', bg: 'bg-[#2d8a6e]/8' },
-                  { icon: ThumbsUp, value: '100%', label: t('stats.years'), color: 'text-[#e8a840]', bg: 'bg-[#e8a840]/10' },
-                ].map((stat) => (
-                  <div key={stat.label} className="flex items-center gap-3 rounded-xl bg-white/50 p-3 backdrop-blur-sm">
-                    <div className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-lg ${stat.bg}`}>
-                      <stat.icon className={`h-5 w-5 ${stat.color}`} />
-                    </div>
-                    <div>
-                      <div className="text-xl font-bold text-foreground">{stat.value}</div>
-                      <div className="text-[10px] font-medium uppercase tracking-wider text-muted-foreground">
-                        {stat.label}
-                      </div>
+            <div className="mt-14 grid grid-cols-2 gap-4 md:grid-cols-4">
+              {[
+                { icon: Factory, value: '1000+', label: t('stats.clients'), color: 'text-primary', bg: 'bg-primary/8' },
+                { icon: Globe, value: '50+', label: t('stats.countries'), color: 'text-[#d4613c]', bg: 'bg-[#d4613c]/8' },
+                { icon: Clock, value: '24/7', label: t('stats.support'), color: 'text-[#2d8a6e]', bg: 'bg-[#2d8a6e]/8' },
+                { icon: ThumbsUp, value: '100%', label: t('stats.years'), color: 'text-[#e8a840]', bg: 'bg-[#e8a840]/10' },
+              ].map((stat) => (
+                <div key={stat.label} className="flex items-center gap-3 rounded-xl bg-white/50 p-3 backdrop-blur-sm">
+                  <div className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-lg ${stat.bg}`}>
+                    <stat.icon className={`h-5 w-5 ${stat.color}`} />
+                  </div>
+                  <div>
+                    <div className="text-xl font-bold text-foreground">{stat.value}</div>
+                    <div className="text-[10px] font-medium uppercase tracking-wider text-muted-foreground">
+                      {stat.label}
                     </div>
                   </div>
-                ))}
-              </div>
-            </ScrollReveal>
+                </div>
+              ))}
+            </div>
           </div>
 
           {/* Right image */}
           <div className="relative flex-1 max-lg:w-full">
-            <ScrollReveal direction="right">
-              <div className="relative">
-                {/* Decorative frame */}
-                <div className="absolute -inset-3 rounded-[2.5rem] bg-gradient-to-br from-[#0d7377]/15 via-[#d4613c]/10 to-[#e8a840]/10 blur-xl" />
-                <div className="absolute -inset-1 rounded-[2.5rem] bg-gradient-to-br from-[#0d7377]/20 via-transparent to-[#d4613c]/15" />
-                <Image
-                  src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&q=80&w=2070"
-                  alt="International Trade Container Port"
-                  width={2070}
-                  height={1380}
-                  className="relative h-[500px] w-full rounded-[2rem] object-cover shadow-2xl ring-1 ring-white/50 lg:h-[560px]"
-                  priority
-                />
-                {/* Floating badge — glass effect */}
-                <div className="glass-card absolute -bottom-6 -left-6 flex h-32 w-32 flex-col items-center justify-center rounded-2xl p-4 shadow-xl">
-                  <Handshake className="mb-1 h-7 w-7 text-primary" />
-                  <span className="text-3xl font-bold leading-none text-foreground">50+</span>
-                  <span className="mt-1 text-center text-[9px] font-semibold uppercase tracking-widest text-muted-foreground">
-                    {t('stats.countries')}
-                  </span>
-                </div>
-                {/* Second floating badge */}
-                <div className="glass-card absolute -right-4 top-8 flex items-center gap-2 rounded-xl px-4 py-3 shadow-lg">
-                  <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#2d8a6e]/10">
-                    <ShieldCheck className="h-4 w-4 text-[#2d8a6e]" />
-                  </div>
-                  <span className="text-xs font-bold text-foreground">ISO 9001</span>
-                </div>
+            <div className="relative">
+              {/* Decorative frame */}
+              <div className="absolute -inset-3 rounded-[2.5rem] bg-gradient-to-br from-[#0d7377]/15 via-[#d4613c]/10 to-[#e8a840]/10 blur-xl" />
+              <div className="absolute -inset-1 rounded-[2.5rem] bg-gradient-to-br from-[#0d7377]/20 via-transparent to-[#d4613c]/15" />
+              <Image
+                src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&q=80&w=2070"
+                alt="International Trade Container Port"
+                width={2070}
+                height={1380}
+                className="relative h-[500px] w-full rounded-[2rem] object-cover shadow-2xl ring-1 ring-white/50 lg:h-[560px]"
+                priority
+              />
+              {/* Floating badge — glass effect */}
+              <div className="glass-card absolute -bottom-6 -left-6 flex h-32 w-32 flex-col items-center justify-center rounded-2xl p-4 shadow-xl">
+                <Handshake className="mb-1 h-7 w-7 text-primary" />
+                <span className="text-3xl font-bold leading-none text-foreground">50+</span>
+                <span className="mt-1 text-center text-[9px] font-semibold uppercase tracking-widest text-muted-foreground">
+                  {t('stats.countries')}
+                </span>
               </div>
-            </ScrollReveal>
+              {/* Second floating badge */}
+              <div className="glass-card absolute -right-4 top-8 flex items-center gap-2 rounded-xl px-4 py-3 shadow-lg">
+                <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#2d8a6e]/10">
+                  <ShieldCheck className="h-4 w-4 text-[#2d8a6e]" />
+                </div>
+                <span className="text-xs font-bold text-foreground">ISO 9001</span>
+              </div>
+            </div>
           </div>
         </div>
 

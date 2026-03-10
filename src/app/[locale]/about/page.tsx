@@ -16,7 +16,9 @@ import {
   Clock,
   Award,
 } from 'lucide-react';
-import { getPageMetadata } from '@/lib/seo/metadata';
+import { getPageMetadata, BASE_URL } from '@/lib/seo/metadata';
+import { JsonLd } from '@/lib/seo/json-ld';
+import { getBreadcrumbSchema } from '@/lib/seo/structured-data';
 import type { Metadata } from 'next';
 
 export async function generateMetadata({
@@ -49,6 +51,10 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
 
   return (
     <>
+      <JsonLd data={getBreadcrumbSchema([
+        { name: t('breadcrumb.home'), url: `${BASE_URL}/${locale}` },
+        { name: t('breadcrumb.about'), url: `${BASE_URL}/${locale}/about` },
+      ])} />
       <PageHero
         title={t('hero.title')}
         subtitle={t('hero.subtitle')}

@@ -9,6 +9,8 @@ import { PageTransition } from '@/components/common/page-transition';
 import { RecaptchaProvider } from '@/providers/recaptcha-provider';
 import { WhatsAppButton } from '@/components/common/whatsapp-button';
 import { BASE_URL, getAlternates } from '@/lib/seo/metadata';
+import { JsonLd } from '@/lib/seo/json-ld';
+import { getOrganizationSchema } from '@/lib/seo/structured-data';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -66,6 +68,7 @@ export default async function LocaleLayout({
         disableTransitionOnChange
       >
         <RecaptchaProvider>
+          <JsonLd data={getOrganizationSchema(locale)} />
           <Header />
           <main className="min-h-screen pt-14">
             <PageTransition locale={locale}>{children}</PageTransition>
