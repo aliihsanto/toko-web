@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 01-03-PLAN.md
-last_updated: "2026-03-10T09:28:03Z"
-last_activity: 2026-03-10 -- Plan 01-03 executed
+stopped_at: Completed 01-04-PLAN.md
+last_updated: "2026-03-10T09:33:50Z"
+last_activity: 2026-03-10 -- Plan 01-04 executed
 progress:
   total_phases: 6
   completed_phases: 0
   total_plans: 5
-  completed_plans: 3
-  percent: 10
+  completed_plans: 4
+  percent: 13
 ---
 
 # Project State
@@ -26,27 +26,27 @@ See: .planning/PROJECT.md (updated 2026-03-10)
 ## Current Position
 
 Phase: 1 of 6 (Foundation and i18n)
-Plan: 3 of 5 in current phase
-Status: Plan 01-03 complete, ready for 01-04
-Last activity: 2026-03-10 -- Plan 01-03 executed
+Plan: 4 of 5 in current phase
+Status: Plan 01-04 complete, ready for 01-05
+Last activity: 2026-03-10 -- Plan 01-04 executed
 
-Progress: [#░░░░░░░░░] 10%
+Progress: [#░░░░░░░░░] 13%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 3
-- Average duration: 8min
-- Total execution time: 0.4 hours
+- Total plans completed: 4
+- Average duration: 7min
+- Total execution time: 0.5 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| 1 - Foundation and i18n | 3/5 | 25min | 8min |
+| 1 - Foundation and i18n | 4/5 | 28min | 7min |
 
 **Recent Trend:**
-- Last 5 plans: 01-01 (13min), 01-02 (7min), 01-03 (5min)
+- Last 5 plans: 01-01 (13min), 01-02 (7min), 01-03 (5min), 01-04 (3min)
 - Trend: Accelerating
 
 *Updated after each plan completion*
@@ -71,6 +71,9 @@ Recent decisions affecting current work:
 - 01-03: Used onClick instead of onSelect for Base UI DropdownMenuItem (Base UI does not support onSelect)
 - 01-03: Text-based locale names in language switcher (no flags) for B2B corporate professionalism
 - 01-03: Passive scroll listener with 50px threshold for header shrink-on-scroll detection
+- 01-04: Simple text buttons for footer language switcher (not dropdown) to differentiate from header LanguageSwitcher
+- 01-04: Social media icons use aria-label from translation keys for accessibility
+- 01-04: Homepage simplified to clean hero section now that header scroll behavior is verified
 
 ### Pending Todos
 
@@ -84,6 +87,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-10T09:28:03Z
-Stopped at: Completed 01-03-PLAN.md
-Resume file: .planning/phases/01-foundation-and-i18n/01-03-SUMMARY.md
+Last session: 2026-03-10T09:33:50Z
+Stopped at: Completed 01-04-PLAN.md
+Resume file: .planning/phases/01-foundation-and-i18n/01-04-SUMMARY.md
