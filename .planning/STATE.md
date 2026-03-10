@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 04-02-PLAN.md (JSON-LD, sitemap, robots)
-last_updated: "2026-03-10T17:11:00Z"
-last_activity: 2026-03-10 -- Plan 04-02 executed (JSON-LD component, structured data builders, sitemap, robots)
+stopped_at: Completed 04-01-PLAN.md (SEO metadata helpers, generateMetadata on all pages)
+last_updated: "2026-03-10T17:16:00Z"
+last_activity: 2026-03-10 -- Plan 04-01 executed (SEO helpers, company-info, generateMetadata on all 13 pages)
 progress:
   total_phases: 6
   completed_phases: 3
   total_plans: 17
-  completed_plans: 15
-  percent: 88
+  completed_plans: 16
+  percent: 94
 ---
 
 # Project State
@@ -26,18 +26,18 @@ See: .planning/PROJECT.md (updated 2026-03-10)
 ## Current Position
 
 Phase: 4 of 6 (SEO Infrastructure) -- IN PROGRESS
-Plan: 2 of 3 in current phase (plan 02 complete, plans 01 and 03 in progress)
+Plan: 2 of 3 in current phase (plans 01 and 02 complete, plan 03 remaining)
 Status: Executing Phase 4 plans in parallel
-Last activity: 2026-03-10 -- Plan 04-02 executed (JSON-LD, structured data, sitemap, robots)
+Last activity: 2026-03-10 -- Plan 04-01 executed (SEO helpers, company-info, generateMetadata on all pages)
 
-Progress: [█████████░] 88% (15/17 plans complete)
+Progress: [█████████░] 94% (16/17 plans complete)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 14
+- Total plans completed: 16
 - Average duration: 8min
-- Total execution time: ~1.6 hours
+- Total execution time: ~1.8 hours
 
 **By Phase:**
 
@@ -46,17 +46,18 @@ Progress: [█████████░] 88% (15/17 plans complete)
 | 1 - Foundation and i18n | 5/5 | 33min | 7min |
 | 2 - Core Pages | 6/6 | 88min | 15min |
 | 3 - Forms and Lead Capture | 3/3 | 26min | 9min |
-| 4 - SEO Infrastructure | 1/3 | 5min | 5min |
+| 4 - SEO Infrastructure | 2/3 | 15min | 8min |
 
 **Recent Trend:**
-- Last 5 plans: 02-05 (3min), 03-01 (7min), 03-02 (11min), 03-03 (8min), 04-02 (5min)
-- Trend: SEO infrastructure plan 02 completed quickly (5min) -- schema patterns well-established
+- Last 5 plans: 03-01 (7min), 03-02 (11min), 03-03 (8min), 04-02 (5min), 04-01 (10min)
+- Trend: SEO infrastructure plans completing efficiently with established patterns
 
 *Updated after each plan completion*
 | Phase 03 P01 | 7min | 2 tasks | 31 files |
 | Phase 03 P02 | 11min | 2 tasks | 15 files |
 | Phase 03 P03 | 8min | 2 tasks | 7 files |
 | Phase 04 P02 | 5min | 2 tasks | 10 files |
+| Phase 04 P01 | 10min | 1 task (TDD) | 21 files |
 
 ## Accumulated Context
 
@@ -114,6 +115,10 @@ Recent decisions affecting current work:
 - 04-02: JsonLd as server component with zero client JS cost and XSS protection via \u003c escaping
 - 04-02: Sitemap uses Turkish (/tr) as canonical URL with hreflang alternates for all 4 locales
 - 04-02: Enhanced company-info.ts with geo coordinates, email, region, opening hours for LocalBusiness schema
+- 04-01: Homepage generateMetadata returns description and alternates only (title uses layout default template)
+- 04-01: x-default hreflang points to Turkish (/tr) version as default locale
+- 04-01: Dedicated seo.title/seo.description keys for keyword-optimized meta content rather than reusing hero.title
+- 04-01: getPageMetadata helper wraps common pattern (title, description, alternates, openGraph) reducing boilerplate
 
 ### Pending Todos
 
@@ -127,6 +132,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-10T17:11:00Z
-Stopped at: Completed 04-02-PLAN.md (JSON-LD, sitemap, robots)
+Last session: 2026-03-10T17:16:00Z
+Stopped at: Completed 04-01-PLAN.md (SEO metadata helpers, generateMetadata on all pages)
 Resume file: None

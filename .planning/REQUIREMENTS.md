@@ -54,7 +54,7 @@
 
 ### SEO & Performance
 
-- [ ] **SEO-01**: generateMetadata on all pages with locale-aware title, description, Open Graph tags
+- [x] **SEO-01**: generateMetadata on all pages with locale-aware title, description, Open Graph tags
 - [x] **SEO-02**: JSON-LD structured data: Organization, LocalBusiness, BreadcrumbList on all pages
 - [x] **SEO-03**: FAQPage and Article structured data on blog and FAQ pages
 - [x] **SEO-04**: Multilingual sitemap.ts with hreflang alternates for all pages and locales
@@ -135,7 +135,7 @@
 | PSEO-05 | Phase 6 | Pending |
 | PSEO-06 | Phase 6 | Pending |
 | PSEO-07 | Phase 6 | Pending |
-| SEO-01 | Phase 4 | Pending |
+| SEO-01 | Phase 4 | Complete |
 | SEO-02 | Phase 4 | Complete |
 | SEO-03 | Phase 4 | Complete |
 | SEO-04 | Phase 4 | Complete |
