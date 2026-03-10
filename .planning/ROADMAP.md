@@ -15,7 +15,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 1: Foundation and i18n** - Next.js project with 4-language routing, base layout, design system, and responsive navigation (completed 2026-03-10)
 - [x] **Phase 2: Core Pages** - All static content pages (homepage, about, services, sectors, references, Russia transit trade) (completed 2026-03-10)
 - [ ] **Phase 3: Forms and Lead Capture** - Contact, quote, supply, callback forms with email notifications, spam protection, and WhatsApp button
-- [ ] **Phase 4: SEO Infrastructure** - Metadata, structured data, sitemap, robots.txt, hreflang, Core Web Vitals optimization across all existing pages
+- [x] **Phase 4: SEO Infrastructure** - Metadata, structured data, sitemap, robots.txt, hreflang, Core Web Vitals optimization across all existing pages (completed 2026-03-10)
 - [ ] **Phase 5: Blog System** - MDX-based blog with Velite, listing/detail pages, categories, and seed content in all 4 languages
 - [ ] **Phase 6: Programmatic SEO** - Template-driven page generation for sectors, countries, FAQ, and customs/regulations across all locales
 
@@ -135,6 +135,6 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6
 | 1. Foundation and i18n | 5/5 | Complete   | 2026-03-10 |
 | 2. Core Pages | 6/6 | Complete   | 2026-03-10 |
 | 3. Forms and Lead Capture | 1/3 | In Progress|  |
-| 4. SEO Infrastructure | 2/3 | In Progress|  |
+| 4. SEO Infrastructure | 3/3 | Complete   | 2026-03-10 |
 | 5. Blog System | 0/? | Not started | - |
 | 6. Programmatic SEO | 0/? | Not started | - |

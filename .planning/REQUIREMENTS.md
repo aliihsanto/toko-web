@@ -59,8 +59,8 @@
 - [x] **SEO-03**: FAQPage and Article structured data on blog and FAQ pages
 - [x] **SEO-04**: Multilingual sitemap.ts with hreflang alternates for all pages and locales
 - [x] **SEO-05**: robots.ts configured for proper crawling
-- [ ] **SEO-06**: Core Web Vitals optimized — all pages achieve green scores on Lighthouse
-- [ ] **SEO-07**: Images optimized with next/image, proper alt text in all languages
+- [x] **SEO-06**: Core Web Vitals optimized — all pages achieve green scores on Lighthouse
+- [x] **SEO-07**: Images optimized with next/image, proper alt text in all languages
 
 ### Design & UX
 
@@ -140,8 +140,8 @@
 | SEO-03 | Phase 4 | Complete |
 | SEO-04 | Phase 4 | Complete |
 | SEO-05 | Phase 4 | Complete |
-| SEO-06 | Phase 4 | Pending |
-| SEO-07 | Phase 4 | Pending |
+| SEO-06 | Phase 4 | Complete |
+| SEO-07 | Phase 4 | Complete |
 | UX-01 | Phase 1 | Complete |
 | UX-02 | Phase 1 | Complete |
 | UX-03 | Phase 1 | Complete |

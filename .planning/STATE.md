@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 04-01-PLAN.md (SEO metadata helpers, generateMetadata on all pages)
-last_updated: "2026-03-10T17:16:00Z"
-last_activity: 2026-03-10 -- Plan 04-01 executed (SEO helpers, company-info, generateMetadata on all 13 pages)
+stopped_at: Completed 04-03-PLAN.md (JSON-LD integration, CWV fixes, OG images, image alt SEO)
+last_updated: "2026-03-10T17:32:00Z"
+last_activity: 2026-03-10 -- Plan 04-03 executed (JSON-LD, CWV fixes, OG images, locale-aware image alt)
 progress:
   total_phases: 6
-  completed_phases: 3
+  completed_phases: 4
   total_plans: 17
-  completed_plans: 16
-  percent: 94
+  completed_plans: 17
+  percent: 100
 ---
 
 # Project State
@@ -21,23 +21,23 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-10)
 
 **Core value:** Businesses looking for import/export services or trade information find Toko through search, understand its capabilities, and submit an inquiry -- in their own language.
-**Current focus:** Phase 4: SEO Infrastructure
+**Current focus:** Phase 4: SEO Infrastructure -- COMPLETE
 
 ## Current Position
 
-Phase: 4 of 6 (SEO Infrastructure) -- IN PROGRESS
-Plan: 2 of 3 in current phase (plans 01 and 02 complete, plan 03 remaining)
-Status: Executing Phase 4 plans in parallel
-Last activity: 2026-03-10 -- Plan 04-01 executed (SEO helpers, company-info, generateMetadata on all pages)
+Phase: 4 of 6 (SEO Infrastructure) -- COMPLETE
+Plan: 3 of 3 in current phase (all plans complete)
+Status: Phase 4 complete, ready for Phase 5
+Last activity: 2026-03-10 -- Plan 04-03 executed (JSON-LD integration, CWV fixes, OG images, locale-aware image alt)
 
-Progress: [█████████░] 94% (16/17 plans complete)
+Progress: [██████████] 100% (17/17 plans complete)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 16
+- Total plans completed: 17
 - Average duration: 8min
-- Total execution time: ~1.8 hours
+- Total execution time: ~1.9 hours
 
 **By Phase:**
 
@@ -46,11 +46,11 @@ Progress: [█████████░] 94% (16/17 plans complete)
 | 1 - Foundation and i18n | 5/5 | 33min | 7min |
 | 2 - Core Pages | 6/6 | 88min | 15min |
 | 3 - Forms and Lead Capture | 3/3 | 26min | 9min |
-| 4 - SEO Infrastructure | 2/3 | 15min | 8min |
+| 4 - SEO Infrastructure | 3/3 | 27min | 9min |
 
 **Recent Trend:**
-- Last 5 plans: 03-01 (7min), 03-02 (11min), 03-03 (8min), 04-02 (5min), 04-01 (10min)
-- Trend: SEO infrastructure plans completing efficiently with established patterns
+- Last 5 plans: 03-02 (11min), 03-03 (8min), 04-02 (5min), 04-01 (10min), 04-03 (12min)
+- Trend: All phases complete through Phase 4
 
 *Updated after each plan completion*
 | Phase 03 P01 | 7min | 2 tasks | 31 files |
@@ -58,6 +58,7 @@ Progress: [█████████░] 94% (16/17 plans complete)
 | Phase 03 P03 | 8min | 2 tasks | 7 files |
 | Phase 04 P02 | 5min | 2 tasks | 10 files |
 | Phase 04 P01 | 10min | 1 task (TDD) | 21 files |
+| Phase 04 P03 | 12min | 2 tasks | 22 files |
 
 ## Accumulated Context
 
@@ -119,6 +120,10 @@ Recent decisions affecting current work:
 - 04-01: x-default hreflang points to Turkish (/tr) version as default locale
 - 04-01: Dedicated seo.title/seo.description keys for keyword-optimized meta content rather than reusing hero.title
 - 04-01: getPageMetadata helper wraps common pattern (title, description, alternates, openGraph) reducing boilerplate
+- 04-03: Organization JSON-LD placed in layout.tsx for automatic site-wide coverage on every route
+- 04-03: Pages without breadcrumb keys use Header.nav namespace for breadcrumb names
+- 04-03: ScrollReveal completely removed from all above-fold hero content (not just noTransform) for zero CLS/optimal LCP
+- 04-03: OG image uses Satori built-in sans-serif font to avoid custom .ttf complexity
 
 ### Pending Todos
 
@@ -132,6 +137,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-10T17:16:00Z
-Stopped at: Completed 04-01-PLAN.md (SEO metadata helpers, generateMetadata on all pages)
+Last session: 2026-03-10T17:32:00Z
+Stopped at: Completed 04-03-PLAN.md (JSON-LD integration, CWV fixes, OG images, image alt SEO)
 Resume file: None
