@@ -55,10 +55,10 @@
 ### SEO & Performance
 
 - [ ] **SEO-01**: generateMetadata on all pages with locale-aware title, description, Open Graph tags
-- [ ] **SEO-02**: JSON-LD structured data: Organization, LocalBusiness, BreadcrumbList on all pages
-- [ ] **SEO-03**: FAQPage and Article structured data on blog and FAQ pages
-- [ ] **SEO-04**: Multilingual sitemap.ts with hreflang alternates for all pages and locales
-- [ ] **SEO-05**: robots.ts configured for proper crawling
+- [x] **SEO-02**: JSON-LD structured data: Organization, LocalBusiness, BreadcrumbList on all pages
+- [x] **SEO-03**: FAQPage and Article structured data on blog and FAQ pages
+- [x] **SEO-04**: Multilingual sitemap.ts with hreflang alternates for all pages and locales
+- [x] **SEO-05**: robots.ts configured for proper crawling
 - [ ] **SEO-06**: Core Web Vitals optimized — all pages achieve green scores on Lighthouse
 - [ ] **SEO-07**: Images optimized with next/image, proper alt text in all languages
 
@@ -136,10 +136,10 @@
 | PSEO-06 | Phase 6 | Pending |
 | PSEO-07 | Phase 6 | Pending |
 | SEO-01 | Phase 4 | Pending |
-| SEO-02 | Phase 4 | Pending |
-| SEO-03 | Phase 4 | Pending |
-| SEO-04 | Phase 4 | Pending |
-| SEO-05 | Phase 4 | Pending |
+| SEO-02 | Phase 4 | Complete |
+| SEO-03 | Phase 4 | Complete |
+| SEO-04 | Phase 4 | Complete |
+| SEO-05 | Phase 4 | Complete |
 | SEO-06 | Phase 4 | Pending |
 | SEO-07 | Phase 4 | Pending |
 | UX-01 | Phase 1 | Complete |

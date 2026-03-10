@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 03-03-PLAN.md (i18n, navigation, tests) -- Phase 3 COMPLETE
-last_updated: "2026-03-10T16:50:00Z"
-last_activity: 2026-03-10 -- Plan 03-03 executed (i18n translations, footer navigation, server action tests)
+stopped_at: Completed 04-02-PLAN.md (JSON-LD, sitemap, robots)
+last_updated: "2026-03-10T17:11:00Z"
+last_activity: 2026-03-10 -- Plan 04-02 executed (JSON-LD component, structured data builders, sitemap, robots)
 progress:
   total_phases: 6
   completed_phases: 3
-  total_plans: 14
-  completed_plans: 14
-  percent: 100
+  total_plans: 17
+  completed_plans: 15
+  percent: 88
 ---
 
 # Project State
@@ -21,16 +21,16 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-10)
 
 **Core value:** Businesses looking for import/export services or trade information find Toko through search, understand its capabilities, and submit an inquiry -- in their own language.
-**Current focus:** Phase 3: Forms and Lead Capture
+**Current focus:** Phase 4: SEO Infrastructure
 
 ## Current Position
 
-Phase: 3 of 6 (Forms and Lead Capture) -- COMPLETE
-Plan: 3 of 3 in current phase -- PHASE COMPLETE
-Status: Phase 3 complete, ready for Phase 4
-Last activity: 2026-03-10 -- Plan 03-03 executed (i18n translations, footer navigation, server action tests)
+Phase: 4 of 6 (SEO Infrastructure) -- IN PROGRESS
+Plan: 2 of 3 in current phase (plan 02 complete, plans 01 and 03 in progress)
+Status: Executing Phase 4 plans in parallel
+Last activity: 2026-03-10 -- Plan 04-02 executed (JSON-LD, structured data, sitemap, robots)
 
-Progress: [██████████] 100% (14/14 plans complete)
+Progress: [█████████░] 88% (15/17 plans complete)
 
 ## Performance Metrics
 
@@ -46,15 +46,17 @@ Progress: [██████████] 100% (14/14 plans complete)
 | 1 - Foundation and i18n | 5/5 | 33min | 7min |
 | 2 - Core Pages | 6/6 | 88min | 15min |
 | 3 - Forms and Lead Capture | 3/3 | 26min | 9min |
+| 4 - SEO Infrastructure | 1/3 | 5min | 5min |
 
 **Recent Trend:**
-- Last 5 plans: 02-03 (45min), 02-05 (3min), 03-01 (7min), 03-02 (11min), 03-03 (8min)
-- Trend: Phase 3 completed efficiently (26min total) -- reusable patterns from Phase 2 accelerated forms
+- Last 5 plans: 02-05 (3min), 03-01 (7min), 03-02 (11min), 03-03 (8min), 04-02 (5min)
+- Trend: SEO infrastructure plan 02 completed quickly (5min) -- schema patterns well-established
 
 *Updated after each plan completion*
 | Phase 03 P01 | 7min | 2 tasks | 31 files |
 | Phase 03 P02 | 11min | 2 tasks | 15 files |
 | Phase 03 P03 | 8min | 2 tasks | 7 files |
+| Phase 04 P02 | 5min | 2 tasks | 10 files |
 
 ## Accumulated Context
 
@@ -108,6 +110,10 @@ Recent decisions affecting current work:
 - 03-03: Replaced footer Blog column with Get in Touch forms column for form page discoverability
 - 03-03: Fixed Russian translations from Latin transliteration to proper Cyrillic for CIS audience
 - 03-03: Server action tests mock next-intl/server, next/headers, email, recaptcha, rate-limit for isolated testing
+- 04-02: Used schema-dts for type-safe structured data with full schema.org type coverage and IDE autocomplete
+- 04-02: JsonLd as server component with zero client JS cost and XSS protection via \u003c escaping
+- 04-02: Sitemap uses Turkish (/tr) as canonical URL with hreflang alternates for all 4 locales
+- 04-02: Enhanced company-info.ts with geo coordinates, email, region, opening hours for LocalBusiness schema
 
 ### Pending Todos
 
@@ -121,6 +127,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-10T16:50:00Z
-Stopped at: Completed 03-03-PLAN.md (i18n, navigation, tests) -- Phase 3 COMPLETE
+Last session: 2026-03-10T17:11:00Z
+Stopped at: Completed 04-02-PLAN.md (JSON-LD, sitemap, robots)
 Resume file: None
