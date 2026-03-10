@@ -6,6 +6,8 @@ import { routing } from '@/i18n/routing';
 import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
 import { PageTransition } from '@/components/common/page-transition';
+import { RecaptchaProvider } from '@/providers/recaptcha-provider';
+import { WhatsAppButton } from '@/components/common/whatsapp-button';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -54,11 +56,14 @@ export default async function LocaleLayout({
         forcedTheme="light"
         disableTransitionOnChange
       >
-        <Header />
-        <main className="min-h-screen pt-14">
-          <PageTransition locale={locale}>{children}</PageTransition>
-        </main>
-        <Footer />
+        <RecaptchaProvider>
+          <Header />
+          <main className="min-h-screen pt-14">
+            <PageTransition locale={locale}>{children}</PageTransition>
+          </main>
+          <Footer />
+          <WhatsAppButton />
+        </RecaptchaProvider>
       </ThemeProvider>
     </NextIntlClientProvider>
   );
