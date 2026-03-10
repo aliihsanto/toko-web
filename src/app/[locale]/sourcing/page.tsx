@@ -2,6 +2,24 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { ScrollReveal } from '@/components/common/scroll-reveal';
 import { WaveDivider } from '@/components/common/wave-divider';
 import { SourcingForm } from '@/components/forms/sourcing-form';
+import { getPageMetadata } from '@/lib/seo/metadata';
+import type { Metadata } from 'next';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'SourcingPage' });
+
+  return getPageMetadata({
+    locale,
+    path: '/sourcing',
+    title: t('seo.title'),
+    description: t('seo.description'),
+  });
+}
 
 export default async function SourcingPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;

@@ -16,6 +16,24 @@ import {
   Clock,
   Award,
 } from 'lucide-react';
+import { getPageMetadata } from '@/lib/seo/metadata';
+import type { Metadata } from 'next';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'AboutPage' });
+
+  return getPageMetadata({
+    locale,
+    path: '/about',
+    title: t('seo.title'),
+    description: t('seo.description'),
+  });
+}
 
 export default async function AboutPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;

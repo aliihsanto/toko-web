@@ -10,6 +10,24 @@ import {
   Wheat, Shirt, Cog, FlaskConical, Building2, Mountain, Cpu, Car,
   Factory, Globe, Award, Package, type LucideIcon,
 } from 'lucide-react';
+import { getPageMetadata } from '@/lib/seo/metadata';
+import type { Metadata } from 'next';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'SectorsPage' });
+
+  return getPageMetadata({
+    locale,
+    path: '/sectors',
+    title: t('seo.title'),
+    description: t('seo.description'),
+  });
+}
 
 const iconMap: Record<string, LucideIcon> = { Wheat, Shirt, Cog, FlaskConical, Building2, Mountain, Cpu, Car };
 

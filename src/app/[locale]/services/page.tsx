@@ -18,6 +18,24 @@ import {
 } from 'lucide-react';
 import Image from 'next/image';
 import { services } from '@/data/services';
+import { getPageMetadata } from '@/lib/seo/metadata';
+import type { Metadata } from 'next';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'ServicesPage' });
+
+  return getPageMetadata({
+    locale,
+    path: '/services',
+    title: t('seo.title'),
+    description: t('seo.description'),
+  });
+}
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   Ship,

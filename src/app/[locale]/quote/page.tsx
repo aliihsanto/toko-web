@@ -2,6 +2,24 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { ScrollReveal } from '@/components/common/scroll-reveal';
 import { WaveDivider } from '@/components/common/wave-divider';
 import { QuoteForm } from '@/components/forms/quote-form';
+import { getPageMetadata } from '@/lib/seo/metadata';
+import type { Metadata } from 'next';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'QuotePage' });
+
+  return getPageMetadata({
+    locale,
+    path: '/quote',
+    title: t('seo.title'),
+    description: t('seo.description'),
+  });
+}
 
 export default async function QuotePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;

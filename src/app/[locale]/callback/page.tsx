@@ -3,6 +3,24 @@ import { ScrollReveal } from '@/components/common/scroll-reveal';
 import { WaveDivider } from '@/components/common/wave-divider';
 import { Clock, Shield, Users } from 'lucide-react';
 import { CallbackForm } from '@/components/forms/callback-form';
+import { getPageMetadata } from '@/lib/seo/metadata';
+import type { Metadata } from 'next';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'CallbackPage' });
+
+  return getPageMetadata({
+    locale,
+    path: '/callback',
+    title: t('seo.title'),
+    description: t('seo.description'),
+  });
+}
 
 export default async function CallbackPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;

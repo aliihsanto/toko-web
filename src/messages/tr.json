@@ -163,6 +163,10 @@
     }
   },
   "AboutPage": {
+    "seo": {
+      "title": "Hakkimizda - Toko Trading",
+      "description": "20 yili askin tecrubesiyle Turkiye merkezli uluslararasi ticaret, ithalat, ihracat ve tedarik hizmetleri sunan Toko Trading hakkinda bilgi edinin."
+    },
     "hero": {
       "title": "Toko Trading Hakkinda",
       "subtitle": "Turkiye'nin onde gelen uluslararasi ticaret sirketlerinden biri olarak, 20 yili askin deneyimimizle dunya genelinde guvenilir cozumler sunuyoruz.",
@@ -220,6 +224,10 @@
     }
   },
   "ServicesPage": {
+    "seo": {
+      "title": "Hizmetlerimiz - Ithalat, Ihracat, Tedarik",
+      "description": "Toko Trading ithalat, ihracat, tedarik ve transit ticaret hizmetleri. Uluslararasi ticaretin her adiminda profesyonel destek."
+    },
     "hero": {
       "title": "Hizmetlerimiz",
       "subtitle": "Ithalat, ihracat, tedarik ve transit ticaret alanlarinda kapsamli ve profesyonel cozumler sunuyoruz. Her adimda yaninizda olan deneyimli ekibimizle ticaretinizi buyutun.",
@@ -546,6 +554,10 @@
     }
   },
   "SectorsPage": {
+    "seo": {
+      "title": "Sektorler - Gida, Tekstil, Makine ve Daha Fazlasi",
+      "description": "8'den fazla sektorde uzmanlasmis tedarik ve ticaret cozumleri. Gida, tekstil, makine, kimya, insaat ve diger sektorlerde guvenilir tedarik."
+    },
     "hero": {
       "title": "Sektorler",
       "subtitle": "8'den fazla farkli sektorde uzmanlasmis tedarik ve ticaret cozumleri. Her sektorun kendine ozgu taleplerini anliyor ve kisiye ozel tedarik stratejileri sunuyoruz.",
@@ -1060,6 +1072,10 @@
     }
   },
   "ReferencesPage": {
+    "seo": {
+      "title": "Referanslar ve Sicilimiz",
+      "description": "1000'den fazla basarili islem, 50+ ulke ve 20 yili askin deneyim. Toko Trading'in uluslararasi ticaretteki kanitlanmis sonuclari."
+    },
     "hero": {
       "title": "Sicil ve Referanslarimiz",
       "subtitle": "Uluslararasi ticarette kanitlanmis sonuclar. 20 yili askin deneyimimizle guvenilir cozum ortaginiz olarak fark yaratiyoruz.",
@@ -1159,6 +1175,10 @@
     }
   },
   "RussiaTransitPage": {
+    "seo": {
+      "title": "Rusya ve BDT Transit Ticareti",
+      "description": "Turkiye uzerinden Rusya ve BDT ulkelerine guvenli transit ticaret cozumleri. Gumruk islemleri, lojistik ve uyum hizmetleri."
+    },
     "hero": {
       "badge": "Turkiye - Rusya Ticaret Koridoru",
       "title": "Turkiye Uzerinden Rusya ve BDT'ye Transit Ticaret",
@@ -1287,6 +1307,10 @@
     }
   },
   "BlogPage": {
+    "seo": {
+      "title": "Blog - Ticaret Haberleri ve Analizler",
+      "description": "Uluslararasi ticaret, gumruk mevzuati, sektor analizleri ve tedarik zinciri hakkinda guncel icerikler ve uzman gorusleri."
+    },
     "title": "Blog",
     "subtitle": "Uluslararasi ticaret, gumruk mevzuati ve sektor analizleri hakkinda guncel yazilar.",
     "comingSoon": "Detayli icerik yakinda eklenecektir."
@@ -1369,6 +1393,10 @@
     }
   },
   "ContactPage": {
+    "seo": {
+      "title": "Iletisim - Bize Ulasin",
+      "description": "Uluslararasi ticaret ihtiyaclariniz icin Toko Trading ile iletisime gecin. Istanbul merkezli ofisimiz 24 saat icinde yanit verir."
+    },
     "title": "Iletisim",
     "subtitle": "Uluslararasi ticaret ihtiyaclariniz icin bizimle iletisime gecin.",
     "comingSoon": "Iletisim formu yakinda eklenecektir.",
@@ -1380,16 +1408,28 @@
     }
   },
   "QuotePage": {
+    "seo": {
+      "title": "Fiyat Teklifi Isteyin",
+      "description": "Ithalat, ihracat veya tedarik ihtiyaclariniz icin ucretsiz fiyat teklifi alin. 24 saat icinde rekabetci teklifimizi sunalim."
+    },
     "badge": "Ucretsiz Teklif",
     "title": "Fiyat Teklifi Alin",
     "subtitle": "Urun ihtiyaclarinizi bize bildirin, 24 saat icinde rekabetci bir teklif sunalim."
   },
   "SourcingPage": {
+    "seo": {
+      "title": "Urun Tedarik Talebi",
+      "description": "Turkiye ve dunya genelinden urun tedarik hizmeti. Dogru tedarikciyi bulmaniza, kalite kontrolu ve lojistik sureclerinde yardimci oluyoruz."
+    },
     "badge": "Tedarik",
     "title": "Urun Tedarik Talebi",
     "subtitle": "Isletmeniz icin dogru tedarikci ve urunleri bulmamiza izin verin."
   },
   "CallbackPage": {
+    "seo": {
+      "title": "Geri Arama Talebi",
+      "description": "Ticaret uzmanlarimizin sizi geri aramasi icin talepte bulunun. Ucretsiz ve baglayici olmayan danismanlik hizmeti."
+    },
     "badge": "Geri Arama",
     "title": "Geri Arama Talebi",
     "subtitle": "Bilgilerinizi birakin, ticaret uzmanlarimiz sizi geri arasin.",

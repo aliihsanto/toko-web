@@ -21,6 +21,7 @@ import {
   type LucideIcon,
 } from 'lucide-react';
 import { sectors, getSectorBySlug } from '@/data/sectors';
+import { getAlternates, LOCALE_TO_OG, BASE_URL } from '@/lib/seo/metadata';
 import type { Metadata } from 'next';
 
 export const dynamicParams = false;
@@ -39,9 +40,20 @@ export async function generateMetadata({
   const { locale, slug } = await params;
   const t = await getTranslations({ locale, namespace: 'SectorDetail' });
 
+  const title = t(`${slug}.metaTitle`);
+  const description = t(`${slug}.metaDescription`);
+
   return {
-    title: t(`${slug}.metaTitle`),
-    description: t(`${slug}.metaDescription`),
+    title,
+    description,
+    alternates: getAlternates(locale, `/sectors/${slug}`),
+    openGraph: {
+      title,
+      description,
+      url: `${BASE_URL}/${locale}/sectors/${slug}`,
+      locale: LOCALE_TO_OG[locale],
+      type: 'website',
+    },
   };
 }
 

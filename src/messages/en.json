@@ -163,6 +163,10 @@
     }
   },
   "AboutPage": {
+    "seo": {
+      "title": "About Us - Toko Trading",
+      "description": "Learn about Toko Trading, a Turkey-based international trade company with 20+ years of experience in import, export, and global sourcing services."
+    },
     "hero": {
       "title": "About Toko Trading",
       "subtitle": "As one of Turkey's leading international trade companies, we have been providing trusted solutions worldwide for over 20 years.",
@@ -220,6 +224,10 @@
     }
   },
   "ServicesPage": {
+    "seo": {
+      "title": "Our Services - Import, Export, Sourcing",
+      "description": "Toko Trading import, export, sourcing, and transit trade services. Professional support at every step of international trade."
+    },
     "hero": {
       "title": "Our Services",
       "subtitle": "We provide comprehensive and professional solutions in import, export, sourcing, and transit trade. Grow your business with our experienced team supporting you at every step.",
@@ -546,6 +554,10 @@
     }
   },
   "SectorsPage": {
+    "seo": {
+      "title": "Sectors - Food, Textile, Machinery & More",
+      "description": "Specialized sourcing and trade solutions across 8+ sectors including food, textile, machinery, chemicals, construction, and more."
+    },
     "hero": {
       "title": "Industry Sectors",
       "subtitle": "Specialized sourcing and trade solutions across 8+ diverse industries. We understand the unique demands of each sector and deliver tailored procurement strategies.",
@@ -1060,6 +1072,10 @@
     }
   },
   "ReferencesPage": {
+    "seo": {
+      "title": "References & Track Record",
+      "description": "Over 1,000 successful transactions, 50+ countries, and 20+ years of experience. Discover Toko Trading's proven results in international trade."
+    },
     "hero": {
       "title": "Our Track Record",
       "subtitle": "Proven results in international trade. With over 20 years of experience, we make a difference as your trusted solution partner.",
@@ -1159,6 +1175,10 @@
     }
   },
   "RussiaTransitPage": {
+    "seo": {
+      "title": "Russia & CIS Transit Trade",
+      "description": "Secure transit trade solutions to Russia and CIS countries via Turkey. Customs clearance, logistics, and compliance services."
+    },
     "hero": {
       "badge": "Turkey - Russia Trade Corridor",
       "title": "Transit Trade to Russia & CIS via Turkey",
@@ -1287,6 +1307,10 @@
     }
   },
   "BlogPage": {
+    "seo": {
+      "title": "Blog - Trade News & Insights",
+      "description": "Latest insights on international trade, customs regulations, sector analysis, and supply chain management from Toko Trading experts."
+    },
     "title": "Blog",
     "subtitle": "Current articles on international trade, customs regulations, and sector analyses.",
     "comingSoon": "Detailed content will be added soon."
@@ -1369,6 +1393,10 @@
     }
   },
   "ContactPage": {
+    "seo": {
+      "title": "Contact Us - Get in Touch",
+      "description": "Contact Toko Trading for your international trade needs. Our Istanbul-based team responds within 24 hours."
+    },
     "title": "Contact",
     "subtitle": "Get in touch with us for your international trade needs.",
     "comingSoon": "Contact form will be added soon.",
@@ -1380,16 +1408,28 @@
     }
   },
   "QuotePage": {
+    "seo": {
+      "title": "Request a Price Quote",
+      "description": "Get a free price quote for your import, export, or sourcing needs. We provide competitive offers within 24 hours."
+    },
     "badge": "Free Quote",
     "title": "Get a Price Quote",
     "subtitle": "Tell us about your product needs and we will provide a competitive quote within 24 hours."
   },
   "SourcingPage": {
+    "seo": {
+      "title": "Product Sourcing Request",
+      "description": "Product sourcing services from Turkey and worldwide. We help you find the right suppliers, manage quality control, and handle logistics."
+    },
     "badge": "Sourcing",
     "title": "Product Sourcing Request",
     "subtitle": "Let us find the right suppliers and products for your business needs."
   },
   "CallbackPage": {
+    "seo": {
+      "title": "Request a Callback",
+      "description": "Request a callback from our trade experts. Free, no-obligation consultation about your international trade needs."
+    },
     "badge": "Callback",
     "title": "Request a Callback",
     "subtitle": "Leave your details and our trade experts will call you back.",

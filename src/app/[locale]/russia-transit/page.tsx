@@ -7,6 +7,24 @@ import { Link } from '@/i18n/navigation';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
 import { ArrowRight, Phone, MapPin, FileCheck, ShieldCheck, Truck, Globe, DollarSign, Scale, ChevronRight } from 'lucide-react';
+import { getPageMetadata } from '@/lib/seo/metadata';
+import type { Metadata } from 'next';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'RussiaTransitPage' });
+
+  return getPageMetadata({
+    locale,
+    path: '/russia-transit',
+    title: t('seo.title'),
+    description: t('seo.description'),
+  });
+}
 
 export default async function RussiaTransitPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;

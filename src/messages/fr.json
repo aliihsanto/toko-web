@@ -163,6 +163,10 @@
     }
   },
   "AboutPage": {
+    "seo": {
+      "title": "A Propos - Toko Trading",
+      "description": "Decouvrez Toko Trading, societe de commerce international basee en Turquie avec plus de 20 ans d'experience en import, export et approvisionnement."
+    },
     "hero": {
       "title": "A Propos de Toko Trading",
       "subtitle": "En tant que l'une des principales societes de commerce international de Turquie, nous fournissons des solutions fiables dans le monde entier depuis plus de 20 ans.",
@@ -220,6 +224,10 @@
     }
   },
   "ServicesPage": {
+    "seo": {
+      "title": "Nos Services - Import, Export, Approvisionnement",
+      "description": "Services d'import, export, approvisionnement et commerce de transit de Toko Trading. Accompagnement professionnel a chaque etape."
+    },
     "hero": {
       "title": "Nos Services",
       "subtitle": "Nous proposons des solutions completes et professionnelles en importation, exportation, approvisionnement et commerce de transit. Developpez votre activite avec notre equipe experimentee a vos cotes a chaque etape.",
@@ -546,6 +554,10 @@
     }
   },
   "SectorsPage": {
+    "seo": {
+      "title": "Secteurs - Alimentaire, Textile, Machines et Plus",
+      "description": "Solutions d'approvisionnement et de commerce specialisees dans plus de 8 secteurs : alimentaire, textile, machines, chimie, construction."
+    },
     "hero": {
       "title": "Secteurs d'Activite",
       "subtitle": "Solutions d'approvisionnement et de commerce specialisees dans plus de 8 industries. Nous comprenons les exigences uniques de chaque secteur et proposons des strategies d'achat sur mesure.",
@@ -1060,6 +1072,10 @@
     }
   },
   "ReferencesPage": {
+    "seo": {
+      "title": "References et Bilan",
+      "description": "Plus de 1 000 transactions reussies, 50+ pays et 20+ ans d'experience. Les resultats prouves de Toko Trading dans le commerce international."
+    },
     "hero": {
       "title": "Nos References",
       "subtitle": "Des resultats prouves dans le commerce international. Avec plus de 20 ans d'experience, nous faisons la difference en tant que partenaire de confiance.",
@@ -1159,6 +1175,10 @@
     }
   },
   "RussiaTransitPage": {
+    "seo": {
+      "title": "Commerce de Transit Russie et CEI",
+      "description": "Solutions de commerce de transit securisees vers la Russie et les pays de la CEI via la Turquie. Douane, logistique et conformite."
+    },
     "hero": {
       "badge": "Corridor Commercial Turquie - Russie",
       "title": "Commerce de Transit vers la Russie et la CEI via la Turquie",
@@ -1287,6 +1307,10 @@
     }
   },
   "BlogPage": {
+    "seo": {
+      "title": "Blog - Actualites et Analyses du Commerce",
+      "description": "Actualites du commerce international, reglementations douanieres, analyses sectorielles et gestion de la chaine d'approvisionnement."
+    },
     "title": "Blog",
     "subtitle": "Articles actuels sur le commerce international, la reglementation douaniere et les analyses sectorielles.",
     "comingSoon": "Le contenu detaille sera ajoute prochainement."
@@ -1369,6 +1393,10 @@
     }
   },
   "ContactPage": {
+    "seo": {
+      "title": "Contact - Nous Contacter",
+      "description": "Contactez Toko Trading pour vos besoins en commerce international. Notre equipe basee a Istanbul repond sous 24 heures."
+    },
     "title": "Contact",
     "subtitle": "Contactez-nous pour vos besoins en commerce international.",
     "comingSoon": "Le formulaire de contact sera ajoute prochainement.",
@@ -1380,16 +1408,28 @@
     }
   },
   "QuotePage": {
+    "seo": {
+      "title": "Demander un Devis",
+      "description": "Obtenez un devis gratuit pour vos besoins d'import, export ou approvisionnement. Nous fournissons des offres competitives sous 24 heures."
+    },
     "badge": "Devis gratuit",
     "title": "Obtenir un devis",
     "subtitle": "Decrivez vos besoins en produits et nous vous fournirons un devis competitif sous 24 heures."
   },
   "SourcingPage": {
+    "seo": {
+      "title": "Demande d'Approvisionnement",
+      "description": "Services d'approvisionnement en produits depuis la Turquie et le monde entier. Nous trouvons les fournisseurs, gerons le controle qualite et la logistique."
+    },
     "badge": "Approvisionnement",
     "title": "Demande d approvisionnement",
     "subtitle": "Laissez-nous trouver les bons fournisseurs et produits pour votre entreprise."
   },
   "CallbackPage": {
+    "seo": {
+      "title": "Demander un Rappel",
+      "description": "Demandez un rappel de nos experts en commerce. Consultation gratuite et sans engagement sur vos besoins en commerce international."
+    },
     "badge": "Rappel",
     "title": "Demander un rappel",
     "subtitle": "Laissez vos coordonnees et nos experts en commerce vous rappelleront.",

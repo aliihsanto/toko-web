@@ -6,6 +6,29 @@ import { WaveDivider } from '@/components/common/wave-divider';
 import Image from 'next/image';
 import { services } from '@/data/services';
 import { sectors } from '@/data/sectors';
+import { getAlternates, LOCALE_TO_OG, BASE_URL } from '@/lib/seo/metadata';
+import type { Metadata } from 'next';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'Metadata' });
+
+  return {
+    description: t('description'),
+    alternates: getAlternates(locale, ''),
+    openGraph: {
+      title: t('title'),
+      description: t('description'),
+      url: `${BASE_URL}/${locale}`,
+      locale: LOCALE_TO_OG[locale],
+      type: 'website',
+    },
+  };
+}
 import {
   Ship,
   TrendingUp,

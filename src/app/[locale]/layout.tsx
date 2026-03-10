@@ -8,6 +8,7 @@ import { Footer } from '@/components/layout/footer';
 import { PageTransition } from '@/components/common/page-transition';
 import { RecaptchaProvider } from '@/providers/recaptcha-provider';
 import { WhatsAppButton } from '@/components/common/whatsapp-button';
+import { BASE_URL, getAlternates } from '@/lib/seo/metadata';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -18,18 +19,26 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const t = await getTranslations({ locale, namespace: 'Metadata' });
 
   return {
+    metadataBase: new URL(BASE_URL),
     title: {
       default: t('title'),
       template: `%s | Toko Trading`,
     },
     description: t('description'),
-    alternates: {
-      canonical: `https://toko.com.tr/${locale}`,
-      languages: {
-        'tr': 'https://toko.com.tr/tr',
-        'en': 'https://toko.com.tr/en',
-        'fr': 'https://toko.com.tr/fr',
-        'ru': 'https://toko.com.tr/ru',
+    alternates: getAlternates(locale, ''),
+    openGraph: {
+      siteName: 'Toko Trading',
+      type: 'website',
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large' as const,
+        'max-snippet': -1,
       },
     },
   };

@@ -13,6 +13,7 @@ import {
   CheckCircle2,
 } from 'lucide-react';
 import { services, getServiceBySlug } from '@/data/services';
+import { getAlternates, LOCALE_TO_OG, BASE_URL } from '@/lib/seo/metadata';
 import type { Metadata } from 'next';
 
 export const dynamicParams = false;
@@ -31,9 +32,20 @@ export async function generateMetadata({
   const { locale, slug } = await params;
   const t = await getTranslations({ locale, namespace: 'ServiceDetail' });
 
+  const title = t(`${slug}.metaTitle`);
+  const description = t(`${slug}.metaDescription`);
+
   return {
-    title: t(`${slug}.metaTitle`),
-    description: t(`${slug}.metaDescription`),
+    title,
+    description,
+    alternates: getAlternates(locale, `/services/${slug}`),
+    openGraph: {
+      title,
+      description,
+      url: `${BASE_URL}/${locale}/services/${slug}`,
+      locale: LOCALE_TO_OG[locale],
+      type: 'website',
+    },
   };
 }
 
