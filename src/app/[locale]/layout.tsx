@@ -4,6 +4,7 @@ import { ThemeProvider } from 'next-themes';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { Header } from '@/components/layout/header';
+import { Footer } from '@/components/layout/footer';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -53,7 +54,8 @@ export default async function LocaleLayout({
         disableTransitionOnChange
       >
         <Header />
-        <main className="pt-24">{children}</main>
+        <main className="min-h-screen pt-24">{children}</main>
+        <Footer />
       </ThemeProvider>
     </NextIntlClientProvider>
   );
