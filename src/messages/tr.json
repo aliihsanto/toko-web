@@ -1,6 +1,71 @@
 {
   "Metadata": {
+    "title": "Toko Trading - Uluslararasi Ticaret ve Tedarik",
+    "description": "Toko Trading, Turkiye merkezli uluslararasi ticaret, ithalat, ihracat ve tedarik hizmetleri sunmaktadir."
+  },
+  "Header": {
+    "nav": {
+      "home": "Ana Sayfa",
+      "about": "Hakkimizda",
+      "services": "Hizmetler",
+      "sectors": "Sektorler",
+      "references": "Referanslar",
+      "blog": "Blog",
+      "contact": "Iletisim"
+    },
+    "cta": "Iletisime Gec"
+  },
+  "Footer": {
+    "about": {
+      "title": "Hakkimizda",
+      "description": "Toko Trading, uluslararasi ticaret ve tedarik alaninda guvenilir cozum ortaginiz."
+    },
+    "services": {
+      "title": "Hizmetler",
+      "import": "Ithalat",
+      "export": "Ihracat",
+      "transitTrade": "Transit Ticaret",
+      "sourcing": "Tedarik"
+    },
+    "blog": {
+      "title": "Blog",
+      "latest": "Son Yazilar",
+      "categories": "Kategoriler"
+    },
+    "contact": {
+      "title": "Iletisim",
+      "address": "Istanbul, Turkiye",
+      "phone": "+90 (212) 000 00 00",
+      "email": "info@toko.com.tr"
+    },
+    "copyright": "2026 Toko Trading. Tum haklari saklidir.",
+    "social": {
+      "linkedin": "LinkedIn",
+      "twitter": "Twitter",
+      "instagram": "Instagram"
+    }
+  },
+  "LanguageSwitcher": {
+    "tr": "Turkce",
+    "en": "English",
+    "fr": "Francais",
+    "ru": "Russkiy",
+    "label": "Dil Sec"
+  },
+  "Common": {
+    "learnMore": "Daha Fazla",
+    "getQuote": "Teklif Al",
+    "backToHome": "Ana Sayfaya Don",
+    "loading": "Yukleniyor..."
+  },
+  "NotFound": {
+    "title": "Sayfa Bulunamadi",
+    "description": "Aradiginiz sayfa mevcut degil veya tasinmis olabilir.",
+    "backHome": "Ana Sayfaya Don"
+  },
+  "HomePage": {
     "title": "Toko Trading",
-    "description": "Toko Trading"
+    "subtitle": "Uluslararasi Ticaret ve Tedarik Cozumleri",
+    "description": "Turkiye merkezli guvenilir ticaret ortaginiz"
   }
 }

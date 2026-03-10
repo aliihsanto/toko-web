@@ -1,0 +1,71 @@
+{
+  "Metadata": {
+    "title": "Toko Trading - Commerce International et Approvisionnement",
+    "description": "Toko Trading propose des services de commerce international, d'importation, d'exportation et d'approvisionnement depuis la Turquie."
+  },
+  "Header": {
+    "nav": {
+      "home": "Accueil",
+      "about": "A propos",
+      "services": "Services",
+      "sectors": "Secteurs",
+      "references": "References",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "cta": "Nous Contacter"
+  },
+  "Footer": {
+    "about": {
+      "title": "A propos",
+      "description": "Toko Trading est votre partenaire de confiance en commerce international et approvisionnement."
+    },
+    "services": {
+      "title": "Services",
+      "import": "Importation",
+      "export": "Exportation",
+      "transitTrade": "Commerce de Transit",
+      "sourcing": "Approvisionnement"
+    },
+    "blog": {
+      "title": "Blog",
+      "latest": "Derniers Articles",
+      "categories": "Categories"
+    },
+    "contact": {
+      "title": "Contact",
+      "address": "Istanbul, Turquie",
+      "phone": "+90 (212) 000 00 00",
+      "email": "info@toko.com.tr"
+    },
+    "copyright": "2026 Toko Trading. Tous droits reserves.",
+    "social": {
+      "linkedin": "LinkedIn",
+      "twitter": "Twitter",
+      "instagram": "Instagram"
+    }
+  },
+  "LanguageSwitcher": {
+    "tr": "Turkce",
+    "en": "English",
+    "fr": "Francais",
+    "ru": "Russkiy",
+    "label": "Choisir la Langue"
+  },
+  "Common": {
+    "learnMore": "En Savoir Plus",
+    "getQuote": "Demander un Devis",
+    "backToHome": "Retour a l'Accueil",
+    "loading": "Chargement..."
+  },
+  "NotFound": {
+    "title": "Page Non Trouvee",
+    "description": "La page que vous recherchez n'existe pas ou a ete deplacee.",
+    "backHome": "Retour a l'Accueil"
+  },
+  "HomePage": {
+    "title": "Toko Trading",
+    "subtitle": "Solutions de Commerce International et d'Approvisionnement",
+    "description": "Votre partenaire commercial de confiance base en Turquie"
+  }
+}
