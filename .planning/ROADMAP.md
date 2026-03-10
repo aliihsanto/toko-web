@@ -86,11 +86,12 @@ Plans:
   3. A multilingual sitemap includes all pages with hreflang alternates for all locales, and robots.txt is properly configured
   4. All pages achieve green Lighthouse scores for Core Web Vitals (LCP, CLS, FID/INP)
   5. Images use next/image with proper dimensions, formats, and alt text in all 4 languages
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 04-01: TBD
-- [ ] 04-02: TBD
+- [ ] 04-01-PLAN.md -- SEO metadata fundamentals: generateMetadata on all pages, shared SEO helpers, company info constants
+- [ ] 04-02-PLAN.md -- JSON-LD structured data components, multilingual sitemap.ts, robots.ts
+- [ ] 04-03-PLAN.md -- Wire JSON-LD into pages, Core Web Vitals optimization, image alt text audit, OG image generation
 
 ### Phase 5: Blog System
 **Goal**: Toko publishes import/export content that ranks in search, with a fully functional MDX blog in all 4 languages
@@ -134,6 +135,6 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6
 | 1. Foundation and i18n | 5/5 | Complete   | 2026-03-10 |
 | 2. Core Pages | 6/6 | Complete   | 2026-03-10 |
 | 3. Forms and Lead Capture | 1/3 | In Progress|  |
-| 4. SEO Infrastructure | 0/? | Not started | - |
+| 4. SEO Infrastructure | 0/3 | Not started | - |
 | 5. Blog System | 0/? | Not started | - |
 | 6. Programmatic SEO | 0/? | Not started | - |
