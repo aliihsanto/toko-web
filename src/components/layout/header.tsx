@@ -23,10 +23,11 @@ export function Header() {
   const [scrolled, setScrolled] = useState(false);
   const t = useTranslations('Header');
   const pathname = usePathname();
+  const isHome = pathname === '/';
 
   useEffect(() => {
     function handleScroll() {
-      setScrolled(window.scrollY > 50);
+      setScrolled(window.scrollY > 30);
     }
 
     window.addEventListener('scroll', handleScroll, { passive: true });
@@ -37,26 +38,33 @@ export function Header() {
     };
   }, []);
 
+  const showSolid = !isHome || scrolled;
+
   return (
     <header
       role="banner"
       className={cn(
         'fixed top-0 right-0 left-0 z-50 transition-all duration-300',
-        scrolled
-          ? 'bg-background/95 py-2 shadow-sm backdrop-blur-sm'
-          : 'bg-background py-6'
+        showSolid ? 'glass-nav py-1 shadow-sm' : 'bg-transparent py-3'
       )}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Logo */}
-        <Link
-          href="/"
-          className={cn(
-            'font-bold uppercase tracking-wider transition-all duration-300',
-            scrolled ? 'text-xl' : 'text-2xl'
-          )}
-        >
-          TOKO
+        <Link href="/" className="flex items-center gap-1.5">
+          <span
+            className={cn(
+              'text-3xl font-extrabold tracking-tighter transition-all duration-300',
+              showSolid ? 'text-foreground' : 'text-white'
+            )}
+          >
+            TOKO
+          </span>
+          <div
+            className={cn(
+              'mt-2 h-1.5 w-1.5 rounded-full transition-colors',
+              showSolid ? 'bg-amber-600' : 'bg-white'
+            )}
+          />
         </Link>
 
         {/* Desktop Navigation */}
@@ -66,10 +74,14 @@ export function Header() {
               key={item.key}
               href={item.href}
               className={cn(
-                'rounded-md px-3 py-2 text-sm font-medium transition-colors duration-200 hover:text-primary',
+                'rounded-md px-3 py-2 text-sm font-semibold transition-colors duration-200',
                 pathname === item.href
-                  ? 'text-primary'
-                  : 'text-muted-foreground'
+                  ? showSolid
+                    ? 'text-primary'
+                    : 'text-amber-500'
+                  : showSolid
+                    ? 'text-muted-foreground hover:text-primary'
+                    : 'text-gray-200 hover:text-white'
               )}
             >
               {t(`nav.${item.key}`)}
@@ -82,11 +94,13 @@ export function Header() {
           <LanguageSwitcher />
           <ThemeToggle />
           <Link href="/contact">
-            <Button size="sm">{t('cta')}</Button>
+            <Button size="sm" className="bg-amber-600 text-white hover:bg-amber-700">
+              {t('cta')}
+            </Button>
           </Link>
         </div>
 
-        {/* Mobile: Logo is already on left, MobileNav hamburger on right */}
+        {/* Mobile */}
         <MobileNav />
       </div>
     </header>
