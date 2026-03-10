@@ -40,7 +40,7 @@
 - [x] **BLOG-02**: Blog listing page with pagination, showing post title, excerpt, date, category
 - [x] **BLOG-03**: Blog detail page with full MDX content rendering, table of contents, reading time
 - [x] **BLOG-04**: Blog categories/tags for filtering (import, export, customs, regulations, etc.)
-- [ ] **BLOG-05**: Seed content — minimum 3-5 blog posts per locale at launch
+- [x] **BLOG-05**: Seed content — minimum 3-5 blog posts per locale at launch
 
 ### Programmatic SEO
 
@@ -127,7 +127,7 @@
 | BLOG-02 | Phase 5 | Complete |
 | BLOG-03 | Phase 5 | Complete |
 | BLOG-04 | Phase 5 | Complete |
-| BLOG-05 | Phase 5 | Pending |
+| BLOG-05 | Phase 5 | Complete |
 | PSEO-01 | Phase 6 | Pending |
 | PSEO-02 | Phase 6 | Pending |
 | PSEO-03 | Phase 6 | Pending |
