@@ -12,6 +12,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
+      '#site/content': path.resolve(__dirname, './.velite'),
     },
   },
 });
