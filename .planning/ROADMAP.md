@@ -12,7 +12,7 @@ Toko Trading's corporate website is built in 6 phases that follow a strict depen
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Foundation and i18n** - Next.js project with 4-language routing, base layout, design system, and responsive navigation
+- [x] **Phase 1: Foundation and i18n** - Next.js project with 4-language routing, base layout, design system, and responsive navigation (completed 2026-03-10)
 - [ ] **Phase 2: Core Pages** - All static content pages (homepage, about, services, sectors, references, Russia transit trade)
 - [ ] **Phase 3: Forms and Lead Capture** - Contact, quote, supply, callback forms with email notifications, spam protection, and WhatsApp button
 - [ ] **Phase 4: SEO Infrastructure** - Metadata, structured data, sitemap, robots.txt, hreflang, Core Web Vitals optimization across all existing pages
@@ -35,10 +35,10 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 Plans:
 - [x] 01-01-PLAN.md -- Scaffold Next.js project and establish i18n routing infrastructure
-- [ ] 01-02-PLAN.md -- Design system, dark navy blue theme, and dark/light mode toggle
-- [ ] 01-03-PLAN.md -- Header with shrink-on-scroll, language switcher, and mobile navigation
-- [ ] 01-04-PLAN.md -- Footer with 4-column layout, contact info, and social links
-- [ ] 01-05-PLAN.md -- Framer Motion animations and visual verification checkpoint
+- [x] 01-02-PLAN.md -- Design system, dark navy blue theme, and dark/light mode toggle
+- [x] 01-03-PLAN.md -- Header with shrink-on-scroll, language switcher, and mobile navigation
+- [x] 01-04-PLAN.md -- Footer with 4-column layout, contact info, and social links
+- [x] 01-05-PLAN.md -- Framer Motion animations and visual verification checkpoint
 
 ### Phase 2: Core Pages
 **Goal**: Visitors can learn about Toko's services, sectors, history, and Russia transit trade capabilities through complete, translated content pages
@@ -130,7 +130,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation and i18n | 4/5 | In Progress|  |
+| 1. Foundation and i18n | 5/5 | Complete   | 2026-03-10 |
 | 2. Core Pages | 5/6 | In Progress|  |
 | 3. Forms and Lead Capture | 0/? | Not started | - |
 | 4. SEO Infrastructure | 0/? | Not started | - |
