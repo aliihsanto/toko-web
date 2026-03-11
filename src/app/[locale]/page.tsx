@@ -80,7 +80,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         {/* Dot pattern overlay */}
         <div className="absolute inset-0 dot-grid text-[#0d7377]/[0.02]" />
 
-        <div className="relative z-10 mx-auto flex max-w-7xl flex-col items-center gap-12 px-4 pt-20 pb-24 sm:px-6 lg:flex-row lg:gap-16 lg:px-8 lg:pt-24 lg:pb-32">
+        <div className="relative z-10 mx-auto flex max-w-7xl flex-col items-center gap-12 px-4 pt-10 pb-24 sm:px-6 lg:flex-row lg:gap-16 lg:px-8 lg:pt-12 lg:pb-32">
           {/* Left content */}
           <div className="flex-1">
             <span className="inline-flex items-center gap-2 rounded-full border border-primary/15 bg-white/60 px-5 py-2 text-xs font-semibold uppercase tracking-widest text-primary backdrop-blur-sm shadow-sm">

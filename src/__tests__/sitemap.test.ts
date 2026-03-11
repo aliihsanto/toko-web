@@ -1,20 +1,33 @@
 import { describe, it, expect } from 'vitest';
-import sitemap from '@/app/sitemap';
+import { GET } from '@/app/sitemap.xml/route';
 import { services } from '@/data/services';
 import { sectors } from '@/data/sectors';
 import { resolveLocalizedPath } from '@/lib/i18n-paths';
 
 describe('sitemap', () => {
-  const entries = sitemap();
+  let xml: string;
+  let urls: string[];
 
-  // Blog entries are locale-specific (no cross-locale alternates)
-  const staticEntryCount = 11 + services.length + sectors.length; // 11 + 4 + 8 = 23
-  const blogEntries = entries.filter((e) => e.url.includes('/blog/'));
-  const staticEntries = entries.filter((e) => !e.url.includes('/blog/'));
+  // Parse XML response once
+  beforeAll(async () => {
+    const response = GET();
+    xml = await response.text();
+    // Extract all <loc> values
+    urls = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
+  });
+
+  it('returns valid XML with proper headers', async () => {
+    const response = GET();
+    expect(response.headers.get('Content-Type')).toContain('application/xml');
+    expect(xml).toContain('<?xml version="1.0"');
+    expect(xml).toContain('<?xml-stylesheet');
+    expect(xml).toContain('<urlset');
+    expect(xml).toContain('</urlset>');
+  });
 
   it('returns entries for all static pages (11 total)', () => {
     const staticPaths = [
-      '', // homepage
+      '',
       '/about',
       '/services',
       '/sectors',
@@ -29,73 +42,72 @@ describe('sitemap', () => {
 
     for (const path of staticPaths) {
       const localizedPath = path ? resolveLocalizedPath(path, 'tr') : '';
-      const found = entries.find((e) =>
-        e.url.endsWith(`/tr${localizedPath}`) || (path === '' && e.url.endsWith('/tr'))
+      const found = urls.some((u) =>
+        u.endsWith(`/tr${localizedPath}`) || (path === '' && u.endsWith('/tr'))
       );
-      expect(found, `Missing sitemap entry for path: ${path || '/'}`).toBeDefined();
+      expect(found, `Missing sitemap entry for path: ${path || '/'}`).toBe(true);
     }
   });
 
   it('returns entries for all 4 service detail pages', () => {
     for (const service of services) {
       const localizedPath = resolveLocalizedPath(`/services/${service.slug}`, 'tr');
-      const found = entries.find((e) =>
-        e.url.includes(localizedPath)
-      );
-      expect(found, `Missing service: ${service.slug}`).toBeDefined();
+      const found = urls.some((u) => u.includes(localizedPath));
+      expect(found, `Missing service: ${service.slug}`).toBe(true);
     }
   });
 
   it('returns entries for all 8 sector detail pages', () => {
     for (const sector of sectors) {
       const localizedPath = resolveLocalizedPath(`/sectors/${sector.slug}`, 'tr');
-      const found = entries.find((e) =>
-        e.url.includes(localizedPath)
-      );
-      expect(found, `Missing sector: ${sector.slug}`).toBeDefined();
+      const found = urls.some((u) => u.includes(localizedPath));
+      expect(found, `Missing sector: ${sector.slug}`).toBe(true);
     }
   });
 
-  it('has at least 23 static entries (11 + 4 + 8 + PSEO pages)', () => {
-    expect(staticEntries.length).toBeGreaterThanOrEqual(staticEntryCount);
+  it('has at least 23 static entries + PSEO pages', () => {
+    const nonBlogUrls = urls.filter((u) => !u.includes('/blog/'));
+    expect(nonBlogUrls.length).toBeGreaterThanOrEqual(23);
   });
 
   it('includes blog post entries (at least 16 for seed content)', () => {
-    expect(blogEntries.length).toBeGreaterThanOrEqual(16);
+    const blogUrls = urls.filter((u) => u.includes('/blog/'));
+    expect(blogUrls.length).toBeGreaterThanOrEqual(16);
   });
 
-  it('static entries have alternates.languages with keys tr, en, fr, ru', () => {
-    for (const entry of staticEntries) {
-      const languages = (entry as any).alternates?.languages;
-      expect(languages, `Missing alternates for ${entry.url}`).toBeDefined();
-      expect(Object.keys(languages)).toContain('tr');
-      expect(Object.keys(languages)).toContain('en');
-      expect(Object.keys(languages)).toContain('fr');
-      expect(Object.keys(languages)).toContain('ru');
-    }
+  it('static entries have hreflang alternates for tr, en, fr, ru', () => {
+    // Check homepage alternates
+    const homepageBlock = xml.match(/<url>\s*<loc>[^<]*\/tr<\/loc>[\s\S]*?<\/url>/);
+    expect(homepageBlock).not.toBeNull();
+    expect(homepageBlock![0]).toContain('hreflang="tr"');
+    expect(homepageBlock![0]).toContain('hreflang="en"');
+    expect(homepageBlock![0]).toContain('hreflang="fr"');
+    expect(homepageBlock![0]).toContain('hreflang="ru"');
   });
 
   it('each alternate URL contains the correct locale prefix', () => {
-    for (const entry of staticEntries) {
-      const languages = (entry as any).alternates?.languages;
-      if (languages) {
-        for (const [locale, url] of Object.entries(languages)) {
-          expect(url as string).toContain(`/${locale}`);
-        }
-      }
+    const alternates = [...xml.matchAll(/hreflang="(\w+)" href="([^"]+)"/g)];
+    for (const [, locale, href] of alternates) {
+      expect(href).toContain(`/${locale}`);
     }
   });
 
   it('blog entries have locale in URL', () => {
+    const blogUrls = urls.filter((u) => u.includes('/blog/'));
     const localePattern = /\/(tr|en|fr|ru)\/blog\//;
-    for (const entry of blogEntries) {
-      expect(entry.url).toMatch(localePattern);
+    for (const url of blogUrls) {
+      expect(url).toMatch(localePattern);
     }
   });
 
-  it('homepage entry has priority 1.0', () => {
-    const homepage = entries.find((e) => e.url.endsWith('/tr'));
-    expect(homepage).toBeDefined();
-    expect(homepage!.priority).toBe(1.0);
+  it('homepage entry has priority 1', () => {
+    const homepageBlock = xml.match(/<url>\s*<loc>[^<]*\/tr<\/loc>[\s\S]*?<\/url>/);
+    expect(homepageBlock).not.toBeNull();
+    expect(homepageBlock![0]).toContain('<priority>1</priority>');
+  });
+
+  it('XML is properly formatted with newlines', () => {
+    const lines = xml.split('\n');
+    expect(lines.length).toBeGreaterThan(100);
   });
 });

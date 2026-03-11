@@ -162,7 +162,7 @@ describe('PSEO ISR Configuration', () => {
 // ─── 3. PSEO Sitemap Integration ───────────────────────────────────────────
 
 describe('PSEO Sitemap Integration', () => {
-  const sitemapPath = path.resolve(__dirname, '../app/sitemap.ts');
+  const sitemapPath = path.resolve(__dirname, '../app/sitemap.xml/route.ts');
   let sitemapContent: string;
 
   it('should exist as a file', () => {
