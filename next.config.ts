@@ -13,6 +13,16 @@ if (!process.env.VELITE_STARTED && (isDev || isBuild)) {
 
 const withNextIntl = createNextIntlPlugin();
 
-const nextConfig: NextConfig = {};
+const nextConfig: NextConfig = {
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/tr',
+        permanent: false,
+      },
+    ];
+  },
+};
 
 export default withNextIntl(nextConfig);
