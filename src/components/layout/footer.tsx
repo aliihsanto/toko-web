@@ -5,13 +5,12 @@ import { Link, useRouter, usePathname } from '@/i18n/navigation';
 import { cn } from '@/lib/utils';
 import { locales, type Locale } from '@/types';
 import { Separator } from '@/components/ui/separator';
-import { Linkedin, Twitter, Instagram } from 'lucide-react';
 
 const localeNames: Record<Locale, string> = {
-  tr: 'Turkce',
+  tr: 'Türkçe',
   en: 'English',
-  fr: 'Francais',
-  ru: 'Russkiy',
+  fr: 'Français',
+  ru: 'Русский',
 };
 
 export function Footer() {
@@ -41,35 +40,6 @@ export function Footer() {
             <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
               {t('about.description')}
             </p>
-            <div className="mt-5 flex gap-3">
-              <a
-                href="https://linkedin.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={t('social.linkedin')}
-                className="flex h-10 w-10 items-center justify-center rounded-xl bg-foreground/5 text-muted-foreground transition-all hover:bg-primary/10 hover:text-primary hover:shadow-md"
-              >
-                <Linkedin className="h-4 w-4" />
-              </a>
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={t('social.twitter')}
-                className="flex h-10 w-10 items-center justify-center rounded-xl bg-foreground/5 text-muted-foreground transition-all hover:bg-primary/10 hover:text-primary hover:shadow-md"
-              >
-                <Twitter className="h-4 w-4" />
-              </a>
-              <a
-                href="https://instagram.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={t('social.instagram')}
-                className="flex h-10 w-10 items-center justify-center rounded-xl bg-foreground/5 text-muted-foreground transition-all hover:bg-[#d4613c]/10 hover:text-[#d4613c] hover:shadow-md"
-              >
-                <Instagram className="h-4 w-4" />
-              </a>
-            </div>
           </div>
 
           {/* Column 2: Services */}
@@ -136,11 +106,16 @@ export function Footer() {
               {t('contact.title')}
             </h4>
             <address className="not-italic">
-              <p className="text-sm leading-relaxed text-muted-foreground">
+              <a
+                href="https://maps.app.goo.gl/V4V6Pw7SKXjMv92q8"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block cursor-pointer text-sm leading-relaxed text-muted-foreground transition-colors duration-200 hover:text-primary"
+              >
                 {t('contact.address')}
-              </p>
+              </a>
               <p className="mt-2.5 text-sm text-muted-foreground">
-                <a href="tel:+902120000000" className="transition-colors duration-200 hover:text-primary">
+                <a href="tel:+902124506020" className="transition-colors duration-200 hover:text-primary">
                   {t('contact.phone')}
                 </a>
               </p>

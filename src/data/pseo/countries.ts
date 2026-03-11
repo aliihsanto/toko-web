@@ -4,7 +4,7 @@ export const countryPages: CountryPageData[] = [
   {
     slug: "germany",
     flag: "🇩🇪",
-    image: "/images/countries/germany.jpg",
+    image: "/images/countries/germany.webp",
     meta: {
       title: { tr: "Turkiye Almanya Ticaret Rehberi | Toko Trading", en: "Turkey Germany Trade Guide | Toko Trading", fr: "Guide Commercial Turquie Allemagne | Toko Trading", ru: "Торговый справочник Турция Германия | Toko Trading" },
       description: { tr: "Turkiye ile Almanya arasindaki ticaret iliskileri ikili ticaret verileri lojistik bilgileri ve is firsatlari hakkinda kapsamli rehber.", en: "Comprehensive guide on trade relations between Turkey and Germany including bilateral trade data logistics information and business opportunities.", fr: "Guide complet sur les relations commerciales entre la Turquie et Allemagne incluant les donnees commerciales bilaterales les informations logistiques et les opportunites commerciales.", ru: "Подробный справочник по торговым отношениям между Турцией и Германия включая данные о двусторонней торговле логистическую информацию и деловые возможности." },
@@ -43,7 +43,7 @@ export const countryPages: CountryPageData[] = [
   {
     slug: "united-kingdom",
     flag: "🇬🇧",
-    image: "/images/countries/uk.jpg",
+    image: "/images/countries/uk.webp",
     meta: {
       title: { tr: "Turkiye Birlesik Krallik Ticaret Rehberi | Toko Trading", en: "Turkey United Kingdom Trade Guide | Toko Trading", fr: "Guide Commercial Turquie Royaume-Uni | Toko Trading", ru: "Торговый справочник Турция Великобритания | Toko Trading" },
       description: { tr: "Turkiye ile Birlesik Krallik arasindaki ticaret iliskileri ikili ticaret verileri lojistik bilgileri ve is firsatlari hakkinda kapsamli rehber.", en: "Comprehensive guide on trade relations between Turkey and United Kingdom including bilateral trade data logistics information and business opportunities.", fr: "Guide complet sur les relations commerciales entre la Turquie et Royaume-Uni incluant les donnees commerciales bilaterales les informations logistiques et les opportunites commerciales.", ru: "Подробный справочник по торговым отношениям между Турцией и Великобритания включая данные о двусторонней торговле логистическую информацию и деловые возможности." },
@@ -82,7 +82,7 @@ export const countryPages: CountryPageData[] = [
   {
     slug: "france",
     flag: "🇫🇷",
-    image: "/images/countries/france.jpg",
+    image: "/images/countries/france.webp",
     meta: {
       title: { tr: "Turkiye Fransa Ticaret Rehberi | Toko Trading", en: "Turkey France Trade Guide | Toko Trading", fr: "Guide Commercial Turquie France | Toko Trading", ru: "Торговый справочник Турция Франция | Toko Trading" },
       description: { tr: "Turkiye ile Fransa arasindaki ticaret iliskileri ikili ticaret verileri lojistik bilgileri ve is firsatlari hakkinda kapsamli rehber.", en: "Comprehensive guide on trade relations between Turkey and France including bilateral trade data logistics information and business opportunities.", fr: "Guide complet sur les relations commerciales entre la Turquie et France incluant les donnees commerciales bilaterales les informations logistiques et les opportunites commerciales.", ru: "Подробный справочник по торговым отношениям между Турцией и Франция включая данные о двусторонней торговле логистическую информацию и деловые возможности." },
@@ -121,7 +121,7 @@ export const countryPages: CountryPageData[] = [
   {
     slug: "italy",
     flag: "🇮🇹",
-    image: "/images/countries/italy.jpg",
+    image: "/images/countries/italy.webp",
     meta: {
       title: { tr: "Turkiye Italya Ticaret Rehberi | Toko Trading", en: "Turkey Italy Trade Guide | Toko Trading", fr: "Guide Commercial Turquie Italie | Toko Trading", ru: "Торговый справочник Турция Италия | Toko Trading" },
       description: { tr: "Turkiye ile Italya arasindaki ticaret iliskileri ikili ticaret verileri lojistik bilgileri ve is firsatlari hakkinda kapsamli rehber.", en: "Comprehensive guide on trade relations between Turkey and Italy including bilateral trade data logistics information and business opportunities.", fr: "Guide complet sur les relations commerciales entre la Turquie et Italie incluant les donnees commerciales bilaterales les informations logistiques et les opportunites commerciales.", ru: "Подробный справочник по торговым отношениям между Турцией и Италия включая данные о двусторонней торговле логистическую информацию и деловые возможности." },
@@ -160,7 +160,7 @@ export const countryPages: CountryPageData[] = [
   {
     slug: "spain",
     flag: "🇪🇸",
-    image: "/images/countries/spain.jpg",
+    image: "/images/countries/spain.webp",
     meta: {
       title: { tr: "Turkiye Ispanya Ticaret Rehberi | Toko Trading", en: "Turkey Spain Trade Guide | Toko Trading", fr: "Guide Commercial Turquie Espagne | Toko Trading", ru: "Торговый справочник Турция Испания | Toko Trading" },
       description: { tr: "Turkiye ile Ispanya arasindaki ticaret iliskileri ikili ticaret verileri lojistik bilgileri ve is firsatlari hakkinda kapsamli rehber.", en: "Comprehensive guide on trade relations between Turkey and Spain including bilateral trade data logistics information and business opportunities.", fr: "Guide complet sur les relations commerciales entre la Turquie et Espagne incluant les donnees commerciales bilaterales les informations logistiques et les opportunites commerciales.", ru: "Подробный справочник по торговым отношениям между Турцией и Испания включая данные о двусторонней торговле логистическую информацию и деловые возможности." },
@@ -199,7 +199,7 @@ export const countryPages: CountryPageData[] = [
   {
     slug: "netherlands",
     flag: "🇳🇱",
-    image: "/images/countries/netherlands.jpg",
+    image: "/images/countries/netherlands.webp",
     meta: {
       title: { tr: "Turkiye Hollanda Ticaret Rehberi | Toko Trading", en: "Turkey Netherlands Trade Guide | Toko Trading", fr: "Guide Commercial Turquie Pays-Bas | Toko Trading", ru: "Торговый справочник Турция Нидерланды | Toko Trading" },
       description: { tr: "Turkiye ile Hollanda arasindaki ticaret iliskileri ikili ticaret verileri lojistik bilgileri ve is firsatlari hakkinda kapsamli rehber.", en: "Comprehensive guide on trade relations between Turkey and Netherlands including bilateral trade data logistics information and business opportunities.", fr: "Guide complet sur les relations commerciales entre la Turquie et Pays-Bas incluant les donnees commerciales bilaterales les informations logistiques et les opportunites commerciales.", ru: "Подробный справочник по торговым отношениям между Турцией и Нидерланды включая данные о двусторонней торговле логистическую информацию и деловые возможности." },
@@ -238,7 +238,7 @@ export const countryPages: CountryPageData[] = [
   {
     slug: "russia",
     flag: "🇷🇺",
-    image: "/images/countries/russia.jpg",
+    image: "/images/countries/russia.webp",
     meta: {
       title: { tr: "Turkiye Rusya Ticaret Rehberi | Toko Trading", en: "Turkey Russia Trade Guide | Toko Trading", fr: "Guide Commercial Turquie Russie | Toko Trading", ru: "Торговый справочник Турция Россия | Toko Trading" },
       description: { tr: "Turkiye ile Rusya arasindaki ticaret iliskileri ikili ticaret verileri lojistik bilgileri ve is firsatlari hakkinda kapsamli rehber.", en: "Comprehensive guide on trade relations between Turkey and Russia including bilateral trade data logistics information and business opportunities.", fr: "Guide complet sur les relations commerciales entre la Turquie et Russie incluant les donnees commerciales bilaterales les informations logistiques et les opportunites commerciales.", ru: "Подробный справочник по торговым отношениям между Турцией и Россия включая данные о двусторонней торговле логистическую информацию и деловые возможности." },
@@ -277,7 +277,7 @@ export const countryPages: CountryPageData[] = [
   {
     slug: "united-states",
     flag: "🇺🇸",
-    image: "/images/countries/usa.jpg",
+    image: "/images/countries/usa.webp",
     meta: {
       title: { tr: "Turkiye Amerika Birlesik Devletleri Ticaret Rehberi | Toko Trading", en: "Turkey United States Trade Guide | Toko Trading", fr: "Guide Commercial Turquie Etats-Unis | Toko Trading", ru: "Торговый справочник Турция Соединённые Штаты | Toko Trading" },
       description: { tr: "Turkiye ile Amerika Birlesik Devletleri arasindaki ticaret iliskileri ikili ticaret verileri lojistik bilgileri ve is firsatlari hakkinda kapsamli rehber.", en: "Comprehensive guide on trade relations between Turkey and United States including bilateral trade data logistics information and business opportunities.", fr: "Guide complet sur les relations commerciales entre la Turquie et Etats-Unis incluant les donnees commerciales bilaterales les informations logistiques et les opportunites commerciales.", ru: "Подробный справочник по торговым отношениям между Турцией и Соединённые Штаты включая данные о двусторонней торговле логистическую информацию и деловые возможности." },
@@ -316,7 +316,7 @@ export const countryPages: CountryPageData[] = [
   {
     slug: "china",
     flag: "🇨🇳",
-    image: "/images/countries/china.jpg",
+    image: "/images/countries/china.webp",
     meta: {
       title: { tr: "Turkiye Cin Ticaret Rehberi | Toko Trading", en: "Turkey China Trade Guide | Toko Trading", fr: "Guide Commercial Turquie Chine | Toko Trading", ru: "Торговый справочник Турция Китай | Toko Trading" },
       description: { tr: "Turkiye ile Cin arasindaki ticaret iliskileri ikili ticaret verileri lojistik bilgileri ve is firsatlari hakkinda kapsamli rehber.", en: "Comprehensive guide on trade relations between Turkey and China including bilateral trade data logistics information and business opportunities.", fr: "Guide complet sur les relations commerciales entre la Turquie et Chine incluant les donnees commerciales bilaterales les informations logistiques et les opportunites commerciales.", ru: "Подробный справочник по торговым отношениям между Турцией и Китай включая данные о двусторонней торговле логистическую информацию и деловые возможности." },
@@ -355,7 +355,7 @@ export const countryPages: CountryPageData[] = [
   {
     slug: "iraq",
     flag: "🇮🇶",
-    image: "/images/countries/iraq.jpg",
+    image: "/images/countries/iraq.webp",
     meta: {
       title: { tr: "Turkiye Irak Ticaret Rehberi | Toko Trading", en: "Turkey Iraq Trade Guide | Toko Trading", fr: "Guide Commercial Turquie Irak | Toko Trading", ru: "Торговый справочник Турция Ирак | Toko Trading" },
       description: { tr: "Turkiye ile Irak arasindaki ticaret iliskileri ikili ticaret verileri lojistik bilgileri ve is firsatlari hakkinda kapsamli rehber.", en: "Comprehensive guide on trade relations between Turkey and Iraq including bilateral trade data logistics information and business opportunities.", fr: "Guide complet sur les relations commerciales entre la Turquie et Irak incluant les donnees commerciales bilaterales les informations logistiques et les opportunites commerciales.", ru: "Подробный справочник по торговым отношениям между Турцией и Ирак включая данные о двусторонней торговле логистическую информацию и деловые возможности." },
@@ -394,7 +394,7 @@ export const countryPages: CountryPageData[] = [
   {
     slug: "saudi-arabia",
     flag: "🇸🇦",
-    image: "/images/countries/saudi-arabia.jpg",
+    image: "/images/countries/saudi-arabia.webp",
     meta: {
       title: { tr: "Turkiye Suudi Arabistan Ticaret Rehberi | Toko Trading", en: "Turkey Saudi Arabia Trade Guide | Toko Trading", fr: "Guide Commercial Turquie Arabie Saoudite | Toko Trading", ru: "Торговый справочник Турция Саудовская Аравия | Toko Trading" },
       description: { tr: "Turkiye ile Suudi Arabistan arasindaki ticaret iliskileri ikili ticaret verileri lojistik bilgileri ve is firsatlari hakkinda kapsamli rehber.", en: "Comprehensive guide on trade relations between Turkey and Saudi Arabia including bilateral trade data logistics information and business opportunities.", fr: "Guide complet sur les relations commerciales entre la Turquie et Arabie Saoudite incluant les donnees commerciales bilaterales les informations logistiques et les opportunites commerciales.", ru: "Подробный справочник по торговым отношениям между Турцией и Саудовская Аравия включая данные о двусторонней торговле логистическую информацию и деловые возможности." },
@@ -433,7 +433,7 @@ export const countryPages: CountryPageData[] = [
   {
     slug: "uae",
     flag: "🇦🇪",
-    image: "/images/countries/uae.jpg",
+    image: "/images/countries/uae.webp",
     meta: {
       title: { tr: "Turkiye Birlesik Arap Emirlikleri Ticaret Rehberi | Toko Trading", en: "Turkey United Arab Emirates Trade Guide | Toko Trading", fr: "Guide Commercial Turquie Emirats Arabes Unis | Toko Trading", ru: "Торговый справочник Турция Объединённые Арабские Эмираты | Toko Trading" },
       description: { tr: "Turkiye ile Birlesik Arap Emirlikleri arasindaki ticaret iliskileri ikili ticaret verileri lojistik bilgileri ve is firsatlari hakkinda kapsamli rehber.", en: "Comprehensive guide on trade relations between Turkey and United Arab Emirates including bilateral trade data logistics information and business opportunities.", fr: "Guide complet sur les relations commerciales entre la Turquie et Emirats Arabes Unis incluant les donnees commerciales bilaterales les informations logistiques et les opportunites commerciales.", ru: "Подробный справочник по торговым отношениям между Турцией и Объединённые Арабские Эмираты включая данные о двусторонней торговле логистическую информацию и деловые возможности." },
@@ -472,7 +472,7 @@ export const countryPages: CountryPageData[] = [
   {
     slug: "egypt",
     flag: "🇪🇬",
-    image: "/images/countries/egypt.jpg",
+    image: "/images/countries/egypt.webp",
     meta: {
       title: { tr: "Turkiye Misir Ticaret Rehberi | Toko Trading", en: "Turkey Egypt Trade Guide | Toko Trading", fr: "Guide Commercial Turquie Egypte | Toko Trading", ru: "Торговый справочник Турция Египет | Toko Trading" },
       description: { tr: "Turkiye ile Misir arasindaki ticaret iliskileri ikili ticaret verileri lojistik bilgileri ve is firsatlari hakkinda kapsamli rehber.", en: "Comprehensive guide on trade relations between Turkey and Egypt including bilateral trade data logistics information and business opportunities.", fr: "Guide complet sur les relations commerciales entre la Turquie et Egypte incluant les donnees commerciales bilaterales les informations logistiques et les opportunites commerciales.", ru: "Подробный справочник по торговым отношениям между Турцией и Египет включая данные о двусторонней торговле логистическую информацию и деловые возможности." },
@@ -511,7 +511,7 @@ export const countryPages: CountryPageData[] = [
   {
     slug: "israel",
     flag: "🇮🇱",
-    image: "/images/countries/israel.jpg",
+    image: "/images/countries/israel.webp",
     meta: {
       title: { tr: "Turkiye Israil Ticaret Rehberi | Toko Trading", en: "Turkey Israel Trade Guide | Toko Trading", fr: "Guide Commercial Turquie Israel | Toko Trading", ru: "Торговый справочник Турция Израиль | Toko Trading" },
       description: { tr: "Turkiye ile Israil arasindaki ticaret iliskileri ikili ticaret verileri lojistik bilgileri ve is firsatlari hakkinda kapsamli rehber.", en: "Comprehensive guide on trade relations between Turkey and Israel including bilateral trade data logistics information and business opportunities.", fr: "Guide complet sur les relations commerciales entre la Turquie et Israel incluant les donnees commerciales bilaterales les informations logistiques et les opportunites commerciales.", ru: "Подробный справочник по торговым отношениям между Турцией и Израиль включая данные о двусторонней торговле логистическую информацию и деловые возможности." },
@@ -550,7 +550,7 @@ export const countryPages: CountryPageData[] = [
   {
     slug: "romania",
     flag: "🇷🇴",
-    image: "/images/countries/romania.jpg",
+    image: "/images/countries/romania.webp",
     meta: {
       title: { tr: "Turkiye Romanya Ticaret Rehberi | Toko Trading", en: "Turkey Romania Trade Guide | Toko Trading", fr: "Guide Commercial Turquie Roumanie | Toko Trading", ru: "Торговый справочник Турция Румыния | Toko Trading" },
       description: { tr: "Turkiye ile Romanya arasindaki ticaret iliskileri ikili ticaret verileri lojistik bilgileri ve is firsatlari hakkinda kapsamli rehber.", en: "Comprehensive guide on trade relations between Turkey and Romania including bilateral trade data logistics information and business opportunities.", fr: "Guide complet sur les relations commerciales entre la Turquie et Roumanie incluant les donnees commerciales bilaterales les informations logistiques et les opportunites commerciales.", ru: "Подробный справочник по торговым отношениям между Турцией и Румыния включая данные о двусторонней торговле логистическую информацию и деловые возможности." },
@@ -589,7 +589,7 @@ export const countryPages: CountryPageData[] = [
   {
     slug: "bulgaria",
     flag: "🇧🇬",
-    image: "/images/countries/bulgaria.jpg",
+    image: "/images/countries/bulgaria.webp",
     meta: {
       title: { tr: "Turkiye Bulgaristan Ticaret Rehberi | Toko Trading", en: "Turkey Bulgaria Trade Guide | Toko Trading", fr: "Guide Commercial Turquie Bulgarie | Toko Trading", ru: "Торговый справочник Турция Болгария | Toko Trading" },
       description: { tr: "Turkiye ile Bulgaristan arasindaki ticaret iliskileri ikili ticaret verileri lojistik bilgileri ve is firsatlari hakkinda kapsamli rehber.", en: "Comprehensive guide on trade relations between Turkey and Bulgaria including bilateral trade data logistics information and business opportunities.", fr: "Guide complet sur les relations commerciales entre la Turquie et Bulgarie incluant les donnees commerciales bilaterales les informations logistiques et les opportunites commerciales.", ru: "Подробный справочник по торговым отношениям между Турцией и Болгария включая данные о двусторонней торговле логистическую информацию и деловые возможности." },
@@ -628,7 +628,7 @@ export const countryPages: CountryPageData[] = [
   {
     slug: "poland",
     flag: "🇵🇱",
-    image: "/images/countries/poland.jpg",
+    image: "/images/countries/poland.webp",
     meta: {
       title: { tr: "Turkiye Polonya Ticaret Rehberi | Toko Trading", en: "Turkey Poland Trade Guide | Toko Trading", fr: "Guide Commercial Turquie Pologne | Toko Trading", ru: "Торговый справочник Турция Польша | Toko Trading" },
       description: { tr: "Turkiye ile Polonya arasindaki ticaret iliskileri ikili ticaret verileri lojistik bilgileri ve is firsatlari hakkinda kapsamli rehber.", en: "Comprehensive guide on trade relations between Turkey and Poland including bilateral trade data logistics information and business opportunities.", fr: "Guide complet sur les relations commerciales entre la Turquie et Pologne incluant les donnees commerciales bilaterales les informations logistiques et les opportunites commerciales.", ru: "Подробный справочник по торговым отношениям между Турцией и Польша включая данные о двусторонней торговле логистическую информацию и деловые возможности." },
@@ -667,7 +667,7 @@ export const countryPages: CountryPageData[] = [
   {
     slug: "japan",
     flag: "🇯🇵",
-    image: "/images/countries/japan.jpg",
+    image: "/images/countries/japan.webp",
     meta: {
       title: { tr: "Turkiye Japonya Ticaret Rehberi | Toko Trading", en: "Turkey Japan Trade Guide | Toko Trading", fr: "Guide Commercial Turquie Japon | Toko Trading", ru: "Торговый справочник Турция Япония | Toko Trading" },
       description: { tr: "Turkiye ile Japonya arasindaki ticaret iliskileri ikili ticaret verileri lojistik bilgileri ve is firsatlari hakkinda kapsamli rehber.", en: "Comprehensive guide on trade relations between Turkey and Japan including bilateral trade data logistics information and business opportunities.", fr: "Guide complet sur les relations commerciales entre la Turquie et Japon incluant les donnees commerciales bilaterales les informations logistiques et les opportunites commerciales.", ru: "Подробный справочник по торговым отношениям между Турцией и Япония включая данные о двусторонней торговле логистическую информацию и деловые возможности." },
@@ -706,7 +706,7 @@ export const countryPages: CountryPageData[] = [
   {
     slug: "south-korea",
     flag: "🇰🇷",
-    image: "/images/countries/south-korea.jpg",
+    image: "/images/countries/south-korea.webp",
     meta: {
       title: { tr: "Turkiye Guney Kore Ticaret Rehberi | Toko Trading", en: "Turkey South Korea Trade Guide | Toko Trading", fr: "Guide Commercial Turquie Coree du Sud | Toko Trading", ru: "Торговый справочник Турция Южная Корея | Toko Trading" },
       description: { tr: "Turkiye ile Guney Kore arasindaki ticaret iliskileri ikili ticaret verileri lojistik bilgileri ve is firsatlari hakkinda kapsamli rehber.", en: "Comprehensive guide on trade relations between Turkey and South Korea including bilateral trade data logistics information and business opportunities.", fr: "Guide complet sur les relations commerciales entre la Turquie et Coree du Sud incluant les donnees commerciales bilaterales les informations logistiques et les opportunites commerciales.", ru: "Подробный справочник по торговым отношениям между Турцией и Южная Корея включая данные о двусторонней торговле логистическую информацию и деловые возможности." },
@@ -745,7 +745,7 @@ export const countryPages: CountryPageData[] = [
   {
     slug: "brazil",
     flag: "🇧🇷",
-    image: "/images/countries/brazil.jpg",
+    image: "/images/countries/brazil.webp",
     meta: {
       title: { tr: "Turkiye Brezilya Ticaret Rehberi | Toko Trading", en: "Turkey Brazil Trade Guide | Toko Trading", fr: "Guide Commercial Turquie Bresil | Toko Trading", ru: "Торговый справочник Турция Бразилия | Toko Trading" },
       description: { tr: "Turkiye ile Brezilya arasindaki ticaret iliskileri ikili ticaret verileri lojistik bilgileri ve is firsatlari hakkinda kapsamli rehber.", en: "Comprehensive guide on trade relations between Turkey and Brazil including bilateral trade data logistics information and business opportunities.", fr: "Guide complet sur les relations commerciales entre la Turquie et Bresil incluant les donnees commerciales bilaterales les informations logistiques et les opportunites commerciales.", ru: "Подробный справочник по торговым отношениям между Турцией и Бразилия включая данные о двусторонней торговле логистическую информацию и деловые возможности." },

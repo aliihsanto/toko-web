@@ -5,7 +5,7 @@ export const customsPages: CustomsPageData[] =
 [
   {
     "slug": "customs-eu",
-    "image": "/images/customs/customs-eu.jpg",
+    "image": "/images/customs/customs-eu.webp",
     "meta": {
       "title": {
         "tr": "AB Gumruk Mevzuati | Toko Trading Gumruk Rehberi",
@@ -252,7 +252,7 @@ export const customsPages: CustomsPageData[] =
   },
   {
     "slug": "customs-russia-cis",
-    "image": "/images/customs/customs-russia-cis.jpg",
+    "image": "/images/customs/customs-russia-cis.webp",
     "meta": {
       "title": {
         "tr": "Rusya ve BDT Gumruk | Toko Trading Gumruk Rehberi",
@@ -499,7 +499,7 @@ export const customsPages: CustomsPageData[] =
   },
   {
     "slug": "customs-middle-east",
-    "image": "/images/customs/customs-middle-east.jpg",
+    "image": "/images/customs/customs-middle-east.webp",
     "meta": {
       "title": {
         "tr": "Orta Dogu Gumruk Rehberi | Toko Trading Gumruk Rehberi",
@@ -746,7 +746,7 @@ export const customsPages: CustomsPageData[] =
   },
   {
     "slug": "customs-north-africa",
-    "image": "/images/customs/customs-north-africa.jpg",
+    "image": "/images/customs/customs-north-africa.webp",
     "meta": {
       "title": {
         "tr": "Kuzey Afrika Gumruk | Toko Trading Gumruk Rehberi",
@@ -993,7 +993,7 @@ export const customsPages: CustomsPageData[] =
   },
   {
     "slug": "customs-east-asia",
-    "image": "/images/customs/customs-east-asia.jpg",
+    "image": "/images/customs/customs-east-asia.webp",
     "meta": {
       "title": {
         "tr": "Dogu Asya Gumruk | Toko Trading Gumruk Rehberi",
@@ -1240,7 +1240,7 @@ export const customsPages: CustomsPageData[] =
   },
   {
     "slug": "customs-south-america",
-    "image": "/images/customs/customs-south-america.jpg",
+    "image": "/images/customs/customs-south-america.webp",
     "meta": {
       "title": {
         "tr": "Guney Amerika Gumruk | Toko Trading Gumruk Rehberi",
@@ -1487,7 +1487,7 @@ export const customsPages: CustomsPageData[] =
   },
   {
     "slug": "customs-north-america",
-    "image": "/images/customs/customs-north-america.jpg",
+    "image": "/images/customs/customs-north-america.webp",
     "meta": {
       "title": {
         "tr": "Kuzey Amerika Gumruk | Toko Trading Gumruk Rehberi",
@@ -1734,7 +1734,7 @@ export const customsPages: CustomsPageData[] =
   },
   {
     "slug": "customs-southeast-asia",
-    "image": "/images/customs/customs-southeast-asia.jpg",
+    "image": "/images/customs/customs-southeast-asia.webp",
     "meta": {
       "title": {
         "tr": "Guneydogu Asya Gumruk | Toko Trading Gumruk Rehberi",
@@ -1981,7 +1981,7 @@ export const customsPages: CustomsPageData[] =
   },
   {
     "slug": "customs-food-safety",
-    "image": "/images/customs/customs-food-safety.jpg",
+    "image": "/images/customs/customs-food-safety.webp",
     "meta": {
       "title": {
         "tr": "Gida Guvenligi Ithalat Mevzuati | Toko Trading Gumruk Rehberi",
@@ -2228,7 +2228,7 @@ export const customsPages: CustomsPageData[] =
   },
   {
     "slug": "customs-textile-regulations",
-    "image": "/images/customs/customs-textile-regulations.jpg",
+    "image": "/images/customs/customs-textile-regulations.webp",
     "meta": {
       "title": {
         "tr": "Tekstil Ithalat Mevzuati | Toko Trading Gumruk Rehberi",
@@ -2475,7 +2475,7 @@ export const customsPages: CustomsPageData[] =
   },
   {
     "slug": "customs-chemicals-reach",
-    "image": "/images/customs/customs-chemicals-reach.jpg",
+    "image": "/images/customs/customs-chemicals-reach.webp",
     "meta": {
       "title": {
         "tr": "Kimyasal REACH Uyumluluk | Toko Trading Gumruk Rehberi",
@@ -2722,7 +2722,7 @@ export const customsPages: CustomsPageData[] =
   },
   {
     "slug": "customs-machinery-standards",
-    "image": "/images/customs/customs-machinery-standards.jpg",
+    "image": "/images/customs/customs-machinery-standards.webp",
     "meta": {
       "title": {
         "tr": "Makine Ithalat Standartlari | Toko Trading Gumruk Rehberi",
@@ -2969,7 +2969,7 @@ export const customsPages: CustomsPageData[] =
   },
   {
     "slug": "customs-dangerous-goods",
-    "image": "/images/customs/customs-dangerous-goods.jpg",
+    "image": "/images/customs/customs-dangerous-goods.webp",
     "meta": {
       "title": {
         "tr": "Tehlikeli Madde Tasimaciligi | Toko Trading Gumruk Rehberi",
@@ -3216,7 +3216,7 @@ export const customsPages: CustomsPageData[] =
   },
   {
     "slug": "customs-organic-certification",
-    "image": "/images/customs/customs-organic-certification.jpg",
+    "image": "/images/customs/customs-organic-certification.webp",
     "meta": {
       "title": {
         "tr": "Organik Urun Sertifikasyonu | Toko Trading Gumruk Rehberi",
@@ -3463,7 +3463,7 @@ export const customsPages: CustomsPageData[] =
   },
   {
     "slug": "customs-halal-certification",
-    "image": "/images/customs/customs-halal-certification.jpg",
+    "image": "/images/customs/customs-halal-certification.webp",
     "meta": {
       "title": {
         "tr": "Helal Sertifikasyon Rehberi | Toko Trading Gumruk Rehberi",

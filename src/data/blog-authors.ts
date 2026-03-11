@@ -21,7 +21,7 @@ export const blogAuthors: BlogAuthor[] = [
       fr: "Analyste Commercial Senior",
       ru: "Старший торговый аналитик",
     },
-    avatar: "/images/authors/mehmet-yilmaz.jpg",
+    avatar: "/images/authors/mehmet-yilmaz.webp",
     expertise: [
       "international-trade",
       "import-export",
@@ -48,7 +48,7 @@ export const blogAuthors: BlogAuthor[] = [
       fr: "Experte en Douanes et Logistique",
       ru: "Эксперт по таможне и логистике",
     },
-    avatar: "/images/authors/ayse-kara.jpg",
+    avatar: "/images/authors/ayse-kara.webp",
     expertise: [
       "customs-procedures",
       "logistics",
@@ -74,7 +74,7 @@ export const blogAuthors: BlogAuthor[] = [
       fr: "Spécialiste de l'Industrie Textile",
       ru: "Специалист текстильной отрасли",
     },
-    avatar: "/images/authors/emre-ozdemir.jpg",
+    avatar: "/images/authors/emre-ozdemir.webp",
     expertise: [
       "textile",
       "sourcing",
@@ -101,7 +101,7 @@ export const blogAuthors: BlogAuthor[] = [
       fr: "Experte en Commerce Alimentaire et Agricole",
       ru: "Эксперт по торговле продуктами питания и сельским хозяйством",
     },
-    avatar: "/images/authors/zeynep-aktas.jpg",
+    avatar: "/images/authors/zeynep-aktas.webp",
     expertise: [
       "food-export",
       "agricultural-trade",
@@ -127,7 +127,7 @@ export const blogAuthors: BlogAuthor[] = [
       fr: "Spécialiste du E-Commerce et du Commerce Digital",
       ru: "Специалист по электронной и цифровой торговле",
     },
-    avatar: "/images/authors/can-demir.jpg",
+    avatar: "/images/authors/can-demir.webp",
     expertise: [
       "e-commerce",
       "digital-trade",

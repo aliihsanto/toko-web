@@ -6,10 +6,10 @@
   "Header": {
     "nav": {
       "home": "Accueil",
-      "about": "A propos",
+      "about": "À propos",
       "services": "Services",
       "sectors": "Secteurs",
-      "references": "References",
+      "references": "Références",
       "blog": "Blog",
       "contact": "Contact"
     },
@@ -17,7 +17,7 @@
   },
   "Footer": {
     "about": {
-      "title": "A propos",
+      "title": "À propos",
       "description": "Toko Trading est votre partenaire de confiance en commerce international et approvisionnement."
     },
     "services": {
@@ -30,15 +30,15 @@
     "blog": {
       "title": "Blog",
       "latest": "Derniers Articles",
-      "categories": "Categories"
+      "categories": "Catégories"
     },
     "contact": {
       "title": "Contact",
-      "address": "Istanbul, Turquie",
-      "phone": "+90 (212) 000 00 00",
+      "address": "Ziya Gökalp Mah. Süleyman Demirel Blv. The Office No: 7/E Bureau: 165, Başakşehir / Istanbul, Turquie",
+      "phone": "+90 (212) 450 60 20",
       "email": "info@toko.com.tr"
     },
-    "copyright": "2026 Toko Trading. Tous droits reserves.",
+    "copyright": "2026 Toko Trading. Tous droits réservés.",
     "social": {
       "linkedin": "LinkedIn",
       "twitter": "Twitter",
@@ -53,83 +53,83 @@
     }
   },
   "LanguageSwitcher": {
-    "tr": "Turkce",
+    "tr": "Türkçe",
     "en": "English",
-    "fr": "Francais",
-    "ru": "Russkiy",
+    "fr": "Français",
+    "ru": "Русский",
     "label": "Choisir la Langue"
   },
   "Common": {
     "learnMore": "En Savoir Plus",
     "getQuote": "Demander un Devis",
-    "backToHome": "Retour a l'Accueil",
+    "backToHome": "Retour à l'Accueil",
     "loading": "Chargement...",
     "whatsappChat": "Discuter sur WhatsApp",
     "optional": "(facultatif)"
   },
   "NotFound": {
-    "title": "Page Non Trouvee",
-    "description": "La page que vous recherchez n'existe pas ou a ete deplacee.",
-    "backHome": "Retour a l'Accueil"
+    "title": "Page Non Trouvée",
+    "description": "La page que vous recherchez n'existe pas ou a été déplacée.",
+    "backHome": "Retour à l'Accueil"
   },
   "HomePage": {
     "badge": "Partenaire Commercial de Confiance en Turquie",
     "title": "Votre Partenaire Fiable en",
     "titleHighlight": "Commerce International",
-    "subtitle": "Avec plus de 20 ans d'experience, nous gerons vos processus d'importation, d'exportation et d'approvisionnement. Developpez votre activite grace a notre reseau commercial dans plus de 50 pays.",
+    "subtitle": "Avec plus de 20 ans d'expérience, nous gérons vos processus d'importation, d'exportation et d'approvisionnement. Développez votre activité grâce à notre réseau commercial dans plus de 50 pays.",
     "cta": "Consultation Gratuite",
-    "ctaSecondary": "Decouvrir Nos Services",
+    "ctaSecondary": "Découvrir Nos Services",
     "stats": {
-      "years": "Ans d'Experience",
+      "years": "Ans d'Expérience",
       "countries": "Pays",
       "clients": "Clients Satisfaits",
       "support": "Support"
     },
     "services": {
       "title": "Nos Services",
-      "subtitle": "Un accompagnement professionnel a chaque etape du commerce international",
+      "subtitle": "Un accompagnement professionnel à chaque étape du commerce international",
       "learnMore": "En Savoir Plus",
       "import": {
         "title": "Services d'Importation",
-        "description": "Approvisionnement en matieres premieres et produits du monde entier. Solutions d'importation completes incluant procedures douanieres, gestion logistique et optimisation des couts."
+        "description": "Approvisionnement en matières premières et produits du monde entier. Solutions d'importation complètes incluant procédures douanières, gestion logistique et optimisation des coûts."
       },
       "export": {
         "title": "Services d'Exportation",
-        "description": "Exportation de produits de Turquie vers les marches mondiaux. Recherche de marche, mise en relation avec les acheteurs et support documentaire."
+        "description": "Exportation de produits de Turquie vers les marchés mondiaux. Recherche de marché, mise en relation avec les acheteurs et support documentaire."
       },
       "sourcing": {
         "title": "Solutions d'Approvisionnement",
-        "description": "Nous fournissons des produits au meilleur rapport qualite-prix grace a notre reseau d'approvisionnement mondial. Audit fournisseurs et controle qualite."
+        "description": "Nous fournissons des produits au meilleur rapport qualité-prix grâce à notre réseau d'approvisionnement mondial. Audit fournisseurs et contrôle qualité."
       },
       "transit": {
         "title": "Commerce de Transit",
-        "description": "Operations de commerce de transit via la Turquie vers des pays tiers. Solutions specialisees notamment pour la Russie et les pays de la CEI."
+        "description": "Opérations de commerce de transit via la Turquie vers des pays tiers. Solutions spécialisées notamment pour la Russie et les pays de la CEI."
       }
     },
     "whyUs": {
       "title": "Pourquoi Toko Trading?",
-      "subtitle": "Les valeurs qui font la difference dans le commerce international",
+      "subtitle": "Les valeurs qui font la différence dans le commerce international",
       "experience": {
-        "title": "Experience Sectorielle Approfondie",
-        "description": "Nous ajoutons de la valeur a votre commerce avec plus de 20 ans de connaissances accumulees dans differents secteurs."
+        "title": "Expérience Sectorielle Approfondie",
+        "description": "Nous ajoutons de la valeur à votre commerce avec plus de 20 ans de connaissances accumulées dans différents secteurs."
       },
       "network": {
-        "title": "Reseau Commercial Mondial",
-        "description": "Des partenariats commerciaux solides et des chaines d'approvisionnement etablis dans plus de 50 pays."
+        "title": "Réseau Commercial Mondial",
+        "description": "Des partenariats commerciaux solides et des chaînes d'approvisionnement établies dans plus de 50 pays."
       },
       "transparency": {
         "title": "Processus Transparents",
-        "description": "Vous etes informe a chaque etape. Transparence totale dans les processus douaniers, logistiques et de paiement."
+        "description": "Vous êtes informé à chaque étape. Transparence totale dans les processus douaniers, logistiques et de paiement."
       },
       "support": {
         "title": "Support Client 24/7",
-        "description": "Notre equipe d'experts est toujours a vos cotes. Un support continu pour vos questions et besoins."
+        "description": "Notre équipe d'experts est toujours à vos côtés. Un support continu pour vos questions et besoins."
       }
     },
     "global": {
-      "title": "Portee Mondiale",
+      "title": "Portée Mondiale",
       "subtitle": "Un pont commercial de la Turquie vers le monde",
-      "description": "Grace a notre solide reseau d'affaires en Europe, Asie, Afrique et Moyen-Orient, nous emmenons votre entreprise vers de nouveaux marches. Nous possedons une expertise approfondie notamment en Russie, dans les pays de la CEI et les marches d'Afrique du Nord.",
+      "description": "Grâce à notre solide réseau d'affaires en Europe, Asie, Afrique et Moyen-Orient, nous emmenons votre entreprise vers de nouveaux marchés. Nous possédons une expertise approfondie notamment en Russie, dans les pays de la CEI et les marchés d'Afrique du Nord.",
       "regions": {
         "europe": "Europe",
         "asia": "Asie",
@@ -139,20 +139,20 @@
       }
     },
     "ctaSection": {
-      "title": "Developpons Votre Commerce",
-      "description": "Contactez-nous maintenant pour vos besoins en commerce international. Notre equipe d'experts est prete a creer des solutions sur mesure pour vous.",
+      "title": "Développons Votre Commerce",
+      "description": "Contactez-nous maintenant pour vos besoins en commerce international. Notre équipe d'experts est prête à créer des solutions sur mesure pour vous.",
       "button": "Consultation Gratuite",
-      "note": "La premiere consultation est entierement gratuite"
+      "note": "La première consultation est entièrement gratuite"
     },
     "trust": {
       "clients": "Clients",
       "countries": "Pays",
-      "years": "Ans d'Experience",
-      "certification": "Certifie Qualite"
+      "years": "Ans d'Expérience",
+      "certification": "Certifié Qualité"
     },
     "sectors": {
       "title": "Secteurs Desservis",
-      "subtitle": "Des solutions commerciales specialisees dans divers secteurs",
+      "subtitle": "Des solutions commerciales spécialisées dans divers secteurs",
       "viewAll": "Voir Tous les Secteurs",
       "items": {
         "food": "Agroalimentaire",
@@ -168,63 +168,63 @@
   },
   "AboutPage": {
     "seo": {
-      "title": "A Propos - Toko Trading",
-      "description": "Decouvrez Toko Trading, societe de commerce international basee en Turquie avec plus de 20 ans d'experience en import, export et approvisionnement."
+      "title": "À Propos - Toko Trading",
+      "description": "Découvrez Toko Trading, société de commerce international basée en Turquie avec plus de 20 ans d'expérience en import, export et approvisionnement."
     },
     "hero": {
-      "title": "A Propos de Toko Trading",
-      "subtitle": "En tant que l'une des principales societes de commerce international de Turquie, nous fournissons des solutions fiables dans le monde entier depuis plus de 20 ans.",
+      "title": "À Propos de Toko Trading",
+      "subtitle": "En tant que l'une des principales sociétés de commerce international de Turquie, nous fournissons des solutions fiables dans le monde entier depuis plus de 20 ans.",
       "badge": "Depuis 2003"
     },
     "breadcrumb": {
       "home": "Accueil",
-      "about": "A Propos"
+      "about": "À Propos"
     },
     "overview": {
       "heading": "Notre Histoire",
-      "p1": "Toko Trading a ete fondee en 2003 a Istanbul en tant qu'entreprise specialisee dans le commerce international. Depuis notre creation, nous travaillons avec la vision d'etre un pont commercial fiable entre la Turquie et le monde.",
-      "p2": "Au cours de nos plus de 20 ans d'experience, nous avons realise des milliers d'operations commerciales reussies dans les secteurs alimentaire, textile, machinerie, chimie et bien d'autres. Grace a nos solides partenariats dans plus de 50 pays, nous offrons a nos clients les solutions les plus adaptees.",
-      "p3": "Notre equipe est composee de professionnels experimentes qui fournissent un accompagnement professionnel a chaque etape du commerce international. Nous intervenons dans un large eventail de domaines, des procedures douanieres a la gestion logistique, de l'etude de marche au controle qualite."
+      "p1": "Toko Trading a été fondée en 2003 à Istanbul en tant qu'entreprise spécialisée dans le commerce international. Depuis notre création, nous travaillons avec la vision d'être un pont commercial fiable entre la Turquie et le monde.",
+      "p2": "Au cours de nos plus de 20 ans d'expérience, nous avons réalisé des milliers d'opérations commerciales réussies dans les secteurs alimentaire, textile, machinerie, chimie et bien d'autres. Grâce à nos solides partenariats dans plus de 50 pays, nous offrons à nos clients les solutions les plus adaptées.",
+      "p3": "Notre équipe est composée de professionnels expérimentés qui fournissent un accompagnement professionnel à chaque étape du commerce international. Nous intervenons dans un large éventail de domaines, des procédures douanières à la gestion logistique, de l'étude de marché au contrôle qualité."
     },
     "vision": {
       "title": "Notre Vision",
-      "description": "Devenir une plateforme commerciale de premier plan reliant nos clients aux marches mondiaux en exploitant la position strategique de la Turquie dans le commerce international. Nous visons a faconner l'avenir du secteur en integrant la technologie et l'innovation dans nos processus."
+      "description": "Devenir une plateforme commerciale de premier plan reliant nos clients aux marchés mondiaux en exploitant la position stratégique de la Turquie dans le commerce international. Nous visons à façonner l'avenir du secteur en intégrant la technologie et l'innovation dans nos processus."
     },
     "mission": {
       "title": "Notre Mission",
-      "description": "Aider nos clients a developper leur activite en gerant leurs processus de commerce international de maniere transparente, fiable et efficace. Batir des partenariats commerciaux a long terme en appliquant les normes de qualite les plus elevees dans chaque projet."
+      "description": "Aider nos clients à développer leur activité en gérant leurs processus de commerce international de manière transparente, fiable et efficace. Bâtir des partenariats commerciaux à long terme en appliquant les normes de qualité les plus élevées dans chaque projet."
     },
     "values": {
       "title": "Nos Valeurs",
       "subtitle": "Les principes fondamentaux qui guident notre approche",
       "reliability": {
-        "title": "Fiabilite",
-        "description": "Nous respectons chacun de nos engagements et tenons nos promesses dans les delais. La confiance de nos clients est notre plus grand atout."
+        "title": "Fiabilité",
+        "description": "Nous respectons chacun de nos engagements et tenons nos promesses dans les délais. La confiance de nos clients est notre plus grand atout."
       },
       "transparency": {
         "title": "Transparence",
-        "description": "Nous maintenons une communication ouverte et transparente dans tous nos processus. Nos clients sont informes et impliques a chaque etape."
+        "description": "Nous maintenons une communication ouverte et transparente dans tous nos processus. Nos clients sont informés et impliqués à chaque étape."
       },
       "innovation": {
         "title": "Innovation",
-        "description": "Nous suivons de pres les evolutions du secteur, ameliorons continuellement nos processus et proposons a nos clients les solutions les plus modernes."
+        "description": "Nous suivons de près les évolutions du secteur, améliorons continuellement nos processus et proposons à nos clients les solutions les plus modernes."
       },
       "partnership": {
         "title": "Partenariat",
-        "description": "Nous travaillons avec nos clients non pas comme un simple prestataire, mais comme un partenaire strategique a long terme, considerant leur succes comme le notre."
+        "description": "Nous travaillons avec nos clients non pas comme un simple prestataire, mais comme un partenaire stratégique à long terme, considérant leur succès comme le nôtre."
       }
     },
     "stats": {
-      "years": "Ans d'Experience",
+      "years": "Ans d'Expérience",
       "countries": "Pays",
       "clients": "Clients",
-      "team": "Equipe d'Experts"
+      "team": "Équipe d'Experts"
     },
     "cta": {
-      "title": "Pret a Collaborer Avec Nous?",
-      "description": "Contactez-nous des aujourd'hui pour vos besoins en commerce international. Creeons ensemble des solutions adaptees a votre entreprise.",
+      "title": "Prêt à Collaborer Avec Nous?",
+      "description": "Contactez-nous dès aujourd'hui pour vos besoins en commerce international. Créons ensemble des solutions adaptées à votre entreprise.",
       "button": "Contactez-nous",
-      "note": "La premiere consultation est entierement gratuite"
+      "note": "La première consultation est entièrement gratuite"
     },
     "images": {
       "team": "Équipe professionnelle de Toko Trading en réunion"
@@ -233,12 +233,12 @@
   "ServicesPage": {
     "seo": {
       "title": "Nos Services - Import, Export, Approvisionnement",
-      "description": "Services d'import, export, approvisionnement et commerce de transit de Toko Trading. Accompagnement professionnel a chaque etape."
+      "description": "Services d'import, export, approvisionnement et commerce de transit de Toko Trading. Accompagnement professionnel à chaque étape."
     },
     "hero": {
       "title": "Nos Services",
-      "subtitle": "Nous proposons des solutions completes et professionnelles en importation, exportation, approvisionnement et commerce de transit. Developpez votre activite avec notre equipe experimentee a vos cotes a chaque etape.",
-      "badge": "Solutions Completes"
+      "subtitle": "Nous proposons des solutions complètes et professionnelles en importation, exportation, approvisionnement et commerce de transit. Développez votre activité avec notre équipe expérimentée à vos côtés à chaque étape.",
+      "badge": "Solutions Complètes"
     },
     "breadcrumb": {
       "home": "Accueil",
@@ -248,183 +248,183 @@
     "services": {
       "import": {
         "title": "Services d'Importation",
-        "description": "Solutions completes d'importation pour l'approvisionnement en matieres premieres et produits du monde entier. Nous gerons professionnellement l'ensemble du processus, des procedures douanieres a la gestion logistique, de l'analyse des couts au controle qualite.",
+        "description": "Solutions complètes d'importation pour l'approvisionnement en matières premières et produits du monde entier. Nous gérons professionnellement l'ensemble du processus, des procédures douanières à la gestion logistique, de l'analyse des coûts au contrôle qualité.",
         "features": {
-          "customs": "Dedouanement et gestion des declarations",
+          "customs": "Dédouanement et gestion des déclarations",
           "logistics": "Planification logistique et transport international",
-          "costOptimization": "Analyse et optimisation des couts",
-          "qualityControl": "Controle qualite et inspection des produits",
+          "costOptimization": "Analyse et optimisation des coûts",
+          "qualityControl": "Contrôle qualité et inspection des produits",
           "documentation": "Documentation d'importation et gestion administrative"
         }
       },
       "export": {
         "title": "Services d'Exportation",
-        "description": "Solutions expertes pour l'exportation de produits et matieres premieres de Turquie vers les marches mondiaux. Nous gerons tous vos processus d'exportation, de l'etude de marche a la mise en relation avec les acheteurs, de la documentation a la coordination logistique.",
+        "description": "Solutions expertes pour l'exportation de produits et matières premières de Turquie vers les marchés mondiaux. Nous gérons tous vos processus d'exportation, de l'étude de marché à la mise en relation avec les acheteurs, de la documentation à la coordination logistique.",
         "features": {
-          "marketResearch": "Etude et analyse des marches cibles",
+          "marketResearch": "Étude et analyse des marchés cibles",
           "buyerMatching": "Recherche et mise en relation internationale d'acheteurs",
-          "documentation": "Documentation d'exportation et gestion des credits documentaires",
-          "compliance": "Conseil en reglementation et conformite a l'exportation",
-          "logistics": "Logistique d'exportation et coordination des expeditions"
+          "documentation": "Documentation d'exportation et gestion des crédits documentaires",
+          "compliance": "Conseil en réglementation et conformité à l'exportation",
+          "logistics": "Logistique d'exportation et coordination des expéditions"
         }
       },
       "sourcing": {
         "title": "Solutions d'Approvisionnement",
-        "description": "Nous approvisionnons des produits au meilleur rapport qualite-prix pour votre entreprise grace a notre reseau mondial de fournisseurs. Nous vous accompagnons a chaque etape, de l'audit fournisseurs a la negociation des prix, de la gestion des echantillons a l'optimisation de la chaine d'approvisionnement.",
+        "description": "Nous approvisionnons des produits au meilleur rapport qualité-prix pour votre entreprise grâce à notre réseau mondial de fournisseurs. Audit fournisseurs et contrôle qualité.",
         "features": {
           "supplierAudit": "Audit des fournisseurs et visites d'usines",
-          "qualityControl": "Controle qualite pre et post-production",
-          "priceNegotiation": "Negociation competitive des prix et analyse des couts",
-          "sampleManagement": "Gestion des echantillons et support au developpement produit",
-          "supplyChain": "Optimisation de la chaine d'approvisionnement et gestion des risques"
+          "qualityControl": "Contrôle qualité pré et post-production",
+          "priceNegotiation": "Négociation compétitive des prix et analyse des coûts",
+          "sampleManagement": "Gestion des échantillons et support au développement produit",
+          "supplyChain": "Optimisation de la chaîne d'approvisionnement et gestion des risques"
         }
       },
       "transit-trade": {
         "title": "Commerce de Transit",
-        "description": "Operations de commerce de transit via la Turquie vers des pays tiers. Grace a nos solutions specialisees pour la Russie et les pays de la CEI, nous simplifions les routes commerciales complexes et les rendons plus efficaces.",
+        "description": "Opérations de commerce de transit via la Turquie vers des pays tiers. Grâce à nos solutions spécialisées pour la Russie et les pays de la CEI, nous simplifions les routes commerciales complexes et les rendons plus efficaces.",
         "features": {
-          "transitRoutes": "Planification strategique des routes de transit",
-          "cisExpertise": "Expertise approfondie des marches russes et de la CEI",
-          "compliance": "Conformite aux reglementations du commerce international",
-          "customs": "Gestion des procedures multi-douanieres",
+          "transitRoutes": "Planification stratégique des routes de transit",
+          "cisExpertise": "Expertise approfondie des marchés russes et de la CEI",
+          "compliance": "Conformité aux réglementations du commerce international",
+          "customs": "Gestion des procédures multi-douanières",
           "warehousing": "Logistique d'entreposage et de distribution"
         }
       }
     },
     "whyChoose": {
       "title": "Pourquoi Choisir Nos Services?",
-      "subtitle": "Nous renforcons votre entreprise avec les valeurs qui font la difference dans le commerce international",
+      "subtitle": "Nous renforçons votre entreprise avec les valeurs qui font la différence dans le commerce international",
       "endToEnd": {
         "title": "Accompagnement de Bout en Bout",
-        "description": "Nous offrons un accompagnement professionnel a chaque etape du processus commercial. Une equipe a vos cotes du premier contact jusqu'a l'apres-livraison."
+        "description": "Nous offrons un accompagnement professionnel à chaque étape du processus commercial. Une équipe à vos côtés du premier contact jusqu'à l'après-livraison."
       },
       "expertise": {
         "title": "Expertise Sectorielle",
-        "description": "Avec plus de 20 ans d'experience, nous comprenons les dynamiques de differents secteurs. Nous creons des solutions sur mesure pour chaque industrie."
+        "description": "Avec plus de 20 ans d'expérience, nous comprenons les dynamiques de différents secteurs. Nous créons des solutions sur mesure pour chaque industrie."
       },
       "network": {
-        "title": "Reseau Mondial",
-        "description": "Nous facilitons votre commerce mondial grace a des partenariats solides et des chaines d'approvisionnement etablis dans plus de 50 pays."
+        "title": "Réseau Mondial",
+        "description": "Nous facilitons votre commerce mondial grâce à des partenariats solides et des chaînes d'approvisionnement établies dans plus de 50 pays."
       }
     },
     "cta": {
       "title": "Besoin d'une Solution Commerciale Sur Mesure?",
-      "description": "Echangez avec notre equipe d'experts sur des solutions d'importation, d'exportation et d'approvisionnement adaptees a votre entreprise. Premiere consultation gratuite.",
+      "description": "Échangez avec notre équipe d'experts sur des solutions d'importation, d'exportation et d'approvisionnement adaptées à votre entreprise. Première consultation gratuite.",
       "button": "Consultation Gratuite",
-      "note": "La premiere consultation est entierement gratuite"
+      "note": "La première consultation est entièrement gratuite"
     }
   },
   "ServiceDetail": {
     "import": {
       "metaTitle": "Services d'Importation | Toko Trading",
-      "metaDescription": "Solutions completes pour l'importation de matieres premieres et produits du monde entier. Services d'importation professionnels incluant procedures douanieres, gestion logistique et optimisation des couts.",
+      "metaDescription": "Solutions complètes pour l'importation de matières premières et produits du monde entier. Services d'importation professionnels incluant procédures douanières, gestion logistique et optimisation des coûts.",
       "title": "Services d'Importation",
-      "subtitle": "Solutions d'importation professionnelles de bout en bout pour l'approvisionnement en matieres premieres et produits dans le monde entier",
+      "subtitle": "Solutions d'importation professionnelles de bout en bout pour l'approvisionnement en matières premières et produits dans le monde entier",
       "badge": "Expertise Importation",
       "overview": {
-        "p1": "Chez Toko Trading, nous proposons des solutions completes pour l'importation de tous types de matieres premieres et produits du monde entier. Nous assurons un accompagnement professionnel a chaque etape du processus d'importation, des procedures douanieres a la planification logistique, de la selection des fournisseurs au controle qualite.",
-        "p2": "En tirant parti de la position strategique de la Turquie, nous approvisionnons des produits d'Europe, d'Asie et d'Afrique dans les conditions les plus favorables. Avec plus de 20 ans d'experience, nous suivons de pres les evolutions de la reglementation douaniere et offrons des avantages tarifaires a nos clients.",
-        "p3": "Nous affectons une equipe dediee a chaque projet d'importation, assurant une communication transparente du debut a la fin. Nous gerons avec rigueur les etapes critiques telles que la recherche de fournisseurs, la negociation des prix, le controle qualite et le suivi des expeditions."
+        "p1": "Chez Toko Trading, nous proposons des solutions complètes pour l'importation de tous types de matières premières et produits du monde entier. Nous assurons un accompagnement professionnel à chaque étape du processus d'importation, des procédures douanières à la planification logistique, de la sélection des fournisseurs au contrôle qualité.",
+        "p2": "En tirant parti de la position stratégique de la Turquie, nous approvisionnons des produits d'Europe, d'Asie et d'Afrique dans les conditions les plus favorables. Avec plus de 20 ans d'expérience, nous suivons de près les évolutions de la réglementation douanière et offrons des avantages tarifaires à nos clients.",
+        "p3": "Nous affectons une équipe dédiée à chaque projet d'importation, assurant une communication transparente du début à la fin. Nous gérons avec rigueur les étapes critiques telles que la recherche de fournisseurs, la négociation des prix, le contrôle qualité et le suivi des expéditions."
       },
       "features": {
         "customs": {
-          "title": "Gestion des Procedures Douanieres",
-          "description": "Notre equipe d'experts assure un dedouanement rapide et fluide pour toutes les procedures de declaration, la classification tarifaire et le calcul des droits d'importation."
+          "title": "Gestion des Procédures Douanières",
+          "description": "Notre équipe d'experts assure un dédouanement rapide et fluide pour toutes les procédures de déclaration, la classification tarifaire et le calcul des droits d'importation."
         },
         "logistics": {
           "title": "Logistique Internationale",
-          "description": "Planification d'expeditions optimales en termes de cout et de delai par voie maritime, aerienne et terrestre. Services logistiques complets incluant la gestion des conteneurs et les solutions d'entreposage."
+          "description": "Planification d'expéditions optimales en termes de coût et de délai par voie maritime, aérienne et terrestre. Services logistiques complets incluant la gestion des conteneurs et les solutions d'entreposage."
         },
         "costOptimization": {
-          "title": "Optimisation des Couts",
-          "description": "Nous analysons l'ensemble de vos depenses d'importation, des couts d'approvisionnement aux frais de fret, des droits de douane aux couts d'assurance, pour creer des opportunites d'economies a chaque etape."
+          "title": "Optimisation des Coûts",
+          "description": "Nous analysons l'ensemble de vos dépenses d'importation, des coûts d'approvisionnement aux frais de fret, des droits de douane aux coûts d'assurance, pour créer des opportunités d'économies à chaque étape."
         },
         "qualityControl": {
-          "title": "Controle Qualite et Inspection",
-          "description": "Inspections d'usines avant expedition, tests d'echantillons de produits et suivi du processus de production garantissent la livraison de produits conformes a vos standards de qualite."
+          "title": "Contrôle Qualité et Inspection",
+          "description": "Inspections d'usines avant expédition, tests d'échantillons de produits et suivi du processus de production garantissent la livraison de produits conformes à vos standards de qualité."
         },
         "documentation": {
           "title": "Documentation d'Importation",
-          "description": "Preparation et suivi complets des factures, connaissements, certificats d'origine et de tous les autres documents d'importation. Gestion documentaire conforme a la reglementation."
+          "description": "Préparation et suivi complets des factures, connaissements, certificats d'origine et de tous les autres documents d'importation. Gestion documentaire conforme à la réglementation."
         }
       },
       "process": {
         "step1": {
           "title": "Analyse des Besoins",
-          "description": "Nous realisons une analyse detaillee de vos besoins d'importation, determinant les specifications produit et les exigences en quantite."
+          "description": "Nous réalisons une analyse détaillée de vos besoins d'importation, déterminant les spécifications produit et les exigences en quantité."
         },
         "step2": {
-          "title": "Selection des Fournisseurs",
-          "description": "Nous trouvons les fournisseurs les plus adaptes de notre reseau mondial, comparons les prix et finalisons les fournisseurs avec votre approbation."
+          "title": "Sélection des Fournisseurs",
+          "description": "Nous trouvons les fournisseurs les plus adaptés de notre réseau mondial, comparons les prix et finalisons les fournisseurs avec votre approbation."
         },
         "step3": {
-          "title": "Commande et Expedition",
-          "description": "Nous gerons le processus de commande, suivons la production et planifions l'expedition via la route logistique la plus optimale."
+          "title": "Commande et Expédition",
+          "description": "Nous gérons le processus de commande, suivons la production et planifions l'expédition via la route logistique la plus optimale."
         },
         "step4": {
           "title": "Douane et Livraison",
-          "description": "Nous completons rapidement les procedures douanieres et livrons vos produits en toute securite a l'emplacement souhaite."
+          "description": "Nous complétons rapidement les procédures douanières et livrons vos produits en toute sécurité à l'emplacement souhaité."
         }
       },
       "sectionTitles": {
         "features": "Ce Que Nous Offrons",
-        "process": "Notre Methode de Travail"
+        "process": "Notre Méthode de Travail"
       },
       "cta": {
         "title": "Obtenez un Accompagnement pour Votre Projet d'Importation",
-        "description": "Echangez avec notre equipe d'experts sur vos besoins d'importation. Nous gerons l'ensemble du processus, du pays d'origine a votre porte.",
+        "description": "Échangez avec notre équipe d'experts sur vos besoins d'importation. Nous gérons l'ensemble du processus, du pays d'origine à votre porte.",
         "button": "Consultation Gratuite"
       }
     },
     "export": {
       "metaTitle": "Services d'Exportation | Toko Trading",
-      "metaDescription": "Exportation de produits de Turquie vers les marches mondiaux. Etude de marche, mise en relation avec les acheteurs et documentation d'exportation pour developper vos exportations.",
+      "metaDescription": "Exportation de produits de Turquie vers les marchés mondiaux. Étude de marché, mise en relation avec les acheteurs et documentation d'exportation pour développer vos exportations.",
       "title": "Services d'Exportation",
-      "subtitle": "Accompagnement professionnel a l'export pour atteindre les marches mondiaux depuis la Turquie",
+      "subtitle": "Accompagnement professionnel à l'export pour atteindre les marchés mondiaux depuis la Turquie",
       "badge": "Expertise Exportation",
       "overview": {
-        "p1": "Nous proposons des services d'exportation complets pour porter les capacites de production turques vers les marches mondiaux. Nous gerons professionnellement tous les processus, de l'identification des marches cibles a la recherche d'acheteurs, de la strategie de prix a la documentation d'exportation.",
-        "p2": "Grace a nos partenariats commerciaux et notre reseau d'acheteurs dans plus de 50 pays, nous identifions les meilleurs marches et acheteurs pour vos produits. Nous accelerons vos exportations avec notre position forte sur les marches europeens, moyen-orientaux et de la CEI.",
-        "p3": "Nous sommes a vos cotes a chaque etape du processus d'exportation. Nous gerons minutieusement tous les details, des procedures de credit documentaire aux declarations en douane, de l'organisation du fret aux procedures d'assurance."
+        "p1": "Nous proposons des services d'exportation complets pour porter les capacités de production turques vers les marchés mondiaux. Nous gérons professionnellement tous les processus, de l'identification des marchés cibles à la recherche d'acheteurs, de la stratégie de prix à la documentation d'exportation.",
+        "p2": "Grâce à nos partenariats commerciaux et notre réseau d'acheteurs dans plus de 50 pays, nous identifions les meilleurs marchés et acheteurs pour vos produits. Nous accélérons vos exportations avec notre position forte sur les marchés européens, moyen-orientaux et de la CEI.",
+        "p3": "Nous sommes à vos côtés à chaque étape du processus d'exportation. Nous gérons minutieusement tous les détails, des procédures de crédit documentaire aux déclarations en douane, de l'organisation du fret aux procédures d'assurance."
       },
       "features": {
         "marketResearch": {
-          "title": "Etude et Analyse de Marche",
-          "description": "Nous faconnons votre strategie d'exportation en analysant les structures de demande, les conditions concurrentielles et les dynamiques de prix des marches cibles."
+          "title": "Étude et Analyse de Marché",
+          "description": "Nous façonnons votre stratégie d'exportation en analysant les structures de demande, les conditions concurrentielles et les dynamiques de prix des marchés cibles."
         },
         "buyerMatching": {
           "title": "Recherche et Mise en Relation d'Acheteurs",
-          "description": "Nous trouvons des acheteurs qualifies pour vos produits grace a notre vaste reseau d'acheteurs et notre participation aux salons internationaux."
+          "description": "Nous trouvons des acheteurs qualifiés pour vos produits grâce à notre vaste réseau d'acheteurs et notre participation aux salons internationaux."
         },
         "documentation": {
           "title": "Documentation d'Exportation",
-          "description": "Preparation et gestion completes des credits documentaires, connaissements, certificats d'origine, documents ATR et autres documents d'exportation."
+          "description": "Préparation et gestion complètes des crédits documentaires, connaissements, certificats d'origine, documents ATR et autres documents d'exportation."
         },
         "compliance": {
-          "title": "Conseil Reglementaire",
-          "description": "Nous assurons la conformite avec les reglementations d'importation, les exigences de normes et les processus de certification des pays cibles grace a un accompagnement expert."
+          "title": "Conseil Réglementaire",
+          "description": "Nous assurons la conformité avec les réglementations d'importation, les exigences de normes et les processus de certification des pays cibles grâce à un accompagnement expert."
         },
         "logistics": {
           "title": "Logistique d'Exportation",
-          "description": "Livraison a temps et en toute securite par la planification de conteneurs, la negociation de fret et le suivi des expeditions. Options maritime, aerienne et terrestre."
+          "description": "Livraison à temps et en toute sécurité par la planification de conteneurs, la négociation de fret et le suivi des expéditions. Options maritime, aérienne et terrestre."
         }
       },
       "process": {
         "step1": {
-          "title": "Evaluation du Marche",
-          "description": "Nous etudions les marches potentiels pour vos produits et identifions les marches cibles qui offriront les meilleurs rendements."
+          "title": "Évaluation du Marché",
+          "description": "Nous étudions les marchés potentiels pour vos produits et identifions les marchés cibles qui offriront les meilleurs rendements."
         },
         "step2": {
           "title": "Mise en Relation Acheteurs",
-          "description": "Nous trouvons des acheteurs qualifies sur les marches cibles, gerant les premiers contacts et les processus de negociation."
+          "description": "Nous trouvons des acheteurs qualifiés sur les marchés cibles, gérant les premiers contacts et les processus de négociation."
         },
         "step3": {
           "title": "Documentation et Commande",
-          "description": "Nous preparons tous les documents d'exportation, gerons le processus de confirmation de commande et coordonnons la planification de production."
+          "description": "Nous préparons tous les documents d'exportation, gérons le processus de confirmation de commande et coordonnons la planification de production."
         },
         "step4": {
-          "title": "Expedition et Suivi",
-          "description": "Nous organisons la logistique, completons les procedures douanieres et suivons la livraison de vos produits a l'acheteur."
+          "title": "Expédition et Suivi",
+          "description": "Nous organisons la logistique, complétons les procédures douanières et suivons la livraison de vos produits à l'acheteur."
         }
       },
       "sectionTitles": {
@@ -432,60 +432,60 @@
         "process": "Notre Processus d'Exportation"
       },
       "cta": {
-        "title": "Developpons Vos Exportations",
-        "description": "Echangez avec notre equipe d'experts pour vous developper de la Turquie vers les marches mondiaux. Nous elaborons des strategies specifiques a votre marche cible.",
-        "button": "Conseil a l'Export"
+        "title": "Développons Vos Exportations",
+        "description": "Échangez avec notre équipe d'experts pour vous développer de la Turquie vers les marchés mondiaux. Nous élaborons des stratégies spécifiques à votre marché cible.",
+        "button": "Conseil à l'Export"
       }
     },
     "sourcing": {
       "metaTitle": "Solutions d'Approvisionnement | Toko Trading",
-      "metaDescription": "Approvisionnement en produits au meilleur rapport qualite-prix via notre reseau mondial. Audit des fournisseurs, controle qualite et negociation des prix.",
+      "metaDescription": "Approvisionnement en produits au meilleur rapport qualité-prix via notre réseau mondial. Audit des fournisseurs, contrôle qualité et négociation des prix.",
       "title": "Solutions d'Approvisionnement",
-      "subtitle": "Nous approvisionnons les produits les plus adaptes pour votre entreprise via notre reseau mondial de fournisseurs",
+      "subtitle": "Nous approvisionnons les produits les plus adaptés pour votre entreprise via notre réseau mondial de fournisseurs",
       "badge": "Expertise Approvisionnement",
       "overview": {
-        "p1": "Nous approvisionnons les produits dont votre entreprise a besoin au meilleur rapport qualite-prix via notre reseau mondial de fournisseurs. Nous vous aidons a construire des chaines d'approvisionnement fiables grace a la recherche de fournisseurs, aux visites d'usines et aux audits qualite.",
-        "p2": "Avec notre vaste reseau de fournisseurs en Turquie, en Chine, en Inde, en Asie du Sud-Est et dans d'autres centres de production, nous repondons a vos besoins produits dans differents secteurs. Nous evaluons chaque fournisseur par des audits independants et des verifications de references.",
-        "p3": "Nous assurons un accompagnement professionnel a chaque etape du processus d'approvisionnement, de la gestion des echantillons a la coordination des commandes en gros, du suivi de production au controle qualite. Nous offrons a nos clients un reporting transparent et des mises a jour regulieres."
+        "p1": "Nous approvisionnons les produits dont votre entreprise a besoin au meilleur rapport qualité-prix via notre réseau mondial de fournisseurs. Nous vous aidons à construire des chaînes d'approvisionnement fiables grâce à la recherche de fournisseurs, aux visites d'usines et aux audits qualité.",
+        "p2": "Avec notre vaste réseau de fournisseurs en Turquie, en Chine, en Inde, en Asie du Sud-Est et dans d'autres centres de production, nous répondons à vos besoins produits dans différents secteurs. Nous évaluons chaque fournisseur par des audits indépendants et des vérifications de références.",
+        "p3": "Nous assurons un accompagnement professionnel à chaque étape du processus d'approvisionnement, de la gestion des échantillons à la coordination des commandes en gros, du suivi de production au contrôle qualité. Nous offrons à nos clients un reporting transparent et des mises à jour régulières."
       },
       "features": {
         "supplierAudit": {
           "title": "Audit des Fournisseurs",
-          "description": "Nous identifions des partenaires commerciaux fiables en auditant sur site la capacite de production, les standards qualite et la structure financiere des fournisseurs potentiels."
+          "description": "Nous identifions des partenaires commerciaux fiables en auditant sur site la capacité de production, les standards qualité et la structure financière des fournisseurs potentiels."
         },
         "qualityControl": {
-          "title": "Controle Qualite",
-          "description": "Nous garantissons votre qualite par l'approbation des echantillons pre-production, le suivi du processus de production et l'inspection finale avant expedition."
+          "title": "Contrôle Qualité",
+          "description": "Nous garantissons votre qualité par l'approbation des échantillons pré-production, le suivi du processus de production et l'inspection finale avant expédition."
         },
         "priceNegotiation": {
-          "title": "Negociation des Prix",
-          "description": "Nous obtenons les prix les plus competitifs grace a notre connaissance du marche et notre avantage de volume. Tarification transparente par analyse detaillee des couts."
+          "title": "Négociation des Prix",
+          "description": "Nous obtenons les prix les plus compétitifs grâce à notre connaissance du marché et notre avantage de volume. Tarification transparente par analyse détaillée des coûts."
         },
         "sampleManagement": {
-          "title": "Gestion des Echantillons",
-          "description": "Nous gerons l'approvisionnement, l'evaluation et l'approbation des echantillons de produits. Nous offrons un support au developpement de prototypes pour les demandes de production sur mesure."
+          "title": "Gestion des Échantillons",
+          "description": "Nous gérons l'approvisionnement, l'évaluation et l'approbation des échantillons de produits. Nous offrons un support au développement de prototypes pour les demandes de production sur mesure."
         },
         "supplyChain": {
-          "title": "Gestion de la Chaine d'Approvisionnement",
-          "description": "Nous minimisons les risques par la continuite d'approvisionnement, la planification des stocks et la gestion de fournisseurs alternatifs."
+          "title": "Gestion de la Chaîne d'Approvisionnement",
+          "description": "Nous minimisons les risques par la continuité d'approvisionnement, la planification des stocks et la gestion de fournisseurs alternatifs."
         }
       },
       "process": {
         "step1": {
           "title": "Recueil des Besoins",
-          "description": "Nous determinons en detail vos specifications produit, quantites et exigences qualite."
+          "description": "Nous déterminons en détail vos spécifications produit, quantités et exigences qualité."
         },
         "step2": {
           "title": "Recherche de Fournisseurs",
-          "description": "Nous trouvons les fournisseurs adaptes dans notre reseau, realisons des audits d'usines et transmettons vos demandes d'echantillons."
+          "description": "Nous trouvons les fournisseurs adaptés dans notre réseau, réalisons des audits d'usines et transmettons vos demandes d'échantillons."
         },
         "step3": {
-          "title": "Negociation et Commande",
-          "description": "Nous negocions les conditions les plus favorables, definissons les termes contractuels et lancons le processus de commande."
+          "title": "Négociation et Commande",
+          "description": "Nous négocions les conditions les plus favorables, définissons les termes contractuels et lançons le processus de commande."
         },
         "step4": {
           "title": "Suivi et Livraison",
-          "description": "Nous suivons la production, effectuons les controles qualite et assurons la livraison de vos produits dans les delais."
+          "description": "Nous suivons la production, effectuons les contrôles qualité et assurons la livraison de vos produits dans les délais."
         }
       },
       "sectionTitles": {
@@ -493,69 +493,69 @@
         "process": "Notre Processus d'Approvisionnement"
       },
       "cta": {
-        "title": "A la Recherche de Fournisseurs Fiables?",
-        "description": "Laissez-nous approvisionner les produits dont vous avez besoin dans les meilleures conditions via notre reseau mondial. Notre equipe d'experts cree des solutions sur mesure pour vous.",
+        "title": "À la Recherche de Fournisseurs Fiables?",
+        "description": "Laissez-nous approvisionner les produits dont vous avez besoin dans les meilleures conditions via notre réseau mondial. Notre équipe d'experts crée des solutions sur mesure pour vous.",
         "button": "Demande d'Approvisionnement"
       }
     },
     "transit-trade": {
       "metaTitle": "Commerce de Transit | Toko Trading",
-      "metaDescription": "Operations de commerce de transit via la Turquie vers des pays tiers. Solutions specialisees de commerce de transit pour la Russie et les pays de la CEI.",
+      "metaDescription": "Opérations de commerce de transit via la Turquie vers des pays tiers. Solutions spécialisées de commerce de transit pour la Russie et les pays de la CEI.",
       "title": "Commerce de Transit",
-      "subtitle": "Operations de commerce de transit efficaces exploitant la position strategique de la Turquie",
+      "subtitle": "Opérations de commerce de transit efficaces exploitant la position stratégique de la Turquie",
       "badge": "Expertise Commerce de Transit",
       "overview": {
-        "p1": "Nous menons des operations de commerce de transit efficaces en exploitant la position strategique de la Turquie au carrefour de l'Europe, de l'Asie et du Moyen-Orient. Nous proposons des solutions specialisees notamment pour les flux commerciaux entre la Russie et les pays de la CEI et l'Europe.",
-        "p2": "Dans les operations de commerce de transit, nous gerons les elements critiques tels que la reglementation douaniere, la conformite aux sanctions, la planification logistique et l'entreposage avec notre equipe experimentee. En simplifiant les passages douaniers multiples et les routes commerciales complexes, nous offrons des avantages de cout et de temps a nos clients.",
-        "p3": "Nous realisons des etudes de faisabilite detaillees pour chaque projet de commerce de transit, determinant les routes et solutions logistiques les plus adaptees. Nous optimisons vos flux commerciaux en evaluant les installations de zones franches et d'entrepots sous douane."
+        "p1": "Nous menons des opérations de commerce de transit efficaces en exploitant la position stratégique de la Turquie au carrefour de l'Europe, de l'Asie et du Moyen-Orient. Nous proposons des solutions spécialisées notamment pour les flux commerciaux entre la Russie et les pays de la CEI et l'Europe.",
+        "p2": "Dans les opérations de commerce de transit, nous gérons les éléments critiques tels que la réglementation douanière, la conformité aux sanctions, la planification logistique et l'entreposage avec notre équipe expérimentée. En simplifiant les passages douaniers multiples et les routes commerciales complexes, nous offrons des avantages de coût et de temps à nos clients.",
+        "p3": "Nous réalisons des études de faisabilité détaillées pour chaque projet de commerce de transit, déterminant les routes et solutions logistiques les plus adaptées. Nous optimisons vos flux commerciaux en évaluant les installations de zones franches et d'entrepôts sous douane."
       },
       "features": {
         "transitRoutes": {
-          "title": "Planification Strategique des Routes",
-          "description": "Nous creons des plans de routes qui optimisent les flux commerciaux. Nous determinons les itineraires les plus efficaces en equilibrant les facteurs de cout, de delai et de risque."
+          "title": "Planification Stratégique des Routes",
+          "description": "Nous créons des plans de routes qui optimisent les flux commerciaux. Nous déterminons les itinéraires les plus efficaces en équilibrant les facteurs de coût, de délai et de risque."
         },
         "cisExpertise": {
           "title": "Expertise Russie et CEI",
-          "description": "Nous avons une connaissance approfondie des reglementations commerciales et des procedures douanieres en Russie, au Kazakhstan, en Ouzbekistan et dans d'autres pays de la CEI, transformant cette expertise en votre avantage."
+          "description": "Nous avons une connaissance approfondie des réglementations commerciales et des procédures douanières en Russie, au Kazakhstan, en Ouzbékistan et dans d'autres pays de la CEI, transformant cette expertise en votre avantage."
         },
         "compliance": {
-          "title": "Conformite Reglementaire",
-          "description": "Nous assurons une pleine conformite avec les sanctions internationales, les restrictions commerciales et les reglementations douanieres. Nous minimisons les risques juridiques."
+          "title": "Conformité Réglementaire",
+          "description": "Nous assurons une pleine conformité avec les sanctions internationales, les restrictions commerciales et les réglementations douanières. Nous minimisons les risques juridiques."
         },
         "customs": {
           "title": "Gestion Multi-Douanes",
-          "description": "Nous coordonnons toutes les declarations et procedures pour les marchandises traversant les douanes de plusieurs pays de maniere coordonnee."
+          "description": "Nous coordonnons toutes les déclarations et procédures pour les marchandises traversant les douanes de plusieurs pays de manière coordonnée."
         },
         "warehousing": {
           "title": "Entreposage et Distribution",
-          "description": "Nous offrons des services d'entreposage, de consolidation et de distribution dans les installations de zones franches et d'entrepots sous douane en Turquie."
+          "description": "Nous offrons des services d'entreposage, de consolidation et de distribution dans les installations de zones franches et d'entrepôts sous douane en Turquie."
         }
       },
       "process": {
         "step1": {
-          "title": "Analyse de Faisabilite",
-          "description": "Nous analysons la viabilite de votre projet de commerce de transit, calculons le rapport cout-benefice et determinons la strategie la plus adaptee."
+          "title": "Analyse de Faisabilité",
+          "description": "Nous analysons la viabilité de votre projet de commerce de transit, calculons le rapport coût-bénéfice et déterminons la stratégie la plus adaptée."
         },
         "step2": {
           "title": "Planification Route et Logistique",
-          "description": "Nous determinons la route de transit optimale, coordonnons avec nos partenaires logistiques et planifions les besoins d'entreposage."
+          "description": "Nous déterminons la route de transit optimale, coordonnons avec nos partenaires logistiques et planifions les besoins d'entreposage."
         },
         "step3": {
-          "title": "Douane et Conformite",
-          "description": "Nous gerons les procedures douanieres des pays concernes, obtenons les permis et documents necessaires."
+          "title": "Douane et Conformité",
+          "description": "Nous gérons les procédures douanières des pays concernés, obtenons les permis et documents nécessaires."
         },
         "step4": {
-          "title": "Operations et Livraison",
-          "description": "Nous gerons l'operation de commerce de transit de bout en bout, assurant que les marchandises arrivent en toute securite dans le pays de destination."
+          "title": "Opérations et Livraison",
+          "description": "Nous gérons l'opération de commerce de transit de bout en bout, assurant que les marchandises arrivent en toute sécurité dans le pays de destination."
         }
       },
       "sectionTitles": {
         "features": "Nos Avantages en Commerce de Transit",
-        "process": "Notre Processus Operationnel"
+        "process": "Notre Processus Opérationnel"
       },
       "cta": {
-        "title": "Explorons les Opportunites de Commerce de Transit",
-        "description": "Echangez avec notre equipe d'experts pour evaluer votre potentiel de commerce de transit via la Turquie.",
+        "title": "Explorons les Opportunités de Commerce de Transit",
+        "description": "Échangez avec notre équipe d'experts pour évaluer votre potentiel de commerce de transit via la Turquie.",
         "button": "Conseil en Commerce de Transit"
       }
     }
@@ -563,11 +563,11 @@
   "SectorsPage": {
     "seo": {
       "title": "Secteurs - Alimentaire, Textile, Machines et Plus",
-      "description": "Solutions d'approvisionnement et de commerce specialisees dans plus de 8 secteurs : alimentaire, textile, machines, chimie, construction."
+      "description": "Solutions d'approvisionnement et de commerce spécialisées dans plus de 8 secteurs : alimentaire, textile, machines, chimie, construction."
     },
     "hero": {
-      "title": "Secteurs d'Activite",
-      "subtitle": "Solutions d'approvisionnement et de commerce specialisees dans plus de 8 industries. Nous comprenons les exigences uniques de chaque secteur et proposons des strategies d'achat sur mesure.",
+      "title": "Secteurs d'Activité",
+      "subtitle": "Solutions d'approvisionnement et de commerce spécialisées dans plus de 8 industries. Nous comprenons les exigences uniques de chaque secteur et proposons des stratégies d'achat sur mesure.",
       "badge": "8+ Industries"
     },
     "breadcrumb": {
@@ -575,104 +575,104 @@
       "sectors": "Secteurs"
     },
     "grid": {
-      "title": "Nos Secteurs d'Activite",
-      "subtitle": "Decouvrez notre expertise sectorielle et trouvez des solutions d'approvisionnement adaptees"
+      "title": "Nos Secteurs d'Activité",
+      "subtitle": "Découvrez notre expertise sectorielle et trouvez des solutions d'approvisionnement adaptées"
     },
     "sectors": {
       "food": {
         "title": "Agroalimentaire",
-        "description": "Cereales, legumineuses, huiles alimentaires, produits laitiers et epices de fournisseurs verifies."
+        "description": "Céréales, légumineuses, huiles alimentaires, produits laitiers et épices de fournisseurs vérifiés."
       },
       "textile": {
         "title": "Textile et Habillement",
-        "description": "Coton brut, fils, tissus, pret-a-porter et textiles de maison des meilleures usines turques."
+        "description": "Coton brut, fils, tissus, prêt-à-porter et textiles de maison des meilleures usines turques."
       },
       "machinery": {
-        "title": "Machines et Equipements",
-        "description": "Equipements industriels, machines agricoles, engins de construction et machines d'emballage."
+        "title": "Machines et Équipements",
+        "description": "Équipements industriels, machines agricoles, engins de construction et machines d'emballage."
       },
       "chemicals": {
-        "title": "Chimie et Petrochimie",
-        "description": "Produits chimiques industriels, chimie agricole, ingredients cosmetiques et produits de nettoyage."
+        "title": "Chimie et Pétrochimie",
+        "description": "Produits chimiques industriels, chimie agricole, ingrédients cosmétiques et produits de nettoyage."
       },
       "construction": {
-        "title": "Materiaux de Construction",
-        "description": "Acier, armatures, ciment, ceramiques, carrelages et accessoires de plomberie pour projets mondiaux."
+        "title": "Matériaux de Construction",
+        "description": "Acier, armatures, ciment, céramiques, carrelages et accessoires de plomberie pour projets mondiaux."
       },
       "raw-materials": {
-        "title": "Matieres Premieres",
-        "description": "Metaux, alliages, mineraux, polymeres, plastiques et bois de sources mondiales fiables."
+        "title": "Matières Premières",
+        "description": "Métaux, alliages, minéraux, polymères, plastiques et bois de sources mondiales fiables."
       },
       "electronics": {
-        "title": "Electronique et Technologie",
-        "description": "Composants electroniques, electronique grand public, electronique industrielle et equipements telecom."
+        "title": "Électronique et Technologie",
+        "description": "Composants électroniques, électronique grand public, électronique industrielle et équipements télécom."
       },
       "automotive": {
-        "title": "Automobile et Pieces",
-        "description": "Pieces auto, accessoires, pneumatiques et fluides automobiles pour le marche mondial de rechange."
+        "title": "Automobile et Pièces",
+        "description": "Pièces auto, accessoires, pneumatiques et fluides automobiles pour le marché mondial de rechange."
       }
     },
     "explore": "Explorer",
     "stats": {
-      "title": "Notre Portee Sectorielle",
-      "subtitle": "Des resultats dans divers secteurs grace a une expertise approfondie",
+      "title": "Notre Portée Sectorielle",
+      "subtitle": "Des résultats dans divers secteurs grâce à une expertise approfondie",
       "sectors": "Secteurs Desservis",
-      "products": "Categories de Produits",
+      "products": "Catégories de Produits",
       "countries": "Pays d'Export",
-      "certifications": "Certifie Qualite"
+      "certifications": "Certifié Qualité"
     },
     "cta": {
       "title": "Besoin d'Approvisionnement dans Votre Secteur?",
-      "description": "Contactez-nous pour discuter de vos besoins d'approvisionnement specifiques. Nos experts sectoriels sont prets a trouver les bons fournisseurs pour vous.",
+      "description": "Contactez-nous pour discuter de vos besoins d'approvisionnement spécifiques. Nos experts sectoriels sont prêts à trouver les bons fournisseurs pour vous.",
       "button": "Demander un Devis",
-      "note": "Premiere consultation gratuite pour tous les secteurs"
+      "note": "Première consultation gratuite pour tous les secteurs"
     }
   },
   "SectorDetail": {
     "food": {
       "metaTitle": "Approvisionnement Agroalimentaire | Toko Trading",
-      "metaDescription": "Cereales, legumineuses, huiles alimentaires, produits laitiers et epices de fournisseurs verifies via Toko Trading.",
+      "metaDescription": "Céréales, légumineuses, huiles alimentaires, produits laitiers et épices de fournisseurs vérifiés via Toko Trading.",
       "title": "Agroalimentaire",
-      "subtitle": "Approvisionnement fiable en produits alimentaires et matieres premieres agricoles aupres de fournisseurs mondiaux verifies",
+      "subtitle": "Approvisionnement fiable en produits alimentaires et matières premières agricoles auprès de fournisseurs mondiaux vérifiés",
       "overview": {
-        "p1": "Toko Trading est specialise dans l'approvisionnement de produits alimentaires de haute qualite et de matieres premieres agricoles aupres de fournisseurs verifies dans le monde entier. Des cereales aux legumineuses, des huiles alimentaires aux produits laitiers, nous garantissons les normes de securite alimentaire et la tracabilite tout au long de la chaine d'approvisionnement.",
-        "p2": "Grace a notre expertise approfondie des exigences reglementaires et des normes de qualite de l'industrie alimentaire, nous aidons les importateurs a acceder a des prix competitifs tout en maintenant une conformite stricte avec les certifications internationales de securite alimentaire."
+        "p1": "Toko Trading est spécialisé dans l'approvisionnement de produits alimentaires de haute qualité et de matières premières agricoles auprès de fournisseurs vérifiés dans le monde entier. Des céréales aux légumineuses, des huiles alimentaires aux produits laitiers, nous garantissons les normes de sécurité alimentaire et la traçabilité tout au long de la chaîne d'approvisionnement.",
+        "p2": "Grâce à notre expertise approfondie des exigences réglementaires et des normes de qualité de l'industrie alimentaire, nous aidons les importateurs à accéder à des prix compétitifs tout en maintenant une conformité stricte avec les certifications internationales de sécurité alimentaire."
       },
       "products": {
         "grains": {
-          "title": "Cereales et Legumineuses",
-          "description": "Ble, orge, mais, lentilles et pois chiches provenant de regions agricoles premium."
+          "title": "Céréales et Légumineuses",
+          "description": "Blé, orge, maïs, lentilles et pois chiches provenant de régions agricoles premium."
         },
         "dairyProducts": {
           "title": "Produits Laitiers",
-          "description": "Lait en poudre, beurre, fromage et produits laitiers transformes d'installations certifiees."
+          "description": "Lait en poudre, beurre, fromage et produits laitiers transformés d'installations certifiées."
         },
         "cannedGoods": {
           "title": "Conserves",
-          "description": "Legumes, fruits et confitures en conserve de producteurs de confiance avec tracabilite complete."
+          "description": "Légumes, fruits et confitures en conserve de producteurs de confiance avec traçabilité complète."
         },
         "spices": {
-          "title": "Epices et Herbes",
-          "description": "Epices, herbes et assaisonnements premium provenant directement des pays d'origine avec garantie de purete."
+          "title": "Épices et Herbes",
+          "description": "Épices, herbes et assaisonnements premium provenant directement des pays d'origine avec garantie de pureté."
         }
       },
       "advantages": {
         "title": "Pourquoi s'Approvisionner en Alimentaire via Toko",
         "a1": {
-          "title": "Fournisseurs Verifies",
-          "description": "Chaque fournisseur alimentaire subit un audit rigoureux en matiere de securite alimentaire, d'hygiene et de capacite de production."
+          "title": "Fournisseurs Vérifiés",
+          "description": "Chaque fournisseur alimentaire subit un audit rigoureux en matière de sécurité alimentaire, d'hygiène et de capacité de production."
         },
         "a2": {
-          "title": "Assurance Qualite",
-          "description": "Tests en laboratoire avant expedition et verification des certificats pour conformite aux reglementations du pays de destination."
+          "title": "Assurance Qualité",
+          "description": "Tests en laboratoire avant expédition et vérification des certificats pour conformité aux réglementations du pays de destination."
         },
         "a3": {
-          "title": "Prix Competitifs",
-          "description": "Approvisionnement direct aupres des producteurs et negociations de volume pour les meilleurs prix en gros."
+          "title": "Prix Compétitifs",
+          "description": "Approvisionnement direct auprès des producteurs et négociations de volume pour les meilleurs prix en gros."
         },
         "a4": {
-          "title": "Logistique Chaine du Froid",
-          "description": "Expedition et stockage a temperature controlee pour les produits alimentaires perissables a tous les points de transit."
+          "title": "Logistique Chaîne du Froid",
+          "description": "Expédition et stockage à température contrôlée pour les produits alimentaires périssables à tous les points de transit."
         }
       },
       "sectionTitles": {
@@ -681,54 +681,54 @@
       },
       "cta": {
         "title": "Besoin d'Approvisionnement Alimentaire?",
-        "description": "Contactez-nous pour discuter de vos besoins en approvisionnement alimentaire avec des fournisseurs verifies.",
+        "description": "Contactez-nous pour discuter de vos besoins en approvisionnement alimentaire avec des fournisseurs vérifiés.",
         "button": "Demander un Devis"
       }
     },
     "textile": {
       "metaTitle": "Approvisionnement Textile | Toko Trading",
-      "metaDescription": "Coton brut, fils, tissus, pret-a-porter et textiles de maison des meilleurs fabricants turcs via Toko Trading.",
+      "metaDescription": "Coton brut, fils, tissus, prêt-à-porter et textiles de maison des meilleurs fabricants turcs via Toko Trading.",
       "title": "Textile et Habillement",
-      "subtitle": "Approvisionnement textile premium depuis la base manufacturiere de renommee mondiale de la Turquie",
+      "subtitle": "Approvisionnement textile premium depuis la base manufacturière de renommée mondiale de la Turquie",
       "overview": {
-        "p1": "La Turquie est l'un des plus grands producteurs textiles au monde, et Toko Trading exploite cet avantage pour connecter les acheteurs mondiaux avec les meilleurs fabricants de coton, fils, tissus et vetements.",
-        "p2": "Notre equipe d'approvisionnement textile comprend les specifications des tissus, les exigences de correspondance des couleurs et les delais de production. Nous aidons les marques a s'approvisionner de maniere competitive tout en maintenant les standards de qualite."
+        "p1": "La Turquie est l'un des plus grands producteurs textiles au monde, et Toko Trading exploite cet avantage pour connecter les acheteurs mondiaux avec les meilleurs fabricants de coton, fils, tissus et vêtements.",
+        "p2": "Notre équipe d'approvisionnement textile comprend les spécifications des tissus, les exigences de correspondance des couleurs et les délais de production. Nous aidons les marques à s'approvisionner de manière compétitive tout en maintenant les standards de qualité."
       },
       "products": {
         "fabrics": {
           "title": "Coton Brut et Fils",
-          "description": "Fibres de coton de haute qualite, fils melanges et fils synthetiques des meilleures filatures turques."
+          "description": "Fibres de coton de haute qualité, fils mélangés et fils synthétiques des meilleures filatures turques."
         },
         "readyToWear": {
           "title": "Tissus",
-          "description": "Tissus en coton, polyester et melanges de differents grammages et finitions."
+          "description": "Tissus en coton, polyester et mélanges de différents grammages et finitions."
         },
         "homeTextiles": {
-          "title": "Pret-a-Porter",
-          "description": "Vetements homme, femme et enfant de fabricants etablis avec MOQ flexibles."
+          "title": "Prêt-à-Porter",
+          "description": "Vêtements homme, femme et enfant de fabricants établis avec MOQ flexibles."
         },
         "industrialTextiles": {
           "title": "Textiles de Maison",
-          "description": "Linge de lit, serviettes, rideaux et tissus d'ameublement des producteurs turcs renommes."
+          "description": "Linge de lit, serviettes, rideaux et tissus d'ameublement des producteurs turcs renommés."
         }
       },
       "advantages": {
         "title": "Pourquoi s'Approvisionner en Textile via Toko",
         "a1": {
-          "title": "Qualite Verifiee en Usine",
-          "description": "Nous auditons chaque fournisseur textile pour les capacites de production, le controle qualite et la conformite ethique."
+          "title": "Qualité Vérifiée en Usine",
+          "description": "Nous auditons chaque fournisseur textile pour les capacités de production, le contrôle qualité et la conformité éthique."
         },
         "a2": {
-          "title": "Support Design et Echantillons",
-          "description": "Developpement d'echantillons, echantillonnage de tissus et correspondance de couleurs selon vos specifications exactes."
+          "title": "Support Design et Échantillons",
+          "description": "Développement d'échantillons, échantillonnage de tissus et correspondance de couleurs selon vos spécifications exactes."
         },
         "a3": {
-          "title": "Prix de Gros Competitifs",
-          "description": "L'acces direct aux fabricants turcs elimine les intermediaires pour des prix usine directs."
+          "title": "Prix de Gros Compétitifs",
+          "description": "L'accès direct aux fabricants turcs élimine les intermédiaires pour des prix usine directs."
         },
         "a4": {
-          "title": "Delais Rapides",
-          "description": "La proximite de la Turquie avec l'Europe et son infrastructure logistique permettent des delais de livraison plus courts."
+          "title": "Délais Rapides",
+          "description": "La proximité de la Turquie avec l'Europe et son infrastructure logistique permettent des délais de livraison plus courts."
         }
       },
       "sectionTitles": {
@@ -738,53 +738,53 @@
       "cta": {
         "title": "Besoin d'Approvisionnement Textile?",
         "description": "Laissez-nous vous connecter avec les meilleurs fabricants textiles de Turquie.",
-        "button": "Demander des Echantillons"
+        "button": "Demander des Échantillons"
       }
     },
     "machinery": {
       "metaTitle": "Approvisionnement Machines | Toko Trading",
-      "metaDescription": "Equipements industriels, machines agricoles, engins de construction et machines d'emballage via Toko Trading.",
-      "title": "Machines et Equipements",
-      "subtitle": "Approvisionnement en machines et equipements industriels avec expertise technique et support apres-vente",
+      "metaDescription": "Équipements industriels, machines agricoles, engins de construction et machines d'emballage via Toko Trading.",
+      "title": "Machines et Équipements",
+      "subtitle": "Approvisionnement en machines et équipements industriels avec expertise technique et support après-vente",
       "overview": {
-        "p1": "Toko Trading fournit des services complets d'approvisionnement en machines pour les entreprises recherchant des equipements industriels fiables. Nous faisons correspondre vos exigences techniques avec les bons fabricants dans le monde entier.",
-        "p2": "Notre equipe machines comprend des ingenieurs qui maitrisent les specifications, les certifications et les exigences d'installation. Nous gerons de l'evaluation technique a la logistique d'expedition pour les equipements lourds."
+        "p1": "Toko Trading fournit des services complets d'approvisionnement en machines pour les entreprises recherchant des équipements industriels fiables. Nous faisons correspondre vos exigences techniques avec les bons fabricants dans le monde entier.",
+        "p2": "Notre équipe machines comprend des ingénieurs qui maîtrisent les spécifications, les certifications et les exigences d'installation. Nous gérons de l'évaluation technique à la logistique d'expédition pour les équipements lourds."
       },
       "products": {
         "industrialMachinery": {
-          "title": "Equipements Industriels",
-          "description": "Machines CNC, lignes de production, equipements de transformation et systemes d'automatisation."
+          "title": "Équipements Industriels",
+          "description": "Machines CNC, lignes de production, équipements de transformation et systèmes d'automatisation."
         },
         "agriculturalEquipment": {
           "title": "Machines Agricoles",
-          "description": "Tracteurs, moissonneuses, systemes d'irrigation et equipements de transformation alimentaire."
+          "description": "Tracteurs, moissonneuses, systèmes d'irrigation et équipements de transformation alimentaire."
         },
         "spareParts": {
           "title": "Engins de Construction",
-          "description": "Excavatrices, chargeurs, betonieres et equipements de chantier de marques de confiance."
+          "description": "Excavatrices, chargeurs, bétonnières et équipements de chantier de marques de confiance."
         },
         "automation": {
           "title": "Machines d'Emballage",
-          "description": "Lignes d'emballage automatisees, machines de remplissage, systemes d'etiquetage et machines de film retractable."
+          "description": "Lignes d'emballage automatisées, machines de remplissage, systèmes d'étiquetage et machines de film rétractable."
         }
       },
       "advantages": {
         "title": "Pourquoi s'Approvisionner en Machines via Toko",
         "a1": {
-          "title": "Evaluation Technique",
-          "description": "Notre equipe d'ingenieurs evalue les specifications, les performances et les certifications CE/ISO."
+          "title": "Évaluation Technique",
+          "description": "Notre équipe d'ingénieurs évalue les spécifications, les performances et les certifications CE/ISO."
         },
         "a2": {
           "title": "Support d'Installation",
           "description": "Nous coordonnons les techniciens du fabricant pour l'installation, la mise en service et la formation sur site."
         },
         "a3": {
-          "title": "Financement Competitif",
-          "description": "Acces a des conditions de paiement et options de financement avantageuses via nos partenariats fabricants."
+          "title": "Financement Compétitif",
+          "description": "Accès à des conditions de paiement et options de financement avantageuses via nos partenariats fabricants."
         },
         "a4": {
           "title": "Logistique Fret Lourd",
-          "description": "Solutions d'expedition specialisees pour les machines surdimensionnees incluant le dedouanement."
+          "description": "Solutions d'expédition spécialisées pour les machines surdimensionnées incluant le dédouanement."
         }
       },
       "sectionTitles": {
@@ -792,55 +792,55 @@
         "advantages": "Avantages d'Approvisionnement"
       },
       "cta": {
-        "title": "Besoin d'Equipements Industriels?",
-        "description": "Discutez de vos besoins en machines avec notre equipe technique.",
+        "title": "Besoin d'Équipements Industriels?",
+        "description": "Discutez de vos besoins en machines avec notre équipe technique.",
         "button": "Consultation Technique"
       }
     },
     "chemicals": {
       "metaTitle": "Approvisionnement Chimique | Toko Trading",
-      "metaDescription": "Produits chimiques industriels, chimie agricole, ingredients cosmetiques et produits de nettoyage via Toko Trading.",
-      "title": "Chimie et Petrochimie",
-      "subtitle": "Approvisionnement chimique sur et conforme avec documentation reglementaire complete",
+      "metaDescription": "Produits chimiques industriels, chimie agricole, ingrédients cosmétiques et produits de nettoyage via Toko Trading.",
+      "title": "Chimie et Pétrochimie",
+      "subtitle": "Approvisionnement chimique sûr et conforme avec documentation réglementaire complète",
       "overview": {
-        "p1": "Toko Trading assure l'approvisionnement fiable en produits chimiques industriels et de specialite aupres de fabricants respectant les normes internationales de securite et de qualite. Nous comprenons l'importance critique de la conformite reglementaire et de la manutention securisee dans l'industrie chimique.",
-        "p2": "Des produits chimiques industriels en vrac aux ingredients de specialite pour les cosmetiques et l'agriculture, notre equipe gere les exigences complexes de logistique et de documentation propres au commerce chimique."
+        "p1": "Toko Trading assure l'approvisionnement fiable en produits chimiques industriels et de spécialité auprès de fabricants respectant les normes internationales de sécurité et de qualité. Nous comprenons l'importance critique de la conformité réglementaire et de la manutention sécurisée dans l'industrie chimique.",
+        "p2": "Des produits chimiques industriels en vrac aux ingrédients de spécialité pour les cosmétiques et l'agriculture, notre équipe gère les exigences complexes de logistique et de documentation propres au commerce chimique."
       },
       "products": {
         "industrialChemicals": {
           "title": "Produits Chimiques Industriels",
-          "description": "Solvants, acides, bases et produits chimiques de qualite industrielle de fabricants certifies ISO avec FDS."
+          "description": "Solvants, acides, bases et produits chimiques de qualité industrielle de fabricants certifiés ISO avec FDS."
         },
         "petrochemicals": {
           "title": "Chimie Agricole",
-          "description": "Engrais, pesticides et produits de protection des cultures conformes aux normes de securite agricole."
+          "description": "Engrais, pesticides et produits de protection des cultures conformes aux normes de sécurité agricole."
         },
         "pharmaceuticals": {
-          "title": "Ingredients Cosmetiques",
-          "description": "Matieres premieres et principes actifs pour cosmetiques et soins personnels avec certification GMP."
+          "title": "Ingrédients Cosmétiques",
+          "description": "Matières premières et principes actifs pour cosmétiques et soins personnels avec certification GMP."
         },
         "fertilizers": {
           "title": "Produits de Nettoyage",
-          "description": "Produits chimiques de nettoyage industriels et commerciaux, detergents et produits de desinfection en gros."
+          "description": "Produits chimiques de nettoyage industriels et commerciaux, détergents et produits de désinfection en gros."
         }
       },
       "advantages": {
         "title": "Pourquoi s'Approvisionner en Chimie via Toko",
         "a1": {
-          "title": "Conformite Reglementaire",
-          "description": "Documentation complete de conformite REACH, CLP et SGH pour chaque produit chimique approvisionne."
+          "title": "Conformité Réglementaire",
+          "description": "Documentation complète de conformité REACH, CLP et SGH pour chaque produit chimique approvisionné."
         },
         "a2": {
-          "title": "Certifie Securite",
-          "description": "Tous les fournisseurs chimiques sont audites pour les protocoles de securite, les conditions de stockage et les procedures de manutention."
+          "title": "Certifié Sécurité",
+          "description": "Tous les fournisseurs chimiques sont audités pour les protocoles de sécurité, les conditions de stockage et les procédures de manutention."
         },
         "a3": {
           "title": "Prix Volume",
-          "description": "Accords d'achat en volume avec les grands producteurs pour des prix competitifs sur les commandes recurrentes."
+          "description": "Accords d'achat en volume avec les grands producteurs pour des prix compétitifs sur les commandes récurrentes."
         },
         "a4": {
-          "title": "Transport Matieres Dangereuses",
-          "description": "Expedition specialisee de marchandises dangereuses avec classification, emballage et documentation de transport conformes."
+          "title": "Transport Matières Dangereuses",
+          "description": "Expédition spécialisée de marchandises dangereuses avec classification, emballage et documentation de transport conformes."
         }
       },
       "sectionTitles": {
@@ -849,54 +849,54 @@
       },
       "cta": {
         "title": "Besoin d'Approvisionnement Chimique?",
-        "description": "Contactez nos specialistes pour une conformite reglementaire complete et une livraison securisee.",
+        "description": "Contactez nos spécialistes pour une conformité réglementaire complète et une livraison sécurisée.",
         "button": "Demander la Documentation"
       }
     },
     "construction": {
-      "metaTitle": "Approvisionnement en Materiaux de Construction | Toko Trading",
-      "metaDescription": "Approvisionnez-vous en acier, armatures, ciment, ceramiques, carrelages et equipements de plomberie pour vos projets de construction.",
-      "title": "Materiaux de Construction",
-      "subtitle": "Approvisionnement fiable en materiaux de construction pour des projets de toutes envergures",
+      "metaTitle": "Approvisionnement en Matériaux de Construction | Toko Trading",
+      "metaDescription": "Approvisionnez-vous en acier, armatures, ciment, céramiques, carrelages et équipements de plomberie pour vos projets de construction.",
+      "title": "Matériaux de Construction",
+      "subtitle": "Approvisionnement fiable en matériaux de construction pour des projets de toutes envergures",
       "overview": {
-        "p1": "Toko Trading fournit un approvisionnement complet en materiaux de construction depuis le secteur florissant du batiment en Turquie. De l'acier de structure au ciment, des ceramiques aux carrelages et equipements de plomberie, nous connectons constructeurs et entrepreneurs avec des fabricants de qualite.",
-        "p2": "Notre equipe d'approvisionnement en construction comprend les delais de projet, les specifications techniques et les exigences de conformite. Nous garantissons que les materiaux repondent aux normes internationales tout en offrant des prix competitifs pour les commandes a grande echelle."
+        "p1": "Toko Trading fournit un approvisionnement complet en matériaux de construction depuis le secteur florissant du bâtiment en Turquie. De l'acier de structure au ciment, des céramiques aux carrelages et équipements de plomberie, nous connectons constructeurs et entrepreneurs avec des fabricants de qualité.",
+        "p2": "Notre équipe d'approvisionnement en construction comprend les délais de projet, les spécifications techniques et les exigences de conformité. Nous garantissons que les matériaux répondent aux normes internationales tout en offrant des prix compétitifs pour les commandes à grande échelle."
       },
       "products": {
         "buildingMaterials": {
           "title": "Acier et Armatures",
-          "description": "Acier de structure, barres d'armature, profiles et fabrications metalliques provenant d'acieries turques certifiees."
+          "description": "Acier de structure, barres d'armature, profilés et fabrications métalliques provenant d'aciéries turques certifiées."
         },
         "steel": {
-          "title": "Ciment et Beton",
-          "description": "Ciment Portland, beton pret a l'emploi et ciments speciaux pour les projets d'infrastructure et de construction."
+          "title": "Ciment et Béton",
+          "description": "Ciment Portland, béton prêt à l'emploi et ciments spéciaux pour les projets d'infrastructure et de construction."
         },
         "cement": {
-          "title": "Ceramiques et Carrelages",
-          "description": "Carrelages de sol, faiences murales, sanitaires en ceramique et surfaces decoratives de fabricants turcs primes."
+          "title": "Céramiques et Carrelages",
+          "description": "Carrelages de sol, faïences murales, sanitaires en céramique et surfaces décoratives de fabricants turcs primés."
         },
         "plumbing": {
           "title": "Plomberie et Raccords",
-          "description": "Tuyaux, vannes, raccords, equipements de salle de bain et systemes hydrauliques de producteurs certifies qualite."
+          "description": "Tuyaux, vannes, raccords, équipements de salle de bain et systèmes hydrauliques de producteurs certifiés qualité."
         }
       },
       "advantages": {
-        "title": "Pourquoi s'Approvisionner en Materiaux de Construction via Toko",
+        "title": "Pourquoi s'Approvisionner en Matériaux de Construction via Toko",
         "a1": {
-          "title": "Normes Certifiees",
-          "description": "Tous les materiaux testes et certifies selon les codes internationaux de construction EN, ASTM et ISO."
+          "title": "Normes Certifiées",
+          "description": "Tous les matériaux testés et certifiés selon les codes internationaux de construction EN, ASTM et ISO."
         },
         "a2": {
-          "title": "Approvisionnement a l'Echelle",
-          "description": "Capacite a honorer les commandes a grande echelle avec une qualite constante et des livraisons planifiees."
+          "title": "Approvisionnement à l'Échelle",
+          "description": "Capacité à honorer les commandes à grande échelle avec une qualité constante et des livraisons planifiées."
         },
         "a3": {
-          "title": "Prix de Gros Competitifs",
-          "description": "Relations directes avec les fabricants et pouvoir d'achat en volume pour des economies significatives."
+          "title": "Prix de Gros Compétitifs",
+          "description": "Relations directes avec les fabricants et pouvoir d'achat en volume pour des économies significatives."
         },
         "a4": {
           "title": "Logistique Charges Lourdes",
-          "description": "Solutions de fret specialisees pour les materiaux de construction lourds et surdimensionnes."
+          "description": "Solutions de fret spécialisées pour les matériaux de construction lourds et surdimensionnés."
         }
       },
       "sectionTitles": {
@@ -904,55 +904,55 @@
         "advantages": "Avantages d'Approvisionnement"
       },
       "cta": {
-        "title": "Besoin de Materiaux de Construction?",
-        "description": "Contactez-nous pour des devis competitifs sur les materiaux de construction des meilleurs fabricants turcs.",
+        "title": "Besoin de Matériaux de Construction?",
+        "description": "Contactez-nous pour des devis compétitifs sur les matériaux de construction des meilleurs fabricants turcs.",
         "button": "Obtenir un Devis"
       }
     },
     "raw-materials": {
-      "metaTitle": "Approvisionnement en Matieres Premieres | Toko Trading",
-      "metaDescription": "Approvisionnez-vous en metaux, alliages, mineraux, polymeres, plastiques et bois de fournisseurs mondiaux fiables.",
-      "title": "Matieres Premieres",
-      "subtitle": "Matieres premieres industrielles approvisionnees aupres de fournisseurs mondiaux verifies avec assurance qualite",
+      "metaTitle": "Approvisionnement en Matières Premières | Toko Trading",
+      "metaDescription": "Approvisionnez-vous en métaux, alliages, minéraux, polymères, plastiques et bois de fournisseurs mondiaux fiables.",
+      "title": "Matières Premières",
+      "subtitle": "Matières premières industrielles approvisionnées auprès de fournisseurs mondiaux vérifiés avec assurance qualité",
       "overview": {
-        "p1": "Toko Trading se specialise dans l'approvisionnement en matieres premieres industrielles pour les fabricants et transformateurs du monde entier. Des metaux aux alliages, des mineraux aux polymeres et au bois, nous fournissons des chaines d'approvisionnement fiables pour vos besoins de production.",
-        "p2": "Notre equipe matieres premieres surveille les marches mondiaux des matieres premieres et entretient des relations avec les producteurs des regions cles. Nous aidons nos clients a securiser des approvisionnements stables a des prix competitifs avec une documentation qualite complete."
+        "p1": "Toko Trading se spécialise dans l'approvisionnement en matières premières industrielles pour les fabricants et transformateurs du monde entier. Des métaux aux alliages, des minéraux aux polymères et au bois, nous fournissons des chaînes d'approvisionnement fiables pour vos besoins de production.",
+        "p2": "Notre équipe matières premières surveille les marchés mondiaux des matières premières et entretient des relations avec les producteurs des régions clés. Nous aidons nos clients à sécuriser des approvisionnements stables à des prix compétitifs avec une documentation qualité complète."
       },
       "products": {
         "metals": {
-          "title": "Metaux et Alliages",
-          "description": "Acier, aluminium, cuivre, laiton et alliages speciaux en diverses formes et qualites pour applications industrielles."
+          "title": "Métaux et Alliages",
+          "description": "Acier, aluminium, cuivre, laiton et alliages spéciaux en diverses formes et qualités pour applications industrielles."
         },
         "minerals": {
-          "title": "Mineraux",
-          "description": "Mineraux industriels incluant marbre, granit, bore, feldspath et quartz des riches gisements mineraux turcs."
+          "title": "Minéraux",
+          "description": "Minéraux industriels incluant marbre, granit, bore, feldspath et quartz des riches gisements minéraux turcs."
         },
         "timber": {
           "title": "Bois et Sciages",
-          "description": "Bois de construction, bois d'ingenierie, contreplaque et bois speciaux issus de sources forestieres durables."
+          "description": "Bois de construction, bois d'ingénierie, contreplaqué et bois spéciaux issus de sources forestières durables."
         },
         "polymers": {
-          "title": "Polymeres et Plastiques",
-          "description": "Resines polymeres brutes, granules plastiques, composes et materiaux recycles pour applications de fabrication."
+          "title": "Polymères et Plastiques",
+          "description": "Résines polymères brutes, granulés plastiques, composés et matériaux recyclés pour applications de fabrication."
         }
       },
       "advantages": {
-        "title": "Pourquoi s'Approvisionner en Matieres Premieres via Toko",
+        "title": "Pourquoi s'Approvisionner en Matières Premières via Toko",
         "a1": {
-          "title": "Intelligence de Marche",
-          "description": "Prix des matieres premieres en temps reel et analyse de marche pour vous aider a acheter au moment et prix optimaux."
+          "title": "Intelligence de Marché",
+          "description": "Prix des matières premières en temps réel et analyse de marché pour vous aider à acheter au moment et prix optimaux."
         },
         "a2": {
-          "title": "Certifie Qualite",
-          "description": "Certificats matiere, rapports d'essai et documents d'analyse chimique fournis pour chaque expedition."
+          "title": "Certifié Qualité",
+          "description": "Certificats matière, rapports d'essai et documents d'analyse chimique fournis pour chaque expédition."
         },
         "a3": {
-          "title": "Continuite d'Approvisionnement",
-          "description": "Un reseau de fournisseurs multiples verifies garantit un approvisionnement ininterrompu meme pendant les perturbations."
+          "title": "Continuité d'Approvisionnement",
+          "description": "Un réseau de fournisseurs multiples vérifiés garantit un approvisionnement ininterrompu même pendant les perturbations."
         },
         "a4": {
           "title": "Logistique en Vrac",
-          "description": "Solutions de transport par conteneur, marchandises generales et vraquiers pour les gros envois de matieres premieres."
+          "description": "Solutions de transport par conteneur, marchandises générales et vraquiers pour les gros envois de matières premières."
         }
       },
       "sectionTitles": {
@@ -960,55 +960,55 @@
         "advantages": "Avantages d'Approvisionnement"
       },
       "cta": {
-        "title": "Besoin d'Approvisionnement en Matieres Premieres?",
-        "description": "Discutez de vos besoins avec nos specialistes pour un approvisionnement fiable a des prix competitifs.",
+        "title": "Besoin d'Approvisionnement en Matières Premières?",
+        "description": "Discutez de vos besoins avec nos spécialistes pour un approvisionnement fiable à des prix compétitifs.",
         "button": "Demander les Prix"
       }
     },
     "electronics": {
-      "metaTitle": "Approvisionnement Electronique | Toko Trading",
-      "metaDescription": "Approvisionnez-vous en composants electroniques, electronique grand public, electronique industrielle et equipements telecom.",
-      "title": "Electronique et Technologie",
-      "subtitle": "Composants electroniques et produits technologiques de fabricants verifies dans le monde entier",
+      "metaTitle": "Approvisionnement Électronique | Toko Trading",
+      "metaDescription": "Approvisionnez-vous en composants électroniques, électronique grand public, électronique industrielle et équipements télécom.",
+      "title": "Électronique et Technologie",
+      "subtitle": "Composants électroniques et produits technologiques de fabricants vérifiés dans le monde entier",
       "overview": {
-        "p1": "Toko Trading connecte les acheteurs avec des fabricants et distributeurs d'electronique fiables a l'echelle mondiale. Des composants electroniques aux cables, de l'electronique grand public a l'eclairage industriel, nous garantissons qualite et authenticite dans chaque commande.",
-        "p2": "Notre equipe d'approvisionnement electronique verifie l'authenticite des produits, les certifications et les references des fabricants. Nous aidons les entreprises a eviter les risques de contrefacon tout en accedant a des prix competitifs."
+        "p1": "Toko Trading connecte les acheteurs avec des fabricants et distributeurs d'électronique fiables à l'échelle mondiale. Des composants électroniques aux câbles, de l'électronique grand public à l'éclairage industriel, nous garantissons qualité et authenticité dans chaque commande.",
+        "p2": "Notre équipe d'approvisionnement électronique vérifie l'authenticité des produits, les certifications et les références des fabricants. Nous aidons les entreprises à éviter les risques de contrefaçon tout en accédant à des prix compétitifs."
       },
       "products": {
         "components": {
-          "title": "Composants Electroniques",
-          "description": "Semi-conducteurs, condensateurs, resistances, connecteurs et PCB de distributeurs et fabricants autorises."
+          "title": "Composants Électroniques",
+          "description": "Semi-conducteurs, condensateurs, résistances, connecteurs et PCB de distributeurs et fabricants autorisés."
         },
         "consumerElectronics": {
-          "title": "Electronique Grand Public",
-          "description": "Appareils electromenagers, equipements audio, appareils intelligents et produits technologiques grand public de marques etablies."
+          "title": "Électronique Grand Public",
+          "description": "Appareils électroménagers, équipements audio, appareils intelligents et produits technologiques grand public de marques établies."
         },
         "cables": {
-          "title": "Cables et Filerie",
-          "description": "Cables d'alimentation, cables de donnees, fibre optique et faisceaux de cables de fabricants certifies."
+          "title": "Câbles et Filerie",
+          "description": "Câbles d'alimentation, câbles de données, fibre optique et faisceaux de câbles de fabricants certifiés."
         },
         "lighting": {
-          "title": "Solutions d'Eclairage",
-          "description": "Eclairage LED, luminaires industriels, systemes d'eclairage intelligents et appareillage electrique pour usage commercial et residentiel."
+          "title": "Solutions d'Éclairage",
+          "description": "Éclairage LED, luminaires industriels, systèmes d'éclairage intelligents et appareillage électrique pour usage commercial et résidentiel."
         }
       },
       "advantages": {
-        "title": "Pourquoi s'Approvisionner en Electronique via Toko",
+        "title": "Pourquoi s'Approvisionner en Électronique via Toko",
         "a1": {
-          "title": "Authenticite Verifiee",
-          "description": "Chaque composant verifie pour son authenticite avec tracabilite jusqu'aux fabricants et distributeurs autorises."
+          "title": "Authenticité Vérifiée",
+          "description": "Chaque composant vérifié pour son authenticité avec traçabilité jusqu'aux fabricants et distributeurs autorisés."
         },
         "a2": {
-          "title": "Conformite Certifiee",
-          "description": "Certifications CE, RoHS, FCC et autres certifications regionales verifiees et documentees pour chaque produit."
+          "title": "Conformité Certifiée",
+          "description": "Certifications CE, RoHS, FCC et autres certifications régionales vérifiées et documentées pour chaque produit."
         },
         "a3": {
           "title": "MOQ Flexible",
-          "description": "Quantites minimales de commande flexibles grace a des achats consolides aupres de sources multiples verifiees."
+          "description": "Quantités minimales de commande flexibles grâce à des achats consolidés auprès de sources multiples vérifiées."
         },
         "a4": {
-          "title": "Expedition Anti-Statique",
-          "description": "Emballage et expedition specialises ESD-safe pour les composants et assemblages electroniques sensibles."
+          "title": "Expédition Anti-Statique",
+          "description": "Emballage et expédition spécialisés ESD-safe pour les composants et assemblages électroniques sensibles."
         }
       },
       "sectionTitles": {
@@ -1016,55 +1016,55 @@
         "advantages": "Avantages d'Approvisionnement"
       },
       "cta": {
-        "title": "Besoin d'Approvisionnement Electronique?",
-        "description": "Connectez-vous avec notre equipe electronique pour des composants verifies et des produits technologiques a prix competitifs.",
+        "title": "Besoin d'Approvisionnement Électronique?",
+        "description": "Connectez-vous avec notre équipe électronique pour des composants vérifiés et des produits technologiques à prix compétitifs.",
         "button": "Demander un Devis"
       }
     },
     "automotive": {
-      "metaTitle": "Approvisionnement Pieces Automobiles | Toko Trading",
-      "metaDescription": "Approvisionnez-vous en pieces auto, accessoires, pneus et fluides automobiles pour le marche mondial de la rechange.",
-      "title": "Automobile et Pieces",
-      "subtitle": "Approvisionnement en pieces et accessoires automobiles pour l'industrie mondiale de la rechange",
+      "metaTitle": "Approvisionnement Pièces Automobiles | Toko Trading",
+      "metaDescription": "Approvisionnez-vous en pièces auto, accessoires, pneus et fluides automobiles pour le marché mondial de la rechange.",
+      "title": "Automobile et Pièces",
+      "subtitle": "Approvisionnement en pièces et accessoires automobiles pour l'industrie mondiale de la rechange",
       "overview": {
-        "p1": "Toko Trading est votre partenaire de confiance pour l'approvisionnement en pieces automobiles, accessoires et fournitures depuis le secteur automobile turc en pleine croissance et les fournisseurs mondiaux. Nous servons les distributeurs de pieces de rechange, les ateliers et les operateurs de flottes dans le monde entier.",
-        "p2": "Notre equipe automobile comprend les specifications OEM, les references croisees et les normes de qualite requises dans l'industrie de la rechange. Nous vous aidons a construire une chaine d'approvisionnement fiable avec une tracabilite complete."
+        "p1": "Toko Trading est votre partenaire de confiance pour l'approvisionnement en pièces automobiles, accessoires et fournitures depuis le secteur automobile turc en pleine croissance et les fournisseurs mondiaux. Nous servons les distributeurs de pièces de rechange, les ateliers et les opérateurs de flottes dans le monde entier.",
+        "p2": "Notre équipe automobile comprend les spécifications OEM, les références croisées et les normes de qualité requises dans l'industrie de la rechange. Nous vous aidons à construire une chaîne d'approvisionnement fiable avec une traçabilité complète."
       },
       "products": {
         "autoParts": {
-          "title": "Pieces et Rechanges Auto",
-          "description": "Pieces moteur, systemes de freinage, composants de suspension et pieces de rechange equivalentes OEM de fabricants certifies."
+          "title": "Pièces et Rechanges Auto",
+          "description": "Pièces moteur, systèmes de freinage, composants de suspension et pièces de rechange équivalentes OEM de fabricants certifiés."
         },
         "tires": {
           "title": "Pneus et Caoutchouc",
-          "description": "Pneus tourisme, utilitaires et tout-terrain de fabricants turcs et internationaux avec garantie complete."
+          "description": "Pneus tourisme, utilitaires et tout-terrain de fabricants turcs et internationaux avec garantie complète."
         },
         "accessories": {
           "title": "Accessoires et Options",
-          "description": "Accessoires interieurs et exterieurs, produits d'entretien auto et ameliorations de performance pour tous types de vehicules."
+          "description": "Accessoires intérieurs et extérieurs, produits d'entretien auto et améliorations de performance pour tous types de véhicules."
         },
         "commercialVehicles": {
-          "title": "Pieces Vehicules Utilitaires",
-          "description": "Pieces de camion, composants de bus, accessoires de remorque et systemes de vehicules lourds pour les operations de flotte."
+          "title": "Pièces Véhicules Utilitaires",
+          "description": "Pièces de camion, composants de bus, accessoires de remorque et systèmes de véhicules lourds pour les opérations de flotte."
         }
       },
       "advantages": {
-        "title": "Pourquoi s'Approvisionner en Pieces Auto via Toko",
+        "title": "Pourquoi s'Approvisionner en Pièces Auto via Toko",
         "a1": {
-          "title": "Qualite OEM",
-          "description": "Pieces verifiees selon les specifications OEM avec certificats de qualite et documentation de references croisees."
+          "title": "Qualité OEM",
+          "description": "Pièces vérifiées selon les spécifications OEM avec certificats de qualité et documentation de références croisées."
         },
         "a2": {
           "title": "Large Catalogue",
-          "description": "Acces aux pieces pour les grandes marques et modeles grace a notre vaste reseau de fournisseurs."
+          "description": "Accès aux pièces pour les grandes marques et modèles grâce à notre vaste réseau de fournisseurs."
         },
         "a3": {
-          "title": "Prix Competitifs",
-          "description": "L'approvisionnement direct aupres des fabricants elimine les couts intermediaires pour des prix competitifs sur la rechange."
+          "title": "Prix Compétitifs",
+          "description": "L'approvisionnement direct auprès des fabricants élimine les coûts intermédiaires pour des prix compétitifs sur la rechange."
         },
         "a4": {
           "title": "Livraison Rapide",
-          "description": "Traitement efficace des commandes et logistique pour un delai d'execution rapide sur les commandes de pieces automobiles."
+          "description": "Traitement efficace des commandes et logistique pour un délai d'exécution rapide sur les commandes de pièces automobiles."
         }
       },
       "sectionTitles": {
@@ -1073,91 +1073,91 @@
       },
       "cta": {
         "title": "Besoin d'Approvisionnement Auto?",
-        "description": "Contactez notre equipe automobile pour un approvisionnement fiable en pieces de qualite OEM a prix competitifs.",
-        "button": "Obtenir un Devis Pieces"
+        "description": "Contactez notre équipe automobile pour un approvisionnement fiable en pièces de qualité OEM à prix compétitifs.",
+        "button": "Obtenir un Devis Pièces"
       }
     }
   },
   "ReferencesPage": {
     "seo": {
-      "title": "References et Bilan",
-      "description": "Plus de 1 000 transactions reussies, 50+ pays et 20+ ans d'experience. Les resultats prouves de Toko Trading dans le commerce international."
+      "title": "Références et Bilan",
+      "description": "Plus de 1 000 transactions réussies, 50+ pays et 20+ ans d'expérience. Les résultats prouvés de Toko Trading dans le commerce international."
     },
     "hero": {
-      "title": "Nos References",
-      "subtitle": "Des resultats prouves dans le commerce international. Avec plus de 20 ans d'experience, nous faisons la difference en tant que partenaire de confiance.",
+      "title": "Nos Références",
+      "subtitle": "Des résultats prouvés dans le commerce international. Avec plus de 20 ans d'expérience, nous faisons la différence en tant que partenaire de confiance.",
       "badge": "Partenaire de Confiance"
     },
     "breadcrumb": {
       "home": "Accueil",
-      "references": "References"
+      "references": "Références"
     },
     "stats": {
       "title": "Toko Trading en Chiffres",
-      "subtitle": "Nous mesurons notre succes par les resultats",
-      "transactions": "Transactions Realisees",
+      "subtitle": "Nous mesurons notre succès par les résultats",
+      "transactions": "Transactions Réalisées",
       "countries": "Pays Atteints",
-      "experience": "Ans d'Experience",
-      "sectors": "Secteurs d'Activite"
+      "experience": "Ans d'Expérience",
+      "sectors": "Secteurs d'Activité"
     },
     "industries": {
       "badge": "Nos Domaines",
       "title": "Secteurs Desservis",
       "food": {
         "title": "Agroalimentaire",
-        "description": "Cereales, produits laitiers, conserves et epices"
+        "description": "Céréales, produits laitiers, conserves et épices"
       },
       "textile": {
         "title": "Textile",
-        "description": "Tissus, pret-a-porter et textiles de maison"
+        "description": "Tissus, prêt-à-porter et textiles de maison"
       },
       "machinery": {
         "title": "Machinerie",
-        "description": "Machines industrielles et pieces detachees"
+        "description": "Machines industrielles et pièces détachées"
       },
       "chemicals": {
         "title": "Chimie",
-        "description": "Produits chimiques industriels et petrochimiques"
+        "description": "Produits chimiques industriels et pétrochimiques"
       },
       "construction": {
         "title": "Construction",
-        "description": "Materiaux de construction, acier et ciment"
+        "description": "Matériaux de construction, acier et ciment"
       },
       "rawMaterials": {
-        "title": "Matieres Premieres",
-        "description": "Metaux, mineraux et polymeres"
+        "title": "Matières Premières",
+        "description": "Métaux, minéraux et polymères"
       },
       "electronics": {
-        "title": "Electronique",
-        "description": "Composants electroniques et produits grand public"
+        "title": "Électronique",
+        "description": "Composants électroniques et produits grand public"
       },
       "automotive": {
         "title": "Automobile",
-        "description": "Pieces detachees et accessoires automobiles"
+        "description": "Pièces détachées et accessoires automobiles"
       }
     },
     "testimonials": {
-      "badge": "Temoignages Clients",
+      "badge": "Témoignages Clients",
       "title": "Ce Que Disent Nos Partenaires",
       "t1": {
-        "quote": "Travailler avec Toko Trading a completement transforme nos processus d'approvisionnement depuis la Turquie. Leur expertise en procedures douanieres et leur ponctualite sont inegalees.",
+        "quote": "Travailler avec Toko Trading a complètement transformé nos processus d'approvisionnement depuis la Turquie. Leur expertise en procédures douanières et leur ponctualité sont inégalées.",
         "company": "Grand Fabricant Textile, Allemagne",
         "role": "Responsable des Achats"
       },
       "t2": {
-        "quote": "Les connaissances de Toko sur les marches de la CEI dans nos operations de transit sont inestimables. Ils gerent parfaitement les processus logistiques complexes.",
-        "company": "Societe de Distribution Alimentaire, EAU",
-        "role": "Directeur des Operations"
+        "quote": "Les connaissances de Toko sur les marchés de la CEI dans nos opérations de transit sont inestimables. Ils gèrent parfaitement les processus logistiques complexes.",
+        "company": "Société de Distribution Alimentaire, EAU",
+        "role": "Directeur des Opérations"
       },
       "t3": {
-        "quote": "Nous travaillons avec Toko depuis plus de 5 ans. Grace a leur transparence et fiabilite, nous avons pu nous developper en toute confiance sur de nouveaux marches.",
+        "quote": "Nous travaillons avec Toko depuis plus de 5 ans. Grâce à leur transparence et fiabilité, nous avons pu nous développer en toute confiance sur de nouveaux marchés.",
         "company": "Exportateur de Machines, Turquie",
-        "role": "Direction du Commerce Exterieur"
+        "role": "Direction du Commerce Extérieur"
       }
     },
     "global": {
       "title": "Notre Empreinte Mondiale",
-      "subtitle": "Un reseau commercial solide de la Turquie vers le monde",
+      "subtitle": "Un réseau commercial solide de la Turquie vers le monde",
       "countriesLabel": "pays",
       "regions": {
         "europe": "Europe",
@@ -1166,7 +1166,7 @@
         "africa": "Afrique",
         "russiaCis": "Russie & CEI"
       },
-      "corridorsTitle": "Corridors Commerciaux Cles",
+      "corridorsTitle": "Corridors Commerciaux Clés",
       "corridors": {
         "turkeyGermany": "Turquie - Allemagne",
         "turkeyRussia": "Turquie - Russie",
@@ -1175,21 +1175,21 @@
       }
     },
     "cta": {
-      "title": "Pret a Rejoindre Notre Reseau de Partenaires?",
-      "description": "Contactez-nous des aujourd'hui pour vos besoins en commerce international. Notre equipe experimentee est prete a creer des solutions sur mesure pour vous.",
+      "title": "Prêt à Rejoindre Notre Réseau de Partenaires?",
+      "description": "Contactez-nous dès aujourd'hui pour vos besoins en commerce international. Notre équipe expérimentée est prête à créer des solutions sur mesure pour vous.",
       "button": "Contactez-nous",
-      "note": "La premiere consultation est entierement gratuite"
+      "note": "La première consultation est entièrement gratuite"
     }
   },
   "RussiaTransitPage": {
     "seo": {
       "title": "Commerce de Transit Russie et CEI",
-      "description": "Solutions de commerce de transit securisees vers la Russie et les pays de la CEI via la Turquie. Douane, logistique et conformite."
+      "description": "Solutions de commerce de transit sécurisées vers la Russie et les pays de la CEI via la Turquie. Douane, logistique et conformité."
     },
     "hero": {
       "badge": "Corridor Commercial Turquie - Russie",
       "title": "Commerce de Transit vers la Russie et la CEI via la Turquie",
-      "subtitle": "En exploitant la position strategique de la Turquie, nous offrons des solutions de commerce de transit sures, rapides et conformes vers la Russie et les pays de la CEI.",
+      "subtitle": "En exploitant la position stratégique de la Turquie, nous offrons des solutions de commerce de transit sûres, rapides et conformes vers la Russie et les pays de la CEI.",
       "ctaQuote": "Demander un Devis",
       "ctaCall": "Appelez-nous"
     },
@@ -1200,42 +1200,42 @@
     "whatIs": {
       "badge": "Qu'est-ce que le Commerce de Transit?",
       "title": "La Turquie: Pont Commercial entre l'Europe et la Russie",
-      "p1": "Le commerce de transit consiste a expedier des marchandises d'un pays a un autre via un pays tiers. La Turquie, grace a sa situation geographique, son infrastructure portuaire avancee et son expertise douaniere, sert de plaque tournante ideale entre l'Europe, le Moyen-Orient et la Russie.",
-      "p2": "Chez Toko Trading, nous avons plus de 20 ans d'experience dans les operations de commerce de transit vers la Russie et les pays de la CEI via la Turquie. Nous gerons professionnellement tous les processus, des procedures douanieres a la gestion logistique, de la conformite reglementaire a la documentation.",
-      "p3": "Ces dernieres annees, l'evolution des dynamiques commerciales a rendu le role de la Turquie dans le commerce de transit encore plus important. Notre entreprise fournit a ses clients les solutions les plus actuelles et conformes.",
-      "floatingBadge": "Entierement Conforme"
+      "p1": "Le commerce de transit consiste à expédier des marchandises d'un pays à un autre via un pays tiers. La Turquie, grâce à sa situation géographique, son infrastructure portuaire avancée et son expertise douanière, sert de plaque tournante idéale entre l'Europe, le Moyen-Orient et la Russie.",
+      "p2": "Chez Toko Trading, nous avons plus de 20 ans d'expérience dans les opérations de commerce de transit vers la Russie et les pays de la CEI via la Turquie. Nous gérons professionnellement tous les processus, des procédures douanières à la gestion logistique, de la conformité réglementaire à la documentation.",
+      "p3": "Ces dernières années, l'évolution des dynamiques commerciales a rendu le rôle de la Turquie dans le commerce de transit encore plus important. Notre entreprise fournit à ses clients les solutions les plus actuelles et conformes.",
+      "floatingBadge": "Entièrement Conforme"
     },
     "advantages": {
       "badge": "Nos Avantages",
       "title": "Pourquoi Transiter par la Turquie?",
       "location": {
-        "title": "Position Strategique",
-        "description": "La position geographique unique de la Turquie reliant l'Europe et l'Asie en fait un hub ideal pour le commerce de transit."
+        "title": "Position Stratégique",
+        "description": "La position géographique unique de la Turquie reliant l'Europe et l'Asie en fait un hub idéal pour le commerce de transit."
       },
       "customs": {
-        "title": "Expertise Douaniere",
-        "description": "Connaissance approfondie et experience des reglementations douanieres turques et des procedures de reexportation."
+        "title": "Expertise Douanière",
+        "description": "Connaissance approfondie et expérience des réglementations douanières turques et des procédures de réexportation."
       },
       "logistics": {
-        "title": "Reseau Logistique",
-        "description": "Infrastructure avancee d'entreposage, de fret et portuaire permettant des services logistiques ininterrompus."
+        "title": "Réseau Logistique",
+        "description": "Infrastructure avancée d'entreposage, de fret et portuaire permettant des services logistiques ininterrompus."
       },
       "market": {
-        "title": "Connaissance du Marche CEI",
-        "description": "Expertise approfondie des reglementations commerciales et dynamiques des marches de la Russie et des pays de la CEI."
+        "title": "Connaissance du Marché CEI",
+        "description": "Expertise approfondie des réglementations commerciales et dynamiques des marchés de la Russie et des pays de la CEI."
       },
       "cost": {
-        "title": "Efficacite des Couts",
-        "description": "Routage competitif et optimisation des couts par rapport aux importations directes, maximisant vos marges."
+        "title": "Efficacité des Coûts",
+        "description": "Routage compétitif et optimisation des coûts par rapport aux importations directes, maximisant vos marges."
       },
       "compliance": {
-        "title": "Support de Conformite",
-        "description": "Conformite aux sanctions, documentation et services de conseil reglementaire pour des operations entierement conformes."
+        "title": "Support de Conformité",
+        "description": "Conformité aux sanctions, documentation et services de conseil réglementaire pour des opérations entièrement conformes."
       }
     },
     "routes": {
       "badge": "Routes Commerciales",
-      "title": "Corridors Commerciaux Cles",
+      "title": "Corridors Commerciaux Clés",
       "from": "Turquie",
       "russia": {
         "destination": "Russie",
@@ -1243,74 +1243,74 @@
       },
       "kazakhstan": {
         "destination": "Kazakhstan",
-        "goods": "Materiaux de construction, alimentation, electronique"
+        "goods": "Matériaux de construction, alimentation, électronique"
       },
       "azerbaijan": {
-        "destination": "Azerbaidjan",
-        "goods": "Alimentation, textiles, materiaux de construction"
+        "destination": "Azerbaïdjan",
+        "goods": "Alimentation, textiles, matériaux de construction"
       },
       "georgia": {
-        "destination": "Georgie",
+        "destination": "Géorgie",
         "goods": "Alimentation, produits chimiques, biens de consommation"
       },
       "uzbekistan": {
-        "destination": "Ouzbekistan",
-        "goods": "Machines, textiles, dispositifs medicaux"
+        "destination": "Ouzbékistan",
+        "goods": "Machines, textiles, dispositifs médicaux"
       }
     },
     "process": {
-      "title": "Comment Ca Marche",
-      "subtitle": "Notre processus de commerce de transit se deroule en 5 etapes simples",
+      "title": "Comment Ça Marche",
+      "subtitle": "Notre processus de commerce de transit se déroule en 5 étapes simples",
       "inquiry": {
         "title": "Demande",
-        "description": "Nous analysons vos besoins et determinons la route de transit la plus adaptee."
+        "description": "Nous analysons vos besoins et déterminons la route de transit la plus adaptée."
       },
       "planning": {
-        "title": "Planification d'Itineraire",
-        "description": "Nous planifions votre itineraire logistique pour un cout et un delai optimaux."
+        "title": "Planification d'Itinéraire",
+        "description": "Nous planifions votre itinéraire logistique pour un coût et un délai optimaux."
       },
       "documentation": {
         "title": "Documentation",
-        "description": "Nous preparons tous les documents douaniers et commerciaux en votre nom."
+        "description": "Nous préparons tous les documents douaniers et commerciaux en votre nom."
       },
       "shipment": {
-        "title": "Expedition",
-        "description": "Nous transportons vos marchandises en toute securite du point de transit a la destination."
+        "title": "Expédition",
+        "description": "Nous transportons vos marchandises en toute sécurité du point de transit à la destination."
       },
       "delivery": {
         "title": "Confirmation de Livraison",
-        "description": "Nous fournissons un rapport complet une fois la livraison effectuee."
+        "description": "Nous fournissons un rapport complet une fois la livraison effectuée."
       }
     },
     "faq": {
-      "badge": "Questions Frequentes",
+      "badge": "Questions Fréquentes",
       "title": "Questions Courantes sur le Commerce de Transit",
       "q1": {
         "question": "Qu'est-ce que le commerce de transit?",
-        "answer": "Le commerce de transit est une forme de commerce international ou les marchandises sont expediees du pays producteur au pays consommateur via un pays tiers (dans ce cas, la Turquie). Les marchandises transitent par la zone douaniere turque ou sont reexportees vers le pays de destination."
+        "answer": "Le commerce de transit est une forme de commerce international où les marchandises sont expédiées du pays producteur au pays consommateur via un pays tiers (dans ce cas, la Turquie). Les marchandises transitent par la zone douanière turque ou sont réexportées vers le pays de destination."
       },
       "q2": {
         "question": "Quels produits peuvent transiter par la Turquie?",
-        "answer": "Produits alimentaires, textiles, machines, produits chimiques, materiaux de construction, electronique et bien d'autres categories de produits peuvent transiter par la Turquie. Cependant, des exigences douanieres et reglementaires differentes peuvent s'appliquer a chaque groupe de produits."
+        "answer": "Produits alimentaires, textiles, machines, produits chimiques, matériaux de construction, électronique et bien d'autres catégories de produits peuvent transiter par la Turquie. Cependant, des exigences douanières et réglementaires différentes peuvent s'appliquer à chaque groupe de produits."
       },
       "q3": {
         "question": "Combien de temps dure le commerce de transit?",
-        "answer": "Le processus varie en fonction du type de produit, de l'itineraire et des procedures douanieres. Une transaction de transit typique est realisee en 2 a 6 semaines. Les expeditions maritimes sont plus longues tandis que les routes terrestres offrent des options de livraison plus rapides."
+        "answer": "Le processus varie en fonction du type de produit, de l'itinéraire et des procédures douanières. Une transaction de transit typique est réalisée en 2 à 6 semaines. Les expéditions maritimes sont plus longues tandis que les routes terrestres offrent des options de livraison plus rapides."
       },
       "q4": {
         "question": "Quelle documentation est requise?",
-        "answer": "Factures commerciales, certificats d'origine, connaissements, listes de colisage et certifications speciales de produits sont necessaires. Les declarations douanieres et documents de transit sont prepares par Toko Trading."
+        "answer": "Factures commerciales, certificats d'origine, connaissements, listes de colisage et certifications spéciales de produits sont nécessaires. Les déclarations douanières et documents de transit sont préparés par Toko Trading."
       },
       "q5": {
-        "question": "Comment la conformite est-elle assuree?",
-        "answer": "Toko Trading opere en pleine conformite avec les sanctions internationales et les reglementations commerciales. Nous travaillons avec des conseillers juridiques experts pour suivre la legislation la plus recente et gerer toutes les transactions de maniere transparente et documentee."
+        "question": "Comment la conformité est-elle assurée?",
+        "answer": "Toko Trading opère en pleine conformité avec les sanctions internationales et les réglementations commerciales. Nous travaillons avec des conseillers juridiques experts pour suivre la législation la plus récente et gérer toutes les transactions de manière transparente et documentée."
       }
     },
     "cta": {
       "title": "Contactez Directement Notre Bureau Russie",
-      "description": "Contactez notre equipe d'experts pour vos besoins en commerce de transit. Vous pouvez egalement nous joindre via WhatsApp.",
+      "description": "Contactez notre équipe d'experts pour vos besoins en commerce de transit. Vous pouvez également nous joindre via WhatsApp.",
       "button": "Contactez-nous",
-      "note": "Support rapide via WhatsApp: +90 (212) 000 00 00"
+      "note": "Support rapide via WhatsApp: +90 (212) 450 60 20"
     },
     "images": {
       "trade": "Route commerciale Turquie-Russie avec logistique de fret"
@@ -1319,7 +1319,7 @@
   "BlogPage": {
     "seo": {
       "title": "Blog | Toko Trading",
-      "description": "Articles sur le commerce international, l'import/export, la reglementation douaniere et l'approvisionnement depuis la Turquie"
+      "description": "Articles sur le commerce international, l'import/export, la réglementation douanière et l'approvisionnement depuis la Turquie"
     },
     "title": "Blog",
     "subtitle": "Informations et guides sur le commerce international, l'import/export et l'approvisionnement",
@@ -1328,22 +1328,22 @@
       "import": "Importation",
       "export": "Exportation",
       "customs": "Douanes",
-      "regulations": "Reglementations",
+      "regulations": "Réglementations",
       "logistics": "Logistique",
       "sourcing": "Approvisionnement",
-      "general": "General",
+      "general": "Général",
       "e-commerce": "E-Commerce",
       "textile": "Textile",
       "food": "Alimentaire"
     },
     "readMore": "Lire la suite",
     "readingTime": "{minutes} min de lecture",
-    "tableOfContents": "Table des matieres",
-    "publishedOn": "Publie le",
-    "noPosts": "Aucun article publie pour le moment. Revenez bientot !",
-    "noPostsInCategory": "Aucun article dans cette categorie pour le moment.",
+    "tableOfContents": "Table des matières",
+    "publishedOn": "Publié le",
+    "noPosts": "Aucun article publié pour le moment. Revenez bientôt !",
+    "noPostsInCategory": "Aucun article dans cette catégorie pour le moment.",
     "pagination": {
-      "previous": "Precedent",
+      "previous": "Précédent",
       "next": "Suivant",
       "page": "Page {current} sur {total}"
     },
@@ -1354,12 +1354,12 @@
     }
   },
   "Forms": {
-    "success": "Votre message a ete envoye avec succes. Nous vous repondrons bientot.",
+    "success": "Votre message a été envoyé avec succès. Nous vous répondrons bientôt.",
     "errors": {
-      "rateLimited": "Trop de requetes. Veuillez reessayer dans une minute.",
-      "recaptchaFailed": "La verification de securite a echoue. Veuillez reessayer.",
-      "validationFailed": "Veuillez verifier les erreurs dans le formulaire.",
-      "sendFailed": "Echec de l envoi de votre message. Veuillez reessayer plus tard."
+      "rateLimited": "Trop de requêtes. Veuillez réessayer dans une minute.",
+      "recaptchaFailed": "La vérification de sécurité a échoué. Veuillez réessayer.",
+      "validationFailed": "Veuillez vérifier les erreurs dans le formulaire.",
+      "sendFailed": "Échec de l'envoi de votre message. Veuillez réessayer plus tard."
     },
     "contact": {
       "title": "Envoyez-nous un message",
@@ -1371,49 +1371,49 @@
       "namePlaceholder": "Jean Dupont",
       "emailPlaceholder": "jean@exemple.com",
       "subjectPlaceholder": "Comment pouvons-nous vous aider?",
-      "messagePlaceholder": "Decrivez vos besoins..."
+      "messagePlaceholder": "Décrivez vos besoins..."
     },
     "quote": {
       "title": "Demander un devis",
       "name": "Nom complet",
       "email": "Adresse e-mail",
-      "company": "Nom de l entreprise",
-      "product": "Produit / Materiau",
-      "quantity": "Quantite",
+      "company": "Nom de l'entreprise",
+      "product": "Produit / Matériau",
+      "quantity": "Quantité",
       "destinationCountry": "Pays de destination",
-      "details": "Details supplementaires",
+      "details": "Détails supplémentaires",
       "submit": "Demander un devis",
       "namePlaceholder": "Jean Dupont",
       "emailPlaceholder": "jean@entreprise.com",
       "companyPlaceholder": "Nom de votre entreprise",
       "productPlaceholder": "Ex. Tubes en acier, Textiles, Produits chimiques",
-      "quantityPlaceholder": "Ex. 500 tonnes, 10 000 unites",
+      "quantityPlaceholder": "Ex. 500 tonnes, 10 000 unités",
       "destinationCountryPlaceholder": "Ex. Allemagne, USA, EAU",
-      "detailsPlaceholder": "Specifications, delais de livraison, exigences d emballage..."
+      "detailsPlaceholder": "Spécifications, délais de livraison, exigences d'emballage..."
     },
     "sourcing": {
-      "title": "Demande d approvisionnement",
+      "title": "Demande d'approvisionnement",
       "name": "Nom complet",
       "email": "Adresse e-mail",
-      "company": "Nom de l entreprise",
-      "product": "Produit / Materiau",
-      "specifications": "Specifications",
-      "quantity": "Quantite",
+      "company": "Nom de l'entreprise",
+      "product": "Produit / Matériau",
+      "specifications": "Spécifications",
+      "quantity": "Quantité",
       "targetCountry": "Pays cible",
       "submit": "Envoyer la demande",
       "namePlaceholder": "Jean Dupont",
       "emailPlaceholder": "jean@entreprise.com",
       "companyPlaceholder": "Nom de votre entreprise",
-      "productPlaceholder": "Ex. Coton biologique, Electronique, Marbre",
-      "specificationsPlaceholder": "Normes de qualite, certifications, grade, dimensions...",
-      "quantityPlaceholder": "Ex. 200 tonnes, 5 000 pieces",
+      "productPlaceholder": "Ex. Coton biologique, Électronique, Marbre",
+      "specificationsPlaceholder": "Normes de qualité, certifications, grade, dimensions...",
+      "quantityPlaceholder": "Ex. 200 tonnes, 5 000 pièces",
       "targetCountryPlaceholder": "Ex. Turquie, Inde, Chine"
     },
     "callback": {
       "title": "Demander un rappel",
       "name": "Nom complet",
-      "phone": "Numero de telephone",
-      "preferredTime": "Heure preferee",
+      "phone": "Numéro de téléphone",
+      "preferredTime": "Heure préférée",
       "subject": "Sujet",
       "submit": "Demander un rappel",
       "namePlaceholder": "Jean Dupont",
@@ -1427,40 +1427,40 @@
       "tooShort": "Ce champ est trop court.",
       "tooLong": "Ce champ est trop long.",
       "invalidEmail": "Veuillez entrer une adresse e-mail valide.",
-      "invalidPhone": "Veuillez entrer un numero de telephone valide."
+      "invalidPhone": "Veuillez entrer un numéro de téléphone valide."
     }
   },
   "ContactPage": {
     "seo": {
       "title": "Contact - Nous Contacter",
-      "description": "Contactez Toko Trading pour vos besoins en commerce international. Notre equipe basee a Istanbul repond sous 24 heures."
+      "description": "Contactez Toko Trading pour vos besoins en commerce international. Notre équipe basée à Istanbul répond sous 24 heures."
     },
     "title": "Contact",
     "subtitle": "Contactez-nous pour vos besoins en commerce international.",
-    "comingSoon": "Le formulaire de contact sera ajoute prochainement.",
-    "responseTime": "Nous repondons generalement sous 24 heures.",
+    "comingSoon": "Le formulaire de contact sera ajouté prochainement.",
+    "responseTime": "Nous répondons généralement sous 24 heures.",
     "info": {
-      "address": "Istanbul, Turquie",
-      "phone": "+90 (212) 000 00 00",
+      "address": "Ziya Gökalp Mah. Süleyman Demirel Blv. The Office No: 7/E Bureau: 165, Başakşehir / Istanbul, Turquie",
+      "phone": "+90 (212) 450 60 20",
       "email": "info@toko.com.tr"
     }
   },
   "QuotePage": {
     "seo": {
       "title": "Demander un Devis",
-      "description": "Obtenez un devis gratuit pour vos besoins d'import, export ou approvisionnement. Nous fournissons des offres competitives sous 24 heures."
+      "description": "Obtenez un devis gratuit pour vos besoins d'import, export ou approvisionnement. Nous fournissons des offres compétitives sous 24 heures."
     },
     "badge": "Devis gratuit",
     "title": "Obtenir un devis",
-    "subtitle": "Decrivez vos besoins en produits et nous vous fournirons un devis competitif sous 24 heures."
+    "subtitle": "Décrivez vos besoins en produits et nous vous fournirons un devis compétitif sous 24 heures."
   },
   "SourcingPage": {
     "seo": {
       "title": "Demande d'Approvisionnement",
-      "description": "Services d'approvisionnement en produits depuis la Turquie et le monde entier. Nous trouvons les fournisseurs, gerons le controle qualite et la logistique."
+      "description": "Services d'approvisionnement en produits depuis la Turquie et le monde entier. Nous trouvons les fournisseurs, gérons le contrôle qualité et la logistique."
     },
     "badge": "Approvisionnement",
-    "title": "Demande d approvisionnement",
+    "title": "Demande d'approvisionnement",
     "subtitle": "Laissez-nous trouver les bons fournisseurs et produits pour votre entreprise."
   },
   "CallbackPage": {
@@ -1470,38 +1470,38 @@
     },
     "badge": "Rappel",
     "title": "Demander un rappel",
-    "subtitle": "Laissez vos coordonnees et nos experts en commerce vous rappelleront.",
+    "subtitle": "Laissez vos coordonnées et nos experts en commerce vous rappelleront.",
     "benefits": {
-      "fastResponse": "Reponse rapide",
+      "fastResponse": "Réponse rapide",
       "fastResponseDesc": "Nous rappelons sous 2 heures pendant les heures ouvrables.",
       "noObligation": "Sans engagement",
       "noObligationDesc": "Consultation gratuite sans aucun engagement.",
-      "expertConsultation": "Consultation d experts",
-      "expertConsultationDesc": "Parlez directement avec des professionnels du commerce experimentes."
+      "expertConsultation": "Consultation d'experts",
+      "expertConsultationDesc": "Parlez directement avec des professionnels du commerce expérimentés."
     }
   },
   "Validation": {
     "name": {
-      "too_small": "Le nom doit comporter au moins 2 caracteres",
-      "too_big": "Le nom ne doit pas depasser 100 caracteres"
+      "too_small": "Le nom doit comporter au moins 2 caractères",
+      "too_big": "Le nom ne doit pas dépasser 100 caractères"
     },
     "email": {
       "invalid_string": "Veuillez saisir une adresse e-mail valide"
     },
     "subject": {
-      "too_small": "Le sujet doit comporter au moins 3 caracteres",
-      "too_big": "Le sujet ne doit pas depasser 200 caracteres"
+      "too_small": "Le sujet doit comporter au moins 3 caractères",
+      "too_big": "Le sujet ne doit pas dépasser 200 caractères"
     },
     "message": {
-      "too_small": "Le message doit comporter au moins 10 caracteres",
-      "too_big": "Le message ne doit pas depasser 5000 caracteres"
+      "too_small": "Le message doit comporter au moins 10 caractères",
+      "too_big": "Le message ne doit pas dépasser 5000 caractères"
     },
     "product": {
-      "too_small": "Le nom du produit doit comporter au moins 3 caracteres",
-      "too_big": "Le nom du produit ne doit pas depasser 300 caracteres"
+      "too_small": "Le nom du produit doit comporter au moins 3 caractères",
+      "too_big": "Le nom du produit ne doit pas dépasser 300 caractères"
     },
     "quantity": {
-      "too_small": "La quantite est obligatoire"
+      "too_small": "La quantité est obligatoire"
     },
     "destinationCountry": {
       "too_small": "Le pays de destination est obligatoire"
@@ -1510,14 +1510,14 @@
       "too_small": "Le pays cible est obligatoire"
     },
     "specifications": {
-      "too_small": "Les specifications doivent comporter au moins 10 caracteres",
-      "too_big": "Les specifications ne doivent pas depasser 5000 caracteres"
+      "too_small": "Les spécifications doivent comporter au moins 10 caractères",
+      "too_big": "Les spécifications ne doivent pas dépasser 5000 caractères"
     },
     "phone": {
-      "invalid_string": "Veuillez saisir un numero de telephone valide"
+      "invalid_string": "Veuillez saisir un numéro de téléphone valide"
     },
     "preferredTime": {
-      "too_small": "Veuillez indiquer un horaire prefere"
+      "too_small": "Veuillez indiquer un horaire préféré"
     }
   }
 }

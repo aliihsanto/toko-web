@@ -34,8 +34,8 @@
     },
     "contact": {
       "title": "Contact",
-      "address": "Istanbul, Turkey",
-      "phone": "+90 (212) 000 00 00",
+      "address": "Ziya Gökalp Mah. Süleyman Demirel Blv. The Office No: 7/E Unit: 165, Başakşehir / Istanbul, Turkey",
+      "phone": "+90 (212) 450 60 20",
       "email": "info@toko.com.tr"
     },
     "copyright": "2026 Toko Trading. All rights reserved.",
@@ -53,10 +53,10 @@
     }
   },
   "LanguageSwitcher": {
-    "tr": "Turkce",
+    "tr": "Türkçe",
     "en": "English",
-    "fr": "Francais",
-    "ru": "Russkiy",
+    "fr": "Français",
+    "ru": "Русский",
     "label": "Select Language"
   },
   "Common": {
@@ -524,7 +524,7 @@
         },
         "customs": {
           "title": "Multi-Customs Management",
-          "description": "We coordinate all declarations and procedures for goods passing through multiple countries' customs in a coordinated manner."
+          "description": "We manage all declarations and procedures for goods passing through multiple countries' customs in a seamless, coordinated manner."
         },
         "warehousing": {
           "title": "Warehousing & Distribution",
@@ -748,7 +748,7 @@
       "subtitle": "Industrial machinery and equipment sourcing with technical expertise and after-sales support",
       "overview": {
         "p1": "Toko Trading provides comprehensive machinery sourcing for businesses seeking reliable industrial equipment. We match your technical requirements with the right manufacturers worldwide.",
-        "p2": "Our machinery team includes engineers who understand specifications, certifications, and installation requirements. We handle technical evaluation through shipping logistics for heavy equipment."
+        "p2": "Our machinery team includes engineers who understand specifications, certifications, and installation requirements. We handle everything from technical evaluation through to shipping logistics for heavy equipment."
       },
       "products": {
         "industrialMachinery": {
@@ -1310,7 +1310,7 @@
       "title": "Contact Our Russia Desk Directly",
       "description": "Reach out to our expert team for your transit trade needs. You can also reach us via WhatsApp for quick support.",
       "button": "Get in Touch",
-      "note": "Quick support via WhatsApp: +90 (212) 000 00 00"
+      "note": "Quick support via WhatsApp: +90 (212) 450 60 20"
     },
     "images": {
       "trade": "Turkey-Russia trade route with cargo logistics"
@@ -1440,8 +1440,8 @@
     "comingSoon": "Contact form will be added soon.",
     "responseTime": "We typically respond within 24 hours.",
     "info": {
-      "address": "Istanbul, Turkey",
-      "phone": "+90 (212) 000 00 00",
+      "address": "Ziya Gökalp Mah. Süleyman Demirel Blv. The Office No: 7/E Unit: 165, Başakşehir / Istanbul, Turkey",
+      "phone": "+90 (212) 450 60 20",
       "email": "info@toko.com.tr"
     }
   },

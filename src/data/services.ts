@@ -10,7 +10,7 @@ export const services: ServiceItem[] = [
   {
     slug: 'import',
     iconName: 'Ship',
-    image: '/images/services/import.jpg',
+    image: '/images/services/import.webp',
     featureKeys: [
       'customs',
       'logistics',
@@ -23,7 +23,7 @@ export const services: ServiceItem[] = [
   {
     slug: 'export',
     iconName: 'TrendingUp',
-    image: '/images/services/export.jpg',
+    image: '/images/services/export.webp',
     featureKeys: [
       'marketResearch',
       'buyerMatching',
@@ -36,7 +36,7 @@ export const services: ServiceItem[] = [
   {
     slug: 'sourcing',
     iconName: 'PackageCheck',
-    image: '/images/services/sourcing.jpg',
+    image: '/images/services/sourcing.webp',
     featureKeys: [
       'supplierAudit',
       'qualityControl',
@@ -49,7 +49,7 @@ export const services: ServiceItem[] = [
   {
     slug: 'transit-trade',
     iconName: 'BarChart3',
-    image: '/images/services/transit-trade.jpg',
+    image: '/images/services/transit-trade.webp',
     featureKeys: [
       'transitRoutes',
       'cisExpertise',

@@ -1,161 +1,161 @@
 {
   "Metadata": {
-    "title": "Toko Trading - Uluslararasi Ticaret ve Tedarik",
-    "description": "Toko Trading, Turkiye merkezli uluslararasi ticaret, ithalat, ihracat ve tedarik hizmetleri sunmaktadir."
+    "title": "Toko Trading - Uluslararası Ticaret ve Tedarik",
+    "description": "Toko Trading, Türkiye merkezli uluslararası ticaret, ithalat, ihracat ve tedarik hizmetleri sunmaktadır."
   },
   "Header": {
     "nav": {
       "home": "Ana Sayfa",
-      "about": "Hakkimizda",
+      "about": "Hakkımızda",
       "services": "Hizmetler",
-      "sectors": "Sektorler",
+      "sectors": "Sektörler",
       "references": "Referanslar",
       "blog": "Blog",
-      "contact": "Iletisim"
+      "contact": "İletişim"
     },
-    "cta": "Iletisime Gec"
+    "cta": "İletişime Geç"
   },
   "Footer": {
     "about": {
-      "title": "Hakkimizda",
-      "description": "Toko Trading, uluslararasi ticaret ve tedarik alaninda guvenilir cozum ortaginiz."
+      "title": "Hakkımızda",
+      "description": "Toko Trading, uluslararası ticaret ve tedarik alanında güvenilir çözüm ortağınız."
     },
     "services": {
       "title": "Hizmetler",
-      "import": "Ithalat",
-      "export": "Ihracat",
+      "import": "İthalat",
+      "export": "İhracat",
       "transitTrade": "Transit Ticaret",
       "sourcing": "Tedarik"
     },
     "blog": {
       "title": "Blog",
-      "latest": "Son Yazilar",
+      "latest": "Son Yazılar",
       "categories": "Kategoriler"
     },
     "contact": {
-      "title": "Iletisim",
-      "address": "Istanbul, Turkiye",
-      "phone": "+90 (212) 000 00 00",
+      "title": "İletişim",
+      "address": "Ziya Gökalp Mah. Süleyman Demirel Blv. The Office No: 7/E İç Kapı No: 165, Başakşehir / İstanbul",
+      "phone": "+90 (212) 450 60 20",
       "email": "info@toko.com.tr"
     },
-    "copyright": "2026 Toko Trading. Tum haklari saklidir.",
+    "copyright": "2026 Toko Trading. Tüm hakları saklıdır.",
     "social": {
       "linkedin": "LinkedIn",
       "twitter": "Twitter",
       "instagram": "Instagram"
     },
     "forms": {
-      "title": "Bize Ulasin",
-      "contact": "Iletisim Formu",
-      "quote": "Teklif Isteyin",
+      "title": "Bize Ulaşın",
+      "contact": "İletişim Formu",
+      "quote": "Teklif İsteyin",
       "sourcing": "Tedarik Talebi",
       "callback": "Geri Arama Talebi"
     }
   },
   "LanguageSwitcher": {
-    "tr": "Turkce",
+    "tr": "Türkçe",
     "en": "English",
-    "fr": "Francais",
-    "ru": "Russkiy",
-    "label": "Dil Sec"
+    "fr": "Français",
+    "ru": "Русский",
+    "label": "Dil Seç"
   },
   "Common": {
     "learnMore": "Daha Fazla",
     "getQuote": "Teklif Al",
-    "backToHome": "Ana Sayfaya Don",
-    "loading": "Yukleniyor...",
-    "whatsappChat": "WhatsApp ile iletisime gecin",
-    "optional": "(istege bagli)"
+    "backToHome": "Ana Sayfaya Dön",
+    "loading": "Yükleniyor...",
+    "whatsappChat": "WhatsApp ile iletişime geçin",
+    "optional": "(isteğe bağlı)"
   },
   "NotFound": {
-    "title": "Sayfa Bulunamadi",
-    "description": "Aradiginiz sayfa mevcut degil veya tasinmis olabilir.",
-    "backHome": "Ana Sayfaya Don"
+    "title": "Sayfa Bulunamadı",
+    "description": "Aradığınız sayfa mevcut değil veya taşınmış olabilir.",
+    "backHome": "Ana Sayfaya Dön"
   },
   "HomePage": {
-    "badge": "Turkiye'nin Guvenilir Ticaret Ortagi",
-    "title": "Uluslararasi Ticarette",
-    "titleHighlight": "Guvenilir Cozum Ortaginiz",
-    "subtitle": "20 yili askin deneyimimizle ithalat, ihracat ve tedarik sureclerinizi yonetiyoruz. 50'den fazla ulkeye ulasan ticaret agimizla isletmenizi buyutun.",
-    "cta": "Ucretsiz Danismanlik",
-    "ctaSecondary": "Hizmetlerimizi Inceleyin",
+    "badge": "Türkiye'nin Güvenilir Ticaret Ortağı",
+    "title": "Uluslararası Ticarette",
+    "titleHighlight": "Güvenilir Çözüm Ortağınız",
+    "subtitle": "20 yılı aşkın deneyimimizle ithalat, ihracat ve tedarik süreçlerinizi yönetiyoruz. 50'den fazla ülkeye ulaşan ticaret ağımızla işletmenizi büyütün.",
+    "cta": "Ücretsiz Danışmanlık",
+    "ctaSecondary": "Hizmetlerimizi İnceleyin",
     "stats": {
-      "years": "Yillik Deneyim",
-      "countries": "Ulke",
-      "clients": "Mutlu Musteri",
+      "years": "Yıllık Deneyim",
+      "countries": "Ülke",
+      "clients": "Mutlu Müşteri",
       "support": "Destek"
     },
     "services": {
       "title": "Hizmetlerimiz",
-      "subtitle": "Uluslararasi ticaretin her asamasinda profesyonel destek",
-      "learnMore": "Detayli Bilgi",
+      "subtitle": "Uluslararası ticaretin her aşamasında profesyonel destek",
+      "learnMore": "Detaylı Bilgi",
       "import": {
-        "title": "Ithalat Hizmetleri",
-        "description": "Dunya genelinden hammadde ve urun tedariki. Gumruk islemleri, lojistik yonetimi ve maliyet optimizasyonu dahil kapsamli ithalat cozumleri."
+        "title": "İthalat Hizmetleri",
+        "description": "Dünya genelinden hammadde ve ürün tedariki. Gümrük işlemleri, lojistik yönetimi ve maliyet optimizasyonu dahil kapsamlı ithalat çözümleri."
       },
       "export": {
-        "title": "Ihracat Hizmetleri",
-        "description": "Turkiye'den dunya pazarlarina urun ihracati. Pazar arastirmasi, alici eslestirme ve ihracat dokumantasyonu destegi."
+        "title": "İhracat Hizmetleri",
+        "description": "Türkiye'den dünya pazarlarına ürün ihracatı. Pazar araştırması, alıcı eşleştirme ve ihracat dokümantasyonu desteği."
       },
       "sourcing": {
-        "title": "Tedarik Cozumleri",
-        "description": "Global tedarik agimizla en uygun fiyat ve kalitede urun temini. Tedarikci denetimi ve kalite kontrol hizmetleri."
+        "title": "Tedarik Çözümleri",
+        "description": "Global tedarik ağımızla en uygun fiyat ve kalitede ürün temini. Tedarikçi denetimi ve kalite kontrol hizmetleri."
       },
       "transit": {
         "title": "Transit Ticaret",
-        "description": "Turkiye uzerinden ucuncu ulkelere transit ticaret operasyonlari. Ozellikle Rusya ve BDT ulkeleri icin uzmanlasmis cozumler."
+        "description": "Türkiye üzerinden üçüncü ülkelere transit ticaret operasyonları. Özellikle Rusya ve BDT ülkeleri için uzmanlaşmış çözümler."
       }
     },
     "whyUs": {
       "title": "Neden Toko Trading?",
-      "subtitle": "Uluslararasi ticarette farki yaratan degerlerimiz",
+      "subtitle": "Uluslararası ticarette farkı yaratan değerlerimiz",
       "experience": {
-        "title": "Derin Sektorel Deneyim",
-        "description": "20 yili askin suredirfarkli sektorlerde edindigimiz bilgi birikimi ile ticaretinize deger katiyoruz."
+        "title": "Derin Sektörel Deneyim",
+        "description": "20 yılı aşkın süredir farklı sektörlerde edindiğimiz bilgi birikimi ile ticaretinize değer katıyoruz."
       },
       "network": {
-        "title": "Global Ticaret Agi",
-        "description": "50'den fazla ulkede kurmus oldugumuz guclu is ortakliklari ve tedarik zincirleri."
+        "title": "Global Ticaret Ağı",
+        "description": "50'den fazla ülkede kurmuş olduğumuz güçlü iş ortaklıkları ve tedarik zincirleri."
       },
       "transparency": {
-        "title": "Seffaf Surecler",
-        "description": "Her asamada bilgilendirilirsiniz. Gumruk, lojistik ve odeme sureclerinde tam seffaflik."
+        "title": "Şeffaf Süreçler",
+        "description": "Her aşamada bilgilendirilirsiniz. Gümrük, lojistik ve ödeme süreçlerinde tam şeffaflık."
       },
       "support": {
-        "title": "7/24 Musteri Destegi",
-        "description": "Uzman ekibimiz her zaman yaninizdadir. Sorulariniz ve ihtiyaclariniz icin kesintisiz destek."
+        "title": "7/24 Müşteri Desteği",
+        "description": "Uzman ekibimiz her zaman yanınızdadır. Sorularınız ve ihtiyaçlarınız için kesintisiz destek."
       }
     },
     "global": {
-      "title": "Kuresel Erisim",
-      "subtitle": "Turkiye'den dunyaya uzanan ticaret koprusu",
-      "description": "Avrupa, Asya, Afrika ve Ortadogu'daki guclu is agimizla, isletmenizi yeni pazarlara tasiyoruz. Ozellikle Rusya, BDT ulkeleri ve Kuzey Afrika pazarlarinda derin uzmanligi miza sahibiz.",
+      "title": "Küresel Erişim",
+      "subtitle": "Türkiye'den dünyaya uzanan ticaret köprüsü",
+      "description": "Avrupa, Asya, Afrika ve Ortadoğu'daki güçlü iş ağımızla, işletmenizi yeni pazarlara taşıyoruz. Özellikle Rusya, BDT ülkeleri ve Kuzey Afrika pazarlarında derin uzmanlığımıza sahibiz.",
       "regions": {
         "europe": "Avrupa",
         "asia": "Asya",
         "africa": "Afrika",
-        "middleEast": "Ortadogu",
+        "middleEast": "Ortadoğu",
         "russia": "Rusya & BDT"
       }
     },
     "ctaSection": {
-      "title": "Ticaretinizi Buyutelim",
-      "description": "Uluslararasi ticaret ihtiyaclariniz icin hemen bizimle iletisime gecin. Uzman ekibimiz size ozel cozumler uretmek icin hazir.",
-      "button": "Ucretsiz Danismanlik Alin",
-      "note": "Ilk gorusme tamamen ucretsizdir"
+      "title": "Ticaretinizi Büyütelim",
+      "description": "Uluslararası ticaret ihtiyaçlarınız için hemen bizimle iletişime geçin. Uzman ekibimiz size özel çözümler üretmek için hazır.",
+      "button": "Ücretsiz Danışmanlık Alın",
+      "note": "İlk görüşme tamamen ücretsizdir"
     },
     "trust": {
-      "clients": "Musteri",
-      "countries": "Ulke",
-      "years": "Yillik Deneyim",
-      "certification": "Kalite Sertifikasi"
+      "clients": "Müşteri",
+      "countries": "Ülke",
+      "years": "Yıllık Deneyim",
+      "certification": "Kalite Sertifikası"
     },
     "sectors": {
-      "title": "Hizmet Verdigimiz Sektorler",
-      "subtitle": "Farkli sektorlerde uzmanlasmis ticaret cozumleri sunuyoruz",
-      "viewAll": "Tum Sektorleri Goruntule",
+      "title": "Hizmet Verdiğimiz Sektörler",
+      "subtitle": "Farklı sektörlerde uzmanlaşmış ticaret çözümleri sunuyoruz",
+      "viewAll": "Tüm Sektörleri Görüntüle",
       "items": {
-        "food": "Gida",
+        "food": "Gıda",
         "textile": "Tekstil",
         "machinery": "Makine",
         "chemicals": "Kimya"
@@ -168,63 +168,63 @@
   },
   "AboutPage": {
     "seo": {
-      "title": "Hakkimizda - Toko Trading",
-      "description": "20 yili askin tecrubesiyle Turkiye merkezli uluslararasi ticaret, ithalat, ihracat ve tedarik hizmetleri sunan Toko Trading hakkinda bilgi edinin."
+      "title": "Hakkımızda - Toko Trading",
+      "description": "20 yılı aşkın tecrübesiyle Türkiye merkezli uluslararası ticaret, ithalat, ihracat ve tedarik hizmetleri sunan Toko Trading hakkında bilgi edinin."
     },
     "hero": {
-      "title": "Toko Trading Hakkinda",
-      "subtitle": "Turkiye'nin onde gelen uluslararasi ticaret sirketlerinden biri olarak, 20 yili askin deneyimimizle dunya genelinde guvenilir cozumler sunuyoruz.",
+      "title": "Toko Trading Hakkında",
+      "subtitle": "Türkiye'nin önde gelen uluslararası ticaret şirketlerinden biri olarak, 20 yılı aşkın deneyimimizle dünya genelinde güvenilir çözümler sunuyoruz.",
       "badge": "2003'ten Beri"
     },
     "breadcrumb": {
       "home": "Ana Sayfa",
-      "about": "Hakkimizda"
+      "about": "Hakkımızda"
     },
     "overview": {
       "heading": "Hikayemiz",
-      "p1": "Toko Trading, 2003 yilinda Istanbul'da kurulan ve uluslararasi ticaret alaninda uzmanlasmis bir sirket olarak faaliyetlerine baslamistir. Kurulusumuzdan bu yana, Turkiye ile dunya arasinda guvenilir bir ticaret koprusu olma vizyonuyla calisiyoruz.",
-      "p2": "20 yili askin suredeki deneyimimiz boyunca, gida, tekstil, makine, kimya ve daha bircok sektorde binlerce basarili ticaret operasyonu gerceklestirdik. 50'den fazla ulkedeki guclu is ortakliklarimiz sayesinde musterilerimize en uygun cozumleri sunuyoruz.",
-      "p3": "Ekibimiz, uluslararasi ticaretin her asamasinda profesyonel destek saglayan deneyimli uzmanlardan olusmaktadir. Gumruk islemlerinden lojistik yonetimine, pazar arastirmasindan kalite kontrolune kadar genis bir yelpazede hizmet veriyoruz."
+      "p1": "Toko Trading, 2003 yılında İstanbul'da kurulan ve uluslararası ticaret alanında uzmanlaşmış bir şirket olarak faaliyetlerine başlamıştır. Kuruluşumuzdan bu yana, Türkiye ile dünya arasında güvenilir bir ticaret köprüsü olma vizyonuyla çalışıyoruz.",
+      "p2": "20 yılı aşkın süredeki deneyimimiz boyunca, gıda, tekstil, makine, kimya ve daha birçok sektörde binlerce başarılı ticaret operasyonu gerçekleştirdik. 50'den fazla ülkedeki güçlü iş ortaklıklarımız sayesinde müşterilerimize en uygun çözümleri sunuyoruz.",
+      "p3": "Ekibimiz, uluslararası ticaretin her aşamasında profesyonel destek sağlayan deneyimli uzmanlardan oluşmaktadır. Gümrük işlemlerinden lojistik yönetimine, pazar araştırmasından kalite kontrolüne kadar geniş bir yelpazede hizmet veriyoruz."
     },
     "vision": {
       "title": "Vizyonumuz",
-      "description": "Turkiye'nin kuresel ticaretteki stratejik konumunu en iyi sekilde degerlendirerek, musterilerimizi dunya pazarlarina baglayan lider bir ticaret platformu olmak. Teknoloji ve inovasyonu is sureclerimize entegre ederek sektorun gelecegini sekillendirmeyi hedefliyoruz."
+      "description": "Türkiye'nin küresel ticaretteki stratejik konumunu en iyi şekilde değerlendirerek, müşterilerimizi dünya pazarlarına bağlayan lider bir ticaret platformu olmak. Teknoloji ve inovasyonu iş süreçlerimize entegre ederek sektörün geleceğini şekillendirmeyi hedefliyoruz."
     },
     "mission": {
       "title": "Misyonumuz",
-      "description": "Musterilerimizin uluslararasi ticaret sureclerini seffaf, guvenilir ve verimli bir sekilde yoneterek islerini buyutmelerine yardimci olmak. Her projede en yuksek kalite standartlarini uygulayarak uzun vadeli is ortakliklari kurmak."
+      "description": "Müşterilerimizin uluslararası ticaret süreçlerini şeffaf, güvenilir ve verimli bir şekilde yöneterek işlerini büyütmelerine yardımcı olmak. Her projede en yüksek kalite standartlarını uygulayarak uzun vadeli iş ortaklıkları kurmak."
     },
     "values": {
-      "title": "Degerlerimiz",
-      "subtitle": "Is anlayisimizi sekillendiren temel ilkeler",
+      "title": "Değerlerimiz",
+      "subtitle": "İş anlayışımızı şekillendiren temel ilkeler",
       "reliability": {
-        "title": "Guvenilirlik",
-        "description": "Her sozumuzun arkasinda durur, vaatlerimizi zamaninda ve eksiksiz yerine getiririz. Musterilerimizin bize olan guveni en buyuk sermayemizdir."
+        "title": "Güvenilirlik",
+        "description": "Her sözümüzün arkasında durur, vaatlerimizi zamanında ve eksiksiz yerine getiririz. Müşterilerimizin bize olan güveni en büyük sermayemizdir."
       },
       "transparency": {
-        "title": "Seffaflik",
-        "description": "Tum is sureclerimizde acik ve seffaf iletisim saglariz. Musterilerimiz her asamada bilgilendirilir ve sureche dahil edilir."
+        "title": "Şeffaflık",
+        "description": "Tüm iş süreçlerimizde açık ve şeffaf iletişim sağlarız. Müşterilerimiz her aşamada bilgilendirilir ve sürece dahil edilir."
       },
       "innovation": {
-        "title": "Yenilikcilik",
-        "description": "Sektordeki gelismeleri yakindan takip eder, is sureclerimizi surekli gelistirir ve musterilerimize en modern cozumleri sunariz."
+        "title": "Yenilikçilik",
+        "description": "Sektördeki gelişmeleri yakından takip eder, iş süreçlerimizi sürekli geliştirir ve müşterilerimize en modern çözümleri sunarız."
       },
       "partnership": {
-        "title": "Is Ortakligi",
-        "description": "Musterilerimizle sadece bir hizmet saglayici degil, uzun vadeli stratejik is ortagi olarak calisir, basarilarini kendi basarimiz olarak goruruz."
+        "title": "İş Ortaklığı",
+        "description": "Müşterilerimizle sadece bir hizmet sağlayıcı değil, uzun vadeli stratejik iş ortağı olarak çalışır, başarılarını kendi başarımız olarak görürüz."
       }
     },
     "stats": {
-      "years": "Yillik Deneyim",
-      "countries": "Ulke",
-      "clients": "Musteri",
+      "years": "Yıllık Deneyim",
+      "countries": "Ülke",
+      "clients": "Müşteri",
       "team": "Uzman Ekip"
     },
     "cta": {
-      "title": "Birlikte Calismaya Hazir misiniz?",
-      "description": "Uluslararasi ticaret ihtiyaclariniz icin hemen bizimle iletisime gecin. Isletmenize ozel cozumler uretelim.",
-      "button": "Iletisime Gecin",
-      "note": "Ilk gorusme tamamen ucretsizdir"
+      "title": "Birlikte Çalışmaya Hazır mısınız?",
+      "description": "Uluslararası ticaret ihtiyaçlarınız için hemen bizimle iletişime geçin. İşletmenize özel çözümler üretelim.",
+      "button": "İletişime Geçin",
+      "note": "İlk görüşme tamamen ücretsizdir"
     },
     "images": {
       "team": "Toko Trading profesyonel ekibi toplantıda"
@@ -232,861 +232,861 @@
   },
   "ServicesPage": {
     "seo": {
-      "title": "Hizmetlerimiz - Ithalat, Ihracat, Tedarik",
-      "description": "Toko Trading ithalat, ihracat, tedarik ve transit ticaret hizmetleri. Uluslararasi ticaretin her adiminda profesyonel destek."
+      "title": "Hizmetlerimiz - İthalat, İhracat, Tedarik",
+      "description": "Toko Trading ithalat, ihracat, tedarik ve transit ticaret hizmetleri. Uluslararası ticaretin her adımında profesyonel destek."
     },
     "hero": {
       "title": "Hizmetlerimiz",
-      "subtitle": "Ithalat, ihracat, tedarik ve transit ticaret alanlarinda kapsamli ve profesyonel cozumler sunuyoruz. Her adimda yaninizda olan deneyimli ekibimizle ticaretinizi buyutun.",
-      "badge": "Kapsamli Cozumler"
+      "subtitle": "İthalat, ihracat, tedarik ve transit ticaret alanlarında kapsamlı ve profesyonel çözümler sunuyoruz. Her adımda yanınızda olan deneyimli ekibimizle ticaretinizi büyütün.",
+      "badge": "Kapsamlı Çözümler"
     },
     "breadcrumb": {
       "home": "Ana Sayfa",
       "services": "Hizmetler"
     },
-    "learnMore": "Detayli Bilgi",
+    "learnMore": "Detaylı Bilgi",
     "services": {
       "import": {
-        "title": "Ithalat Hizmetleri",
-        "description": "Dunya genelinden hammadde ve urun tedariki icin kapsamli ithalat cozumleri sunuyoruz. Gumruk islemlerinden lojistik yonetimine, maliyet analizinden kalite kontrolune kadar tum sureci profesyonelce yonetiyoruz.",
+        "title": "İthalat Hizmetleri",
+        "description": "Dünya genelinden hammadde ve ürün tedariki için kapsamlı ithalat çözümleri sunuyoruz. Gümrük işlemlerinden lojistik yönetimine, maliyet analizinden kalite kontrolüne kadar tüm süreci profesyonelce yönetiyoruz.",
         "features": {
-          "customs": "Gumruk islemleri ve beyanname yonetimi",
-          "logistics": "Uluslararasi lojistik ve nakliye planlamasi",
-          "costOptimization": "Maliyet analizi ve optimizasyon danismanligi",
-          "qualityControl": "Urun kalite kontrol ve denetim hizmetleri",
-          "documentation": "Ithalat dokumantasyonu ve evrak yonetimi"
+          "customs": "Gümrük işlemleri ve beyanname yönetimi",
+          "logistics": "Uluslararası lojistik ve nakliye planlaması",
+          "costOptimization": "Maliyet analizi ve optimizasyon danışmanlığı",
+          "qualityControl": "Ürün kalite kontrol ve denetim hizmetleri",
+          "documentation": "İthalat dokümantasyonu ve evrak yönetimi"
         }
       },
       "export": {
-        "title": "Ihracat Hizmetleri",
-        "description": "Turkiye'den dunya pazarlarina urun ve hammadde ihracatinda uzman cozumler. Hedef pazar arastirmasindan alici eslestirmeye, dokumantasyondan lojistik koordinasyona kadar tum ihracat sureclerinizi yonetiyoruz.",
+        "title": "İhracat Hizmetleri",
+        "description": "Türkiye'den dünya pazarlarına ürün ve hammadde ihracatında uzman çözümler. Hedef pazar araştırmasından alıcı eşleştirmeye, dokümantasyondan lojistik koordinasyona kadar tüm ihracat süreçlerinizi yönetiyoruz.",
         "features": {
-          "marketResearch": "Hedef pazar arastirmasi ve analizi",
-          "buyerMatching": "Uluslararasi alici bulma ve eslestirme",
-          "documentation": "Ihracat dokumantasyonu ve akreditif yonetimi",
-          "compliance": "Ihracat mevzuati ve uyumluluk danismanligi",
-          "logistics": "Ihracat lojistigi ve sevkiyat koordinasyonu"
+          "marketResearch": "Hedef pazar araştırması ve analizi",
+          "buyerMatching": "Uluslararası alıcı bulma ve eşleştirme",
+          "documentation": "İhracat dokümantasyonu ve akreditif yönetimi",
+          "compliance": "İhracat mevzuatı ve uyumluluk danışmanlığı",
+          "logistics": "İhracat lojistiği ve sevkiyat koordinasyonu"
         }
       },
       "sourcing": {
-        "title": "Tedarik Cozumleri",
-        "description": "Global tedarik agimiz ile isletmeniz icin en uygun fiyat ve kalitede urun temini sagliyoruz. Tedarikci denetiminden fiyat muzakeresine, numune yonetiminden tedarik zinciri optimizasyonuna kadar her asamada destek veriyoruz.",
+        "title": "Tedarik Çözümleri",
+        "description": "Global tedarik ağımız ile işletmeniz için en uygun fiyat ve kalitede ürün temini sağlıyoruz. Tedarikçi denetiminden fiyat müzakeresine, numune yönetiminden tedarik zinciri optimizasyonuna kadar her aşamada destek veriyoruz.",
         "features": {
-          "supplierAudit": "Tedarikci denetimi ve fabrika ziyaretleri",
-          "qualityControl": "Uretim oncesi ve sonrasi kalite kontrol",
-          "priceNegotiation": "Rekabetci fiyat muzakeresi ve maliyet analizi",
-          "sampleManagement": "Numune yonetimi ve urun gelistirme destegi",
-          "supplyChain": "Tedarik zinciri optimizasyonu ve risk yonetimi"
+          "supplierAudit": "Tedarikçi denetimi ve fabrika ziyaretleri",
+          "qualityControl": "Üretim öncesi ve sonrası kalite kontrol",
+          "priceNegotiation": "Rekabetçi fiyat müzakeresi ve maliyet analizi",
+          "sampleManagement": "Numune yönetimi ve ürün geliştirme desteği",
+          "supplyChain": "Tedarik zinciri optimizasyonu ve risk yönetimi"
         }
       },
       "transit-trade": {
         "title": "Transit Ticaret",
-        "description": "Turkiye uzerinden ucuncu ulkelere transit ticaret operasyonlari. Ozellikle Rusya ve BDT ulkeleri icin uzmanlasmis cozumlerimizle, karmasik ticaret rotalarini basitlestiriyor ve verimli hale getiriyoruz.",
+        "description": "Türkiye üzerinden üçüncü ülkelere transit ticaret operasyonları. Özellikle Rusya ve BDT ülkeleri için uzmanlaşmış çözümlerimizle, karmaşık ticaret rotalarını basitleştiriyor ve verimli hale getiriyoruz.",
         "features": {
-          "transitRoutes": "Stratejik transit rota planlamasi",
-          "cisExpertise": "Rusya ve BDT pazarlarinda derin uzmanlik",
-          "compliance": "Uluslararasi ticaret mevzuati uyumu",
-          "customs": "Coklu gumruk islemleri yonetimi",
-          "warehousing": "Depolama ve dagitim lojistigi"
+          "transitRoutes": "Stratejik transit rota planlaması",
+          "cisExpertise": "Rusya ve BDT pazarlarında derin uzmanlık",
+          "compliance": "Uluslararası ticaret mevzuatı uyumu",
+          "customs": "Çoklu gümrük işlemleri yönetimi",
+          "warehousing": "Depolama ve dağıtım lojistiği"
         }
       }
     },
     "whyChoose": {
       "title": "Neden Bizim Hizmetlerimiz?",
-      "subtitle": "Uluslararasi ticarette farki yaratan degerlerimiz ile isletmenize guc katiyoruz",
+      "subtitle": "Uluslararası ticarette farkı yaratan değerlerimiz ile işletmenize güç katıyoruz",
       "endToEnd": {
-        "title": "Uctan Uca Destek",
-        "description": "Ticaret surecinin her asamasinda profesyonel rehberlik sagliyoruz. Ilk temastan teslimat sonrasina kadar yaninizda olan bir ekip."
+        "title": "Uçtan Uca Destek",
+        "description": "Ticaret sürecinin her aşamasında profesyonel rehberlik sağlıyoruz. İlk temastan teslimat sonrasına kadar yanınızda olan bir ekip."
       },
       "expertise": {
-        "title": "Sektor Uzmanligi",
-        "description": "20 yili askin deneyimimizle farkli sektorlerdeki dinamikleri yakindan taniyoruz. Her sektore ozel cozumler uretiyoruz."
+        "title": "Sektör Uzmanlığı",
+        "description": "20 yılı aşkın deneyimimizle farklı sektörlerdeki dinamikleri yakından tanıyoruz. Her sektöre özel çözümler üretiyoruz."
       },
       "network": {
-        "title": "Kuresel Ag",
-        "description": "50'den fazla ulkede kurdumus oldugumuz guclu is ortakliklari ve tedarik zincirleriyle kuresel ticaretinizi kolaylastiriyoruz."
+        "title": "Küresel Ağ",
+        "description": "50'den fazla ülkede kurduğumuz güçlü iş ortaklıkları ve tedarik zincirleriyle küresel ticaretinizi kolaylaştırıyoruz."
       }
     },
     "cta": {
-      "title": "Ozel Bir Ticaret Cozumune mi Ihtiyaciniz Var?",
-      "description": "Isletmenize ozel ithalat, ihracat ve tedarik cozumleri icin uzman ekibimizle gorusun. Ilk danismanlik ucretsizdir.",
-      "button": "Ucretsiz Danismanlik Alin",
-      "note": "Ilk gorusme tamamen ucretsizdir"
+      "title": "Özel Bir Ticaret Çözümüne mi İhtiyacınız Var?",
+      "description": "İşletmenize özel ithalat, ihracat ve tedarik çözümleri için uzman ekibimizle görüşün. İlk danışmanlık ücretsizdir.",
+      "button": "Ücretsiz Danışmanlık Alın",
+      "note": "İlk görüşme tamamen ücretsizdir"
     }
   },
   "ServiceDetail": {
     "import": {
-      "metaTitle": "Ithalat Hizmetleri | Toko Trading",
-      "metaDescription": "Dunya genelinden hammadde ve urun ithalati icin kapsamli cozumler. Gumruk islemleri, lojistik yonetimi ve maliyet optimizasyonu dahil profesyonel ithalat hizmetleri.",
-      "title": "Ithalat Hizmetleri",
-      "subtitle": "Dunya genelinden hammadde ve urun tedariki icin uctan uca profesyonel ithalat cozumleri",
-      "badge": "Ithalat Uzmanligi",
+      "metaTitle": "İthalat Hizmetleri | Toko Trading",
+      "metaDescription": "Dünya genelinden hammadde ve ürün ithalatı için kapsamlı çözümler. Gümrük işlemleri, lojistik yönetimi ve maliyet optimizasyonu dahil profesyonel ithalat hizmetleri.",
+      "title": "İthalat Hizmetleri",
+      "subtitle": "Dünya genelinden hammadde ve ürün tedariki için uçtan uca profesyonel ithalat çözümleri",
+      "badge": "İthalat Uzmanlığı",
       "overview": {
-        "p1": "Toko Trading olarak, dunya genelinden her turlu hammadde ve urun ithalati icin kapsamli cozumler sunuyoruz. Gumruk islemlerinden lojistik planlamasina, tedarikci seciminden kalite kontrolune kadar ithalat surecinin her asamasinda profesyonel destek sagliyoruz.",
-        "p2": "Turkiye'nin stratejik konumunu kullanarak Avrupa, Asya ve Afrika'dan en uygun kosullarda urun temini gerceklestiriyoruz. 20 yili askin deneyimimiz ile gumruk mevzuatindaki degisiklikleri yakindan takip ediyor ve musterilerimize maliyet avantaji sagliyoruz.",
-        "p3": "Her ithalat projesi icin ozel bir ekip atayarak surecin basindan sonuna kadar seffaf bilgilendirme sagliyoruz. Uygun tedarikci bulma, fiyat muzakeresi, kalite kontrol ve sevkiyat takibi gibi kritik asamalari titizlikle yonetiyoruz."
+        "p1": "Toko Trading olarak, dünya genelinden her türlü hammadde ve ürün ithalatı için kapsamlı çözümler sunuyoruz. Gümrük işlemlerinden lojistik planlamasına, tedarikçi seçiminden kalite kontrolüne kadar ithalat sürecinin her aşamasında profesyonel destek sağlıyoruz.",
+        "p2": "Türkiye'nin stratejik konumunu kullanarak Avrupa, Asya ve Afrika'dan en uygun koşullarda ürün temini gerçekleştiriyoruz. 20 yılı aşkın deneyimimiz ile gümrük mevzuatındaki değişiklikleri yakından takip ediyor ve müşterilerimize maliyet avantajı sağlıyoruz.",
+        "p3": "Her ithalat projesi için özel bir ekip atayarak sürecin başından sonuna kadar şeffaf bilgilendirme sağlıyoruz. Uygun tedarikçi bulma, fiyat müzakeresi, kalite kontrol ve sevkiyat takibi gibi kritik aşamaları titizlikle yönetiyoruz."
       },
       "features": {
         "customs": {
-          "title": "Gumruk Islemleri Yonetimi",
-          "description": "Tum gumruk beyanname islemleri, tarife siniflandirmasi ve ithalat vergisi hesaplamalari konusunda uzman kadromuzla hizli ve sorunsuz gumrukleme saglariz."
+          "title": "Gümrük İşlemleri Yönetimi",
+          "description": "Tüm gümrük beyanname işlemleri, tarife sınıflandırması ve ithalat vergisi hesaplamaları konusunda uzman kadromuzla hızlı ve sorunsuz gümrükleme sağlarız."
         },
         "logistics": {
-          "title": "Uluslararasi Lojistik",
-          "description": "Deniz, hava ve kara yolu ile en uygun maliyet ve sureli nakliye planlamasi. Konteyner yonetimi ve depolama cozumleri de dahil kapsamli lojistik hizmetler."
+          "title": "Uluslararası Lojistik",
+          "description": "Deniz, hava ve kara yolu ile en uygun maliyet ve süreli nakliye planlaması. Konteyner yönetimi ve depolama çözümleri de dahil kapsamlı lojistik hizmetler."
         },
         "costOptimization": {
           "title": "Maliyet Optimizasyonu",
-          "description": "Tedarik maliyetlerinden navlun giderlerine, gumruk vergilerinden sigorta maliyetlerine kadar tum ithalat giderlerinizi analiz ederek tasarruf firsatlari olusturuyoruz."
+          "description": "Tedarik maliyetlerinden navlun giderlerine, gümrük vergilerinden sigorta maliyetlerine kadar tüm ithalat giderlerinizi analiz ederek tasarruf fırsatları oluşturuyoruz."
         },
         "qualityControl": {
           "title": "Kalite Kontrol ve Denetim",
-          "description": "Sevkiyat oncesi fabrika denetimleri, urun numune testleri ve uretim sureci izleme ile kalite standartlariniza uygun urunlerin teslimatini garantileriz."
+          "description": "Sevkiyat öncesi fabrika denetimleri, ürün numune testleri ve üretim süreci izleme ile kalite standartlarınıza uygun ürünlerin teslimatını garantileriz."
         },
         "documentation": {
-          "title": "Ithalat Dokumantasyonu",
-          "description": "Fatura, konisamento, mensei sertifikasi ve diger tum ithalat evraklarinin eksiksiz hazirlanmasi ve takibi. Mevzuata uygun dokumantasyon yonetimi."
+          "title": "İthalat Dokümantasyonu",
+          "description": "Fatura, konişmento, menşei sertifikası ve diğer tüm ithalat evraklarının eksiksiz hazırlanması ve takibi. Mevzuata uygun dokümantasyon yönetimi."
         }
       },
       "process": {
         "step1": {
-          "title": "Ihtiyac Analizi",
-          "description": "Ithalat ihtiyacinizi detayli analiz eder, urun spesifikasyonlarini ve miktar gereksinimlerinizi belirleriz."
+          "title": "İhtiyaç Analizi",
+          "description": "İthalat ihtiyacınızı detaylı analiz eder, ürün spesifikasyonlarını ve miktar gereksinimlerinizi belirleriz."
         },
         "step2": {
-          "title": "Tedarikci Secimi",
-          "description": "Global agimizdan en uygun tedarikcileri bulur, fiyat karsilastirmasi yapar ve sizin onayanizla tedarikcileri belirleriz."
+          "title": "Tedarikçi Seçimi",
+          "description": "Global ağımızdan en uygun tedarikçileri bulur, fiyat karşılaştırması yapar ve sizin onayınızla tedarikçileri belirleriz."
         },
         "step3": {
-          "title": "Siparis ve Sevkiyat",
-          "description": "Siparis surecini yonetir, uretim takibi yapar ve en uygun lojistik rota ile sevkiyati planlariz."
+          "title": "Sipariş ve Sevkiyat",
+          "description": "Sipariş sürecini yönetir, üretim takibi yapar ve en uygun lojistik rota ile sevkiyatı planlarız."
         },
         "step4": {
-          "title": "Gumruk ve Teslimat",
-          "description": "Gumruk islemlerini hizla tamamlar, urunlerinizi istediginiz lokasyona guvenle teslim ederiz."
+          "title": "Gümrük ve Teslimat",
+          "description": "Gümrük işlemlerini hızla tamamlar, ürünlerinizi istediğiniz lokasyona güvenle teslim ederiz."
         }
       },
       "sectionTitles": {
         "features": "Neler Sunuyoruz",
-        "process": "Nasil Calisiyoruz"
+        "process": "Nasıl Çalışıyoruz"
       },
       "cta": {
-        "title": "Ithalat Projeniz icin Destek Alin",
-        "description": "Ithalat ihtiyaclariniz icin uzman ekibimizle gorusun. Urunun mensei ulkeden kapilarinizia kadar tum sureci yonetiyoruz.",
-        "button": "Ucretsiz Danismanlik"
+        "title": "İthalat Projeniz için Destek Alın",
+        "description": "İthalat ihtiyaçlarınız için uzman ekibimizle görüşün. Ürünün menşei ülkeden kapılarınıza kadar tüm süreci yönetiyoruz.",
+        "button": "Ücretsiz Danışmanlık"
       }
     },
     "export": {
-      "metaTitle": "Ihracat Hizmetleri | Toko Trading",
-      "metaDescription": "Turkiye'den dunya pazarlarina urun ihracati. Pazar arastirmasi, alici eslestirme ve ihracat dokumantasyonu destegi ile ihracatinizi buyutun.",
-      "title": "Ihracat Hizmetleri",
-      "subtitle": "Turkiye'den dunya pazarlarina acilmaniz icin profesyonel ihracat destegi",
-      "badge": "Ihracat Uzmanligi",
+      "metaTitle": "İhracat Hizmetleri | Toko Trading",
+      "metaDescription": "Türkiye'den dünya pazarlarına ürün ihracatı. Pazar araştırması, alıcı eşleştirme ve ihracat dokümantasyonu desteği ile ihracatınızı büyütün.",
+      "title": "İhracat Hizmetleri",
+      "subtitle": "Türkiye'den dünya pazarlarına açılmanız için profesyonel ihracat desteği",
+      "badge": "İhracat Uzmanlığı",
       "overview": {
-        "p1": "Turkiye'nin zengin uretim altyapisini dunya pazarlarina tasimaniz icin kapsamli ihracat hizmetleri sunuyoruz. Hedef pazar belirleme, alici bulma, fiyatlandirma stratejisi ve ihracat dokumantasyonu dahil tum surecleri profesyonelce yonetiyoruz.",
-        "p2": "50'den fazla ulkedeki is ortakliklarimiz ve alici agimiz sayesinde urunleriniz icin en uygun pazarlari ve alicilari belirliyoruz. Ozellikle Avrupa, Ortadogu ve BDT pazarlarinda guclu pozisyonumuzla ihracatinizi hizlandiriyoruz.",
-        "p3": "Ihracat surecinin her asamasinda yaninizdayiz. Akreditif islemlerinden gumruk beyannamelerine, nakliye organizasyonundan sigorta islemlerine kadar tum detaylari ozenle takip ediyoruz."
+        "p1": "Türkiye'nin zengin üretim altyapısını dünya pazarlarına taşımanız için kapsamlı ihracat hizmetleri sunuyoruz. Hedef pazar belirleme, alıcı bulma, fiyatlandırma stratejisi ve ihracat dokümantasyonu dahil tüm süreçleri profesyonelce yönetiyoruz.",
+        "p2": "50'den fazla ülkedeki iş ortaklıklarımız ve alıcı ağımız sayesinde ürünleriniz için en uygun pazarları ve alıcıları belirliyoruz. Özellikle Avrupa, Ortadoğu ve BDT pazarlarında güçlü pozisyonumuzla ihracatınızı hızlandırıyoruz.",
+        "p3": "İhracat sürecinin her aşamasında yanınızdayız. Akreditif işlemlerinden gümrük beyannamelerine, nakliye organizasyonundan sigorta işlemlerine kadar tüm detayları özenle takip ediyoruz."
       },
       "features": {
         "marketResearch": {
-          "title": "Pazar Arastirmasi ve Analizi",
-          "description": "Hedef pazarlarin talep yapisini, rekabet kosullarini ve fiyat dinamiklerini analiz ederek ihracat stratejinizi sekillendiriyoruz."
+          "title": "Pazar Araştırması ve Analizi",
+          "description": "Hedef pazarların talep yapısını, rekabet koşullarını ve fiyat dinamiklerini analiz ederek ihracat stratejinizi şekillendiriyoruz."
         },
         "buyerMatching": {
-          "title": "Alici Bulma ve Eslestirme",
-          "description": "Genis alici agimiz ve uluslararasi fuar katilimlarimiz araciligiyla urunleriniz icin nitelikli alicilari buluyoruz."
+          "title": "Alıcı Bulma ve Eşleştirme",
+          "description": "Geniş alıcı ağımız ve uluslararası fuar katılımlarımız aracılığıyla ürünleriniz için nitelikli alıcıları buluyoruz."
         },
         "documentation": {
-          "title": "Ihracat Dokumantasyonu",
-          "description": "Akreditif, konisamento, mensei sertifikasi, ATR belgesi ve diger ihracat dokumanlari nin eksiksiz hazirlanmasi ve yonetimi."
+          "title": "İhracat Dokümantasyonu",
+          "description": "Akreditif, konişmento, menşei sertifikası, ATR belgesi ve diğer ihracat dokümanlarının eksiksiz hazırlanması ve yönetimi."
         },
         "compliance": {
-          "title": "Mevzuat Danismanligi",
-          "description": "Hedef ulkelerin ithalat duzenlemeleri, standart gereksinimleri ve sertifikasyon sureclerinde uzman destegiyle uyumluluk saglariz."
+          "title": "Mevzuat Danışmanlığı",
+          "description": "Hedef ülkelerin ithalat düzenlemeleri, standart gereksinimleri ve sertifikasyon süreçlerinde uzman desteğiyle uyumluluk sağlarız."
         },
         "logistics": {
-          "title": "Ihracat Lojistigi",
-          "description": "Konteyner planlamasi, navlun muzakeresi ve sevkiyat takibi ile zamaninda ve guvenli teslimat. Deniz, hava ve kara yolu secenekleri."
+          "title": "İhracat Lojistiği",
+          "description": "Konteyner planlaması, navlun müzakeresi ve sevkiyat takibi ile zamanında ve güvenli teslimat. Deniz, hava ve kara yolu seçenekleri."
         }
       },
       "process": {
         "step1": {
-          "title": "Pazar Degerlendirme",
-          "description": "Urunleriniz icin potansiyel pazarlari arastirarak en yuksek getiri saglayacak hedef pazarlari belirleriz."
+          "title": "Pazar Değerlendirme",
+          "description": "Ürünleriniz için potansiyel pazarları araştırarak en yüksek getiri sağlayacak hedef pazarları belirleriz."
         },
         "step2": {
-          "title": "Alici Eslestirme",
-          "description": "Hedef pazarlarda nitelikli alicilari bulur, ilk temas ve muzakere sureclerini yonetiriz."
+          "title": "Alıcı Eşleştirme",
+          "description": "Hedef pazarlarda nitelikli alıcıları bulur, ilk temas ve müzakere süreçlerini yönetiriz."
         },
         "step3": {
-          "title": "Dokumantasyon ve Siparis",
-          "description": "Tum ihracat evraklarini hazirlar, siparis onay surecini yonetir ve uretim planlamasini koordine ederiz."
+          "title": "Dokümantasyon ve Sipariş",
+          "description": "Tüm ihracat evraklarını hazırlar, sipariş onay sürecini yönetir ve üretim planlamasını koordine ederiz."
         },
         "step4": {
           "title": "Sevkiyat ve Takip",
-          "description": "Lojistik organizasyonu yapar, gumruk islemlerini tamamlar ve urunlerinizin aliciya ulasmasini takip ederiz."
+          "description": "Lojistik organizasyonu yapar, gümrük işlemlerini tamamlar ve ürünlerinizin alıcıya ulaşmasını takip ederiz."
         }
       },
       "sectionTitles": {
-        "features": "Ihracat Hizmetlerimiz",
-        "process": "Ihracat Surecimiz"
+        "features": "İhracat Hizmetlerimiz",
+        "process": "İhracat Sürecimiz"
       },
       "cta": {
-        "title": "Ihracatinizi Buyutelim",
-        "description": "Turkiye'den dunya pazarlarina acilmak icin uzman ekibimizle gorusun. Hedef pazariniza ozel strateji gelistirelim.",
-        "button": "Ihracat Danismanligi"
+        "title": "İhracatınızı Büyütelim",
+        "description": "Türkiye'den dünya pazarlarına açılmak için uzman ekibimizle görüşün. Hedef pazarınıza özel strateji geliştirelim.",
+        "button": "İhracat Danışmanlığı"
       }
     },
     "sourcing": {
-      "metaTitle": "Tedarik Cozumleri | Toko Trading",
-      "metaDescription": "Global tedarik agimizla en uygun fiyat ve kalitede urun temini. Tedarikci denetimi, kalite kontrol ve fiyat muzakeresi hizmetleri.",
-      "title": "Tedarik Cozumleri",
-      "subtitle": "Kuresel tedarik agimizla isletmenize en uygun urunleri temin ediyoruz",
-      "badge": "Tedarik Uzmanligi",
+      "metaTitle": "Tedarik Çözümleri | Toko Trading",
+      "metaDescription": "Global tedarik ağımızla en uygun fiyat ve kalitede ürün temini. Tedarikçi denetimi, kalite kontrol ve fiyat müzakeresi hizmetleri.",
+      "title": "Tedarik Çözümleri",
+      "subtitle": "Küresel tedarik ağımızla işletmenize en uygun ürünleri temin ediyoruz",
+      "badge": "Tedarik Uzmanlığı",
       "overview": {
-        "p1": "Isletmenizin ihtiyac duydugu urunleri global tedarik agimiz uzerinden en uygun fiyat ve kalitede temin ediyoruz. Tedarikci arastirmasi, fabrika ziyaretleri ve kalite denetimleri ile guvenilir tedarik zincirleri kurmaniza yardimci oluyoruz.",
-        "p2": "Turkiye, Cin, Hindistan, Guneydogu Asya ve diger uretim merkezlerindeki genis tedarikci agimiz ile farkli sektorlerdeki urun ihtiyaclarinizi karsiliyoruz. Her tedarikciyi bagimsiz denetimleri ve referans kontrolleriyle degerlendiriyoruz.",
-        "p3": "Numune yonetiminden toplu siparis koordinasyonuna, uretim takibinden kalite kontrolune kadar tedarik surecinin her asamasinda profesyonel destek sagliyoruz. Musterilerimize seffaf raporlama ve duzenli bilgilendirme sunuyoruz."
+        "p1": "İşletmenizin ihtiyaç duyduğu ürünleri global tedarik ağımız üzerinden en uygun fiyat ve kalitede temin ediyoruz. Tedarikçi araştırması, fabrika ziyaretleri ve kalite denetimleri ile güvenilir tedarik zincirleri kurmanıza yardımcı oluyoruz.",
+        "p2": "Türkiye, Çin, Hindistan, Güneydoğu Asya ve diğer üretim merkezlerindeki geniş tedarikçi ağımız ile farklı sektörlerdeki ürün ihtiyaçlarınızı karşılıyoruz. Her tedarikçiyi bağımsız denetimleri ve referans kontrolleriyle değerlendiriyoruz.",
+        "p3": "Numune yönetiminden toplu sipariş koordinasyonuna, üretim takibinden kalite kontrolüne kadar tedarik sürecinin her aşamasında profesyonel destek sağlıyoruz. Müşterilerimize şeffaf raporlama ve düzenli bilgilendirme sunuyoruz."
       },
       "features": {
         "supplierAudit": {
-          "title": "Tedarikci Denetimi",
-          "description": "Potansiyel tedarikcilerin uretim kapasitesi, kalite standartlari ve mali yapisini yerinde denetleyerek guvenilir is ortaklari belirliyoruz."
+          "title": "Tedarikçi Denetimi",
+          "description": "Potansiyel tedarikçilerin üretim kapasitesi, kalite standartları ve mali yapısını yerinde denetleyerek güvenilir iş ortakları belirliyoruz."
         },
         "qualityControl": {
           "title": "Kalite Kontrol",
-          "description": "Uretim oncesi numune onay, uretim sureci izleme ve sevkiyat oncesi son kontrol ile kalitenizi garantiliyoruz."
+          "description": "Üretim öncesi numune onay, üretim süreci izleme ve sevkiyat öncesi son kontrol ile kalitenizi garantiliyoruz."
         },
         "priceNegotiation": {
-          "title": "Fiyat Muzakeresi",
-          "description": "Pazar bilgimiz ve hacim avantajimizla en rekabetci fiyatlari elde ediyoruz. Maliyet kirilimi analizi ile seffaf fiyatlandirma sagliyoruz."
+          "title": "Fiyat Müzakeresi",
+          "description": "Pazar bilgimiz ve hacim avantajımızla en rekabetçi fiyatları elde ediyoruz. Maliyet kırılımı analizi ile şeffaf fiyatlandırma sağlıyoruz."
         },
         "sampleManagement": {
-          "title": "Numune Yonetimi",
-          "description": "Urun numunelerinin temini, degerlendirmesi ve onay surecini yonetiyoruz. Ozel uretim talepleri icin prototip gelistirme destegi sunuyoruz."
+          "title": "Numune Yönetimi",
+          "description": "Ürün numunelerinin temini, değerlendirmesi ve onay sürecini yönetiyoruz. Özel üretim talepleri için prototip geliştirme desteği sunuyoruz."
         },
         "supplyChain": {
-          "title": "Tedarik Zinciri Yonetimi",
-          "description": "Tedarik surekliligi, stok planlama ve alternatif tedarikci yonetimi ile riskleri minimize ediyoruz."
+          "title": "Tedarik Zinciri Yönetimi",
+          "description": "Tedarik sürekliliği, stok planlama ve alternatif tedarikçi yönetimi ile riskleri minimize ediyoruz."
         }
       },
       "process": {
         "step1": {
-          "title": "Ihtiyac Tespiti",
-          "description": "Urun spesifikasyonlari, miktar ve kalite gereksinimlerinizi detayli sekilde belirleriz."
+          "title": "İhtiyaç Tespiti",
+          "description": "Ürün spesifikasyonları, miktar ve kalite gereksinimlerinizi detaylı şekilde belirleriz."
         },
         "step2": {
-          "title": "Tedarikci Arama",
-          "description": "Agimizdan uygun tedarikcileri bulur, fabrika denetimleri yapar ve numune taleplerinizi ileteriz."
+          "title": "Tedarikçi Arama",
+          "description": "Ağımızdan uygun tedarikçileri bulur, fabrika denetimleri yapar ve numune taleplerinizi iletiriz."
         },
         "step3": {
-          "title": "Muzakere ve Siparis",
-          "description": "En uygun kosullari muzakere eder, sozlesme sartlarini belirler ve siparis surecini baslatiriz."
+          "title": "Müzakere ve Sipariş",
+          "description": "En uygun koşulları müzakere eder, sözleşme şartlarını belirler ve sipariş sürecini başlatırız."
         },
         "step4": {
           "title": "Takip ve Teslimat",
-          "description": "Uretimi izler, kalite kontrollerini yapar ve urunlerinizin zamaninda teslimatini saglariz."
+          "description": "Üretimi izler, kalite kontrollerini yapar ve ürünlerinizin zamanında teslimatını sağlarız."
         }
       },
       "sectionTitles": {
         "features": "Tedarik Hizmetlerimiz",
-        "process": "Tedarik Surecimiz"
+        "process": "Tedarik Sürecimiz"
       },
       "cta": {
-        "title": "Guvenilir Tedarikci Arayisiniz mi?",
-        "description": "Global tedarik agimizla ihtiyaciniz olan urunleri en uygun kosullarda temin edelim. Uzman ekibimiz size ozel cozum uretiyor.",
-        "button": "Tedarik Talebi Olustur"
+        "title": "Güvenilir Tedarikçi Arayışınız mı?",
+        "description": "Global tedarik ağımızla ihtiyacınız olan ürünleri en uygun koşullarda temin edelim. Uzman ekibimiz size özel çözüm üretiyor.",
+        "button": "Tedarik Talebi Oluştur"
       }
     },
     "transit-trade": {
       "metaTitle": "Transit Ticaret | Toko Trading",
-      "metaDescription": "Turkiye uzerinden ucuncu ulkelere transit ticaret operasyonlari. Rusya ve BDT ulkeleri icin uzmanlasmis transit ticaret cozumleri.",
+      "metaDescription": "Türkiye üzerinden üçüncü ülkelere transit ticaret operasyonları. Rusya ve BDT ülkeleri için uzmanlaşmış transit ticaret çözümleri.",
       "title": "Transit Ticaret",
-      "subtitle": "Turkiye'nin stratejik konumunu kullanarak verimli transit ticaret operasyonlari",
-      "badge": "Transit Ticaret Uzmanligi",
+      "subtitle": "Türkiye'nin stratejik konumunu kullanarak verimli transit ticaret operasyonları",
+      "badge": "Transit Ticaret Uzmanlığı",
       "overview": {
-        "p1": "Turkiye'nin Avrupa, Asya ve Ortadogu'nun kesisim noktasindaki stratejik konumunu kullanarak etkili transit ticaret operasyonlari gerceklestiriyoruz. Ozellikle Rusya ve BDT ulkeleri ile Avrupa arasindaki ticaret akislarinda uzmanlasmis cozumler sunuyoruz.",
-        "p2": "Transit ticaret operasyonlarinda gumruk mevzuati, yaptirimlara uyum, lojistik planlama ve depolama gibi kritik unsurlari deneyimli ekibimizle yonetiyoruz. Coklu gumruk gecisleri ve karmasik ticaret rotalarini basitlestirerek musterilerimize maliyet ve zaman avantaji sagliyoruz.",
-        "p3": "Her transit ticaret projesi icin detayli fizibilite calismalari yapiyor, en uygun rotalari ve lojistik cozumleri belirliyoruz. Serbest bolge ve antrepo imkanlarini degerlendirerek ticaret akislarinizi optimize ediyoruz."
+        "p1": "Türkiye'nin Avrupa, Asya ve Ortadoğu'nun kesişim noktasındaki stratejik konumunu kullanarak etkili transit ticaret operasyonları gerçekleştiriyoruz. Özellikle Rusya ve BDT ülkeleri ile Avrupa arasındaki ticaret akışlarında uzmanlaşmış çözümler sunuyoruz.",
+        "p2": "Transit ticaret operasyonlarında gümrük mevzuatı, yaptırımlara uyum, lojistik planlama ve depolama gibi kritik unsurları deneyimli ekibimizle yönetiyoruz. Çoklu gümrük geçişleri ve karmaşık ticaret rotalarını basitleştirerek müşterilerimize maliyet ve zaman avantajı sağlıyoruz.",
+        "p3": "Her transit ticaret projesi için detaylı fizibilite çalışmaları yapıyor, en uygun rotaları ve lojistik çözümleri belirliyoruz. Serbest bölge ve antrepo imkanlarını değerlendirerek ticaret akışlarınızı optimize ediyoruz."
       },
       "features": {
         "transitRoutes": {
-          "title": "Stratejik Rota Planlamasi",
-          "description": "Ticaret akislarini optimize eden rota planlari olusturuyoruz. Maliyet, sure ve risk faktorlerini dengeleyerek en verimli guzergahlari belirliyoruz."
+          "title": "Stratejik Rota Planlaması",
+          "description": "Ticaret akışlarını optimize eden rota planları oluşturuyoruz. Maliyet, süre ve risk faktörlerini dengeleyerek en verimli güzergahları belirliyoruz."
         },
         "cisExpertise": {
-          "title": "Rusya ve BDT Uzmanligi",
-          "description": "Rusya, Kazakistan, Ozbekistan ve diger BDT ulkelerinin ticaret mevzuati, gumruk prosedurlerini yakindan biliyoruz ve bu bilgiyi avantiajinizia ceviriyoruz."
+          "title": "Rusya ve BDT Uzmanlığı",
+          "description": "Rusya, Kazakistan, Özbekistan ve diğer BDT ülkelerinin ticaret mevzuatı, gümrük prosedürlerini yakından biliyoruz ve bu bilgiyi avantajınıza çeviriyoruz."
         },
         "compliance": {
           "title": "Mevzuat Uyumu",
-          "description": "Uluslararasi yaptirimlar, ticaret kisitlamalari ve gumruk duzenlemelerine tam uyum sagliyoruz. Hukuki riskleri minimize ediyoruz."
+          "description": "Uluslararası yaptırımlar, ticaret kısıtlamaları ve gümrük düzenlemelerine tam uyum sağlıyoruz. Hukuki riskleri minimize ediyoruz."
         },
         "customs": {
-          "title": "Coklu Gumruk Yonetimi",
-          "description": "Birden fazla ulke gumrugunden gecen mallarin tum beyanname ve prosedurlerini koordineli sekilde yonetiyoruz."
+          "title": "Çoklu Gümrük Yönetimi",
+          "description": "Birden fazla ülke gümrüğünden geçen malların tüm beyanname ve prosedürlerini koordineli şekilde yönetiyoruz."
         },
         "warehousing": {
-          "title": "Depolama ve Dagitim",
-          "description": "Turkiye'deki serbest bolge ve antrepo tesislerinde depolama, konsolidasyon ve dagitim hizmetleri sunuyoruz."
+          "title": "Depolama ve Dağıtım",
+          "description": "Türkiye'deki serbest bölge ve antrepo tesislerinde depolama, konsolidasyon ve dağıtım hizmetleri sunuyoruz."
         }
       },
       "process": {
         "step1": {
           "title": "Fizibilite Analizi",
-          "description": "Transit ticaret projenizin yapilabilirligini analiz eder, maliyet-fayda hesabi yapar ve en uygun stratejiyi belirleriz."
+          "description": "Transit ticaret projenizin yapılabilirliğini analiz eder, maliyet-fayda hesabı yapar ve en uygun stratejiyi belirleriz."
         },
         "step2": {
           "title": "Rota ve Lojistik Planlama",
-          "description": "En uygun transit rotayi belirler, lojistik ortaklarimizla koordinasyon saglar ve depolama ihtiyaclarini planlariz."
+          "description": "En uygun transit rotayı belirler, lojistik ortaklarımızla koordinasyon sağlar ve depolama ihtiyaçlarını planlarız."
         },
         "step3": {
-          "title": "Gumruk ve Mevzuat",
-          "description": "Ilgili ulkelerin gumruk prosedurlerini yonetir, gerekli izin ve belgeleri temin ederiz."
+          "title": "Gümrük ve Mevzuat",
+          "description": "İlgili ülkelerin gümrük prosedürlerini yönetir, gerekli izin ve belgeleri temin ederiz."
         },
         "step4": {
           "title": "Operasyon ve Teslimat",
-          "description": "Transit ticaret operasyonunu bastan sona yonetir, mallarin hedef ulkeye guvenle ulasmasini saglariz."
+          "description": "Transit ticaret operasyonunu baştan sona yönetir, malların hedef ülkeye güvenle ulaşmasını sağlarız."
         }
       },
       "sectionTitles": {
-        "features": "Transit Ticaret Avantajlarimiz",
-        "process": "Operasyon Surecimiz"
+        "features": "Transit Ticaret Avantajlarımız",
+        "process": "Operasyon Sürecimiz"
       },
       "cta": {
-        "title": "Transit Ticaret Firsatlarini Kesfedelim",
-        "description": "Turkiye uzerinden transit ticaret potansiyelinizi degerlendirmek icin uzman ekibimizle gorusun.",
-        "button": "Transit Ticaret Danismanligi"
+        "title": "Transit Ticaret Fırsatlarını Keşfedelim",
+        "description": "Türkiye üzerinden transit ticaret potansiyelinizi değerlendirmek için uzman ekibimizle görüşün.",
+        "button": "Transit Ticaret Danışmanlığı"
       }
     }
   },
   "SectorsPage": {
     "seo": {
-      "title": "Sektorler - Gida, Tekstil, Makine ve Daha Fazlasi",
-      "description": "8'den fazla sektorde uzmanlasmis tedarik ve ticaret cozumleri. Gida, tekstil, makine, kimya, insaat ve diger sektorlerde guvenilir tedarik."
+      "title": "Sektörler - Gıda, Tekstil, Makine ve Daha Fazlası",
+      "description": "8'den fazla sektörde uzmanlaşmış tedarik ve ticaret çözümleri. Gıda, tekstil, makine, kimya, inşaat ve diğer sektörlerde güvenilir tedarik."
     },
     "hero": {
-      "title": "Sektorler",
-      "subtitle": "8'den fazla farkli sektorde uzmanlasmis tedarik ve ticaret cozumleri. Her sektorun kendine ozgu taleplerini anliyor ve kisiye ozel tedarik stratejileri sunuyoruz.",
-      "badge": "8+ Sektor"
+      "title": "Sektörler",
+      "subtitle": "8'den fazla farklı sektörde uzmanlaşmış tedarik ve ticaret çözümleri. Her sektörün kendine özgü taleplerini anlıyor ve kişiye özel tedarik stratejileri sunuyoruz.",
+      "badge": "8+ Sektör"
     },
     "breadcrumb": {
       "home": "Ana Sayfa",
-      "sectors": "Sektorler"
+      "sectors": "Sektörler"
     },
     "grid": {
-      "title": "Hizmet Verdigimiz Sektorler",
-      "subtitle": "Sektor uzmanlgimizi kesfedin ve isletmenize ozel tedarik cozumleri bulun"
+      "title": "Hizmet Verdiğimiz Sektörler",
+      "subtitle": "Sektör uzmanlığımızı keşfedin ve işletmenize özel tedarik çözümleri bulun"
     },
     "sectors": {
       "food": {
-        "title": "Gida ve Tarim",
-        "description": "Dogrulanmis tedarikcilerden tahil, baklagiller, yenilebilir yaglar, sut urunleri ve baharatlar."
+        "title": "Gıda ve Tarım",
+        "description": "Doğrulanmış tedarikçilerden tahıl, baklagiller, yenilebilir yağlar, süt ürünleri ve baharatlar."
       },
       "textile": {
         "title": "Tekstil ve Giyim",
-        "description": "Turkiye'nin oncu tesislerinden ham pamuk, iplik, dokuma kumaslar, hazir giyim ve ev tekstili."
+        "description": "Türkiye'nin öncü tesislerinden ham pamuk, iplik, dokuma kumaşlar, hazır giyim ve ev tekstili."
       },
       "machinery": {
         "title": "Makine ve Ekipman",
-        "description": "Endustriyel ekipman, tarim makinalari, insaat ekipmanlari ve paketleme makineleri."
+        "description": "Endüstriyel ekipman, tarım makinaları, inşaat ekipmanları ve paketleme makineleri."
       },
       "chemicals": {
         "title": "Kimya ve Petrokimya",
-        "description": "Endustriyel kimyasallar, tarim kimyasallari, kozmetik bilesenleri ve temizlik urunleri."
+        "description": "Endüstriyel kimyasallar, tarım kimyasalları, kozmetik bileşenleri ve temizlik ürünleri."
       },
       "construction": {
-        "title": "Insaat Malzemeleri",
-        "description": "Dunya genelindeki yapi projeleri icin celik, insaat demiri, cimento, seramik, karo ve tesisat malzemeleri."
+        "title": "İnşaat Malzemeleri",
+        "description": "Dünya genelindeki yapı projeleri için çelik, inşaat demiri, çimento, seramik, karo ve tesisat malzemeleri."
       },
       "raw-materials": {
         "title": "Hammaddeler",
-        "description": "Guvenilir kuresel kaynaklardan metaller, alasimlar, mineraller, polimerler, plastikler ve keresteler."
+        "description": "Güvenilir küresel kaynaklardan metaller, alaşımlar, mineraller, polimerler, plastikler ve keresteler."
       },
       "electronics": {
         "title": "Elektronik ve Teknoloji",
-        "description": "Elektronik bilesenler, tuketici elektronigi, endustriyel elektronik ve telekomunikasyon ekipmanlari."
+        "description": "Elektronik bileşenler, tüketici elektroniği, endüstriyel elektronik ve telekomünikasyon ekipmanları."
       },
       "automotive": {
-        "title": "Otomotiv ve Parcalar",
-        "description": "Kuresel yedek parca pazari icin oto parcalar, aksesuarlar, lastikler ve otomotiv sivilari."
+        "title": "Otomotiv ve Parçalar",
+        "description": "Küresel yedek parça pazarı için oto parçalar, aksesuarlar, lastikler ve otomotiv sıvıları."
       }
     },
-    "explore": "Kesfedin",
+    "explore": "Keşfedin",
     "stats": {
-      "title": "Sektorel Erisimimiz",
-      "subtitle": "Derin sektor bilgisiyle farkli sektorlerde sonuc odakli hizmet",
-      "sectors": "Hizmet Verilen Sektor",
-      "products": "Urun Kategorisi",
-      "countries": "Ihracat Ulkesi",
-      "certifications": "Kalite Sertifikali"
+      "title": "Sektörel Erişimimiz",
+      "subtitle": "Derin sektör bilgisiyle farklı sektörlerde sonuç odaklı hizmet",
+      "sectors": "Hizmet Verilen Sektör",
+      "products": "Ürün Kategorisi",
+      "countries": "İhracat Ülkesi",
+      "certifications": "Kalite Sertifikalı"
     },
     "cta": {
-      "title": "Sektorunuzde Tedarik mi Ariyorsunuz?",
-      "description": "Sektore ozel tedarik ihtiyaclarinizi gorusmek icin bizimle iletisime gecin. Sektor uzmanlarimiz sizin icin dogru tedarikcileri bulmaya hazir.",
-      "button": "Teklif Alin",
-      "note": "Tum sektorler icin ucretsiz ilk gorusme"
+      "title": "Sektörünüzde Tedarik mi Arıyorsunuz?",
+      "description": "Sektöre özel tedarik ihtiyaçlarınızı görüşmek için bizimle iletişime geçin. Sektör uzmanlarımız sizin için doğru tedarikçileri bulmaya hazır.",
+      "button": "Teklif Alın",
+      "note": "Tüm sektörler için ücretsiz ilk görüşme"
     }
   },
   "SectorDetail": {
     "food": {
-      "metaTitle": "Gida ve Tarim Tedariki | Toko Trading",
-      "metaDescription": "Dogrulanmis tedarikcilerden tahil, baklagiller, yenilebilir yaglar, sut urunleri ve baharat tedariki.",
-      "title": "Gida ve Tarim",
-      "subtitle": "Dogrulanmis kuresel tedarikcilerden guvenilir gida urunleri ve tarimsal emtia tedariki",
+      "metaTitle": "Gıda ve Tarım Tedariki | Toko Trading",
+      "metaDescription": "Doğrulanmış tedarikçilerden tahıl, baklagiller, yenilebilir yağlar, süt ürünleri ve baharat tedariki.",
+      "title": "Gıda ve Tarım",
+      "subtitle": "Doğrulanmış küresel tedarikçilerden güvenilir gıda ürünleri ve tarımsal emtia tedariki",
       "overview": {
-        "p1": "Toko Trading, dunya genelinden dogrulanmis tedarikcilerden yuksek kaliteli gida urunleri ve tarimsal emtia tedarikinde uzmanlasmistir. Tahillardan baklagi llere, yenilebilir yaglardan sut urunlerine kadar tedarik zinciri boyunca gida guvenligi standartlari ve izlenebilirlik saglariz.",
-        "p2": "Gida endustrisinin mevzuat gereksinimleri ve kalite standartlarindaki derin uzmanlgimizla, ithalatcilarin uluslararasi gida guvenligi sertifikalarina tam uyumla rekabetci fiyatlara erisimini sagliyoruz."
+        "p1": "Toko Trading, dünya genelinden doğrulanmış tedarikçilerden yüksek kaliteli gıda ürünleri ve tarımsal emtia tedarikinde uzmanlaşmıştır. Tahıllardan baklagillere, yenilebilir yağlardan süt ürünlerine kadar tedarik zinciri boyunca gıda güvenliği standartları ve izlenebilirlik sağlarız.",
+        "p2": "Gıda endüstrisinin mevzuat gereksinimleri ve kalite standartlarındaki derin uzmanlığımızla, ithalatçıların uluslararası gıda güvenliği sertifikalarına tam uyumla rekabetçi fiyatlara erişimini sağlıyoruz."
       },
       "products": {
         "grains": {
-          "title": "Tahil ve Baklagiller",
-          "description": "Premium tarim bolgelerinden temin edilen bugday, arpa, misir, mercimek ve nohut."
+          "title": "Tahıl ve Baklagiller",
+          "description": "Premium tarım bölgelerinden temin edilen buğday, arpa, mısır, mercimek ve nohut."
         },
         "dairyProducts": {
-          "title": "Sut Urunleri",
-          "description": "Uluslararasi standartlari karsilayan sertifikali tesislerden sut tozu, tereyagi, peynir ve islenmis sut urunleri."
+          "title": "Süt Ürünleri",
+          "description": "Uluslararası standartları karşılayan sertifikalı tesislerden süt tozu, tereyağı, peynir ve işlenmiş süt ürünleri."
         },
         "cannedGoods": {
-          "title": "Konserve Urunler",
-          "description": "Tam izlenebilirlik ve kalite sertifikasyon ile guvenilir ureticilerden konserve sebze, meyve ve receller."
+          "title": "Konserve Ürünler",
+          "description": "Tam izlenebilirlik ve kalite sertifikasyonu ile güvenilir üreticilerden konserve sebze, meyve ve reçeller."
         },
         "spices": {
           "title": "Baharat ve Otlar",
-          "description": "Safiyet garantisi ile dogrudan mensei ulkelerden temin edilen premium baharatlar ve otlar."
+          "description": "Safiyet garantisi ile doğrudan menşei ülkelerden temin edilen premium baharatlar ve otlar."
         }
       },
       "advantages": {
-        "title": "Gida Tedarikinde Neden Toko",
+        "title": "Gıda Tedarikinde Neden Toko",
         "a1": {
-          "title": "Dogrulanmis Tedarikciler",
-          "description": "Her gida tedarikcisi gida guvenligi, hijyen standartlari ve uretim kapasitesi icin titiz denetime tabi tutulur."
+          "title": "Doğrulanmış Tedarikçiler",
+          "description": "Her gıda tedarikçisi gıda güvenliği, hijyen standartları ve üretim kapasitesi için titiz denetime tabi tutulur."
         },
         "a2": {
-          "title": "Kalite Guvencesi",
-          "description": "Sevkiyat oncesi laboratuvar testleri ve sertifika dogrulamasi ile hedef ulke mevzuatina uyum saglanir."
+          "title": "Kalite Güvencesi",
+          "description": "Sevkiyat öncesi laboratuvar testleri ve sertifika doğrulaması ile hedef ülke mevzuatına uyum sağlanır."
         },
         "a3": {
-          "title": "Rekabetci Fiyatlandirma",
-          "description": "Ureticilerden dogrudan tedarik ve hacim muzakereleri ile toplu gida emtialari icin en iyi fiyatlar."
+          "title": "Rekabetçi Fiyatlandırma",
+          "description": "Üreticilerden doğrudan tedarik ve hacim müzakereleri ile toplu gıda emtiaları için en iyi fiyatlar."
         },
         "a4": {
-          "title": "Soguk Zincir Lojistik",
-          "description": "Bozulabilir gida urunleri icin tum transit noktalarinda sicaklik kontollu nakliye ve depolama cozumleri."
+          "title": "Soğuk Zincir Lojistik",
+          "description": "Bozulabilir gıda ürünleri için tüm transit noktalarında sıcaklık kontrollü nakliye ve depolama çözümleri."
         }
       },
       "sectionTitles": {
         "products": "Neler Tedarik Ediyoruz",
-        "advantages": "Tedarik Avantajlari"
+        "advantages": "Tedarik Avantajları"
       },
       "cta": {
-        "title": "Gida ve Tarim Tedarikine mi Ihtiyaciniz Var?",
-        "description": "Gida tedarik gereksinimlerinizi gorusmek icin bizimle iletisime gecin.",
-        "button": "Teklif Alin"
+        "title": "Gıda ve Tarım Tedarikine mi İhtiyacınız Var?",
+        "description": "Gıda tedarik gereksinimlerinizi görüşmek için bizimle iletişime geçin.",
+        "button": "Teklif Alın"
       }
     },
     "textile": {
       "metaTitle": "Tekstil ve Giyim Tedariki | Toko Trading",
-      "metaDescription": "Turkiye'nin onde gelen ureticilerinden ham pamuk, iplik, kumaslar, hazir giyim ve ev tekstili tedariki.",
+      "metaDescription": "Türkiye'nin önde gelen üreticilerinden ham pamuk, iplik, kumaşlar, hazır giyim ve ev tekstili tedariki.",
       "title": "Tekstil ve Giyim",
-      "subtitle": "Turkiye'nin dunya capinda taninmis uretim tabanindan premium tekstil tedariki",
+      "subtitle": "Türkiye'nin dünya çapında tanınmış üretim tabanından premium tekstil tedariki",
       "overview": {
-        "p1": "Turkiye dunyanin en buyuk tekstil ureticilerinden biridir ve Toko Trading bu avantaji kullanarak kuresel alicilari en iyi pamuk, iplik, kumas ve konfeksiyon ureticileriyle bulusturur.",
-        "p2": "Tekstil tedarik ekibimiz kumas spesifikasyonlarini, renk eslestirme gereksinimlerini ve uretim sure cilerini anlar. Markalarin kalite standartlarini korurken rekabetci fiyatlarla tedarik yapmasina yardimci oluyoruz."
+        "p1": "Türkiye dünyanın en büyük tekstil üreticilerinden biridir ve Toko Trading bu avantajı kullanarak küresel alıcıları en iyi pamuk, iplik, kumaş ve konfeksiyon üreticileriyle buluşturur.",
+        "p2": "Tekstil tedarik ekibimiz kumaş spesifikasyonlarını, renk eşleştirme gereksinimlerini ve üretim süreçlerini anlar. Markaların kalite standartlarını korurken rekabetçi fiyatlarla tedarik yapmasına yardımcı oluyoruz."
       },
       "products": {
         "fabrics": {
-          "title": "Ham Pamuk ve Iplik",
-          "description": "Turkiye'nin en iyi iplik fabrikalarindan yuksek kaliteli pamuk elyafi, karisim ve sentetik iplikler."
+          "title": "Ham Pamuk ve İplik",
+          "description": "Türkiye'nin en iyi iplik fabrikalarından yüksek kaliteli pamuk elyafı, karışım ve sentetik iplikler."
         },
         "readyToWear": {
-          "title": "Dokuma Kumaslar",
-          "description": "Cesitli agirlik ve isleme seeneklerinde pamuk, polyester ve karisim dokuma kumaslar."
+          "title": "Dokuma Kumaşlar",
+          "description": "Çeşitli ağırlık ve işleme seçeneklerinde pamuk, polyester ve karışım dokuma kumaşlar."
         },
         "homeTextiles": {
-          "title": "Hazir Giyim",
-          "description": "Esnek minimum siparis miktarlari ile taninmis ureticilerden erkek, kadin ve cocuk giyimi."
+          "title": "Hazır Giyim",
+          "description": "Esnek minimum sipariş miktarları ile tanınmış üreticilerden erkek, kadın ve çocuk giyimi."
         },
         "industrialTextiles": {
           "title": "Ev Tekstili",
-          "description": "Turkiye'nin unlu ev tekstili ureticilerinden yatak takimlari, havlular, perdeler ve dosemelik kumaslar."
+          "description": "Türkiye'nin ünlü ev tekstili üreticilerinden yatak takımları, havlular, perdeler ve döşemelik kumaşlar."
         }
       },
       "advantages": {
         "title": "Tekstil Tedarikinde Neden Toko",
         "a1": {
-          "title": "Fabrika Dogrulamali Kalite",
-          "description": "Her tekstil tedarikcisini uretim kapasitesi, kalite kontrol ve etik uyum icin denetliyoruz."
+          "title": "Fabrika Doğrulamalı Kalite",
+          "description": "Her tekstil tedarikçisini üretim kapasitesi, kalite kontrol ve etik uyum için denetliyoruz."
         },
         "a2": {
-          "title": "Tasarim ve Numune Destegi",
-          "description": "Numune gelistirme, kumas ornekleme ve renk eslestirme ile tam spesifikasyonlarinizi karsiliyoruz."
+          "title": "Tasarım ve Numune Desteği",
+          "description": "Numune geliştirme, kumaş örnekleme ve renk eşleştirme ile tam spesifikasyonlarınızı karşılıyoruz."
         },
         "a3": {
-          "title": "Rekabetci Toplu Fiyatlandirma",
-          "description": "Turk ureticilere dogrudan erisim aracilarni ortadan kaldirarak fabrika fiyatlari sunar."
+          "title": "Rekabetçi Toplu Fiyatlandırma",
+          "description": "Türk üreticilere doğrudan erişim aracıları ortadan kaldırarak fabrika fiyatları sunar."
         },
         "a4": {
-          "title": "Hizli Teslimat",
-          "description": "Turkiye'nin Avrupa'ya yakinligi ve lojistik altyapisi Uzak Dogu alternatiflerine gore daha kisa teslimat sureleri saglar."
+          "title": "Hızlı Teslimat",
+          "description": "Türkiye'nin Avrupa'ya yakınlığı ve lojistik altyapısı Uzak Doğu alternatiflerine göre daha kısa teslimat süreleri sağlar."
         }
       },
       "sectionTitles": {
         "products": "Neler Tedarik Ediyoruz",
-        "advantages": "Tedarik Avantajlari"
+        "advantages": "Tedarik Avantajları"
       },
       "cta": {
-        "title": "Tekstil Tedarikine mi Ihtiyaciniz Var?",
-        "description": "Sizi Turkiye'nin en iyi tekstil ureticileriyle bulusturalim.",
+        "title": "Tekstil Tedarikine mi İhtiyacınız Var?",
+        "description": "Sizi Türkiye'nin en iyi tekstil üreticileriyle buluşturalım.",
         "button": "Numune Talep Edin"
       }
     },
     "machinery": {
       "metaTitle": "Makine ve Ekipman Tedariki | Toko Trading",
-      "metaDescription": "Endustriyel ekipman, tarim makinalari, insaat ekipmani ve paketleme makineleri tedariki.",
+      "metaDescription": "Endüstriyel ekipman, tarım makinaları, inşaat ekipmanı ve paketleme makineleri tedariki.",
       "title": "Makine ve Ekipman",
-      "subtitle": "Teknik uzmanlik ve satis sonrasi destekle endustriyel makine ve ekipman tedariki",
+      "subtitle": "Teknik uzmanlık ve satış sonrası destekle endüstriyel makine ve ekipman tedariki",
       "overview": {
-        "p1": "Toko Trading, guvenilir endustriyel ekipman arayan isletmeler icin kapsamli makine tedarik hizmetleri sunmaktadir. Teknik gereksinimlerinizi dunya genelindeki dogru ureticilerle eslestiriyoruz.",
-        "p2": "Makine tedarik ekibimiz spesifikasyonlari, sertifikalari ve kurulum gereksinimlerini anlayan muhendislerden olusur. Teknik degerlendirmeden agir ekipman nakliyesine kadar her seyi yonetiyoruz."
+        "p1": "Toko Trading, güvenilir endüstriyel ekipman arayan işletmeler için kapsamlı makine tedarik hizmetleri sunmaktadır. Teknik gereksinimlerinizi dünya genelindeki doğru üreticilerle eşleştiriyoruz.",
+        "p2": "Makine tedarik ekibimiz spesifikasyonları, sertifikaları ve kurulum gereksinimlerini anlayan mühendislerden oluşur. Teknik değerlendirmeden ağır ekipman nakliyesine kadar her şeyi yönetiyoruz."
       },
       "products": {
         "industrialMachinery": {
-          "title": "Endustriyel Ekipman",
-          "description": "CNC tezgahlar, uretim hatlari, isleme ekipmanlari ve fabrika otomasyon sistemleri."
+          "title": "Endüstriyel Ekipman",
+          "description": "CNC tezgahlar, üretim hatları, işleme ekipmanları ve fabrika otomasyon sistemleri."
         },
         "agriculturalEquipment": {
-          "title": "Tarim Makinalari",
-          "description": "Traktorler, bicerdoverler, sulama sistemleri ve modern tarim icin gida isleme ekipmanlari."
+          "title": "Tarım Makinaları",
+          "description": "Traktörler, biçerdöverler, sulama sistemleri ve modern tarım için gıda işleme ekipmanları."
         },
         "spareParts": {
-          "title": "Insaat Ekipmani",
-          "description": "Guvenilir kuresel markalardan eksavatorler, yukleyiciler, beton mikserler ve santiye ekipmanlari."
+          "title": "İnşaat Ekipmanı",
+          "description": "Güvenilir küresel markalardan ekskavatörler, yükleyiciler, beton mikserler ve şantiye ekipmanları."
         },
         "automation": {
           "title": "Paketleme Makineleri",
-          "description": "Otomatik paketleme hatlari, dolum makineleri, etiketleme ve shrink ambalaj sistemleri."
+          "description": "Otomatik paketleme hatları, dolum makineleri, etiketleme ve shrink ambalaj sistemleri."
         }
       },
       "advantages": {
         "title": "Makine Tedarikinde Neden Toko",
         "a1": {
-          "title": "Teknik Degerlendirme",
-          "description": "Muhendislik ekibimiz spesifikasyonlari, performans kriterlerini ve CE/ISO sertifikalarini degerlendirir."
+          "title": "Teknik Değerlendirme",
+          "description": "Mühendislik ekibimiz spesifikasyonları, performans kriterlerini ve CE/ISO sertifikalarını değerlendirir."
         },
         "a2": {
-          "title": "Kurulum Destegi",
-          "description": "Yerinde kurulum, devreye alma ve operator egitimi icin uretici teknisyenlerini koordine ediyoruz."
+          "title": "Kurulum Desteği",
+          "description": "Yerinde kurulum, devreye alma ve operatör eğitimi için üretici teknisyenlerini koordine ediyoruz."
         },
         "a3": {
-          "title": "Rekabetci Finansman",
-          "description": "Uretici ortakliklarimiz araciligiyla uygun odeme kosullari ve finansman seceneklerine erisim."
+          "title": "Rekabetçi Finansman",
+          "description": "Üretici ortaklıklarımız aracılığıyla uygun ödeme koşulları ve finansman seçeneklerine erişim."
         },
         "a4": {
-          "title": "Agir Yuk Lojistigi",
-          "description": "Endustriyel ekipman icin gumrukleme dahil buyuk boyutlu makine nakliyesi icin ozel cozumler."
+          "title": "Ağır Yük Lojistiği",
+          "description": "Endüstriyel ekipman için gümrükleme dahil büyük boyutlu makine nakliyesi için özel çözümler."
         }
       },
       "sectionTitles": {
         "products": "Neler Tedarik Ediyoruz",
-        "advantages": "Tedarik Avantajlari"
+        "advantages": "Tedarik Avantajları"
       },
       "cta": {
-        "title": "Endustriyel Ekipmana mi Ihtiyaciniz Var?",
-        "description": "Makine gereksinimlerinizi teknik ekibimizle gorusun.",
-        "button": "Teknik Danismanlik"
+        "title": "Endüstriyel Ekipmana mı İhtiyacınız Var?",
+        "description": "Makine gereksinimlerinizi teknik ekibimizle görüşün.",
+        "button": "Teknik Danışmanlık"
       }
     },
     "chemicals": {
       "metaTitle": "Kimya Tedariki | Toko Trading",
-      "metaDescription": "Endustriyel kimyasallar, tarim kimyasallari, kozmetik bilesenleri ve temizlik urunleri tedariki.",
+      "metaDescription": "Endüstriyel kimyasallar, tarım kimyasalları, kozmetik bileşenleri ve temizlik ürünleri tedariki.",
       "title": "Kimya ve Petrokimya",
-      "subtitle": "Tam mevzuat dokumantasyonu ile guvenli ve uyumlu kimyasal tedariki",
+      "subtitle": "Tam mevzuat dokümantasyonu ile güvenli ve uyumlu kimyasal tedariki",
       "overview": {
-        "p1": "Toko Trading, uluslararasi guvenlik ve kalite standartlarini karsilayan ureticilerden endustriyel ve ozel kimyasallarin guvenilir tedarikini saglar. Kimya endustrisinde mevzuat uyumu, dokumantasyon ve guvenli tasima konularinin kritik onemini anliyoruz.",
-        "p2": "Toplu endustriyel kimyasallardan kozmetik ve tarim icin ozel bilesenlere kadar, ekibimiz kimya ticaretine ozgu karmasik lojistik ve dokumantasyon gereksinimlerini yonetir."
+        "p1": "Toko Trading, uluslararası güvenlik ve kalite standartlarını karşılayan üreticilerden endüstriyel ve özel kimyasalların güvenilir tedarikini sağlar. Kimya endüstrisinde mevzuat uyumu, dokümantasyon ve güvenli taşıma konularının kritik önemini anlıyoruz.",
+        "p2": "Toplu endüstriyel kimyasallardan kozmetik ve tarım için özel bileşenlere kadar, ekibimiz kimya ticaretine özgü karmaşık lojistik ve dokümantasyon gereksinimlerini yönetir."
       },
       "products": {
         "industrialChemicals": {
-          "title": "Endustriyel Kimyasallar",
-          "description": "MSDS dokumantasyonu ile ISO sertifikali ureticilerden cozucular, asitler, bazlar ve endustriyel kalite kimyasallar."
+          "title": "Endüstriyel Kimyasallar",
+          "description": "MSDS dokümantasyonu ile ISO sertifikalı üreticilerden çözücüler, asitler, bazlar ve endüstriyel kalite kimyasallar."
         },
         "petrochemicals": {
-          "title": "Tarim Kimyasallari",
-          "description": "Ulusal tarimsal guvenlik standartlarini karsilayan gubreler, pestisitler ve bitki koruma urunleri."
+          "title": "Tarım Kimyasalları",
+          "description": "Ulusal tarımsal güvenlik standartlarını karşılayan gübreler, pestisitler ve bitki koruma ürünleri."
         },
         "pharmaceuticals": {
-          "title": "Kozmetik Bilesenleri",
-          "description": "GMP sertifikasyonu ile kozmetik ve kisisel bakim urunleri icin hammaddeler ve aktif bilesenler."
+          "title": "Kozmetik Bileşenleri",
+          "description": "GMP sertifikasyonu ile kozmetik ve kişisel bakım ürünleri için hammaddeler ve aktif bileşenler."
         },
         "fertilizers": {
-          "title": "Temizlik Urunleri",
-          "description": "Toplu miktarlarda endustriyel ve ticari temizlik kimyasallari, deterjanlar ve sanitizasyon urunleri."
+          "title": "Temizlik Ürünleri",
+          "description": "Toplu miktarlarda endüstriyel ve ticari temizlik kimyasalları, deterjanlar ve sanitizasyon ürünleri."
         }
       },
       "advantages": {
         "title": "Kimyasal Tedarikinde Neden Toko",
         "a1": {
           "title": "Mevzuat Uyumu",
-          "description": "Tedarik ettigimiz her kimyasal urun icin tam REACH, CLP ve GHS uyumluluk dokumantasyonu."
+          "description": "Tedarik ettiğimiz her kimyasal ürün için tam REACH, CLP ve GHS uyumluluk dokümantasyonu."
         },
         "a2": {
-          "title": "Guvenlik Sertifikali",
-          "description": "Tum kimyasal tedarikciler guvenlik protokolleri, depolama kosullari ve tasima prosdurleri icin denetlenir."
+          "title": "Güvenlik Sertifikalı",
+          "description": "Tüm kimyasal tedarikçiler güvenlik protokolleri, depolama koşulları ve taşıma prosedürleri için denetlenir."
         },
         "a3": {
-          "title": "Hacim Fiyatlandirmasi",
-          "description": "Buyuk kimya ureticileriyle toplu alis anlasmalaryla tekrarlayan siparisler icin rekabetci fiyatlar."
+          "title": "Hacim Fiyatlandırması",
+          "description": "Büyük kimya üreticileriyle toplu alış anlaşmalarıyla tekrarlayan siparişler için rekabetçi fiyatlar."
         },
         "a4": {
           "title": "Tehlikeli Madde Nakliyesi",
-          "description": "Uygun siniflandirma, paketleme ve nakliye dokumantasyonu ile ozel tehlikeli madde tasimaciligi."
+          "description": "Uygun sınıflandırma, paketleme ve nakliye dokümantasyonu ile özel tehlikeli madde taşımacılığı."
         }
       },
       "sectionTitles": {
         "products": "Neler Tedarik Ediyoruz",
-        "advantages": "Tedarik Avantajlari"
+        "advantages": "Tedarik Avantajları"
       },
       "cta": {
-        "title": "Kimyasal Tedarikine mi Ihtiyaciniz Var?",
-        "description": "Kimyasal tedarik uzmanlarimizla tam mevzuat uyumu ve guvenli teslimat icin iletisime gecin.",
-        "button": "Dokumantasyon Talep Edin"
+        "title": "Kimyasal Tedarikine mi İhtiyacınız Var?",
+        "description": "Kimyasal tedarik uzmanlarımızla tam mevzuat uyumu ve güvenli teslimat için iletişime geçin.",
+        "button": "Dokümantasyon Talep Edin"
       }
     },
     "construction": {
-      "metaTitle": "Insaat Malzemeleri Tedariki | Toko Trading",
-      "metaDescription": "Dunya genelinde insaat projeleri icin celik, demir, cimento, seramik, fayans ve tesisat malzemeleri tedarik edin.",
-      "title": "Insaat Malzemeleri",
-      "subtitle": "Her olcekteki projeler icin guvenilir yapi malzemeleri ve insaat tedariki",
+      "metaTitle": "İnşaat Malzemeleri Tedariki | Toko Trading",
+      "metaDescription": "Dünya genelinde inşaat projeleri için çelik, demir, çimento, seramik, fayans ve tesisat malzemeleri tedarik edin.",
+      "title": "İnşaat Malzemeleri",
+      "subtitle": "Her ölçekteki projeler için güvenilir yapı malzemeleri ve inşaat tedariki",
       "overview": {
-        "p1": "Toko Trading, Turkiye'nin gelisen insaat sektorunden kapsamli yapi malzemesi tedariki sunmaktadir. Yapisal celikten cimentoya, seramikten fayansa ve tesisat malzemelerine kadar musteriyi kaliteli ureticilerle bulusturuyoruz.",
-        "p2": "Insaat tedarik ekibimiz proje takvimlerini, teknik spesifikasyonlari ve uyumluluk gereksinimlerini anlar. Buyuk olcekli siparisler icin rekabetci fiyatlar sunarken malzemelerin uluslararasi standartlara uygunlugunu saglariz."
+        "p1": "Toko Trading, Türkiye'nin gelişen inşaat sektöründen kapsamlı yapı malzemesi tedariki sunmaktadır. Yapısal çelikten çimentoya, seramikten fayansa ve tesisat malzemelerine kadar müşteriyi kaliteli üreticilerle buluşturuyoruz.",
+        "p2": "İnşaat tedarik ekibimiz proje takvimlerini, teknik spesifikasyonları ve uyumluluk gereksinimlerini anlar. Büyük ölçekli siparişler için rekabetçi fiyatlar sunarken malzemelerin uluslararası standartlara uygunluğunu sağlarız."
       },
       "products": {
         "buildingMaterials": {
-          "title": "Celik ve Demir",
-          "description": "Sertifikali Turk haddehanelerinden yapisal celik, betonarme demiri, profiller ve metal iscilik urunleri."
+          "title": "Çelik ve Demir",
+          "description": "Sertifikalı Türk haddehanelerinden yapısal çelik, betonarme demiri, profiller ve metal işçilik ürünleri."
         },
         "steel": {
-          "title": "Cimento ve Beton",
-          "description": "Altyapi ve bina projeleri icin Portland cimentosu, hazir beton ve ozel cimento cesitleri."
+          "title": "Çimento ve Beton",
+          "description": "Altyapı ve bina projeleri için Portland çimentosu, hazır beton ve özel çimento çeşitleri."
         },
         "cement": {
           "title": "Seramik ve Fayans",
-          "description": "Odullu Turk ureticilerinden zemin karolari, duvar fayanslari, sihhi tesisat seramikleri ve dekoratif yuzeyler."
+          "description": "Ödüllü Türk üreticilerinden zemin karoları, duvar fayansları, sıhhi tesisat seramikleri ve dekoratif yüzeyler."
         },
         "plumbing": {
-          "title": "Tesisat ve Baglantilar",
-          "description": "Kalite sertifikali ureticilerden borular, vanalar, baglanti parcalari, banyo armatuleri ve su sistemleri."
+          "title": "Tesisat ve Bağlantılar",
+          "description": "Kalite sertifikalı üreticilerden borular, vanalar, bağlantı parçaları, banyo armatürleri ve su sistemleri."
         }
       },
       "advantages": {
-        "title": "Insaat Malzemesini Neden Toko ile Tedarik Etmelisiniz",
+        "title": "İnşaat Malzemesini Neden Toko ile Tedarik Etmelisiniz",
         "a1": {
-          "title": "Sertifikali Standartlar",
-          "description": "Tum malzemeler EN, ASTM ve ISO standartlari dahil uluslararasi yapi yonetmeliklerine gore test edilip sertifikalanir."
+          "title": "Sertifikalı Standartlar",
+          "description": "Tüm malzemeler EN, ASTM ve ISO standartları dahil uluslararası yapı yönetmeliklerine göre test edilip sertifikalanır."
         },
         "a2": {
-          "title": "Proje Olcekli Tedarik",
-          "description": "Tutarli kalite ve takviminize uygun programli teslimatlarla buyuk olcekli siparisleri karsilama kapasitesi."
+          "title": "Proje Ölçekli Tedarik",
+          "description": "Tutarlı kalite ve takviminize uygun programlı teslimatlarla büyük ölçekli siparişleri karşılama kapasitesi."
         },
         "a3": {
-          "title": "Rekabetci Toplu Fiyatlar",
-          "description": "Ureticilerle dogrudan iliskiler ve hacim satin alma gucu sayesinde onemli maliyet tasarruflar."
+          "title": "Rekabetçi Toplu Fiyatlar",
+          "description": "Üreticilerle doğrudan ilişkiler ve hacim satın alma gücü sayesinde önemli maliyet tasarrufları."
         },
         "a4": {
-          "title": "Agir Yuk Lojistigi",
-          "description": "Konteyner tasimaciligi dahil agir ve buyuk boyutlu insaat malzemeleri icin uzman navlun cozumleri."
+          "title": "Ağır Yük Lojistiği",
+          "description": "Konteyner taşımacılığı dahil ağır ve büyük boyutlu inşaat malzemeleri için uzman navlun çözümleri."
         }
       },
       "sectionTitles": {
         "products": "Neler Tedarik Ediyoruz",
-        "advantages": "Tedarik Avantajlari"
+        "advantages": "Tedarik Avantajları"
       },
       "cta": {
-        "title": "Insaat Malzemesi Tedarikine mi Ihtiyaciniz Var?",
-        "description": "Turkiye'nin onde gelen ureticilerinden yapi malzemeleri icin rekabetci teklifler alin.",
-        "button": "Teklif Alin"
+        "title": "İnşaat Malzemesi Tedarikine mi İhtiyacınız Var?",
+        "description": "Türkiye'nin önde gelen üreticilerinden yapı malzemeleri için rekabetçi teklifler alın.",
+        "button": "Teklif Alın"
       }
     },
     "raw-materials": {
       "metaTitle": "Hammadde Tedariki | Toko Trading",
-      "metaDescription": "Guvenilir dunya tedarikcilerinden metaller, alasimlar, mineraller, polimerler, plastikler ve keresteleri tedarik edin.",
+      "metaDescription": "Güvenilir dünya tedarikçilerinden metaller, alaşımlar, mineraller, polimerler, plastikler ve keresteleri tedarik edin.",
       "title": "Hammaddeler",
-      "subtitle": "Kalite guvencesiyle dogrulanmis kuresel tedarikcilerden endustriyel hammadde tedariki",
+      "subtitle": "Kalite güvencesiyle doğrulanmış küresel tedarikçilerden endüstriyel hammadde tedariki",
       "overview": {
-        "p1": "Toko Trading, dunya genelindeki ureticiler ve isleyiciler icin endustriyel hammadde tedarikinde uzmanlasmistir. Metallerden alasimlara, minerallerden polimerlere ve kerestelere kadar uretim ihtiyaclariniz icin guvenilir tedarik zincirleri saglariz.",
-        "p2": "Hammadde ekibimiz kuresel emtia piyasalarini izler ve kilit bolgelerdeki ureticilerle iliskiler surdurur. Musterilerimizin tam kalite dokumantasyonuyla rekabetci fiyatlarla istikrarli tedarik elde etmelerine yardimci oluruz."
+        "p1": "Toko Trading, dünya genelindeki üreticiler ve işleyiciler için endüstriyel hammadde tedarikinde uzmanlaşmıştır. Metallerden alaşımlara, minerallerden polimerlere ve kerestelere kadar üretim ihtiyaçlarınız için güvenilir tedarik zincirleri sağlarız.",
+        "p2": "Hammadde ekibimiz küresel emtia piyasalarını izler ve kilit bölgelerdeki üreticilerle ilişkiler sürdürür. Müşterilerimizin tam kalite dokümantasyonuyla rekabetçi fiyatlarla istikrarlı tedarik elde etmelerine yardımcı oluruz."
       },
       "products": {
         "metals": {
-          "title": "Metaller ve Alasimlar",
-          "description": "Endustriyel uygulamalar icin cesitli form ve kalitelerde celik, aluminyum, bakir, pirinc ve ozel alasimlar."
+          "title": "Metaller ve Alaşımlar",
+          "description": "Endüstriyel uygulamalar için çeşitli form ve kalitelerde çelik, alüminyum, bakır, pirinç ve özel alaşımlar."
         },
         "minerals": {
           "title": "Mineraller",
-          "description": "Turkiye'nin zengin maden yataklarindan mermer, granit, bor, feldspat ve kuvars dahil endustriyel mineraller."
+          "description": "Türkiye'nin zengin maden yataklarından mermer, granit, bor, feldspat ve kuvars dahil endüstriyel mineraller."
         },
         "timber": {
-          "title": "Kereste ve Ahsap",
-          "description": "Surdurulebilir ormancilik kaynaklarindan insaat kerestesi, muhendislik ahsabi, kontrplak ve ozel keresteler."
+          "title": "Kereste ve Ahşap",
+          "description": "Sürdürülebilir ormancılık kaynaklarından inşaat kerestesi, mühendislik ahşabı, kontrplak ve özel keresteler."
         },
         "polymers": {
           "title": "Polimerler ve Plastikler",
-          "description": "Imalat uygulamalari icin ham polimer recineleri, plastik granulleri, bilesimler ve geri donusturulmus malzemeler."
+          "description": "İmalat uygulamaları için ham polimer reçineleri, plastik granülleri, bileşimler ve geri dönüştürülmüş malzemeler."
         }
       },
       "advantages": {
         "title": "Hammaddeyi Neden Toko ile Tedarik Etmelisiniz",
         "a1": {
-          "title": "Piyasa Istihbarati",
-          "description": "Optimal zamanlama ve fiyatlarla satin almaniza yardimci olacak gercek zamanli emtia fiyatlandirmasi ve piyasa analizi."
+          "title": "Piyasa İstihbaratı",
+          "description": "Optimal zamanlama ve fiyatlarla satın almanıza yardımcı olacak gerçek zamanlı emtia fiyatlandırması ve piyasa analizi."
         },
         "a2": {
-          "title": "Kalite Sertifikali",
-          "description": "Her sevkiyat icin malzeme sertifikalari, test raporlari ve kimyasal analiz belgeleri saglanir."
+          "title": "Kalite Sertifikalı",
+          "description": "Her sevkiyat için malzeme sertifikaları, test raporları ve kimyasal analiz belgeleri sağlanır."
         },
         "a3": {
-          "title": "Tedarik Surekliligi",
-          "description": "Dogrulanmis coklu tedarikci agi, piyasa bozulmalarinda bile kesintisiz tedarik saglar."
+          "title": "Tedarik Sürekliliği",
+          "description": "Doğrulanmış çoklu tedarikçi ağı, piyasa bozulmalarında bile kesintisiz tedarik sağlar."
         },
         "a4": {
           "title": "Toplu Lojistik",
-          "description": "Buyuk hammadde sevkiyatlari icin konteyner, genel kargo ve dok gemi tasimaciligi cozumleri."
+          "description": "Büyük hammadde sevkiyatları için konteyner, genel kargo ve dökme gemi taşımacılığı çözümleri."
         }
       },
       "sectionTitles": {
         "products": "Neler Tedarik Ediyoruz",
-        "advantages": "Tedarik Avantajlari"
+        "advantages": "Tedarik Avantajları"
       },
       "cta": {
-        "title": "Hammadde Tedarikine mi Ihtiyaciniz Var?",
-        "description": "Guvenilir tedarik ve rekabetci fiyatlar icin emtia uzmanlarimizla hammadde ihtiyaclarinizi gorusun.",
+        "title": "Hammadde Tedarikine mi İhtiyacınız Var?",
+        "description": "Güvenilir tedarik ve rekabetçi fiyatlar için emtia uzmanlarımızla hammadde ihtiyaçlarınızı görüşün.",
         "button": "Fiyat Talep Edin"
       }
     },
     "electronics": {
       "metaTitle": "Elektronik Tedariki | Toko Trading",
-      "metaDescription": "Elektronik bilesenler, tuketici elektronigi, endustriyel elektronik ve telekomunikasyon ekipmanlari tedarik edin.",
+      "metaDescription": "Elektronik bileşenler, tüketici elektroniği, endüstriyel elektronik ve telekomünikasyon ekipmanları tedarik edin.",
       "title": "Elektronik ve Teknoloji",
-      "subtitle": "Dunya genelinde dogrulanmis ureticilerden elektronik bilesenler ve teknoloji urunleri",
+      "subtitle": "Dünya genelinde doğrulanmış üreticilerden elektronik bileşenler ve teknoloji ürünleri",
       "overview": {
-        "p1": "Toko Trading, alicilari dunya genelinde guvenilir elektronik ureticileri ve distributorleriyle bulusturur. Elektronik bilesenlerden kablolara, tuketici elektroniginden endustriyel aydinlatmaya kadar her sipariste kalite ve orijinallik guvencesi saglarz.",
-        "p2": "Elektronik tedarik ekibimiz urun orijinalligini, sertifikasyonlari ve uretici referanslarini dogrular. Isletmelerin guvenilir tedarik zincirlerinden rekabetci fiyatlara erisirken sahte urun risklerinden kacinmasina yardimci oluruz."
+        "p1": "Toko Trading, alıcıları dünya genelinde güvenilir elektronik üreticileri ve distribütörleriyle buluşturur. Elektronik bileşenlerden kablolara, tüketici elektroniğinden endüstriyel aydınlatmaya kadar her siparişte kalite ve orijinallik güvencesi sağlarız.",
+        "p2": "Elektronik tedarik ekibimiz ürün orijinalliğini, sertifikasyonları ve üretici referanslarını doğrular. İşletmelerin güvenilir tedarik zincirlerinden rekabetçi fiyatlara erişirken sahte ürün risklerinden kaçınmasına yardımcı oluruz."
       },
       "products": {
         "components": {
-          "title": "Elektronik Bilesenler",
-          "description": "Yetkili distributor ve ureticilerden yaricileticiler, kondansatorler, direncler, konnektorler ve PCB'ler."
+          "title": "Elektronik Bileşenler",
+          "description": "Yetkili distribütör ve üreticilerden yarıiletkenler, kondansatörler, dirençler, konnektörler ve PCB'ler."
         },
         "consumerElectronics": {
-          "title": "Tuketici Elektronigi",
-          "description": "Koylu markalardan ev aletleri, ses ekipmanlari, akilli cihazlar ve tuketici teknolojisi urunleri."
+          "title": "Tüketici Elektroniği",
+          "description": "Köklü markalardan ev aletleri, ses ekipmanları, akıllı cihazlar ve tüketici teknolojisi ürünleri."
         },
         "cables": {
-          "title": "Kablolar ve Balglantilar",
-          "description": "Sertifikali kablo ureticilerinden guc kablolari, veri kablolari, fiber optik ve kablo tesisatlari."
+          "title": "Kablolar ve Bağlantılar",
+          "description": "Sertifikalı kablo üreticilerinden güç kabloları, veri kabloları, fiber optik ve kablo tesisatları."
         },
         "lighting": {
-          "title": "Aydinlatma Cozumleri",
-          "description": "Ticari ve konut kullanimi icin LED aydinlatma, endustriyel armaturler, akilli aydinlatma sistemleri ve elektrik tesisatlari."
+          "title": "Aydınlatma Çözümleri",
+          "description": "Ticari ve konut kullanımı için LED aydınlatma, endüstriyel armatürler, akıllı aydınlatma sistemleri ve elektrik tesisatları."
         }
       },
       "advantages": {
-        "title": "Elektronigi Neden Toko ile Tedarik Etmelisiniz",
+        "title": "Elektroniği Neden Toko ile Tedarik Etmelisiniz",
         "a1": {
-          "title": "Orijinallik Dogrulanmis",
-          "description": "Her bilesen, yetkili ureticilere ve distributorlere kadar izlenebilirlikle orijinallik acisindan dogrulanir."
+          "title": "Orijinallik Doğrulanmış",
+          "description": "Her bileşen, yetkili üreticilere ve distribütörlere kadar izlenebilirlikle orijinallik açısından doğrulanır."
         },
         "a2": {
-          "title": "Uyumluluk Sertifikali",
-          "description": "Tedarik edilen her urun icin CE, RoHS, FCC ve diger bolgesel sertifikalar dogrulanir ve belgelenir."
+          "title": "Uyumluluk Sertifikalı",
+          "description": "Tedarik edilen her ürün için CE, RoHS, FCC ve diğer bölgesel sertifikalar doğrulanır ve belgelenir."
         },
         "a3": {
-          "title": "Esnek Minimum Siparis",
-          "description": "Birden fazla dogrulanmis kaynaktan konsolide satin alma yoluyla esnek minimum siparis miktarlari."
+          "title": "Esnek Minimum Sipariş",
+          "description": "Birden fazla doğrulanmış kaynaktan konsolide satın alma yoluyla esnek minimum sipariş miktarları."
         },
         "a4": {
-          "title": "Anti-Statik Gonderim",
-          "description": "Hassas elektronik bilesenler ve montajlar icin ozel ESD-guvenli paketleme ve nakliye."
+          "title": "Anti-Statik Gönderim",
+          "description": "Hassas elektronik bileşenler ve montajlar için özel ESD-güvenli paketleme ve nakliye."
         }
       },
       "sectionTitles": {
         "products": "Neler Tedarik Ediyoruz",
-        "advantages": "Tedarik Avantajlari"
+        "advantages": "Tedarik Avantajları"
       },
       "cta": {
-        "title": "Elektronik Tedarikine mi Ihtiyaciniz Var?",
-        "description": "Rekabetci fiyatlarla dogrulanmis bilesenler ve teknoloji urunleri icin elektronik ekibimizle baglanti kurun.",
+        "title": "Elektronik Tedarikine mi İhtiyacınız Var?",
+        "description": "Rekabetçi fiyatlarla doğrulanmış bileşenler ve teknoloji ürünleri için elektronik ekibimizle bağlantı kurun.",
         "button": "Teklif Talep Edin"
       }
     },
     "automotive": {
-      "metaTitle": "Otomotiv Yedek Parca Tedariki | Toko Trading",
-      "metaDescription": "Kuresel yedek parca pazari icin oto yedek parcalari, aksesuarlar, lastikler ve otomotiv sivilari tedarik edin.",
-      "title": "Otomotiv ve Yedek Parca",
-      "subtitle": "Kuresel yedek parca endustrisi icin otomotiv parcalari ve aksesuar tedariki",
+      "metaTitle": "Otomotiv Yedek Parça Tedariki | Toko Trading",
+      "metaDescription": "Küresel yedek parça pazarı için oto yedek parçaları, aksesuarlar, lastikler ve otomotiv sıvıları tedarik edin.",
+      "title": "Otomotiv ve Yedek Parça",
+      "subtitle": "Küresel yedek parça endüstrisi için otomotiv parçaları ve aksesuar tedariki",
       "overview": {
-        "p1": "Toko Trading, Turkiye'nin buyuyen otomotiv imalat sektorunden ve kuresel tedarikcilerden otomotiv parcalari, aksesuarlar ve malzeme tedarikinde guvenilir ortaginizdir. Dunya genelinde yedek parca distributorleri, atoyeler ve filo operatorlerine hizmet veriyoruz.",
-        "p2": "Otomotiv ekibimiz, yedek parca sektorunde gereken OEM spesifikasyonlarini, carpraz referanslari ve kalite standartlarini anlar. Tam izlenebilirlikle guvenilir bir parca tedarik zinciri olusturmaniza yardimci oluruz."
+        "p1": "Toko Trading, Türkiye'nin büyüyen otomotiv imalat sektöründen ve küresel tedarikçilerden otomotiv parçaları, aksesuarlar ve malzeme tedarikinde güvenilir ortağınızdır. Dünya genelinde yedek parça distribütörleri, atölyeler ve filo operatörlerine hizmet veriyoruz.",
+        "p2": "Otomotiv ekibimiz, yedek parça sektöründe gereken OEM spesifikasyonlarını, çapraz referansları ve kalite standartlarını anlar. Tam izlenebilirlikle güvenilir bir parça tedarik zinciri oluşturmanıza yardımcı oluruz."
       },
       "products": {
         "autoParts": {
-          "title": "Oto Yedek Parcalari",
-          "description": "Sertifikali ureticilerden motor parcalari, fren sistemleri, suspansiyon bilesenleri ve OEM esdegeri yedek parcalar."
+          "title": "Oto Yedek Parçaları",
+          "description": "Sertifikalı üreticilerden motor parçaları, fren sistemleri, süspansiyon bileşenleri ve OEM eşdeğeri yedek parçalar."
         },
         "tires": {
-          "title": "Lastikler ve Kaucuk",
-          "description": "Turk ve uluslararasi lastik ureticilerinden binek, ticari ve arazi lastikleri, tam garantili."
+          "title": "Lastikler ve Kauçuk",
+          "description": "Türk ve uluslararası lastik üreticilerinden binek, ticari ve arazi lastikleri, tam garantili."
         },
         "accessories": {
           "title": "Aksesuarlar ve Eklentiler",
-          "description": "Tum arac tipleri icin ic ve dis aksesuarlar, arac bakim urunleri ve performans yukseltmeleri."
+          "description": "Tüm araç tipleri için iç ve dış aksesuarlar, araç bakım ürünleri ve performans yükseltmeleri."
         },
         "commercialVehicles": {
-          "title": "Ticari Arac Parcalari",
-          "description": "Filo operasyonlari icin kamyon parcalari, otobus bilesenleri, romork aksesuarlari ve agir hizmet arac sistemleri."
+          "title": "Ticari Araç Parçaları",
+          "description": "Filo operasyonları için kamyon parçaları, otobüs bileşenleri, römork aksesuarları ve ağır hizmet araç sistemleri."
         }
       },
       "advantages": {
-        "title": "Otomotiv Parcalarini Neden Toko ile Tedarik Etmelisiniz",
+        "title": "Otomotiv Parçalarını Neden Toko ile Tedarik Etmelisiniz",
         "a1": {
           "title": "OEM Kalitesinde",
-          "description": "Parcalar OEM spesifikasyonlarina gore dogrulanir, kalite sertifikalari ve carpraz referans belgeleri saglanir."
+          "description": "Parçalar OEM spesifikasyonlarına göre doğrulanır, kalite sertifikaları ve çapraz referans belgeleri sağlanır."
         },
         "a2": {
-          "title": "Genis Katalog",
-          "description": "Ureticiler arasindaki kapsamli tedarikci agimiz araciligiyla buyuk marka ve modeller icin parcalara erisim."
+          "title": "Geniş Katalog",
+          "description": "Üreticiler arasındaki kapsamlı tedarikçi ağımız aracılığıyla büyük marka ve modeller için parçalara erişim."
         },
         "a3": {
-          "title": "Rekabetci Fiyatlar",
-          "description": "Ureticilerden dogrudan tedarik, araci maliyetlerini ortadan kaldirir ve yedek parca pazarinda rekabetci fiyatlar sunar."
+          "title": "Rekabetçi Fiyatlar",
+          "description": "Üreticilerden doğrudan tedarik, aracı maliyetlerini ortadan kaldırır ve yedek parça pazarında rekabetçi fiyatlar sunar."
         },
         "a4": {
-          "title": "Hizli Teslimat",
-          "description": "Dunya genelinde otomotiv parca siparislerinde hizli geri donus icin verimli siparis isleme ve lojistik."
+          "title": "Hızlı Teslimat",
+          "description": "Dünya genelinde otomotiv parça siparişlerinde hızlı geri dönüş için verimli sipariş işleme ve lojistik."
         }
       },
       "sectionTitles": {
         "products": "Neler Tedarik Ediyoruz",
-        "advantages": "Tedarik Avantajlari"
+        "advantages": "Tedarik Avantajları"
       },
       "cta": {
-        "title": "Otomotiv Parca Tedarikine mi Ihtiyaciniz Var?",
-        "description": "OEM kalitesinde ve rekabetci fiyatlarla guvenilir parca tedariki icin otomotiv ekibimizle iletisime gecin.",
-        "button": "Parca Teklifi Alin"
+        "title": "Otomotiv Parça Tedarikine mi İhtiyacınız Var?",
+        "description": "OEM kalitesinde ve rekabetçi fiyatlarla güvenilir parça tedariki için otomotiv ekibimizle iletişime geçin.",
+        "button": "Parça Teklifi Alın"
       }
     }
   },
   "ReferencesPage": {
     "seo": {
       "title": "Referanslar ve Sicilimiz",
-      "description": "1000'den fazla basarili islem, 50+ ulke ve 20 yili askin deneyim. Toko Trading'in uluslararasi ticaretteki kanitlanmis sonuclari."
+      "description": "1000'den fazla başarılı işlem, 50+ ülke ve 20 yılı aşkın deneyim. Toko Trading'in uluslararası ticaretteki kanıtlanmış sonuçları."
     },
     "hero": {
-      "title": "Sicil ve Referanslarimiz",
-      "subtitle": "Uluslararasi ticarette kanitlanmis sonuclar. 20 yili askin deneyimimizle guvenilir cozum ortaginiz olarak fark yaratiyoruz.",
-      "badge": "Guvenilir Ortak"
+      "title": "Sicil ve Referanslarımız",
+      "subtitle": "Uluslararası ticarette kanıtlanmış sonuçlar. 20 yılı aşkın deneyimimizle güvenilir çözüm ortağınız olarak fark yaratıyoruz.",
+      "badge": "Güvenilir Ortak"
     },
     "breadcrumb": {
       "home": "Ana Sayfa",
@@ -1094,34 +1094,34 @@
     },
     "stats": {
       "title": "Rakamlarla Toko Trading",
-      "subtitle": "Basarimizi rakamlarla olcuyoruz",
-      "transactions": "Tamamlanan Islem",
-      "countries": "Ulkeye Erisim",
-      "experience": "Yillik Deneyim",
-      "sectors": "Faaliyet Sektoru"
+      "subtitle": "Başarımızı rakamlarla ölçüyoruz",
+      "transactions": "Tamamlanan İşlem",
+      "countries": "Ülkeye Erişim",
+      "experience": "Yıllık Deneyim",
+      "sectors": "Faaliyet Sektörü"
     },
     "industries": {
-      "badge": "Faaliyet Alanlarimiz",
-      "title": "Hizmet Verdigimiz Sektorler",
+      "badge": "Faaliyet Alanlarımız",
+      "title": "Hizmet Verdiğimiz Sektörler",
       "food": {
-        "title": "Gida & Tarim",
-        "description": "Tahil, sut urunleri, konserve ve baharat ticareti"
+        "title": "Gıda & Tarım",
+        "description": "Tahıl, süt ürünleri, konserve ve baharat ticareti"
       },
       "textile": {
         "title": "Tekstil",
-        "description": "Kumas, hazir giyim ve ev tekstili"
+        "description": "Kumaş, hazır giyim ve ev tekstili"
       },
       "machinery": {
         "title": "Makine",
-        "description": "Endustriyel makine ve yedek parca"
+        "description": "Endüstriyel makine ve yedek parça"
       },
       "chemicals": {
         "title": "Kimya",
-        "description": "Endustriyel kimyasallar ve petrokimya"
+        "description": "Endüstriyel kimyasallar ve petrokimya"
       },
       "construction": {
-        "title": "Insaat",
-        "description": "Yapi malzemeleri, celik ve cimento"
+        "title": "İnşaat",
+        "description": "Yapı malzemeleri, çelik ve çimento"
       },
       "rawMaterials": {
         "title": "Hammadde",
@@ -1129,69 +1129,69 @@
       },
       "electronics": {
         "title": "Elektronik",
-        "description": "Elektronik komponentler ve tuketici urunleri"
+        "description": "Elektronik komponentler ve tüketici ürünleri"
       },
       "automotive": {
         "title": "Otomotiv",
-        "description": "Otomotiv yedek parca ve aksesuar"
+        "description": "Otomotiv yedek parça ve aksesuar"
       }
     },
     "testimonials": {
-      "badge": "Musteri Gorusleri",
-      "title": "Ortaklarimiz Ne Diyor?",
+      "badge": "Müşteri Görüşleri",
+      "title": "Ortaklarımız Ne Diyor?",
       "t1": {
-        "quote": "Toko Trading ile calismak, Turkiye'den tedarik sureclerimizi tamamen donusturdu. Gumruk islemlerindeki uzmanliklari ve zamaninda teslimat performanslari benzersiz.",
-        "company": "Onde Gelen Tekstil Ureticisi, Almanya",
-        "role": "Tedarik Muduru"
+        "quote": "Toko Trading ile çalışmak, Türkiye'den tedarik süreçlerimizi tamamen dönüştürdü. Gümrük işlemlerindeki uzmanlıkları ve zamanında teslimat performansları benzersiz.",
+        "company": "Önde Gelen Tekstil Üreticisi, Almanya",
+        "role": "Tedarik Müdürü"
       },
       "t2": {
-        "quote": "Transit ticaret operasyonlarimizda Toko'nun BDT pazarlarindaki bilgi birikimi paha bicilemez. Karmasik lojistik surecleri sorunsuz bir sekilde yonetiyorlar.",
-        "company": "Uluslararasi Gida Dagitim Sirketi, BAE",
-        "role": "Operasyon Direktoru"
+        "quote": "Transit ticaret operasyonlarımızda Toko'nun BDT pazarlarındaki bilgi birikimi paha biçilemez. Karmaşık lojistik süreçleri sorunsuz bir şekilde yönetiyorlar.",
+        "company": "Uluslararası Gıda Dağıtım Şirketi, BAE",
+        "role": "Operasyon Direktörü"
       },
       "t3": {
-        "quote": "5 yili askin suredir Toko ile calisiyoruz. Seffafliklari ve guvenilirlikleri sayesinde yeni pazarlara guvenle acilabildik.",
-        "company": "Makine Ihracatcisi, Turkiye",
-        "role": "Dis Ticaret Mudurlugu"
+        "quote": "5 yılı aşkın süredir Toko ile çalışıyoruz. Şeffaflıkları ve güvenilirlikleri sayesinde yeni pazarlara güvenle açılabildik.",
+        "company": "Makine İhracatçısı, Türkiye",
+        "role": "Dış Ticaret Müdürlüğü"
       }
     },
     "global": {
-      "title": "Kuresel Ayak Izimiz",
-      "subtitle": "Turkiye'den dunyaya uzanan guclu ticaret agi",
-      "countriesLabel": "ulke",
+      "title": "Küresel Ayak İzimiz",
+      "subtitle": "Türkiye'den dünyaya uzanan güçlü ticaret ağı",
+      "countriesLabel": "ülke",
       "regions": {
         "europe": "Avrupa",
-        "middleEast": "Ortadogu",
+        "middleEast": "Ortadoğu",
         "asia": "Asya",
         "africa": "Afrika",
         "russiaCis": "Rusya & BDT"
       },
-      "corridorsTitle": "Onemli Ticaret Koridorlari",
+      "corridorsTitle": "Önemli Ticaret Koridorları",
       "corridors": {
-        "turkeyGermany": "Turkiye - Almanya",
-        "turkeyRussia": "Turkiye - Rusya",
-        "turkeyUae": "Turkiye - BAE",
-        "turkeyUsaUk": "Turkiye - ABD/Ingiltere"
+        "turkeyGermany": "Türkiye - Almanya",
+        "turkeyRussia": "Türkiye - Rusya",
+        "turkeyUae": "Türkiye - BAE",
+        "turkeyUsaUk": "Türkiye - ABD/İngiltere"
       }
     },
     "cta": {
-      "title": "Ortak Agimiza Katilmaya Hazir misiniz?",
-      "description": "Uluslararasi ticaret ihtiyaclariniz icin hemen bizimle iletisime gecin. Deneyimli ekibimiz size ozel cozumler uretmek icin hazir.",
-      "button": "Iletisime Gecin",
-      "note": "Ilk gorusme tamamen ucretsizdir"
+      "title": "Ortak Ağımıza Katılmaya Hazır mısınız?",
+      "description": "Uluslararası ticaret ihtiyaçlarınız için hemen bizimle iletişime geçin. Deneyimli ekibimiz size özel çözümler üretmek için hazır.",
+      "button": "İletişime Geçin",
+      "note": "İlk görüşme tamamen ücretsizdir"
     }
   },
   "RussiaTransitPage": {
     "seo": {
       "title": "Rusya ve BDT Transit Ticareti",
-      "description": "Turkiye uzerinden Rusya ve BDT ulkelerine guvenli transit ticaret cozumleri. Gumruk islemleri, lojistik ve uyum hizmetleri."
+      "description": "Türkiye üzerinden Rusya ve BDT ülkelerine güvenli transit ticaret çözümleri. Gümrük işlemleri, lojistik ve uyum hizmetleri."
     },
     "hero": {
-      "badge": "Turkiye - Rusya Ticaret Koridoru",
-      "title": "Turkiye Uzerinden Rusya ve BDT'ye Transit Ticaret",
-      "subtitle": "Turkiye'nin stratejik konumunu kullanarak Rusya ve BDT ulkelerine guvenli, hizli ve uyumlu transit ticaret cozumleri sunuyoruz.",
-      "ctaQuote": "Teklif Isteyin",
-      "ctaCall": "Bizi Arayin"
+      "badge": "Türkiye - Rusya Ticaret Koridoru",
+      "title": "Türkiye Üzerinden Rusya ve BDT'ye Transit Ticaret",
+      "subtitle": "Türkiye'nin stratejik konumunu kullanarak Rusya ve BDT ülkelerine güvenli, hızlı ve uyumlu transit ticaret çözümleri sunuyoruz.",
+      "ctaQuote": "Teklif İsteyin",
+      "ctaCall": "Bizi Arayın"
     },
     "breadcrumb": {
       "home": "Ana Sayfa",
@@ -1199,118 +1199,118 @@
     },
     "whatIs": {
       "badge": "Transit Ticaret Nedir?",
-      "title": "Turkiye: Avrupa ile Rusya Arasinda Ticaret Koprusu",
-      "p1": "Transit ticaret, mallarin bir ulkeden baska bir ulkeye ucuncu bir ulke uzerinden gonderilmesidir. Turkiye, cografi konumu, gelismis liman altyapisi ve gumruk uzmanligi ile Avrupa, Ortadogu ve Rusya arasinda ideal bir transit merkez gorevini ustlenmektedir.",
-      "p2": "Toko Trading olarak, Turkiye uzerinden Rusya ve BDT ulkelerine yonelik transit ticaret operasyonlarinda 20 yili askin deneyime sahibiz. Gumruk islemlerinden lojistik yonetimine, mevzuat uyumundan dokumantasyona kadar tum surecleri profesyonelce yonetiyoruz.",
-      "p3": "Ozellikle son yillarda degisen ticaret dinamikleri, Turkiye'nin transit ticaret rolunu daha da onemli hale getirmistir. Firmamiz, bu degisime uygun olarak musterilerine en guncel ve uyumlu cozumleri sunmaktadir.",
+      "title": "Türkiye: Avrupa ile Rusya Arasında Ticaret Köprüsü",
+      "p1": "Transit ticaret, malların bir ülkeden başka bir ülkeye üçüncü bir ülke üzerinden gönderilmesidir. Türkiye, coğrafi konumu, gelişmiş liman altyapısı ve gümrük uzmanlığı ile Avrupa, Ortadoğu ve Rusya arasında ideal bir transit merkez görevini üstlenmektedir.",
+      "p2": "Toko Trading olarak, Türkiye üzerinden Rusya ve BDT ülkelerine yönelik transit ticaret operasyonlarında 20 yılı aşkın deneyime sahibiz. Gümrük işlemlerinden lojistik yönetimine, mevzuat uyumundan dokümantasyona kadar tüm süreçleri profesyonelce yönetiyoruz.",
+      "p3": "Özellikle son yıllarda değişen ticaret dinamikleri, Türkiye'nin transit ticaret rolünü daha da önemli hale getirmiştir. Firmamız, bu değişime uygun olarak müşterilerine en güncel ve uyumlu çözümleri sunmaktadır.",
       "floatingBadge": "Mevzuat Uyumlu"
     },
     "advantages": {
-      "badge": "Avantajlarimiz",
-      "title": "Neden Turkiye Uzerinden Transit?",
+      "badge": "Avantajlarımız",
+      "title": "Neden Türkiye Üzerinden Transit?",
       "location": {
         "title": "Stratejik Konum",
-        "description": "Turkiye, Avrupa ve Asya'yi birbirine baglayan benzersiz cografi konumuyla transit ticaret icin ideal bir merkezdir."
+        "description": "Türkiye, Avrupa ve Asya'yı birbirine bağlayan benzersiz coğrafi konumuyla transit ticaret için ideal bir merkezdir."
       },
       "customs": {
-        "title": "Gumruk Uzmanligi",
-        "description": "Turk gumruk mevzuati ve yeniden ihracat prosedurlerinde derin bilgi birikimi ve deneyim."
+        "title": "Gümrük Uzmanlığı",
+        "description": "Türk gümrük mevzuatı ve yeniden ihracat prosedürlerinde derin bilgi birikimi ve deneyim."
       },
       "logistics": {
-        "title": "Lojistik Agi",
-        "description": "Gelismis depolama, yuk tasimaciligi ve liman altyapisi ile kesintisiz lojistik hizmetleri."
+        "title": "Lojistik Ağı",
+        "description": "Gelişmiş depolama, yük taşımacılığı ve liman altyapısı ile kesintisiz lojistik hizmetleri."
       },
       "market": {
         "title": "BDT Pazar Bilgisi",
-        "description": "Rusya ve BDT ulkelerinin ticaret duzenlemeleri ve pazar dinamikleri hakkinda derin uzmanlik."
+        "description": "Rusya ve BDT ülkelerinin ticaret düzenlemeleri ve pazar dinamikleri hakkında derin uzmanlık."
       },
       "cost": {
-        "title": "Maliyet Verimliligi",
-        "description": "Dogrudan ithalata kiyasla rekabetci rotalama ve maliyet optimizasyonu saglar."
+        "title": "Maliyet Verimliliği",
+        "description": "Doğrudan ithalata kıyasla rekabetçi rotalama ve maliyet optimizasyonu sağlar."
       },
       "compliance": {
-        "title": "Uyumluluk Destegi",
-        "description": "Yaptirimlara uyumluluk, dokumantasyon ve mevzuat danismanligi hizmetleri."
+        "title": "Uyumluluk Desteği",
+        "description": "Yaptırımlara uyumluluk, dokümantasyon ve mevzuat danışmanlığı hizmetleri."
       }
     },
     "routes": {
-      "badge": "Ticaret Rotalari",
-      "title": "Onemli Ticaret Koridorlari",
-      "from": "Turkiye",
+      "badge": "Ticaret Rotaları",
+      "title": "Önemli Ticaret Koridorları",
+      "from": "Türkiye",
       "russia": {
         "destination": "Rusya",
-        "goods": "Tekstil, gida, makine, kimyasal urunler"
+        "goods": "Tekstil, gıda, makine, kimyasal ürünler"
       },
       "kazakhstan": {
         "destination": "Kazakistan",
-        "goods": "Insaat malzemeleri, gida, elektronik"
+        "goods": "İnşaat malzemeleri, gıda, elektronik"
       },
       "azerbaijan": {
         "destination": "Azerbaycan",
-        "goods": "Gida, tekstil, yapi malzemeleri"
+        "goods": "Gıda, tekstil, yapı malzemeleri"
       },
       "georgia": {
-        "destination": "Gurcistan",
-        "goods": "Gida, kimyasallar, tuketim mallari"
+        "destination": "Gürcistan",
+        "goods": "Gıda, kimyasallar, tüketim malları"
       },
       "uzbekistan": {
-        "destination": "Ozbekistan",
-        "goods": "Makine, tekstil, tibbi cihazlar"
+        "destination": "Özbekistan",
+        "goods": "Makine, tekstil, tıbbi cihazlar"
       }
     },
     "process": {
-      "title": "Nasil Calisir?",
-      "subtitle": "Transit ticaret surecimiz 5 basit adimda tamamlanir",
+      "title": "Nasıl Çalışır?",
+      "subtitle": "Transit ticaret sürecimiz 5 basit adımda tamamlanır",
       "inquiry": {
         "title": "Sorgulama",
-        "description": "Ihtiyaclarinizi analiz eder ve en uygun transit rotayi belirleriz."
+        "description": "İhtiyaçlarınızı analiz eder ve en uygun transit rotayı belirleriz."
       },
       "planning": {
         "title": "Rota Planlama",
-        "description": "Optimum maliyet ve sure icin lojistik rotanizi planlariz."
+        "description": "Optimum maliyet ve süre için lojistik rotanızı planlarız."
       },
       "documentation": {
-        "title": "Dokumantasyon",
-        "description": "Tum gumruk ve ticaret belgelerini sizin adiniza hazirlariz."
+        "title": "Dokümantasyon",
+        "description": "Tüm gümrük ve ticaret belgelerini sizin adınıza hazırlarız."
       },
       "shipment": {
         "title": "Sevkiyat",
-        "description": "Mallarinizi guvenli bir sekilde transit noktasindan hedefe ulastiririz."
+        "description": "Mallarınızı güvenli bir şekilde transit noktasından hedefe ulaştırırız."
       },
       "delivery": {
-        "title": "Teslimat Onayi",
-        "description": "Teslimat tamamlandiktan sonra kapsamli bir rapor sunariz."
+        "title": "Teslimat Onayı",
+        "description": "Teslimat tamamlandıktan sonra kapsamlı bir rapor sunarız."
       }
     },
     "faq": {
-      "badge": "Sikca Sorulan Sorular",
-      "title": "Transit Ticaret Hakkinda Merak Edilenler",
+      "badge": "Sıkça Sorulan Sorular",
+      "title": "Transit Ticaret Hakkında Merak Edilenler",
       "q1": {
         "question": "Transit ticaret nedir?",
-        "answer": "Transit ticaret, mallarin uretici ulkeden tuketici ulkeye ucuncu bir ulke (bu durumda Turkiye) uzerinden transit gecisi ile gerceklestirilen uluslararasi ticaret bicimidir. Mallar, Turkiye'deki gumruk bolgesinden gecerek veya yeniden ihrac edilerek hedef ulkeye gonderilir."
+        "answer": "Transit ticaret, malların üretici ülkeden tüketici ülkeye üçüncü bir ülke (bu durumda Türkiye) üzerinden transit geçişi ile gerçekleştirilen uluslararası ticaret biçimidir. Mallar, Türkiye'deki gümrük bölgesinden geçerek veya yeniden ihraç edilerek hedef ülkeye gönderilir."
       },
       "q2": {
-        "question": "Turkiye uzerinden hangi urunler transit edilebilir?",
-        "answer": "Gida urunleri, tekstil, makine, kimyasallar, insaat malzemeleri, elektronik ve daha bircok urun kategorisi Turkiye uzerinden transit edilebilir. Ancak her urun grubu icin farkli gumruk ve mevzuat gereklilikleri uygulanabilir."
+        "question": "Türkiye üzerinden hangi ürünler transit edilebilir?",
+        "answer": "Gıda ürünleri, tekstil, makine, kimyasallar, inşaat malzemeleri, elektronik ve daha birçok ürün kategorisi Türkiye üzerinden transit edilebilir. Ancak her ürün grubu için farklı gümrük ve mevzuat gereklilikleri uygulanabilir."
       },
       "q3": {
-        "question": "Transit ticaret sureci ne kadar surer?",
-        "answer": "Surec, urunun cinsine, rotaya ve gumruk islemlerine bagli olarak degisir. Tipik bir transit islem 2-6 hafta arasinda tamamlanir. Deniz yoluyla yapilan sevkiyatlar daha uzun sururken, kara yolu ile daha hizli teslimat mumkundur."
+        "question": "Transit ticaret süreci ne kadar sürer?",
+        "answer": "Süreç, ürünün cinsine, rotaya ve gümrük işlemlerine bağlı olarak değişir. Tipik bir transit işlem 2-6 hafta arasında tamamlanır. Deniz yoluyla yapılan sevkiyatlar daha uzun sürerken, kara yolu ile daha hızlı teslimat mümkündür."
       },
       "q4": {
         "question": "Hangi belgeler gereklidir?",
-        "answer": "Ticari fatura, mensei sertifikasi, konisamento, paketleme listesi ve varsa ozel urun sertifikalari gereklidir. Gumruk beyanlari ve transit belgeleri Toko Trading tarafindan hazirlanir."
+        "answer": "Ticari fatura, menşei sertifikası, konişmento, paketleme listesi ve varsa özel ürün sertifikaları gereklidir. Gümrük beyanları ve transit belgeleri Toko Trading tarafından hazırlanır."
       },
       "q5": {
-        "question": "Mevzuat uyumuna nasil dikkat ediyorsunuz?",
-        "answer": "Toko Trading, uluslararasi yaptirimlara ve ticaret mevzuatina tam uyum saglayarak calismaktadir. Uzman hukuk danismanlari ile isbirligi icinde en guncel mevzuati takip ediyor, tum islemlerimizi seffaf ve belgelenmis sekilde yonetiyoruz."
+        "question": "Mevzuat uyumuna nasıl dikkat ediyorsunuz?",
+        "answer": "Toko Trading, uluslararası yaptırımlara ve ticaret mevzuatına tam uyum sağlayarak çalışmaktadır. Uzman hukuk danışmanları ile işbirliği içinde en güncel mevzuatı takip ediyor, tüm işlemlerimizi şeffaf ve belgelenmiş şekilde yönetiyoruz."
       }
     },
     "cta": {
-      "title": "Rusya Masasiyla Dogrudan Iletisime Gecin",
-      "description": "Transit ticaret ihtiyaclariniz icin uzman ekibimize ulasin. WhatsApp uzerinden de bize ulasabilirsiniz.",
-      "button": "Iletisime Gecin",
-      "note": "WhatsApp ile hizli destek: +90 (212) 000 00 00"
+      "title": "Rusya Masasıyla Doğrudan İletişime Geçin",
+      "description": "Transit ticaret ihtiyaçlarınız için uzman ekibimize ulaşın. WhatsApp üzerinden de bize ulaşabilirsiniz.",
+      "button": "İletişime Geçin",
+      "note": "WhatsApp ile hızlı destek: +90 (212) 450 60 20"
     },
     "images": {
       "trade": "Türkiye-Rusya ticaret rotası ve kargo lojistiği"
@@ -1319,202 +1319,202 @@
   "BlogPage": {
     "seo": {
       "title": "Blog | Toko Trading",
-      "description": "Uluslararasi ticaret, ithalat/ihracat, gumruk mevzuati ve Turkiye'den tedarik hakkinda makaleler"
+      "description": "Uluslararası ticaret, ithalat/ihracat, gümrük mevzuatı ve Türkiye'den tedarik hakkında makaleler"
     },
     "title": "Blog",
-    "subtitle": "Uluslararasi ticaret, ithalat/ihracat ve tedarik hakkinda bilgiler ve rehberler",
-    "allCategories": "Tumu",
+    "subtitle": "Uluslararası ticaret, ithalat/ihracat ve tedarik hakkında bilgiler ve rehberler",
+    "allCategories": "Tümü",
     "categories": {
-      "import": "Ithalat",
-      "export": "Ihracat",
-      "customs": "Gumruk",
+      "import": "İthalat",
+      "export": "İhracat",
+      "customs": "Gümrük",
       "regulations": "Mevzuat",
       "logistics": "Lojistik",
       "sourcing": "Tedarik",
       "general": "Genel",
       "e-commerce": "E-Ticaret",
       "textile": "Tekstil",
-      "food": "Gida"
+      "food": "Gıda"
     },
-    "readMore": "Devamini oku",
+    "readMore": "Devamını oku",
     "readingTime": "{minutes} dk okuma",
-    "tableOfContents": "Icindekiler",
-    "publishedOn": "Yayin tarihi",
-    "noPosts": "Henuz makale yayinlanmadi. Yakinda tekrar kontrol edin!",
-    "noPostsInCategory": "Bu kategoride henuz makale yok.",
+    "tableOfContents": "İçindekiler",
+    "publishedOn": "Yayın tarihi",
+    "noPosts": "Henüz makale yayınlanmadı. Yakında tekrar kontrol edin!",
+    "noPostsInCategory": "Bu kategoride henüz makale yok.",
     "pagination": {
-      "previous": "Onceki",
+      "previous": "Önceki",
       "next": "Sonraki",
       "page": "Sayfa {current} / {total}"
     },
-    "backToBlog": "Blog'a Don",
-    "shareArticle": "Bu makaleyi paylas",
+    "backToBlog": "Blog'a Dön",
+    "shareArticle": "Bu makaleyi paylaş",
     "images": {
       "post": "Blog yazısı kapak resmi"
     }
   },
   "Forms": {
-    "success": "Mesajiniz basariyla gonderildi. En kisa surede size donecegiz.",
+    "success": "Mesajınız başarıyla gönderildi. En kısa sürede size döneceğiz.",
     "errors": {
-      "rateLimited": "Cok fazla istek. Lutfen bir dakika sonra tekrar deneyin.",
-      "recaptchaFailed": "Guvenlik dogrulamasi basarisiz oldu. Lutfen tekrar deneyin.",
-      "validationFailed": "Lutfen formdaki hatalari kontrol edin.",
-      "sendFailed": "Mesajiniz gonderilemedi. Lutfen daha sonra tekrar deneyin."
+      "rateLimited": "Çok fazla istek. Lütfen bir dakika sonra tekrar deneyin.",
+      "recaptchaFailed": "Güvenlik doğrulaması başarısız oldu. Lütfen tekrar deneyin.",
+      "validationFailed": "Lütfen formdaki hataları kontrol edin.",
+      "sendFailed": "Mesajınız gönderilemedi. Lütfen daha sonra tekrar deneyin."
     },
     "contact": {
-      "title": "Bize Mesaj Gonderin",
+      "title": "Bize Mesaj Gönderin",
       "name": "Ad Soyad",
       "email": "E-posta Adresi",
       "subject": "Konu",
       "message": "Mesaj",
-      "submit": "Mesaj Gonder",
-      "namePlaceholder": "Ahmet Yilmaz",
+      "submit": "Mesaj Gönder",
+      "namePlaceholder": "Ahmet Yılmaz",
       "emailPlaceholder": "ahmet@ornek.com",
-      "subjectPlaceholder": "Size nasil yardimci olabiliriz?",
-      "messagePlaceholder": "Gereksinimlerinizi bize anlatiniz..."
+      "subjectPlaceholder": "Size nasıl yardımcı olabiliriz?",
+      "messagePlaceholder": "Gereksinimlerinizi bize anlatınız..."
     },
     "quote": {
-      "title": "Fiyat Teklifi Isteyin",
+      "title": "Fiyat Teklifi İsteyin",
       "name": "Ad Soyad",
       "email": "E-posta Adresi",
-      "company": "Sirket Adi",
-      "product": "Urun / Malzeme",
+      "company": "Şirket Adı",
+      "product": "Ürün / Malzeme",
       "quantity": "Miktar",
-      "destinationCountry": "Hedef Ulke",
+      "destinationCountry": "Hedef Ülke",
       "details": "Ek Detaylar",
-      "submit": "Teklif Isteyin",
-      "namePlaceholder": "Ahmet Yilmaz",
+      "submit": "Teklif İsteyin",
+      "namePlaceholder": "Ahmet Yılmaz",
       "emailPlaceholder": "ahmet@sirket.com",
-      "companyPlaceholder": "Sirketinizin adi",
-      "productPlaceholder": "Orn. Celik borular, Tekstil, Kimyasallar",
-      "quantityPlaceholder": "Orn. 500 ton, 10.000 adet",
-      "destinationCountryPlaceholder": "Orn. Almanya, ABD, BAE",
-      "detailsPlaceholder": "Teknik ozellikler, teslimat suresi, ambalaj gereksinimleri..."
+      "companyPlaceholder": "Şirketinizin adı",
+      "productPlaceholder": "Örn. Çelik borular, Tekstil, Kimyasallar",
+      "quantityPlaceholder": "Örn. 500 ton, 10.000 adet",
+      "destinationCountryPlaceholder": "Örn. Almanya, ABD, BAE",
+      "detailsPlaceholder": "Teknik özellikler, teslimat süresi, ambalaj gereksinimleri..."
     },
     "sourcing": {
-      "title": "Tedarik Talebi Gonderin",
+      "title": "Tedarik Talebi Gönderin",
       "name": "Ad Soyad",
       "email": "E-posta Adresi",
-      "company": "Sirket Adi",
-      "product": "Urun / Malzeme",
-      "specifications": "Teknik Ozellikler",
+      "company": "Şirket Adı",
+      "product": "Ürün / Malzeme",
+      "specifications": "Teknik Özellikler",
       "quantity": "Miktar",
-      "targetCountry": "Hedef Ulke",
-      "submit": "Talep Gonderin",
-      "namePlaceholder": "Ahmet Yilmaz",
+      "targetCountry": "Hedef Ülke",
+      "submit": "Talep Gönderin",
+      "namePlaceholder": "Ahmet Yılmaz",
       "emailPlaceholder": "ahmet@sirket.com",
-      "companyPlaceholder": "Sirketinizin adi",
-      "productPlaceholder": "Orn. Organik pamuk, Elektronik, Mermer",
-      "specificationsPlaceholder": "Kalite standartlari, sertifikalar, grade, boyutlar...",
-      "quantityPlaceholder": "Orn. 200 ton, 5.000 adet",
-      "targetCountryPlaceholder": "Orn. Turkiye, Hindistan, Cin"
+      "companyPlaceholder": "Şirketinizin adı",
+      "productPlaceholder": "Örn. Organik pamuk, Elektronik, Mermer",
+      "specificationsPlaceholder": "Kalite standartları, sertifikalar, grade, boyutlar...",
+      "quantityPlaceholder": "Örn. 200 ton, 5.000 adet",
+      "targetCountryPlaceholder": "Örn. Türkiye, Hindistan, Çin"
     },
     "callback": {
       "title": "Geri Arama Talebi",
       "name": "Ad Soyad",
-      "phone": "Telefon Numarasi",
+      "phone": "Telefon Numarası",
       "preferredTime": "Tercih Edilen Zaman",
       "subject": "Konu",
-      "submit": "Geri Arama Isteyin",
-      "namePlaceholder": "Ahmet Yilmaz",
+      "submit": "Geri Arama İsteyin",
+      "namePlaceholder": "Ahmet Yılmaz",
       "phonePlaceholder": "+90 555 000 00 00",
-      "preferredTimePlaceholder": "Orn. Hafta ici 10:00-17:00",
-      "subjectPlaceholder": "Neyi gorusmek istersiniz?"
+      "preferredTimePlaceholder": "Örn. Hafta içi 10:00-17:00",
+      "subjectPlaceholder": "Neyi görüşmek istersiniz?"
     },
-    "optional": "istege bagli",
+    "optional": "isteğe bağlı",
     "validation": {
       "required": "Bu alan zorunludur.",
-      "tooShort": "Bu alan cok kisa.",
-      "tooLong": "Bu alan cok uzun.",
-      "invalidEmail": "Gecerli bir e-posta adresi giriniz.",
-      "invalidPhone": "Gecerli bir telefon numarasi giriniz."
+      "tooShort": "Bu alan çok kısa.",
+      "tooLong": "Bu alan çok uzun.",
+      "invalidEmail": "Geçerli bir e-posta adresi giriniz.",
+      "invalidPhone": "Geçerli bir telefon numarası giriniz."
     }
   },
   "ContactPage": {
     "seo": {
-      "title": "Iletisim - Bize Ulasin",
-      "description": "Uluslararasi ticaret ihtiyaclariniz icin Toko Trading ile iletisime gecin. Istanbul merkezli ofisimiz 24 saat icinde yanit verir."
+      "title": "İletişim - Bize Ulaşın",
+      "description": "Uluslararası ticaret ihtiyaçlarınız için Toko Trading ile iletişime geçin. İstanbul merkezli ofisimiz 24 saat içinde yanıt verir."
     },
-    "title": "Iletisim",
-    "subtitle": "Uluslararasi ticaret ihtiyaclariniz icin bizimle iletisime gecin.",
-    "comingSoon": "Iletisim formu yakinda eklenecektir.",
-    "responseTime": "Genellikle 24 saat icinde yanit veririz.",
+    "title": "İletişim",
+    "subtitle": "Uluslararası ticaret ihtiyaçlarınız için bizimle iletişime geçin.",
+    "comingSoon": "İletişim formu yakında eklenecektir.",
+    "responseTime": "Genellikle 24 saat içinde yanıt veririz.",
     "info": {
-      "address": "Istanbul, Turkiye",
-      "phone": "+90 (212) 000 00 00",
+      "address": "Ziya Gökalp Mah. Süleyman Demirel Blv. The Office No: 7/E İç Kapı No: 165, Başakşehir / İstanbul",
+      "phone": "+90 (212) 450 60 20",
       "email": "info@toko.com.tr"
     }
   },
   "QuotePage": {
     "seo": {
-      "title": "Fiyat Teklifi Isteyin",
-      "description": "Ithalat, ihracat veya tedarik ihtiyaclariniz icin ucretsiz fiyat teklifi alin. 24 saat icinde rekabetci teklifimizi sunalim."
+      "title": "Fiyat Teklifi İsteyin",
+      "description": "İthalat, ihracat veya tedarik ihtiyaçlarınız için ücretsiz fiyat teklifi alın. 24 saat içinde rekabetçi teklifimizi sunalım."
     },
-    "badge": "Ucretsiz Teklif",
-    "title": "Fiyat Teklifi Alin",
-    "subtitle": "Urun ihtiyaclarinizi bize bildirin, 24 saat icinde rekabetci bir teklif sunalim."
+    "badge": "Ücretsiz Teklif",
+    "title": "Fiyat Teklifi Alın",
+    "subtitle": "Ürün ihtiyaçlarınızı bize bildirin, 24 saat içinde rekabetçi bir teklif sunalım."
   },
   "SourcingPage": {
     "seo": {
-      "title": "Urun Tedarik Talebi",
-      "description": "Turkiye ve dunya genelinden urun tedarik hizmeti. Dogru tedarikciyi bulmaniza, kalite kontrolu ve lojistik sureclerinde yardimci oluyoruz."
+      "title": "Ürün Tedarik Talebi",
+      "description": "Türkiye ve dünya genelinden ürün tedarik hizmeti. Doğru tedarikçiyi bulmanıza, kalite kontrolü ve lojistik süreçlerinde yardımcı oluyoruz."
     },
     "badge": "Tedarik",
-    "title": "Urun Tedarik Talebi",
-    "subtitle": "Isletmeniz icin dogru tedarikci ve urunleri bulmamiza izin verin."
+    "title": "Ürün Tedarik Talebi",
+    "subtitle": "İşletmeniz için doğru tedarikçi ve ürünleri bulmamıza izin verin."
   },
   "CallbackPage": {
     "seo": {
       "title": "Geri Arama Talebi",
-      "description": "Ticaret uzmanlarimizin sizi geri aramasi icin talepte bulunun. Ucretsiz ve baglayici olmayan danismanlik hizmeti."
+      "description": "Ticaret uzmanlarımızın sizi geri araması için talepte bulunun. Ücretsiz ve bağlayıcı olmayan danışmanlık hizmeti."
     },
     "badge": "Geri Arama",
     "title": "Geri Arama Talebi",
-    "subtitle": "Bilgilerinizi birakin, ticaret uzmanlarimiz sizi geri arasin.",
+    "subtitle": "Bilgilerinizi bırakın, ticaret uzmanlarımız sizi geri arasın.",
     "benefits": {
-      "fastResponse": "Hizli Yanit",
-      "fastResponseDesc": "Mesai saatlerinde 2 saat icinde geri arariz.",
-      "noObligation": "Baglayici Degil",
-      "noObligationDesc": "Hicbir taahhut olmaksizin ucretsiz danismanlik.",
-      "expertConsultation": "Uzman Danismanlik",
-      "expertConsultationDesc": "Deneyimli ticaret profesyonelleriyle dogrudan gorusun."
+      "fastResponse": "Hızlı Yanıt",
+      "fastResponseDesc": "Mesai saatlerinde 2 saat içinde geri ararız.",
+      "noObligation": "Bağlayıcı Değil",
+      "noObligationDesc": "Hiçbir taahhüt olmaksızın ücretsiz danışmanlık.",
+      "expertConsultation": "Uzman Danışmanlık",
+      "expertConsultationDesc": "Deneyimli ticaret profesyonelleriyle doğrudan görüşün."
     }
   },
   "Validation": {
     "name": {
-      "too_small": "Ad en az 2 karakter olmalidir",
-      "too_big": "Ad 100 karakterden kisa olmalidir"
+      "too_small": "Ad en az 2 karakter olmalıdır",
+      "too_big": "Ad 100 karakterden kısa olmalıdır"
     },
     "email": {
-      "invalid_string": "Gecerli bir e-posta adresi giriniz"
+      "invalid_string": "Geçerli bir e-posta adresi giriniz"
     },
     "subject": {
-      "too_small": "Konu en az 3 karakter olmalidir",
-      "too_big": "Konu 200 karakterden kisa olmalidir"
+      "too_small": "Konu en az 3 karakter olmalıdır",
+      "too_big": "Konu 200 karakterden kısa olmalıdır"
     },
     "message": {
-      "too_small": "Mesaj en az 10 karakter olmalidir",
-      "too_big": "Mesaj 5000 karakterden kisa olmalidir"
+      "too_small": "Mesaj en az 10 karakter olmalıdır",
+      "too_big": "Mesaj 5000 karakterden kısa olmalıdır"
     },
     "product": {
-      "too_small": "Urun adi en az 3 karakter olmalidir",
-      "too_big": "Urun adi 300 karakterden kisa olmalidir"
+      "too_small": "Ürün adı en az 3 karakter olmalıdır",
+      "too_big": "Ürün adı 300 karakterden kısa olmalıdır"
     },
     "quantity": {
-      "too_small": "Miktar alani zorunludur"
+      "too_small": "Miktar alanı zorunludur"
     },
     "destinationCountry": {
-      "too_small": "Hedef ulke alani zorunludur"
+      "too_small": "Hedef ülke alanı zorunludur"
     },
     "targetCountry": {
-      "too_small": "Hedef ulke alani zorunludur"
+      "too_small": "Hedef ülke alanı zorunludur"
     },
     "specifications": {
-      "too_small": "Teknik ozellikler en az 10 karakter olmalidir",
-      "too_big": "Teknik ozellikler 5000 karakterden kisa olmalidir"
+      "too_small": "Teknik özellikler en az 10 karakter olmalıdır",
+      "too_big": "Teknik özellikler 5000 karakterden kısa olmalıdır"
     },
     "phone": {
-      "invalid_string": "Gecerli bir telefon numarasi giriniz"
+      "invalid_string": "Geçerli bir telefon numarası giriniz"
     },
     "preferredTime": {
       "too_small": "Tercih edilen zaman dilimini belirtiniz"

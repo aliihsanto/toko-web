@@ -20,8 +20,8 @@ vi.mock('next-intl', () => ({
         'forms.sourcing': 'Sourcing Request',
         'forms.callback': 'Request Callback',
         'contact.title': 'Contact',
-        'contact.address': 'Istanbul, Turkey',
-        'contact.phone': '+90 (212) 000 00 00',
+        'contact.address': 'Ziya Gökalp Mah. Süleyman Demirel Blv. The Office No: 7/E Unit: 165, Başakşehir / Istanbul, Turkey',
+        'contact.phone': '+90 (212) 450 60 20',
         'contact.email': 'info@toko.com.tr',
         copyright: '2026 Toko Trading. All rights reserved.',
         'social.linkedin': 'LinkedIn',
@@ -79,29 +79,17 @@ describe('Footer', () => {
     expect(screen.getByText('Contact')).toBeInTheDocument();
   });
 
-  it('renders social media links with target="_blank"', () => {
-    render(<Footer />);
-    const externalLinks = screen.getAllByRole('link').filter(
-      (link) => link.getAttribute('target') === '_blank'
-    );
-    expect(externalLinks).toHaveLength(3);
-    // Verify they have rel="noopener noreferrer"
-    externalLinks.forEach((link) => {
-      expect(link).toHaveAttribute('rel', 'noopener noreferrer');
-    });
-  });
-
   it('renders contact info (address, phone, email)', () => {
     render(<Footer />);
-    expect(screen.getByText('Istanbul, Turkey')).toBeInTheDocument();
-    expect(screen.getByText('+90 (212) 000 00 00')).toBeInTheDocument();
+    expect(screen.getByText(/Başakşehir/)).toBeInTheDocument();
+    expect(screen.getByText('+90 (212) 450 60 20')).toBeInTheDocument();
     expect(screen.getByText('info@toko.com.tr')).toBeInTheDocument();
   });
 
   it('renders phone with tel: link and email with mailto: link', () => {
     render(<Footer />);
-    const phoneLink = screen.getByText('+90 (212) 000 00 00').closest('a');
-    expect(phoneLink).toHaveAttribute('href', 'tel:+902120000000');
+    const phoneLink = screen.getByText('+90 (212) 450 60 20').closest('a');
+    expect(phoneLink).toHaveAttribute('href', 'tel:+902124506020');
     const emailLink = screen.getByText('info@toko.com.tr').closest('a');
     expect(emailLink).toHaveAttribute('href', 'mailto:info@toko.com.tr');
   });
@@ -115,10 +103,10 @@ describe('Footer', () => {
 
   it('renders language switcher buttons for all 4 locales', () => {
     render(<Footer />);
-    expect(screen.getByText('Turkce')).toBeInTheDocument();
+    expect(screen.getByText('Türkçe')).toBeInTheDocument();
     expect(screen.getByText('English')).toBeInTheDocument();
-    expect(screen.getByText('Francais')).toBeInTheDocument();
-    expect(screen.getByText('Russkiy')).toBeInTheDocument();
+    expect(screen.getByText('Français')).toBeInTheDocument();
+    expect(screen.getByText('Русский')).toBeInTheDocument();
   });
 
   it('highlights the current locale in the language switcher', () => {

@@ -93,7 +93,7 @@ describe('SEO Metadata Helpers', () => {
     it('should have address with city and country', async () => {
       const { COMPANY_INFO } = await import('@/lib/seo/company-info');
       expect(COMPANY_INFO.address).toBeDefined();
-      expect(COMPANY_INFO.address.city).toBe('Istanbul');
+      expect(COMPANY_INFO.address.city).toBe('Başakşehir');
       expect(COMPANY_INFO.address.country).toBe('TR');
     });
 

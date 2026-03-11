@@ -62,7 +62,7 @@ export default async function ReferencesPage({ params }: { params: Promise<{ loc
         { name: t('breadcrumb.references'), url: `${BASE_URL}/${locale}/references` },
       ])} />
       <PageHero title={t('hero.title')} subtitle={t('hero.subtitle')}
-        backgroundImage="/images/hero/handshake-deal.jpg"
+        backgroundImage="/images/hero/handshake-deal.webp"
         badge={t('hero.badge')} />
 
       <div className="bg-background">

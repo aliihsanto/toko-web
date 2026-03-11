@@ -148,7 +148,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
               <div className="absolute -inset-3 rounded-[2.5rem] bg-gradient-to-br from-[#0d7377]/15 via-[#d4613c]/10 to-[#e8a840]/10 blur-xl" />
               <div className="absolute -inset-1 rounded-[2.5rem] bg-gradient-to-br from-[#0d7377]/20 via-transparent to-[#d4613c]/15" />
               <Image
-                src="/images/hero/trade-hero.jpg"
+                src="/images/hero/trade-hero.webp"
                 alt={t('images.hero')}
                 width={2070}
                 height={1380}
@@ -408,7 +408,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                 <div className="absolute -inset-4 rounded-[2.5rem] bg-gradient-to-br from-[#2d8a6e]/12 via-primary/8 to-[#d4613c]/8 blur-xl" />
                 <div className="absolute -inset-1 rounded-[2.5rem] bg-gradient-to-br from-[#2d8a6e]/15 via-transparent to-[#d4613c]/10" />
                 <Image
-                  src="/images/hero/istanbul-skyline.jpg"
+                  src="/images/hero/istanbul-skyline.webp"
                   alt={t('images.istanbul')}
                   width={800}
                   height={600}

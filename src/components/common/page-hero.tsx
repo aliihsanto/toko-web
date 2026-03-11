@@ -24,7 +24,7 @@ export function PageHero({ title, subtitle, backgroundImage, badge }: PageHeroPr
         <div className="absolute inset-0 overflow-hidden">
           <Image
             src={backgroundImage}
-            alt=""
+            alt={title}
             width={2070}
             height={800}
             className="h-full w-full object-cover opacity-[0.08]"

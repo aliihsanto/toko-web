@@ -8,7 +8,7 @@ import { Footer } from '@/components/layout/footer';
 import { PageTransition } from '@/components/common/page-transition';
 import { RecaptchaProvider } from '@/providers/recaptcha-provider';
 import { WhatsAppButton } from '@/components/common/whatsapp-button';
-import { BASE_URL, getAlternates } from '@/lib/seo/metadata';
+import { BASE_URL, LOCALE_TO_OG, getAlternates } from '@/lib/seo/metadata';
 import { JsonLd } from '@/lib/seo/json-ld';
 import { getOrganizationSchema } from '@/lib/seo/structured-data';
 
@@ -29,8 +29,17 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     description: t('description'),
     alternates: getAlternates(locale, ''),
     openGraph: {
+      title: t('title'),
+      description: t('description'),
       siteName: 'Toko Trading',
       type: 'website',
+      url: `${BASE_URL}/${locale}`,
+      locale: LOCALE_TO_OG[locale] || locale,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: t('title'),
+      description: t('description'),
     },
     robots: {
       index: true,

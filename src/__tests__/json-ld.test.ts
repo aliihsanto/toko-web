@@ -64,7 +64,7 @@ describe('getLocalBusinessSchema', () => {
     expect(schema['@type']).toBe('LocalBusiness');
     const address = schema.address as any;
     expect(address).toBeDefined();
-    expect(address.addressLocality).toBe('Istanbul');
+    expect(address.addressLocality).toBe('Başakşehir');
     expect(address.addressCountry).toBe('TR');
   });
 });

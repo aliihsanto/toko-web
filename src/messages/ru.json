@@ -9,7 +9,7 @@
       "about": "О нас",
       "services": "Услуги",
       "sectors": "Секторы",
-      "references": "Рекомендации",
+      "references": "Референции",
       "blog": "Блог",
       "contact": "Контакты"
     },
@@ -34,8 +34,8 @@
     },
     "contact": {
       "title": "Контакты",
-      "address": "Стамбул, Турция",
-      "phone": "+90 (212) 000 00 00",
+      "address": "Ziya Gökalp Mah. Süleyman Demirel Blv. The Office No: 7/E Офис: 165, Башакшехир / Стамбул, Турция",
+      "phone": "+90 (212) 450 60 20",
       "email": "info@toko.com.tr"
     },
     "copyright": "2026 Toko Trading. Все права защищены.",
@@ -53,10 +53,10 @@
     }
   },
   "LanguageSwitcher": {
-    "tr": "Turkce",
+    "tr": "Türkçe",
     "en": "English",
-    "fr": "Francais",
-    "ru": "Russkiy",
+    "fr": "Français",
+    "ru": "Русский",
     "label": "Выбрать язык"
   },
   "Common": {
@@ -1310,7 +1310,7 @@
       "title": "Свяжитесь Напрямую с Нашим Российским Отделом",
       "description": "Обратитесь к нашей команде экспертов по транзитной торговле. Для оперативной связи доступен также WhatsApp.",
       "button": "Связаться с Нами",
-      "note": "Оперативная поддержка через WhatsApp: +90 (212) 000 00 00"
+      "note": "Оперативная поддержка через WhatsApp: +90 (212) 450 60 20"
     },
     "images": {
       "trade": "Торговый маршрут Турция-Россия с грузовой логистикой"
@@ -1332,7 +1332,7 @@
       "logistics": "Логистика",
       "sourcing": "Закупки",
       "general": "Общее",
-      "e-commerce": "Э-Коммерция",
+      "e-commerce": "Электронная коммерция",
       "textile": "Текстиль",
       "food": "Продовольствие"
     },
@@ -1344,7 +1344,7 @@
     "noPostsInCategory": "В этой категории пока нет статей.",
     "pagination": {
       "previous": "Назад",
-      "next": "Вперед",
+      "next": "Вперёд",
       "page": "Страница {current} из {total}"
     },
     "backToBlog": "Вернуться к блогу",
@@ -1440,8 +1440,8 @@
     "comingSoon": "Контактная форма будет добавлена в ближайшее время.",
     "responseTime": "Обычно мы отвечаем в течение 24 часов.",
     "info": {
-      "address": "Стамбул, Турция",
-      "phone": "+90 (212) 000 00 00",
+      "address": "Ziya Gökalp Mah. Süleyman Demirel Blv. The Office No: 7/E Офис: 165, Башакшехир / Стамбул, Турция",
+      "phone": "+90 (212) 450 60 20",
       "email": "info@toko.com.tr"
     }
   },

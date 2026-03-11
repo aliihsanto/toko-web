@@ -54,7 +54,7 @@ export default async function SectorsPage({ params }: { params: Promise<{ locale
       <PageHero
         title={t('hero.title')}
         subtitle={t('hero.subtitle')}
-        backgroundImage="/images/hero/warehouse.jpg"
+        backgroundImage="/images/hero/warehouse.webp"
         badge={t('hero.badge')}
       />
 

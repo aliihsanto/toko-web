@@ -58,7 +58,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
       <PageHero
         title={t('hero.title')}
         subtitle={t('hero.subtitle')}
-        backgroundImage="/images/hero/istanbul-skyline.jpg"
+        backgroundImage="/images/hero/istanbul-skyline.webp"
         badge={t('hero.badge')}
       />
 
@@ -100,7 +100,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
                   <div className="absolute -inset-3 rounded-[2.5rem] bg-gradient-to-br from-primary/12 via-[#d4613c]/8 to-[#e8a840]/8 blur-xl" />
                   <div className="absolute -inset-1 rounded-[2.5rem] bg-gradient-to-br from-primary/15 via-transparent to-[#d4613c]/10" />
                   <Image
-                    src="/images/hero/handshake-deal.jpg"
+                    src="/images/hero/handshake-deal.webp"
                     alt={t('images.team')}
                     width={800}
                     height={600}
