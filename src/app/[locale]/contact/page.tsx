@@ -38,7 +38,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
         { name: tNav('contact'), url: `${BASE_URL}/${locale}/contact` },
       ])} />
       {/* Header -- mesh gradient */}
-      <section className="relative overflow-hidden pb-32 pt-24 mesh-hero">
+      <section className="relative overflow-hidden pb-44 pt-24 mesh-hero">
         <div className="absolute -right-40 -top-40 h-[500px] w-[500px] rounded-full bg-primary/10 blur-[120px]" />
         <div className="absolute -bottom-40 -left-40 h-[400px] w-[400px] rounded-full bg-[#d4613c]/8 blur-[100px]" />
         <div className="absolute inset-0 dot-grid text-[#0d7377]/[0.02]" />
@@ -56,8 +56,8 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
         <WaveDivider color="#fefcf9" variant="gentle" />
       </section>
 
-      {/* Content */}
-      <section className="mx-auto -mt-20 max-w-7xl px-4 pb-24 sm:px-6 lg:px-8">
+      {/* Content — pulled up to overlap with wave section while keeping visual flow */}
+      <section className="relative z-10 mx-auto -mt-20 max-w-7xl px-4 pb-24 sm:px-6 lg:px-8">
         <div className="grid gap-8 lg:grid-cols-12">
           {/* Info cards */}
           <div className="space-y-6 lg:col-span-5">

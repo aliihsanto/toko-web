@@ -14,7 +14,7 @@ vi.mock('#site/content', () => ({
       category: 'import',
       tags: ['ithalat', 'türkiye', 'rehber', 'belgeler'],
       image:
-        'https://images.unsplash.com/photo-1494412574643-ff11b0a5eb19?auto=format&fit=crop&q=80&w=1200',
+        '/images/blog/turkey-export-guide.jpg',
       imageAlt: 'Uluslararası ticaret limanında konteyner gemisi',
       excerpt: "Türkiye'den ithalat yapmak isteyenler için kapsamlı rehber...",
       toc: [
@@ -33,7 +33,7 @@ vi.mock('#site/content', () => ({
       category: 'customs',
       tags: ['gümrük', 'mevzuat', 'hs-kodları', 'vergiler'],
       image:
-        'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=1200',
+        '/images/blog/customs-procedures.jpg',
       imageAlt: 'Liman terminalinde gümrük kontrol noktası',
       excerpt: '2026 yılında gümrük işlemleri hakkında...',
       toc: [
@@ -53,7 +53,7 @@ vi.mock('#site/content', () => ({
       category: 'export',
       tags: ['ihracat', 'türkiye', 'avantajlar', 'ticaret'],
       image:
-        'https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=1200',
+        '/images/blog/trade-agreement.jpg',
       imageAlt: "İstanbul Boğazı'ndan panoramik manzara",
       excerpt: "Türkiye'yi uluslararası ticaret için ideal bir merkez...",
       toc: [
@@ -73,7 +73,7 @@ vi.mock('#site/content', () => ({
       category: 'sourcing',
       tags: ['tedarik', 'tekstil', 'türkiye', 'üretim'],
       image:
-        'https://images.unsplash.com/photo-1558171813-4c088753af8f?auto=format&fit=crop&q=80&w=1200',
+        '/images/blog/textile-industry.jpg',
       imageAlt: 'Tekstil fabrikasında renkli kumaş topları',
       excerpt: 'Türkiye tekstil sektöründen tedarik yapmak isteyenler...',
       toc: [
@@ -94,7 +94,7 @@ vi.mock('#site/content', () => ({
       category: 'import',
       tags: ['import', 'turkey', 'guide', 'documentation'],
       image:
-        'https://images.unsplash.com/photo-1494412574643-ff11b0a5eb19?auto=format&fit=crop&q=80&w=1200',
+        '/images/blog/turkey-export-guide.jpg',
       imageAlt: 'Container ship at an international trade port',
       excerpt: 'A comprehensive guide to importing from Turkey...',
       toc: [
@@ -113,7 +113,7 @@ vi.mock('#site/content', () => ({
       category: 'customs',
       tags: ['customs', 'regulations', 'hs-codes', 'duties'],
       image:
-        'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=1200',
+        '/images/blog/customs-procedures.jpg',
       imageAlt: 'Customs control point at a port terminal',
       excerpt: 'Navigate customs procedures with confidence...',
       toc: [
@@ -132,7 +132,7 @@ vi.mock('#site/content', () => ({
       category: 'export',
       tags: ['export', 'turkey', 'advantages', 'trade'],
       image:
-        'https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=1200',
+        '/images/blog/trade-agreement.jpg',
       imageAlt: 'Panoramic view of Istanbul and the Bosphorus strait',
       excerpt: 'Discover why Turkey is an ideal hub...',
       toc: [
@@ -151,7 +151,7 @@ vi.mock('#site/content', () => ({
       category: 'sourcing',
       tags: ['sourcing', 'textile', 'turkey', 'manufacturing'],
       image:
-        'https://images.unsplash.com/photo-1558171813-4c088753af8f?auto=format&fit=crop&q=80&w=1200',
+        '/images/blog/textile-industry.jpg',
       imageAlt: 'Colorful fabric rolls in a textile factory',
       excerpt: 'Everything you need to know about textile sourcing...',
       toc: [
@@ -171,7 +171,7 @@ vi.mock('#site/content', () => ({
       category: 'import',
       tags: ['importation', 'turquie', 'guide', 'documentation'],
       image:
-        'https://images.unsplash.com/photo-1494412574643-ff11b0a5eb19?auto=format&fit=crop&q=80&w=1200',
+        '/images/blog/turkey-export-guide.jpg',
       imageAlt: 'Navire porte-conteneurs dans un port de commerce',
       excerpt: 'Guide complet pour importer depuis la Turquie...',
       toc: [
@@ -190,7 +190,7 @@ vi.mock('#site/content', () => ({
       category: 'customs',
       tags: ['douanes', 'réglementations', 'codes-sh', 'droits'],
       image:
-        'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=1200',
+        '/images/blog/customs-procedures.jpg',
       imageAlt: 'Point de contrôle douanier au terminal portuaire',
       excerpt: 'Maîtrisez les procédures douanières...',
       toc: [
@@ -209,7 +209,7 @@ vi.mock('#site/content', () => ({
       category: 'export',
       tags: ['exportation', 'turquie', 'avantages', 'commerce'],
       image:
-        'https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=1200',
+        '/images/blog/trade-agreement.jpg',
       imageAlt: "Vue panoramique d'Istanbul et du détroit du Bosphore",
       excerpt: "Découvrez pourquoi la Turquie est un hub idéal...",
       toc: [
@@ -228,7 +228,7 @@ vi.mock('#site/content', () => ({
       category: 'sourcing',
       tags: ['approvisionnement', 'textile', 'turquie', 'fabrication'],
       image:
-        'https://images.unsplash.com/photo-1558171813-4c088753af8f?auto=format&fit=crop&q=80&w=1200',
+        '/images/blog/textile-industry.jpg',
       imageAlt: 'Rouleaux de tissus colorés dans une ligne de production',
       excerpt: "Tout savoir sur l'approvisionnement textile...",
       toc: [
@@ -248,7 +248,7 @@ vi.mock('#site/content', () => ({
       category: 'import',
       tags: ['импорт', 'турция', 'руководство', 'документация'],
       image:
-        'https://images.unsplash.com/photo-1494412574643-ff11b0a5eb19?auto=format&fit=crop&q=80&w=1200',
+        '/images/blog/turkey-export-guide.jpg',
       imageAlt: 'Контейнеровоз в порту международной торговли',
       excerpt: 'Полное руководство по импорту товаров из Турции...',
       toc: [
@@ -267,7 +267,7 @@ vi.mock('#site/content', () => ({
       category: 'customs',
       tags: ['таможня', 'регулирование', 'тн-вэд', 'пошлины'],
       image:
-        'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=1200',
+        '/images/blog/customs-procedures.jpg',
       imageAlt: 'Пункт таможенного контроля на портовом терминале',
       excerpt: 'Разберитесь в таможенных процедурах...',
       toc: [
@@ -286,7 +286,7 @@ vi.mock('#site/content', () => ({
       category: 'export',
       tags: ['экспорт', 'турция', 'преимущества', 'торговля'],
       image:
-        'https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=1200',
+        '/images/blog/trade-agreement.jpg',
       imageAlt: 'Панорамный вид на Стамбул и пролив Босфор',
       excerpt: 'Узнайте, почему Турция является идеальным хабом...',
       toc: [
@@ -305,7 +305,7 @@ vi.mock('#site/content', () => ({
       category: 'sourcing',
       tags: ['закупки', 'текстиль', 'турция', 'производство'],
       image:
-        'https://images.unsplash.com/photo-1558171813-4c088753af8f?auto=format&fit=crop&q=80&w=1200',
+        '/images/blog/textile-industry.jpg',
       imageAlt: 'Цветные рулоны ткани на производственной линии',
       excerpt: 'Всё о закупке текстиля в Турции...',
       toc: [

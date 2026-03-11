@@ -77,7 +77,7 @@ export default async function ServicesPage({
       <PageHero
         title={t('hero.title')}
         subtitle={t('hero.subtitle')}
-        backgroundImage="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&q=80&w=2070"
+        backgroundImage="/images/hero/global-trade.jpg"
         badge={t('hero.badge')}
       />
 

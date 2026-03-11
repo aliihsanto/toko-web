@@ -10,8 +10,7 @@ export const services: ServiceItem[] = [
   {
     slug: 'import',
     iconName: 'Ship',
-    image:
-      'https://images.unsplash.com/photo-1494412574643-ff11b0a5eb19?auto=format&fit=crop&q=80&w=800',
+    image: '/images/services/import.jpg',
     featureKeys: [
       'customs',
       'logistics',
@@ -24,8 +23,7 @@ export const services: ServiceItem[] = [
   {
     slug: 'export',
     iconName: 'TrendingUp',
-    image:
-      'https://images.unsplash.com/photo-1605732562742-aec009732a1b?auto=format&fit=crop&q=80&w=800',
+    image: '/images/services/export.jpg',
     featureKeys: [
       'marketResearch',
       'buyerMatching',
@@ -38,8 +36,7 @@ export const services: ServiceItem[] = [
   {
     slug: 'sourcing',
     iconName: 'PackageCheck',
-    image:
-      'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800',
+    image: '/images/services/sourcing.jpg',
     featureKeys: [
       'supplierAudit',
       'qualityControl',
@@ -52,8 +49,7 @@ export const services: ServiceItem[] = [
   {
     slug: 'transit-trade',
     iconName: 'BarChart3',
-    image:
-      'https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&q=80&w=800',
+    image: '/images/services/transit-trade.jpg',
     featureKeys: [
       'transitRoutes',
       'cisExpertise',

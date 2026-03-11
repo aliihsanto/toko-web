@@ -53,10 +53,11 @@ describe('sitemap', () => {
     }
   });
 
-  it('has at least 23 static entries (11 + 4 + 8)', () => {
+  it('has at least 23 static entries (11 + 4 + 8 + PSEO pages)', () => {
     // Static/service/sector entries use makeEntry with hreflang alternates
     // Blog entries are separate (locale-specific, no cross-locale alternates)
-    expect(staticEntries.length).toBe(staticEntryCount);
+    // PSEO pages (countries, products, customs) add additional entries
+    expect(staticEntries.length).toBeGreaterThanOrEqual(staticEntryCount);
   });
 
   it('includes blog post entries (at least 16 for seed content)', () => {

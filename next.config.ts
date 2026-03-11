@@ -13,15 +13,6 @@ if (!process.env.VELITE_STARTED && (isDev || isBuild)) {
 
 const withNextIntl = createNextIntlPlugin();
 
-const nextConfig: NextConfig = {
-  images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'images.unsplash.com',
-      },
-    ],
-  },
-};
+const nextConfig: NextConfig = {};
 
 export default withNextIntl(nextConfig);

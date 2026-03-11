@@ -47,7 +47,6 @@ import {
   ThumbsUp,
   Award,
   MapPin,
-  BadgeCheck,
 } from 'lucide-react';
 
 const serviceIcons: Record<string, React.ComponentType<{ className?: string }>> = {
@@ -149,7 +148,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
               <div className="absolute -inset-3 rounded-[2.5rem] bg-gradient-to-br from-[#0d7377]/15 via-[#d4613c]/10 to-[#e8a840]/10 blur-xl" />
               <div className="absolute -inset-1 rounded-[2.5rem] bg-gradient-to-br from-[#0d7377]/20 via-transparent to-[#d4613c]/15" />
               <Image
-                src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&q=80&w=2070"
+                src="/images/hero/trade-hero.jpg"
                 alt={t('images.hero')}
                 width={2070}
                 height={1380}
@@ -163,13 +162,6 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                 <span className="mt-1 text-center text-[9px] font-semibold uppercase tracking-widest text-muted-foreground">
                   {t('stats.countries')}
                 </span>
-              </div>
-              {/* Second floating badge */}
-              <div className="glass-card absolute -right-4 top-8 flex items-center gap-2 rounded-xl px-4 py-3 shadow-lg">
-                <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#2d8a6e]/10">
-                  <ShieldCheck className="h-4 w-4 text-[#2d8a6e]" />
-                </div>
-                <span className="text-xs font-bold text-foreground">ISO 9001</span>
               </div>
             </div>
           </div>
@@ -250,12 +242,11 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         <div className="absolute inset-0 mesh-cool" />
         <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <ScrollReveal>
-            <div className="grid grid-cols-2 gap-6 md:grid-cols-4">
+            <div className="grid grid-cols-3 gap-6">
               {[
                 { value: '1000+', label: t('trust.clients'), icon: Users, color: 'text-primary', bg: 'bg-primary/8', border: 'border-primary/20' },
                 { value: '50+', label: t('trust.countries'), icon: MapPin, color: 'text-[#d4613c]', bg: 'bg-[#d4613c]/8', border: 'border-[#d4613c]/20' },
                 { value: '20+', label: t('trust.years'), icon: Award, color: 'text-[#2d8a6e]', bg: 'bg-[#2d8a6e]/8', border: 'border-[#2d8a6e]/20' },
-                { value: 'ISO 9001', label: t('trust.certification'), icon: BadgeCheck, color: 'text-[#e8a840]', bg: 'bg-[#e8a840]/10', border: 'border-[#e8a840]/20' },
               ].map((item) => (
                 <div key={item.label} className={`flex flex-col items-center rounded-2xl border ${item.border} bg-white/70 p-6 text-center backdrop-blur-sm shadow-sm transition-all hover:shadow-md`}>
                   <div className={`mb-3 flex h-12 w-12 items-center justify-center rounded-xl ${item.bg}`}>
@@ -417,7 +408,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                 <div className="absolute -inset-4 rounded-[2.5rem] bg-gradient-to-br from-[#2d8a6e]/12 via-primary/8 to-[#d4613c]/8 blur-xl" />
                 <div className="absolute -inset-1 rounded-[2.5rem] bg-gradient-to-br from-[#2d8a6e]/15 via-transparent to-[#d4613c]/10" />
                 <Image
-                  src="https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=800"
+                  src="/images/hero/istanbul-skyline.jpg"
                   alt={t('images.istanbul')}
                   width={800}
                   height={600}

@@ -74,7 +74,7 @@ export default async function RussiaTransitPage({ params }: { params: Promise<{ 
         <div className="absolute inset-0 dot-grid text-[#0d7377]/[0.02]" />
 
         <div className="absolute right-0 top-0 h-full w-1/2 overflow-hidden max-lg:hidden">
-          <Image src="https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=2070" alt="" width={2070} height={800} className="h-full w-full object-cover opacity-20" priority />
+          <Image src="/images/hero/istanbul-skyline.jpg" alt="" width={2070} height={800} className="h-full w-full object-cover opacity-20" priority />
         </div>
 
         <div className="relative z-10 mx-auto w-full max-w-7xl px-4 py-28 sm:px-6 lg:px-8">
@@ -129,7 +129,7 @@ export default async function RussiaTransitPage({ params }: { params: Promise<{ 
                 <div className="group relative">
                   <div className="absolute -inset-3 rounded-[2.5rem] bg-gradient-to-br from-primary/12 via-[#2d8a6e]/8 to-[#d4613c]/8 blur-xl" />
                   <div className="absolute -inset-1 rounded-[2.5rem] bg-gradient-to-br from-primary/15 via-transparent to-[#2d8a6e]/10" />
-                  <Image src="https://images.unsplash.com/photo-1494412574643-ff11b0a5eb19?auto=format&fit=crop&q=80&w=800" alt={t('images.trade')} width={800} height={600} className="relative h-[450px] w-full rounded-[2rem] object-cover shadow-2xl ring-1 ring-white/50" />
+                  <Image src="/images/services/transit-trade.jpg" alt={t('images.trade')} width={800} height={600} className="relative h-[450px] w-full rounded-[2rem] object-cover shadow-2xl ring-1 ring-white/50" />
                   <div className="glass-card absolute -bottom-6 -left-6 flex h-32 w-32 flex-col items-center justify-center rounded-2xl p-4 shadow-xl">
                     <ShieldCheck className="mb-2 h-8 w-8 text-[#2d8a6e]" />
                     <span className="text-center text-xs font-bold uppercase tracking-widest text-muted-foreground">{t('whatIs.floatingBadge')}</span>
