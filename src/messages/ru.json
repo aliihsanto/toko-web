@@ -1331,7 +1331,10 @@
       "regulations": "Регулирование",
       "logistics": "Логистика",
       "sourcing": "Закупки",
-      "general": "Общее"
+      "general": "Общее",
+      "e-commerce": "Э-Коммерция",
+      "textile": "Текстиль",
+      "food": "Продовольствие"
     },
     "readMore": "Читать далее",
     "readingTime": "{minutes} мин чтения",

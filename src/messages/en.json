@@ -1331,7 +1331,10 @@
       "regulations": "Regulations",
       "logistics": "Logistics",
       "sourcing": "Sourcing",
-      "general": "General"
+      "general": "General",
+      "e-commerce": "E-Commerce",
+      "textile": "Textile",
+      "food": "Food"
     },
     "readMore": "Read more",
     "readingTime": "{minutes} min read",

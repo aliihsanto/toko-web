@@ -1331,7 +1331,10 @@
       "regulations": "Mevzuat",
       "logistics": "Lojistik",
       "sourcing": "Tedarik",
-      "general": "Genel"
+      "general": "Genel",
+      "e-commerce": "E-Ticaret",
+      "textile": "Tekstil",
+      "food": "Gida"
     },
     "readMore": "Devamini oku",
     "readingTime": "{minutes} dk okuma",
