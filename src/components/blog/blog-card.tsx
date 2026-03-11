@@ -40,7 +40,7 @@ export function BlogCard({
   return (
     <article className="rich-card group overflow-hidden rounded-2xl">
       {image && (
-        <Link href={`/blog/${slug}`} className="relative block h-48 overflow-hidden">
+        <Link href={{pathname: '/blog/[slug]', params: {slug}}} className="relative block h-48 overflow-hidden">
           <Image
             src={image}
             alt={imageAlt || title}
@@ -75,7 +75,7 @@ export function BlogCard({
         </div>
         <h2 className="mt-3 heading-serif text-lg line-clamp-2">
           <Link
-            href={`/blog/${slug}`}
+            href={{pathname: '/blog/[slug]', params: {slug}}}
             className="transition-colors hover:text-primary"
           >
             {title}
@@ -85,7 +85,7 @@ export function BlogCard({
           {excerpt}
         </p>
         <Link
-          href={`/blog/${slug}`}
+          href={{pathname: '/blog/[slug]', params: {slug}}}
           className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-primary transition-colors hover:text-primary/80"
         >
           <span>{readMoreLabel}</span>

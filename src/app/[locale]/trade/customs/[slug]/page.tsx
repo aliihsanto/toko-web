@@ -7,7 +7,8 @@ import { CTASection } from '@/components/common/cta-section';
 import { Breadcrumb } from '@/components/common/breadcrumb';
 import { JsonLd } from '@/lib/seo/json-ld';
 import { getBreadcrumbSchema } from '@/lib/seo/structured-data';
-import { getPageMetadata, BASE_URL } from '@/lib/seo/metadata';
+import { getPageMetadata } from '@/lib/seo/metadata';
+import { getLocalizedUrl } from '@/lib/i18n-paths';
 import { t, getCustomsPage } from '@/lib/pseo/utils';
 import { customsPages } from '@/data/pseo/customs';
 import { routing } from '@/i18n/routing';
@@ -80,10 +81,10 @@ export default async function CustomsTemplatePage({
     <>
       <JsonLd
         data={getBreadcrumbSchema([
-          { name: labels.home, url: `${BASE_URL}/${locale}` },
-          { name: labels.trade, url: `${BASE_URL}/${locale}/trade` },
-          { name: labels.customs, url: `${BASE_URL}/${locale}/trade/customs` },
-          { name: title, url: `${BASE_URL}/${locale}/trade/customs/${slug}` },
+          { name: labels.home, url: getLocalizedUrl('', locale) },
+          { name: labels.trade, url: getLocalizedUrl('/trade', locale) },
+          { name: labels.customs, url: getLocalizedUrl('/trade/customs', locale) },
+          { name: title, url: getLocalizedUrl(`/trade/customs/${slug}`, locale) },
         ])}
       />
 

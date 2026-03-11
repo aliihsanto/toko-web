@@ -18,9 +18,10 @@ import {
 } from 'lucide-react';
 import Image from 'next/image';
 import { services } from '@/data/services';
-import { getPageMetadata, BASE_URL } from '@/lib/seo/metadata';
+import { getPageMetadata } from '@/lib/seo/metadata';
 import { JsonLd } from '@/lib/seo/json-ld';
 import { getBreadcrumbSchema } from '@/lib/seo/structured-data';
+import { getLocalizedUrl } from '@/lib/i18n-paths';
 import type { Metadata } from 'next';
 
 export async function generateMetadata({
@@ -71,8 +72,8 @@ export default async function ServicesPage({
   return (
     <>
       <JsonLd data={getBreadcrumbSchema([
-        { name: t('breadcrumb.home'), url: `${BASE_URL}/${locale}` },
-        { name: t('breadcrumb.services'), url: `${BASE_URL}/${locale}/services` },
+        { name: t('breadcrumb.home'), url: getLocalizedUrl('', locale) },
+        { name: t('breadcrumb.services'), url: getLocalizedUrl('/services', locale) },
       ])} />
       <PageHero
         title={t('hero.title')}
@@ -141,7 +142,7 @@ export default async function ServicesPage({
                         </ul>
 
                         <div className="mt-8">
-                          <Link href={`/services/${service.slug}`}>
+                          <Link href={{pathname: '/services/[slug]', params: {slug: service.slug}}}>
                             <Button className="rounded-full bg-primary text-white shadow-md shadow-primary/20 hover:bg-primary/90 hover:shadow-lg">
                               {t('learnMore')}
                               <ArrowRight className="ml-2 h-4 w-4" />

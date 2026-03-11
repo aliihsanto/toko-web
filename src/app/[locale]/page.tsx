@@ -200,7 +200,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
 
               return (
                 <ScrollReveal key={service.slug} delay={index * 0.1} direction="up">
-                  <Link href={`/services/${service.slug}`} className="group block">
+                  <Link href={{pathname: '/services/[slug]', params: {slug: service.slug}}} className="group block">
                     <div className={`rich-card flex h-full flex-col overflow-hidden rounded-2xl border-t-4 ${accent.border} md:flex-row`}>
                       <div className="relative h-56 w-full overflow-hidden md:h-auto md:w-2/5">
                         <Image

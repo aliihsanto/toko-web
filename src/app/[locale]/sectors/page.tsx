@@ -10,9 +10,10 @@ import {
   Wheat, Shirt, Cog, FlaskConical, Building2, Mountain, Cpu, Car,
   Factory, Globe, Award, Package, type LucideIcon,
 } from 'lucide-react';
-import { getPageMetadata, BASE_URL } from '@/lib/seo/metadata';
+import { getPageMetadata } from '@/lib/seo/metadata';
 import { JsonLd } from '@/lib/seo/json-ld';
 import { getBreadcrumbSchema } from '@/lib/seo/structured-data';
+import { getLocalizedUrl } from '@/lib/i18n-paths';
 import type { Metadata } from 'next';
 
 export async function generateMetadata({
@@ -48,8 +49,8 @@ export default async function SectorsPage({ params }: { params: Promise<{ locale
   return (
     <div>
       <JsonLd data={getBreadcrumbSchema([
-        { name: t('breadcrumb.home'), url: `${BASE_URL}/${locale}` },
-        { name: t('breadcrumb.sectors'), url: `${BASE_URL}/${locale}/sectors` },
+        { name: t('breadcrumb.home'), url: getLocalizedUrl('', locale) },
+        { name: t('breadcrumb.sectors'), url: getLocalizedUrl('/sectors', locale) },
       ])} />
       <PageHero
         title={t('hero.title')}
@@ -78,7 +79,7 @@ export default async function SectorsPage({ params }: { params: Promise<{ locale
               const Icon = iconMap[sector.iconName] || Factory;
               return (
                 <ScrollReveal key={sector.slug} delay={i * 0.08} direction="up">
-                  <Link href={`/sectors/${sector.slug}`}>
+                  <Link href={{pathname: '/sectors/[slug]', params: {slug: sector.slug}}}>
                     <div className="group relative h-80 cursor-pointer overflow-hidden rounded-2xl shadow-lg transition-all duration-500 hover:shadow-xl">
                       <Image src={sector.image} alt={t(`sectors.${sector.slug}.title`)} width={800} height={600}
                         className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />

@@ -36,25 +36,25 @@ describe('SEO Metadata Helpers', () => {
   });
 
   describe('getAlternates', () => {
-    it('should return canonical with full URL for /about path', async () => {
+    it('should return canonical with localized URL for /about path', async () => {
       const { getAlternates } = await import('@/lib/seo/metadata');
       const result = getAlternates('tr', '/about');
-      expect(result.canonical).toBe('https://toko.com.tr/tr/about');
+      expect(result.canonical).toBe('https://toko.com.tr/tr/hakkimizda');
     });
 
-    it('should return languages object with all 4 locales for /about path', async () => {
+    it('should return languages object with localized URLs for /about path', async () => {
       const { getAlternates } = await import('@/lib/seo/metadata');
       const result = getAlternates('tr', '/about');
-      expect(result.languages).toHaveProperty('tr', 'https://toko.com.tr/tr/about');
+      expect(result.languages).toHaveProperty('tr', 'https://toko.com.tr/tr/hakkimizda');
       expect(result.languages).toHaveProperty('en', 'https://toko.com.tr/en/about');
-      expect(result.languages).toHaveProperty('fr', 'https://toko.com.tr/fr/about');
-      expect(result.languages).toHaveProperty('ru', 'https://toko.com.tr/ru/about');
+      expect(result.languages).toHaveProperty('fr', 'https://toko.com.tr/fr/a-propos');
+      expect(result.languages).toHaveProperty('ru', 'https://toko.com.tr/ru/o-nas');
     });
 
-    it('should include x-default pointing to /tr for /about path', async () => {
+    it('should include x-default pointing to /tr with localized path for /about', async () => {
       const { getAlternates } = await import('@/lib/seo/metadata');
       const result = getAlternates('tr', '/about');
-      expect(result.languages).toHaveProperty('x-default', 'https://toko.com.tr/tr/about');
+      expect(result.languages).toHaveProperty('x-default', 'https://toko.com.tr/tr/hakkimizda');
     });
 
     it('should return correct root-level alternates for empty path', async () => {
@@ -70,6 +70,13 @@ describe('SEO Metadata Helpers', () => {
       const { getAlternates } = await import('@/lib/seo/metadata');
       const result = getAlternates('fr', '/services');
       expect(result.canonical).toBe('https://toko.com.tr/fr/services');
+    });
+
+    it('should localize service paths per locale', async () => {
+      const { getAlternates } = await import('@/lib/seo/metadata');
+      const result = getAlternates('tr', '/services');
+      expect(result.canonical).toBe('https://toko.com.tr/tr/hizmetler');
+      expect(result.languages).toHaveProperty('ru', 'https://toko.com.tr/ru/uslugi');
     });
   });
 

@@ -16,6 +16,7 @@ import { services, getServiceBySlug } from '@/data/services';
 import { getAlternates, LOCALE_TO_OG, BASE_URL } from '@/lib/seo/metadata';
 import { JsonLd } from '@/lib/seo/json-ld';
 import { getBreadcrumbSchema } from '@/lib/seo/structured-data';
+import { getLocalizedUrl } from '@/lib/i18n-paths';
 import type { Metadata } from 'next';
 
 export const dynamicParams = false;
@@ -128,9 +129,9 @@ export default async function ServiceDetailPage({
   return (
     <>
       <JsonLd data={getBreadcrumbSchema([
-        { name: tNav('breadcrumb.home'), url: `${BASE_URL}/${locale}` },
-        { name: tNav('breadcrumb.services'), url: `${BASE_URL}/${locale}/services` },
-        { name: t(`${slug}.title`), url: `${BASE_URL}/${locale}/services/${slug}` },
+        { name: tNav('breadcrumb.home'), url: getLocalizedUrl('', locale) },
+        { name: tNav('breadcrumb.services'), url: getLocalizedUrl('/services', locale) },
+        { name: t(`${slug}.title`), url: getLocalizedUrl(`/services/${slug}`, locale) },
       ])} />
       <PageHero
         title={t(`${slug}.title`)}

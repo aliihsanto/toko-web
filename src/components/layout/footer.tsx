@@ -138,7 +138,7 @@ export function Footer() {
             {locales.map((loc) => (
               <button
                 key={loc}
-                onClick={() => router.replace(pathname, { locale: loc })}
+                onClick={() => router.replace(pathname as never, { locale: loc })}
                 className={cn(
                   'transition-colors hover:text-primary',
                   locale === loc && 'font-medium text-primary'

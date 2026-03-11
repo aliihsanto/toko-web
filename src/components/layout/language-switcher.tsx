@@ -19,7 +19,7 @@ export function LanguageSwitcher() {
   const t = useTranslations('LanguageSwitcher');
 
   function handleLocaleChange(newLocale: Locale) {
-    router.replace(pathname, { locale: newLocale });
+    router.replace(pathname as never, { locale: newLocale });
   }
 
   return (

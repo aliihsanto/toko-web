@@ -1,4 +1,4 @@
-import { routing } from '@/i18n/routing';
+import { getLocalizedAlternates, getLocalizedUrl } from '@/lib/i18n-paths';
 
 export const BASE_URL = 'https://toko.com.tr';
 
@@ -10,19 +10,8 @@ export const LOCALE_TO_OG: Record<string, string> = {
 };
 
 export function getAlternates(locale: string, path: string) {
-  const pathSuffix = path ? `/${path.replace(/^\//, '')}` : '';
-
-  const languages: Record<string, string> = {};
-  for (const loc of routing.locales) {
-    languages[loc] = `${BASE_URL}/${loc}${pathSuffix}`;
-  }
-  // x-default points to the Turkish (default locale) version
-  languages['x-default'] = `${BASE_URL}/${routing.defaultLocale}${pathSuffix}`;
-
-  return {
-    canonical: `${BASE_URL}/${locale}${pathSuffix}`,
-    languages,
-  };
+  const internalPath = path ? `/${path.replace(/^\//, '')}` : '';
+  return getLocalizedAlternates(internalPath, locale);
 }
 
 export function getPageMetadata({
@@ -36,14 +25,15 @@ export function getPageMetadata({
   title: string;
   description: string;
 }) {
+  const internalPath = path ? `/${path.replace(/^\//, '')}` : '';
   return {
     title,
     description,
-    alternates: getAlternates(locale, path),
+    alternates: getLocalizedAlternates(internalPath, locale),
     openGraph: {
       title,
       description,
-      url: `${BASE_URL}/${locale}${path ? `/${path.replace(/^\//, '')}` : ''}`,
+      url: getLocalizedUrl(internalPath, locale),
       locale: LOCALE_TO_OG[locale] || locale,
       type: 'website' as const,
     },

@@ -7,7 +7,8 @@ import { CTASection } from '@/components/common/cta-section';
 import { Breadcrumb } from '@/components/common/breadcrumb';
 import { JsonLd } from '@/lib/seo/json-ld';
 import { getBreadcrumbSchema } from '@/lib/seo/structured-data';
-import { getPageMetadata, BASE_URL } from '@/lib/seo/metadata';
+import { getPageMetadata } from '@/lib/seo/metadata';
+import { getLocalizedUrl } from '@/lib/i18n-paths';
 import { t, getCountryPage } from '@/lib/pseo/utils';
 import { countryPages } from '@/data/pseo/countries';
 import { routing } from '@/i18n/routing';
@@ -98,10 +99,10 @@ export default async function CountryTradePage({
     <>
       <JsonLd
         data={getBreadcrumbSchema([
-          { name: labels.home, url: `${BASE_URL}/${locale}` },
-          { name: labels.trade, url: `${BASE_URL}/${locale}/trade` },
-          { name: labels.countries, url: `${BASE_URL}/${locale}/trade/country` },
-          { name: title, url: `${BASE_URL}/${locale}/trade/country/${slug}` },
+          { name: labels.home, url: getLocalizedUrl('', locale) },
+          { name: labels.trade, url: getLocalizedUrl('/trade', locale) },
+          { name: labels.countries, url: getLocalizedUrl('/trade/country', locale) },
+          { name: title, url: getLocalizedUrl(`/trade/country/${slug}`, locale) },
         ])}
       />
 

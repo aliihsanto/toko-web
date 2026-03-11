@@ -2,6 +2,7 @@ import { describe, it, expect } from 'vitest';
 import sitemap from '@/app/sitemap';
 import { services } from '@/data/services';
 import { sectors } from '@/data/sectors';
+import { resolveLocalizedPath } from '@/lib/i18n-paths';
 
 describe('sitemap', () => {
   const entries = sitemap();
@@ -12,7 +13,6 @@ describe('sitemap', () => {
   const staticEntries = entries.filter((e) => !e.url.includes('/blog/'));
 
   it('returns entries for all static pages (11 total)', () => {
-    // Static pages: home, about, services, sectors, references, contact, quote, sourcing, callback, russia-transit, blog
     const staticPaths = [
       '', // homepage
       '/about',
@@ -28,8 +28,9 @@ describe('sitemap', () => {
     ];
 
     for (const path of staticPaths) {
+      const localizedPath = path ? resolveLocalizedPath(path, 'tr') : '';
       const found = entries.find((e) =>
-        e.url.endsWith(`/tr${path}`) || (path === '' && e.url.endsWith('/tr'))
+        e.url.endsWith(`/tr${localizedPath}`) || (path === '' && e.url.endsWith('/tr'))
       );
       expect(found, `Missing sitemap entry for path: ${path || '/'}`).toBeDefined();
     }
@@ -37,8 +38,9 @@ describe('sitemap', () => {
 
   it('returns entries for all 4 service detail pages', () => {
     for (const service of services) {
+      const localizedPath = resolveLocalizedPath(`/services/${service.slug}`, 'tr');
       const found = entries.find((e) =>
-        e.url.includes(`/services/${service.slug}`)
+        e.url.includes(localizedPath)
       );
       expect(found, `Missing service: ${service.slug}`).toBeDefined();
     }
@@ -46,17 +48,15 @@ describe('sitemap', () => {
 
   it('returns entries for all 8 sector detail pages', () => {
     for (const sector of sectors) {
+      const localizedPath = resolveLocalizedPath(`/sectors/${sector.slug}`, 'tr');
       const found = entries.find((e) =>
-        e.url.includes(`/sectors/${sector.slug}`)
+        e.url.includes(localizedPath)
       );
       expect(found, `Missing sector: ${sector.slug}`).toBeDefined();
     }
   });
 
   it('has at least 23 static entries (11 + 4 + 8 + PSEO pages)', () => {
-    // Static/service/sector entries use makeEntry with hreflang alternates
-    // Blog entries are separate (locale-specific, no cross-locale alternates)
-    // PSEO pages (countries, products, customs) add additional entries
     expect(staticEntries.length).toBeGreaterThanOrEqual(staticEntryCount);
   });
 

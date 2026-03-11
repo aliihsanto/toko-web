@@ -7,9 +7,10 @@ import { Link } from '@/i18n/navigation';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
 import { ArrowRight, Phone, MapPin, FileCheck, ShieldCheck, Truck, Globe, DollarSign, Scale, ChevronRight } from 'lucide-react';
-import { getPageMetadata, BASE_URL } from '@/lib/seo/metadata';
+import { getPageMetadata } from '@/lib/seo/metadata';
 import { JsonLd } from '@/lib/seo/json-ld';
 import { getBreadcrumbSchema, getFAQSchema } from '@/lib/seo/structured-data';
+import { getLocalizedUrl } from '@/lib/i18n-paths';
 import type { Metadata } from 'next';
 
 export async function generateMetadata({
@@ -63,8 +64,8 @@ export default async function RussiaTransitPage({ params }: { params: Promise<{ 
   return (
     <>
       <JsonLd data={getBreadcrumbSchema([
-        { name: t('breadcrumb.home'), url: `${BASE_URL}/${locale}` },
-        { name: t('breadcrumb.russiaTransit'), url: `${BASE_URL}/${locale}/russia-transit` },
+        { name: t('breadcrumb.home'), url: getLocalizedUrl('', locale) },
+        { name: t('breadcrumb.russiaTransit'), url: getLocalizedUrl('/russia-transit', locale) },
       ])} />
       <JsonLd data={getFAQSchema(faqItems)} />
       {/* Hero — mesh gradient */}

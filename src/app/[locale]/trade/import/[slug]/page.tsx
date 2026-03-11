@@ -7,7 +7,8 @@ import { CTASection } from '@/components/common/cta-section';
 import { Breadcrumb } from '@/components/common/breadcrumb';
 import { JsonLd } from '@/lib/seo/json-ld';
 import { getBreadcrumbSchema } from '@/lib/seo/structured-data';
-import { getPageMetadata, BASE_URL } from '@/lib/seo/metadata';
+import { getPageMetadata } from '@/lib/seo/metadata';
+import { getLocalizedUrl } from '@/lib/i18n-paths';
 import { t, getProductPage } from '@/lib/pseo/utils';
 import { productPages } from '@/data/pseo/products';
 import { routing } from '@/i18n/routing';
@@ -94,10 +95,10 @@ export default async function ProductImportPage({
     <>
       <JsonLd
         data={getBreadcrumbSchema([
-          { name: labels.home, url: `${BASE_URL}/${locale}` },
-          { name: labels.trade, url: `${BASE_URL}/${locale}/trade` },
-          { name: labels.import, url: `${BASE_URL}/${locale}/trade/import` },
-          { name: title, url: `${BASE_URL}/${locale}/trade/import/${slug}` },
+          { name: labels.home, url: getLocalizedUrl('', locale) },
+          { name: labels.trade, url: getLocalizedUrl('/trade', locale) },
+          { name: labels.import, url: getLocalizedUrl('/trade/import', locale) },
+          { name: title, url: getLocalizedUrl(`/trade/import/${slug}`, locale) },
         ])}
       />
 

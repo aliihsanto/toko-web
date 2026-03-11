@@ -39,7 +39,7 @@ export function CTASection({ title, description, buttonText, buttonHref, note }:
         </ScrollReveal>
         <ScrollReveal delay={0.2}>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <Link href={buttonHref}>
+            <Link href={buttonHref as never}>
               <Button
                 size="lg"
                 className="h-14 rounded-full bg-white px-8 text-base font-semibold text-[#0a5c5f] shadow-xl shadow-black/15 transition-all hover:-translate-y-1 hover:bg-white/95 hover:shadow-2xl"

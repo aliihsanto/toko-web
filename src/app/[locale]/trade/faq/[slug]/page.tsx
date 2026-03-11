@@ -8,7 +8,8 @@ import { CTASection } from '@/components/common/cta-section';
 import { Breadcrumb } from '@/components/common/breadcrumb';
 import { JsonLd } from '@/lib/seo/json-ld';
 import { getBreadcrumbSchema, getFAQSchema } from '@/lib/seo/structured-data';
-import { getPageMetadata, BASE_URL } from '@/lib/seo/metadata';
+import { getPageMetadata } from '@/lib/seo/metadata';
+import { getLocalizedUrl } from '@/lib/i18n-paths';
 import { t, getFAQPage } from '@/lib/pseo/utils';
 import { faqPages } from '@/data/pseo/faqs';
 import { routing } from '@/i18n/routing';
@@ -87,10 +88,10 @@ export default async function FAQTemplatePage({
     <>
       <JsonLd
         data={getBreadcrumbSchema([
-          { name: labels.home, url: `${BASE_URL}/${locale}` },
-          { name: labels.trade, url: `${BASE_URL}/${locale}/trade` },
-          { name: labels.faq, url: `${BASE_URL}/${locale}/trade/faq` },
-          { name: title, url: `${BASE_URL}/${locale}/trade/faq/${slug}` },
+          { name: labels.home, url: getLocalizedUrl('', locale) },
+          { name: labels.trade, url: getLocalizedUrl('/trade', locale) },
+          { name: labels.faq, url: getLocalizedUrl('/trade/faq', locale) },
+          { name: title, url: getLocalizedUrl(`/trade/faq/${slug}`, locale) },
         ])}
       />
       <JsonLd data={getFAQSchema(faqSchemaData)} />
@@ -185,7 +186,7 @@ export default async function FAQTemplatePage({
               {page.content.relatedLinks.map((link, index) => (
                 <ScrollReveal key={index} delay={index * 0.1}>
                   <Link
-                    href={link.href}
+                    href={link.href as never}
                     className="group flex items-center gap-3 rounded-xl border border-border/60 bg-white/80 px-5 py-4 transition-all hover:border-primary/30 hover:bg-primary/5 hover:shadow-md"
                   >
                     <ArrowRight className="h-4 w-4 shrink-0 text-primary transition-transform group-hover:translate-x-1" />

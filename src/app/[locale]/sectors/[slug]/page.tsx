@@ -24,6 +24,7 @@ import { sectors, getSectorBySlug } from '@/data/sectors';
 import { getAlternates, LOCALE_TO_OG, BASE_URL } from '@/lib/seo/metadata';
 import { JsonLd } from '@/lib/seo/json-ld';
 import { getBreadcrumbSchema } from '@/lib/seo/structured-data';
+import { getLocalizedUrl } from '@/lib/i18n-paths';
 import type { Metadata } from 'next';
 
 export const dynamicParams = false;
@@ -99,9 +100,9 @@ export default async function SectorDetailPage({
   return (
     <>
       <JsonLd data={getBreadcrumbSchema([
-        { name: tSectors('breadcrumb.home'), url: `${BASE_URL}/${locale}` },
-        { name: tSectors('breadcrumb.sectors'), url: `${BASE_URL}/${locale}/sectors` },
-        { name: t(`${slug}.title`), url: `${BASE_URL}/${locale}/sectors/${slug}` },
+        { name: tSectors('breadcrumb.home'), url: getLocalizedUrl('', locale) },
+        { name: tSectors('breadcrumb.sectors'), url: getLocalizedUrl('/sectors', locale) },
+        { name: t(`${slug}.title`), url: getLocalizedUrl(`/sectors/${slug}`, locale) },
       ])} />
       <PageHero
         title={t(`${slug}.title`)}

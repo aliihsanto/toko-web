@@ -4,9 +4,10 @@ import { PageHero } from '@/components/common/page-hero';
 import { CTASection } from '@/components/common/cta-section';
 import { Breadcrumb } from '@/components/common/breadcrumb';
 import { Wheat, Shirt, Cog, FlaskConical, Building2, Mountain, Cpu, Car, Star, Quote, Globe } from 'lucide-react';
-import { getPageMetadata, BASE_URL } from '@/lib/seo/metadata';
+import { getPageMetadata } from '@/lib/seo/metadata';
 import { JsonLd } from '@/lib/seo/json-ld';
 import { getBreadcrumbSchema } from '@/lib/seo/structured-data';
+import { getLocalizedUrl } from '@/lib/i18n-paths';
 import type { Metadata } from 'next';
 
 export async function generateMetadata({
@@ -58,8 +59,8 @@ export default async function ReferencesPage({ params }: { params: Promise<{ loc
   return (
     <>
       <JsonLd data={getBreadcrumbSchema([
-        { name: t('breadcrumb.home'), url: `${BASE_URL}/${locale}` },
-        { name: t('breadcrumb.references'), url: `${BASE_URL}/${locale}/references` },
+        { name: t('breadcrumb.home'), url: getLocalizedUrl('', locale) },
+        { name: t('breadcrumb.references'), url: getLocalizedUrl('/references', locale) },
       ])} />
       <PageHero title={t('hero.title')} subtitle={t('hero.subtitle')}
         backgroundImage="/images/hero/handshake-deal.webp"

@@ -7,6 +7,7 @@ import { productPages } from '@/data/pseo/products';
 import { countryPages } from '@/data/pseo/countries';
 import { faqPages } from '@/data/pseo/faqs';
 import { customsPages } from '@/data/pseo/customs';
+import { resolveLocalizedPath, getLocalizedUrl } from '@/lib/i18n-paths';
 
 const BASE_URL = 'https://toko.com.tr';
 
@@ -29,13 +30,13 @@ function makeEntry(
   changeFrequency: SitemapEntry['changeFrequency'] = 'monthly'
 ): MetadataRoute.Sitemap[number] {
   return {
-    url: `${BASE_URL}/tr${path}`,
+    url: getLocalizedUrl(path, 'tr'),
     lastModified: new Date(),
     changeFrequency,
     priority,
     alternates: {
       languages: Object.fromEntries(
-        routing.locales.map((locale) => [locale, `${BASE_URL}/${locale}${path}`])
+        routing.locales.map((locale) => [locale, getLocalizedUrl(path, locale)])
       ),
     },
   };
@@ -74,8 +75,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const localePosts = getPostsByLocale(locale);
     for (const post of localePosts) {
       const slug = getPostSlug(post);
+      const blogPath = `/blog/${slug}`;
       blogEntries.push({
-        url: `${BASE_URL}/${locale}/blog/${slug}`,
+        url: getLocalizedUrl(blogPath, locale),
         lastModified: new Date(post.date),
         changeFrequency: 'weekly',
         priority: 0.7,
@@ -83,7 +85,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  // Programmatic SEO entries -- all use /trade/ prefix with hreflang alternates
+  // Programmatic SEO entries
   const pseoProductEntries = productPages.map((page) =>
     makeEntry(`/trade/import/${page.slug}`, 0.7)
   );

@@ -21,7 +21,7 @@ export function Breadcrumb({ items }: BreadcrumbProps) {
             )}
             {item.href ? (
               <Link
-                href={item.href}
+                href={item.href as never}
                 className="transition-colors hover:text-foreground"
               >
                 {item.label}
