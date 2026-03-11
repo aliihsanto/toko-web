@@ -71,7 +71,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   return (
     <>
       {/* ===== HERO ===== */}
-      <section className="relative min-h-screen overflow-hidden mesh-hero">
+      <section className="relative min-h-[calc(100vh-3.5rem)] overflow-hidden mesh-hero">
         {/* Extra vivid decorative elements */}
         <div className="absolute -right-32 top-16 h-[500px] w-[500px] rounded-full bg-[#0d7377]/12 blur-[120px]" />
         <div className="absolute -left-32 bottom-16 h-[400px] w-[400px] rounded-full bg-[#d4613c]/10 blur-[100px]" />
