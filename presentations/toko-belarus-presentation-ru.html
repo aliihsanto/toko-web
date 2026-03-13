@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Toko Trading — Стратегические торговые решения для Беларуси</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Noto+Serif:wght@400;700&family=Noto+Sans:wght@300;400;500;600;700&display=swap');
+
+  :root {
+    --teal: #0d7377;
+    --teal-dark: #095558;
+    --coral: #d4613c;
+    --emerald: #2d8a6e;
+    --gold: #e8a840;
+    --bg: #fefcf9;
+    --fg: #1a1a2e;
+    --gray: #555e6b;
+    --light-gray: #8b95a2;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { size: 338.67mm 190.5mm; margin: 0; }
+
+  body {
+    font-family: 'Noto Sans', 'DM Sans', sans-serif;
+    color: var(--fg);
+    background: white;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .slide {
+    width: 338.67mm;
+    height: 190.5mm;
+    page-break-after: always;
+    position: relative;
+    overflow: hidden;
+    background: var(--bg);
+    display: flex;
+    flex-direction: column;
+  }
+  .slide:last-child { page-break-after: avoid; }
+
+  .slide-header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 10px 40px; border-bottom: 2px solid var(--teal);
+    flex-shrink: 0; background: white;
+  }
+  .logo-area { display: flex; align-items: center; gap: 8px; }
+  .logo-icon { width: 26px; height: 26px; }
+  .logo-text { font-family: 'DM Sans', sans-serif; font-weight: 700; font-size: 16px; letter-spacing: 0.1em; }
+  .slide-tag { font-size: 10px; color: var(--teal); font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; }
+
+  .slide-footer {
+    padding: 6px 40px; display: flex; justify-content: space-between;
+    align-items: center; font-size: 8px; color: var(--light-gray);
+    border-top: 1px solid #e5e7eb; background: white; flex-shrink: 0;
+  }
+  .slide-footer .pn { font-weight: 600; color: var(--teal); }
+
+  .content { flex: 1; padding: 22px 40px 14px; display: flex; flex-direction: column; overflow: hidden; }
+
+  h1 { font-family: 'Noto Serif', serif; }
+  h2 { font-family: 'Noto Serif', serif; font-size: 28px; line-height: 1.15; }
+  h3 { font-family: 'Noto Serif', serif; font-size: 16px; }
+  .accent { width: 50px; height: 3px; background: linear-gradient(90deg, var(--teal), var(--coral)); border-radius: 2px; margin: 6px 0 14px; flex-shrink: 0; }
+
+  .card { background: white; border-radius: 10px; padding: 18px; box-shadow: 0 1px 4px rgba(0,0,0,0.07); }
+
+  ul.bl { list-style: none; padding: 0; }
+  ul.bl li { padding: 5px 0; font-size: 14px; color: var(--gray); padding-left: 18px; position: relative; line-height: 1.55; }
+  ul.bl li::before { content: ''; position: absolute; left: 0; top: 13px; width: 6px; height: 6px; border-radius: 50%; background: var(--teal); }
+
+  .badge { display: inline-block; padding: 4px 12px; border-radius: 12px; font-size: 11px; font-weight: 600; margin: 3px; }
+  .badge-teal { background: rgba(13,115,119,0.1); color: var(--teal); }
+  .badge-coral { background: rgba(212,97,60,0.1); color: var(--coral); }
+
+  .flow-diagram { display: flex; align-items: center; justify-content: center; gap: 10px; margin: 14px 0; }
+  .flow-box { padding: 12px 18px; border-radius: 10px; text-align: center; font-weight: 600; font-size: 13px; line-height: 1.3; }
+  .flow-arrow { font-size: 22px; color: var(--teal); font-weight: 700; }
+
+  .img-cover { width: 100%; height: 100%; object-fit: cover; border-radius: 10px; display: block; }
+  .toko-svg { flex-shrink: 0; }
+
+  @media print { .slide { margin: 0; box-shadow: none; } }
+  @media screen {
+    body { background: #d1d5db; padding: 16px 0; }
+    .slide { margin: 16px auto; box-shadow: 0 4px 20px rgba(0,0,0,0.18); }
+  }
+</style>
+</head>
+<body>
+
+<!-- ===== SLIDE 1: COVER ===== -->
+<div class="slide" style="background: linear-gradient(135deg, #0d7377 0%, #095558 55%, #1a1a2e 100%); flex-direction: row;">
+  <div style="width: 54%; display: flex; flex-direction: column; padding: 32px 44px; justify-content: space-between;">
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="36" height="36"><rect width="32" height="32" rx="6" fill="rgba(255,255,255,0.15)"/><text x="16" y="23" font-family="Georgia,serif" font-size="22" font-weight="bold" fill="#fefcf9" text-anchor="middle">T</text><circle cx="24" cy="8" r="3" fill="#d4613c"/></svg>
+      <span style="font-family: 'DM Sans', sans-serif; font-weight: 700; font-size: 22px; letter-spacing: 0.1em; color: white;">TOKO</span>
+      <span style="color: rgba(255,255,255,0.35); font-size: 13px; margin-left: 2px;">TRADING</span>
+    </div>
+    <div>
+      <span style="display: inline-block; padding: 5px 14px; background: rgba(212,97,60,0.25); color: #f4a882; border-radius: 14px; font-size: 10px; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 16px;">Конфиденциальная презентация</span>
+      <h1 style="font-size: 46px; color: white; margin-bottom: 14px; line-height: 1.08;">Стратегические торговые<br>решения для<br><span style="color: #e8a840;">Беларуси</span></h1>
+      <div style="width: 60px; height: 3px; background: linear-gradient(90deg, #d4613c, #e8a840); border-radius: 2px; margin-bottom: 16px;"></div>
+      <p style="font-size: 14px; color: rgba(255,255,255,0.6); line-height: 1.65; max-width: 400px;">Преодоление торговых барьеров через стратегическое положение Турции — связывая рынки Беларуси и СНГ с Европой и глобальными цепочками поставок.</p>
+    </div>
+    <div style="display: flex; justify-content: space-between; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 14px;">
+      <div>
+        <div style="font-size: 9px; color: rgba(255,255,255,0.35); text-transform: uppercase; letter-spacing: 0.05em;">Подготовлено для</div>
+        <div style="font-size: 13px; color: white; font-weight: 600; margin-top: 3px;">Посольство Республики Беларусь</div>
+      </div>
+      <div style="text-align: right;">
+        <div style="font-size: 9px; color: rgba(255,255,255,0.35); text-transform: uppercase; letter-spacing: 0.05em;">Дата</div>
+        <div style="font-size: 13px; color: white; font-weight: 600; margin-top: 3px;">Март 2026</div>
+      </div>
+    </div>
+  </div>
+  <div style="width: 46%; position: relative;">
+    <img src="../public/images/hero/trade-hero.webp" style="width: 100%; height: 100%; object-fit: cover;">
+    <div style="position: absolute; inset: 0; background: linear-gradient(90deg, #095558 0%, rgba(9,85,88,0.3) 25%, transparent 55%);"></div>
+  </div>
+</div>
+
+<!-- ===== SLIDE 2: ABOUT ===== -->
+<div class="slide">
+  <div class="slide-header">
+    <div class="logo-area"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" class="logo-icon"><rect width="32" height="32" rx="6" fill="#0d7377"/><text x="16" y="23" font-family="Georgia,serif" font-size="22" font-weight="bold" fill="#fefcf9" text-anchor="middle">T</text><circle cx="24" cy="8" r="3" fill="#d4613c"/></svg><span class="logo-text">TOKO</span></div>
+    <span class="slide-tag">О компании</span>
+  </div>
+  <div class="content">
+    <h2>О компании Toko Trading</h2>
+    <div class="accent"></div>
+    <p style="font-size: 15px; color: var(--gray); line-height: 1.65; margin-bottom: 18px; max-width: 900px;">Компания основана в 2003 году в Стамбуле. Toko Trading — полносервисный оператор международной торговли с прямым доступом к <strong>2 000+ проверенных фабрик</strong> Турции. Более двух десятилетий мы обеспечиваем комплексное сопровождение торговых операций на шести континентах, специализируясь на сложных трансграничных цепочках поставок.</p>
+    <!-- Stats row -->
+    <div style="display: flex; gap: 16px; margin-bottom: 20px;">
+      <div style="flex: 1; background: white; border-radius: 10px; padding: 18px 14px; text-align: center; border-top: 3px solid var(--teal); box-shadow: 0 1px 4px rgba(0,0,0,0.07);">
+        <div style="font-family: 'Noto Serif', serif; font-size: 36px; color: var(--teal); line-height: 1;">20+</div>
+        <div style="font-size: 12px; color: var(--light-gray); margin-top: 5px; font-weight: 500;">Лет опыта</div>
+      </div>
+      <div style="flex: 1; background: white; border-radius: 10px; padding: 18px 14px; text-align: center; border-top: 3px solid var(--coral); box-shadow: 0 1px 4px rgba(0,0,0,0.07);">
+        <div style="font-family: 'Noto Serif', serif; font-size: 36px; color: var(--coral); line-height: 1;">50+</div>
+        <div style="font-size: 12px; color: var(--light-gray); margin-top: 5px; font-weight: 500;">Стран</div>
+      </div>
+      <div style="flex: 1; background: white; border-radius: 10px; padding: 18px 14px; text-align: center; border-top: 3px solid var(--emerald); box-shadow: 0 1px 4px rgba(0,0,0,0.07);">
+        <div style="font-family: 'Noto Serif', serif; font-size: 36px; color: var(--emerald); line-height: 1;">1 000+</div>
+        <div style="font-size: 12px; color: var(--light-gray); margin-top: 5px; font-weight: 500;">Клиентов</div>
+      </div>
+      <div style="flex: 1; background: white; border-radius: 10px; padding: 18px 14px; text-align: center; border-top: 3px solid var(--gold); box-shadow: 0 1px 4px rgba(0,0,0,0.07);">
+        <div style="font-family: 'Noto Serif', serif; font-size: 36px; color: var(--gold); line-height: 1;">2 000+</div>
+        <div style="font-size: 12px; color: var(--light-gray); margin-top: 5px; font-weight: 500;">Фабрик в сети</div>
+      </div>
+      <div style="flex: 1; background: white; border-radius: 10px; padding: 18px 14px; text-align: center; border-top: 3px solid #7c3aed; box-shadow: 0 1px 4px rgba(0,0,0,0.07);">
+        <div style="font-family: 'Noto Serif', serif; font-size: 36px; color: #7c3aed; line-height: 1;">10+</div>
+        <div style="font-size: 12px; color: var(--light-gray); margin-top: 5px; font-weight: 500;">Экспертов</div>
+      </div>
+    </div>
+    <!-- Values row -->
+    <div style="display: flex; gap: 14px; flex: 1;">
+      <div style="flex: 1; background: white; border-radius: 10px; padding: 22px 22px; border-left: 4px solid var(--teal); box-shadow: 0 1px 4px rgba(0,0,0,0.07); display: flex; flex-direction: column;">
+        <h3 style="font-size: 16px; color: var(--teal); margin-bottom: 8px;">Надёжность</h3>
+        <p style="font-size: 13.5px; color: var(--gray); line-height: 1.6;">Выполняем обязательства точно в срок и в полном объёме — каждый раз. Наши клиенты доверяют нам, потому что мы не нарушаем обещаний.</p>
+      </div>
+      <div style="flex: 1; background: white; border-radius: 10px; padding: 22px 22px; border-left: 4px solid var(--coral); box-shadow: 0 1px 4px rgba(0,0,0,0.07); display: flex; flex-direction: column;">
+        <h3 style="font-size: 16px; color: var(--coral); margin-bottom: 8px;">Прозрачность</h3>
+        <p style="font-size: 13.5px; color: var(--gray); line-height: 1.6;">Открытая коммуникация и полная видимость на каждом этапе операции. Обновления в реальном времени, чёткая документация.</p>
+      </div>
+      <div style="flex: 1; background: white; border-radius: 10px; padding: 22px 22px; border-left: 4px solid var(--emerald); box-shadow: 0 1px 4px rgba(0,0,0,0.07); display: flex; flex-direction: column;">
+        <h3 style="font-size: 16px; color: var(--emerald); margin-bottom: 8px;">Инновации</h3>
+        <p style="font-size: 13.5px; color: var(--gray); line-height: 1.6;">Технологичные решения для оптимизации снабжения, логистики и документации. Цифровое отслеживание, автокомплаенс, аналитика.</p>
+      </div>
+      <div style="flex: 1; background: white; border-radius: 10px; padding: 22px 22px; border-left: 4px solid var(--gold); box-shadow: 0 1px 4px rgba(0,0,0,0.07); display: flex; flex-direction: column;">
+        <h3 style="font-size: 16px; color: var(--gold); margin-bottom: 8px;">Партнёрство</h3>
+        <p style="font-size: 13.5px; color: var(--gray); line-height: 1.6;">Долгосрочные стратегические альянсы на основе взаимного успеха. Мы вникаем в ваш рынок и бизнес-цели.</p>
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer"><span>toko.com.tr | info@toko.com.tr | +90 (212) 450 60 20</span><span class="pn">02</span></div>
+</div>
+
+<!-- ===== SLIDE 3: THE CHALLENGE ===== -->
+<div class="slide">
+  <div class="slide-header">
+    <div class="logo-area"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" class="logo-icon"><rect width="32" height="32" rx="6" fill="#0d7377"/><text x="16" y="23" font-family="Georgia,serif" font-size="22" font-weight="bold" fill="#fefcf9" text-anchor="middle">T</text><circle cx="24" cy="8" r="3" fill="#d4613c"/></svg><span class="logo-text">TOKO</span></div>
+    <span class="slide-tag">Контекст рынка</span>
+  </div>
+  <div class="content">
+    <h2>Торговые вызовы для Беларуси</h2>
+    <div class="accent"></div>
+    <p style="font-size: 15px; color: var(--gray); line-height: 1.65; margin-bottom: 16px;">В условиях международных санкций белорусский бизнес сталкивается с серьёзными препятствиями в поддержании торговых связей с европейскими и мировыми рынками, что ведёт к разрыву цепочек поставок и росту затрат.</p>
+    <div style="display: flex; gap: 16px; flex: 1;">
+      <!-- Obstacles -->
+      <div style="flex: 1; background: white; border-radius: 10px; padding: 22px 24px; border-left: 4px solid var(--coral); box-shadow: 0 1px 4px rgba(0,0,0,0.07); display: flex; flex-direction: column;">
+        <h3 style="color: var(--coral); margin-bottom: 12px; font-size: 17px;">Текущие препятствия</h3>
+        <ul class="bl">
+          <li>Ограничение прямой торговли со странами ЕС</li>
+          <li>Нарушение промышленных цепочек поставок</li>
+          <li>Затруднённый доступ к европейским технологиям и оборудованию</li>
+          <li>Барьеры в банковских и финансовых операциях</li>
+          <li>Ограничения экспортных рынков для белорусских компаний</li>
+          <li>Сложные требования к документации и комплаенсу</li>
+          <li>Рост расходов из-за непрямых маршрутов</li>
+        </ul>
+      </div>
+      <!-- Impact -->
+      <div style="flex: 1; background: white; border-radius: 10px; padding: 22px 24px; border-left: 4px solid var(--emerald); box-shadow: 0 1px 4px rgba(0,0,0,0.07); display: flex; flex-direction: column;">
+        <h3 style="color: var(--emerald); margin-bottom: 12px; font-size: 17px;">Влияние на бизнес</h3>
+        <ul class="bl">
+          <li>Рост затрат из-за более длинных маршрутов поставок</li>
+          <li>Задержки в закупках критического сырья и материалов</li>
+          <li>Утрата налаженных европейских дистрибьюторских сетей</li>
+          <li>Проблемы с поиском запасных частей и технологий</li>
+          <li>Снижение конкурентоспособности на глобальных рынках</li>
+          <li>Проблемы с валютным обменом и обработкой платежей</li>
+          <li>Нарушения в управлении товарными запасами</li>
+        </ul>
+      </div>
+      <!-- Turkey Bridge -->
+      <div style="width: 310px; background: linear-gradient(135deg, var(--teal), var(--teal-dark)); color: white; border-radius: 10px; padding: 24px 26px; display: flex; flex-direction: column; justify-content: center;">
+        <h3 style="color: white; font-size: 20px; margin-bottom: 12px;">Турция: стратегический мост</h3>
+        <p style="color: rgba(255,255,255,0.9); font-size: 14px; line-height: 1.6; margin-bottom: 14px;">Турция поддерживает торговые отношения как с Европой, так и со странами СНГ. Как член НАТО с евразийскими связями, Турция предоставляет полностью <strong style="color: #e8a840;">легитимный</strong> коридор для международной торговли.</p>
+        <p style="color: rgba(255,255,255,0.7); font-size: 13px; line-height: 1.55; margin-bottom: 14px;">18 действующих свободных зон обеспечивают беспошлинное хранение, переработку и реэкспорт — идеальный хаб для торговых потоков Беларусь-Европа.</p>
+        <div style="padding: 10px 14px; background: rgba(255,255,255,0.1); border-radius: 8px; font-size: 12px; color: rgba(255,255,255,0.8); text-align: center;">Товарооборот Турция–Беларусь превышает <strong style="color: #e8a840;">$1,2 млрд</strong> ежегодно</div>
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer"><span>toko.com.tr | info@toko.com.tr | +90 (212) 450 60 20</span><span class="pn">03</span></div>
+</div>
+
+<!-- ===== SLIDE 4: OUR SOLUTION ===== -->
+<div class="slide">
+  <div class="slide-header">
+    <div class="logo-area"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" class="logo-icon"><rect width="32" height="32" rx="6" fill="#0d7377"/><text x="16" y="23" font-family="Georgia,serif" font-size="22" font-weight="bold" fill="#fefcf9" text-anchor="middle">T</text><circle cx="24" cy="8" r="3" fill="#d4613c"/></svg><span class="logo-text">TOKO</span></div>
+    <span class="slide-tag">Наше решение</span>
+  </div>
+  <div class="content">
+    <h2>Как Toko устраняет торговые барьеры</h2>
+    <div class="accent"></div>
+    <div style="display: flex; gap: 16px; flex: 1;">
+      <!-- Route A -->
+      <div style="flex: 1; background: white; border-radius: 10px; padding: 22px; border-top: 4px solid var(--teal); box-shadow: 0 1px 4px rgba(0,0,0,0.07); display: flex; flex-direction: column;">
+        <h3 style="color: var(--teal); margin-bottom: 8px; font-size: 17px;"><span class="badge badge-teal" style="font-size: 11px;">Маршрут А</span> &nbsp;Европа и мир &#8594; Беларусь</h3>
+        <p style="font-size: 14px; color: var(--gray); line-height: 1.6; margin-bottom: 14px;">Закупка продукции для белорусских предприятий через Турцию с использованием сети из 2 000+ проверенных турецких фабрик и поставщиков.</p>
+        <div class="flow-diagram">
+          <div class="flow-box" style="background: #e0f2fe; color: #0369a1;">Европа / мир<br><span style="font-size: 11px; font-weight: 400;">Поставщики</span></div>
+          <div class="flow-arrow">&#8594;</div>
+          <div class="flow-box" style="background: rgba(13,115,119,0.12); color: var(--teal);">Турция (Toko)<br><span style="font-size: 11px; font-weight: 400;">Снабжение</span></div>
+          <div class="flow-arrow">&#8594;</div>
+          <div class="flow-box" style="background: rgba(232,168,64,0.15); color: #92610e;">Беларусь / СНГ<br><span style="font-size: 11px; font-weight: 400;">Покупатели</span></div>
+        </div>
+        <p style="font-size: 12px; color: var(--light-gray); margin-bottom: 10px; line-height: 1.5;">Полное сопровождение: таможня, контроль качества, документация, логистика и отслеживание доставки.</p>
+        <div style="display: flex; gap: 4px; flex-wrap: wrap; margin-top: auto;">
+          <span class="badge badge-teal">Оборудование</span><span class="badge badge-teal">Автозапчасти</span><span class="badge badge-teal">Электроника</span><span class="badge badge-teal">Химия</span><span class="badge badge-teal">Стройматериалы</span><span class="badge badge-teal">Медтехника</span><span class="badge badge-teal">Текстиль</span>
+        </div>
+      </div>
+      <!-- Route B -->
+      <div style="flex: 1; background: white; border-radius: 10px; padding: 22px; border-top: 4px solid var(--coral); box-shadow: 0 1px 4px rgba(0,0,0,0.07); display: flex; flex-direction: column;">
+        <h3 style="color: var(--coral); margin-bottom: 8px; font-size: 17px;"><span class="badge badge-coral" style="font-size: 11px;">Маршрут Б</span> &nbsp;Беларусь и Россия &#8594; Европа</h3>
+        <p style="font-size: 14px; color: var(--gray); line-height: 1.6; margin-bottom: 14px;">Содействие экспорту белорусской и российской продукции на европейские и международные рынки через торговые коридоры Турции.</p>
+        <div class="flow-diagram">
+          <div class="flow-box" style="background: rgba(232,168,64,0.15); color: #92610e;">Беларусь / Россия<br><span style="font-size: 11px; font-weight: 400;">Экспортёры</span></div>
+          <div class="flow-arrow">&#8594;</div>
+          <div class="flow-box" style="background: rgba(13,115,119,0.12); color: var(--teal);">Турция (Toko)<br><span style="font-size: 11px; font-weight: 400;">Транзит</span></div>
+          <div class="flow-arrow">&#8594;</div>
+          <div class="flow-box" style="background: #e0f2fe; color: #0369a1;">Европа / мир<br><span style="font-size: 11px; font-weight: 400;">Покупатели</span></div>
+        </div>
+        <p style="font-size: 12px; color: var(--light-gray); margin-bottom: 10px; line-height: 1.5;">Переработка в свободных зонах, сертификация реэкспорта, поиск покупателей и поддержка выхода на рынок.</p>
+        <div style="display: flex; gap: 4px; flex-wrap: wrap; margin-top: auto;">
+          <span class="badge badge-coral">Сырьё</span><span class="badge badge-coral">Сельхозпродукция</span><span class="badge badge-coral">Древесина</span><span class="badge badge-coral">Текстиль</span><span class="badge badge-coral">Нефтехимия</span><span class="badge badge-coral">Минералы</span><span class="badge badge-coral">Молочка</span>
+        </div>
+      </div>
+      <!-- Compliance -->
+      <div style="width: 270px; background: linear-gradient(135deg, #2d8a6e, #1a6b53); color: white; border-radius: 10px; padding: 24px; display: flex; flex-direction: column; justify-content: center;">
+        <h3 style="color: white; font-size: 18px; margin-bottom: 12px;">Полный комплаенс</h3>
+        <p style="color: rgba(255,255,255,0.9); font-size: 13.5px; line-height: 1.55; margin-bottom: 16px;">Все операции полностью соответствуют турецкому законодательству и международному праву. Нулевая толерантность к нарушениям.</p>
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <div style="padding: 10px 14px; background: rgba(255,255,255,0.12); border-radius: 8px; font-size: 12.5px;">Лицензированные таможенные брокеры</div>
+          <div style="padding: 10px 14px; background: rgba(255,255,255,0.12); border-radius: 8px; font-size: 12.5px;">Сертифицированные логистические партнёры</div>
+          <div style="padding: 10px 14px; background: rgba(255,255,255,0.12); border-radius: 8px; font-size: 12.5px;">Надёжные банковские каналы</div>
+          <div style="padding: 10px 14px; background: rgba(255,255,255,0.12); border-radius: 8px; font-size: 12.5px;">Доступ к 18 свободным зонам</div>
+          <div style="padding: 10px 14px; background: rgba(255,255,255,0.12); border-radius: 8px; font-size: 12.5px;">Полный аудиторский след</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer"><span>toko.com.tr | info@toko.com.tr | +90 (212) 450 60 20</span><span class="pn">04</span></div>
+</div>
+
+<!-- ===== SLIDE 5: SERVICES ===== -->
+<div class="slide">
+  <div class="slide-header">
+    <div class="logo-area"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" class="logo-icon"><rect width="32" height="32" rx="6" fill="#0d7377"/><text x="16" y="23" font-family="Georgia,serif" font-size="22" font-weight="bold" fill="#fefcf9" text-anchor="middle">T</text><circle cx="24" cy="8" r="3" fill="#d4613c"/></svg><span class="logo-text">TOKO</span></div>
+    <span class="slide-tag">Услуги</span>
+  </div>
+  <div class="content">
+    <h2>Основные направления услуг</h2>
+    <div class="accent"></div>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px; flex: 1;">
+      <div style="background: white; border-radius: 10px; padding: 20px 24px; border-left: 4px solid var(--teal); box-shadow: 0 1px 4px rgba(0,0,0,0.07);">
+        <h3 style="font-size: 17px; color: var(--teal); margin-bottom: 10px;">Импортные операции</h3>
+        <ul class="bl">
+          <li>Таможенное оформление и классификация</li>
+          <li>Логистика: морская, авиа, автомобильная</li>
+          <li>Оптимизация стоимости и пошлин</li>
+          <li>Предотгрузочный контроль качества</li>
+          <li>Прямые закупки с 2 000+ турецких фабрик</li>
+        </ul>
+      </div>
+      <div style="background: white; border-radius: 10px; padding: 20px 24px; border-left: 4px solid var(--coral); box-shadow: 0 1px 4px rgba(0,0,0,0.07);">
+        <h3 style="font-size: 17px; color: var(--coral); margin-bottom: 10px;">Экспортные операции</h3>
+        <ul class="bl">
+          <li>Исследование рынков и подбор покупателей</li>
+          <li>Документация: аккредитивы, коносаменты</li>
+          <li>Консультации по нормативным требованиям</li>
+          <li>Переговоры по фрахту и отслеживание</li>
+          <li>Присутствие на рынках 50+ стран</li>
+        </ul>
+      </div>
+      <div style="background: white; border-radius: 10px; padding: 20px 24px; border-left: 4px solid var(--emerald); box-shadow: 0 1px 4px rgba(0,0,0,0.07);">
+        <h3 style="font-size: 17px; color: var(--emerald); margin-bottom: 10px;">Решения по снабжению</h3>
+        <ul class="bl">
+          <li>Аудит и верификация поставщиков на месте</li>
+          <li>Контроль качества на всех этапах производства</li>
+          <li>Конкурентные ценовые переговоры</li>
+          <li>Управление образцами и прототипами</li>
+          <li>Управление рисками цепочки поставок</li>
+        </ul>
+      </div>
+      <div style="background: white; border-radius: 10px; padding: 20px 24px; border-left: 4px solid var(--gold); box-shadow: 0 1px 4px rgba(0,0,0,0.07);">
+        <h3 style="font-size: 17px; color: var(--gold); margin-bottom: 10px;">Транзитная торговля</h3>
+        <ul class="bl">
+          <li>Стратегическое планирование маршрутов</li>
+          <li>Глубокая экспертиза по рынкам России и СНГ</li>
+          <li>Управление международным комплаенсом</li>
+          <li>Мультитаможенная координация</li>
+          <li>Свободные зоны и склады хранения</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer"><span>toko.com.tr | info@toko.com.tr | +90 (212) 450 60 20</span><span class="pn">05</span></div>
+</div>
+
+<!-- ===== SLIDE 6: SECTORS ===== -->
+<div class="slide">
+  <div class="slide-header">
+    <div class="logo-area"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" class="logo-icon"><rect width="32" height="32" rx="6" fill="#0d7377"/><text x="16" y="23" font-family="Georgia,serif" font-size="22" font-weight="bold" fill="#fefcf9" text-anchor="middle">T</text><circle cx="24" cy="8" r="3" fill="#d4613c"/></svg><span class="logo-text">TOKO</span></div>
+    <span class="slide-tag">Отраслевая экспертиза</span>
+  </div>
+  <div class="content">
+    <h2>Отраслевые специализации</h2>
+    <div class="accent"></div>
+    <div style="display: flex; gap: 20px; flex: 1;">
+      <!-- Sector thumbnails -->
+      <div style="flex: 1; display: flex; flex-direction: column; gap: 10px;">
+        <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;">
+          <div style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,0.07);"><img src="../public/images/sectors/food.webp" style="width: 100%; height: 80px; object-fit: cover;"><div style="padding: 6px 8px; font-size: 11px; font-weight: 600; text-align: center;">Продовольствие</div></div>
+          <div style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,0.07);"><img src="../public/images/sectors/textile.webp" style="width: 100%; height: 80px; object-fit: cover;"><div style="padding: 6px 8px; font-size: 11px; font-weight: 600; text-align: center;">Текстиль</div></div>
+          <div style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,0.07);"><img src="../public/images/sectors/machinery.webp" style="width: 100%; height: 80px; object-fit: cover;"><div style="padding: 6px 8px; font-size: 11px; font-weight: 600; text-align: center;">Машиностроение</div></div>
+          <div style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,0.07);"><img src="../public/images/sectors/chemicals.webp" style="width: 100%; height: 80px; object-fit: cover;"><div style="padding: 6px 8px; font-size: 11px; font-weight: 600; text-align: center;">Химия</div></div>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;">
+          <div style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,0.07);"><img src="../public/images/sectors/construction.webp" style="width: 100%; height: 80px; object-fit: cover;"><div style="padding: 6px 8px; font-size: 11px; font-weight: 600; text-align: center;">Строительство</div></div>
+          <div style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,0.07);"><img src="../public/images/sectors/raw-materials.webp" style="width: 100%; height: 80px; object-fit: cover;"><div style="padding: 6px 8px; font-size: 11px; font-weight: 600; text-align: center;">Сырьё</div></div>
+          <div style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,0.07);"><img src="../public/images/sectors/electronics.webp" style="width: 100%; height: 80px; object-fit: cover;"><div style="padding: 6px 8px; font-size: 11px; font-weight: 600; text-align: center;">Электроника</div></div>
+          <div style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,0.07);"><img src="../public/images/sectors/automotive.webp" style="width: 100%; height: 80px; object-fit: cover;"><div style="padding: 6px 8px; font-size: 11px; font-weight: 600; text-align: center;">Автопром</div></div>
+        </div>
+        <!-- Extra description under thumbnails -->
+        <div style="background: white; border-radius: 10px; padding: 14px 18px; box-shadow: 0 1px 4px rgba(0,0,0,0.07); flex: 1; display: flex; align-items: center;">
+          <p style="font-size: 13px; color: var(--gray); line-height: 1.6;">Наши отраслевые специалисты сочетают глубокие знания индустрии с практическим опытом закупок на производственной базе Турции. Каждая команда включает инспекторов качества, менеджеров по закупкам и координаторов логистики.</p>
+        </div>
+      </div>
+      <!-- Product corridors -->
+      <div style="width: 350px; display: flex; flex-direction: column; gap: 12px;">
+        <h3 style="font-size: 16px;">Продукция торгового коридора</h3>
+        <div style="background: white; border-radius: 10px; padding: 18px 20px; border-left: 4px solid var(--teal); box-shadow: 0 1px 4px rgba(0,0,0,0.07); flex: 1; display: flex; flex-direction: column;">
+          <h3 style="font-size: 15px; color: var(--teal); margin-bottom: 10px;">Импорт в Беларусь</h3>
+          <div style="display: flex; flex-wrap: wrap; gap: 5px;">
+            <span class="badge badge-teal">Промоборудование</span><span class="badge badge-teal">Станки ЧПУ</span><span class="badge badge-teal">Автозапчасти</span><span class="badge badge-teal">Электрокомпоненты</span><span class="badge badge-teal">Строительная сталь</span><span class="badge badge-teal">Химреагенты</span><span class="badge badge-teal">Медоборудование</span><span class="badge badge-teal">Упаковочные машины</span><span class="badge badge-teal">Полимерные смолы</span><span class="badge badge-teal">Светотехника</span><span class="badge badge-teal">Системы ОВКВ</span><span class="badge badge-teal">Насосы и арматура</span>
+          </div>
+        </div>
+        <div style="background: white; border-radius: 10px; padding: 18px 20px; border-left: 4px solid var(--coral); box-shadow: 0 1px 4px rgba(0,0,0,0.07); flex: 1; display: flex; flex-direction: column;">
+          <h3 style="font-size: 15px; color: var(--coral); margin-bottom: 10px;">Экспорт из Беларуси и России</h3>
+          <div style="display: flex; flex-wrap: wrap; gap: 5px;">
+            <span class="badge badge-coral">Древесина</span><span class="badge badge-coral">Калийные удобрения</span><span class="badge badge-coral">Сельхозпродукция</span><span class="badge badge-coral">Нефтехимия</span><span class="badge badge-coral">Металлосплавы</span><span class="badge badge-coral">Минералы</span><span class="badge badge-coral">Молочная продукция</span><span class="badge badge-coral">Текстиль</span><span class="badge badge-coral">Стеклоизделия</span><span class="badge badge-coral">Промхимия</span><span class="badge badge-coral">Мебель</span><span class="badge badge-coral">Запчасти</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer"><span>toko.com.tr | info@toko.com.tr | +90 (212) 450 60 20</span><span class="pn">06</span></div>
+</div>
+
+<!-- ===== SLIDE 7: CIS EXPERTISE ===== -->
+<div class="slide">
+  <div class="slide-header">
+    <div class="logo-area"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" class="logo-icon"><rect width="32" height="32" rx="6" fill="#0d7377"/><text x="16" y="23" font-family="Georgia,serif" font-size="22" font-weight="bold" fill="#fefcf9" text-anchor="middle">T</text><circle cx="24" cy="8" r="3" fill="#d4613c"/></svg><span class="logo-text">TOKO</span></div>
+    <span class="slide-tag">Экспертиза СНГ</span>
+  </div>
+  <div class="content">
+    <h2>Экспертиза по рынкам России и СНГ</h2>
+    <div class="accent"></div>
+    <div style="display: flex; gap: 18px; flex: 1;">
+      <!-- Left: advantages -->
+      <div style="flex: 1; background: white; border-radius: 10px; padding: 22px 26px; border-left: 4px solid var(--teal); box-shadow: 0 1px 4px rgba(0,0,0,0.07); display: flex; flex-direction: column;">
+        <h3 style="font-size: 17px; color: var(--teal); margin-bottom: 14px;">Наши преимущества</h3>
+        <ul class="bl" style="flex: 1;">
+          <li style="padding: 6px 0; padding-left: 18px;">Русскоязычные торговые специалисты в штате — бесшовная коммуникация с партнёрами СНГ</li>
+          <li style="padding: 6px 0; padding-left: 18px;">Налаженные контакты с таможенными органами СНГ на множестве пограничных переходов</li>
+          <li style="padding: 6px 0; padding-left: 18px;">Глубокое понимание торговых регуляций ЕАЭС, требований комплаенса и сертификации</li>
+          <li style="padding: 6px 0; padding-left: 18px;">Мультимодальная логистика: море, ж/д и авто с оптимизацией маршрутов</li>
+          <li style="padding: 6px 0; padding-left: 18px;">Финансовое структурирование через турецкие банки — аккредитивы, переводы, торговое финансирование</li>
+          <li style="padding: 6px 0; padding-left: 18px;">Сеть складов в 18 свободных зонах Турции</li>
+          <li style="padding: 6px 0; padding-left: 18px;">Экспертиза в культуре и деловом протоколе рынков СНГ</li>
+        </ul>
+      </div>
+      <!-- Right -->
+      <div style="width: 350px; display: flex; flex-direction: column; gap: 14px;">
+        <div style="background: linear-gradient(135deg, var(--teal), var(--teal-dark)); color: white; border-radius: 10px; padding: 22px; flex: 1; display: flex; flex-direction: column; justify-content: center;">
+          <h3 style="color: white; font-size: 17px; margin-bottom: 10px;">Преимущества свободных зон</h3>
+          <p style="color: rgba(255,255,255,0.9); font-size: 14px; line-height: 1.6; margin-bottom: 12px;">18 действующих зон: беспошлинное хранение, переработка, реэкспорт. Товары принимаются, консолидируются и отправляются в СНГ с существенной экономией.</p>
+          <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px;">
+            <span style="padding: 5px 12px; background: rgba(255,255,255,0.15); border-radius: 8px; font-size: 11px;">Безналоговые операции</span>
+            <span style="padding: 5px 12px; background: rgba(255,255,255,0.15); border-radius: 8px; font-size: 11px;">Беспошлинное хранение</span>
+            <span style="padding: 5px 12px; background: rgba(255,255,255,0.15); border-radius: 8px; font-size: 11px;">Хаб реэкспорта</span>
+            <span style="padding: 5px 12px; background: rgba(255,255,255,0.15); border-radius: 8px; font-size: 11px;">Добавленная стоимость</span>
+          </div>
+        </div>
+        <div style="background: white; border-radius: 10px; padding: 18px 20px; border-top: 3px solid var(--gold); box-shadow: 0 1px 4px rgba(0,0,0,0.07);">
+          <h3 style="font-size: 15px; margin-bottom: 10px;">Глобальная сеть — 50+ стран</h3>
+          <div style="display: flex; flex-wrap: wrap; gap: 5px;">
+            <span class="badge badge-teal">Россия</span><span class="badge" style="background: rgba(232,168,64,0.15); color: #b8841f;">Казахстан</span><span class="badge badge-teal">Узбекистан</span><span class="badge" style="background: rgba(232,168,64,0.15); color: #b8841f;">Германия</span><span class="badge badge-teal">Франция</span><span class="badge" style="background: rgba(232,168,64,0.15); color: #b8841f;">Италия</span><span class="badge badge-teal">Нидерланды</span><span class="badge" style="background: rgba(232,168,64,0.15); color: #b8841f;">Польша</span><span class="badge badge-teal">Китай</span><span class="badge" style="background: rgba(232,168,64,0.15); color: #b8841f;">ОАЭ</span><span class="badge badge-teal">Индия</span><span class="badge" style="background: rgba(232,168,64,0.15); color: #b8841f;">США</span><span class="badge badge-teal">Азербайджан</span><span class="badge" style="background: rgba(232,168,64,0.15); color: #b8841f;">Грузия</span><span class="badge badge-teal">Туркменистан</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer"><span>toko.com.tr | info@toko.com.tr | +90 (212) 450 60 20</span><span class="pn">07</span></div>
+</div>
+
+<!-- ===== SLIDE 8: WHY TOKO + CONTACT ===== -->
+<div class="slide">
+  <div class="slide-header">
+    <div class="logo-area"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" class="logo-icon"><rect width="32" height="32" rx="6" fill="#0d7377"/><text x="16" y="23" font-family="Georgia,serif" font-size="22" font-weight="bold" fill="#fefcf9" text-anchor="middle">T</text><circle cx="24" cy="8" r="3" fill="#d4613c"/></svg><span class="logo-text">TOKO</span></div>
+    <span class="slide-tag">Сотрудничество</span>
+  </div>
+  <div class="content">
+    <div style="display: flex; gap: 20px; flex: 1;">
+      <div style="flex: 1; display: flex; flex-direction: column;">
+        <h2>Почему стоит работать с Toko</h2>
+        <div class="accent"></div>
+        <div style="display: flex; flex-direction: column; gap: 12px; flex: 1;">
+          <div style="display: flex; gap: 14px; flex: 1;">
+            <div style="flex: 1; background: white; border-radius: 10px; padding: 18px 22px; border-left: 4px solid var(--teal); box-shadow: 0 1px 4px rgba(0,0,0,0.07); display: flex; flex-direction: column;">
+              <h3 style="font-size: 15px; color: var(--teal); margin-bottom: 6px;">Подтверждённый опыт</h3>
+              <p style="font-size: 13px; color: var(--gray); line-height: 1.6;">Более 20 лет управления международными торговыми операциями, свыше 1 000 клиентов по миру. Глубокий опыт работы с рынками СНГ.</p>
+            </div>
+            <div style="flex: 1; background: white; border-radius: 10px; padding: 18px 22px; border-left: 4px solid var(--coral); box-shadow: 0 1px 4px rgba(0,0,0,0.07); display: flex; flex-direction: column;">
+              <h3 style="font-size: 15px; color: var(--coral); margin-bottom: 6px;">Специализация на СНГ</h3>
+              <p style="font-size: 13px; color: var(--gray); line-height: 1.6;">Русскоязычная команда с глубоким знанием рынков, регуляций и деловой культуры СНГ. Партнёрская сеть в России, Казахстане, Средней Азии.</p>
+            </div>
+          </div>
+          <div style="display: flex; gap: 14px; flex: 1;">
+            <div style="flex: 1; background: white; border-radius: 10px; padding: 18px 22px; border-left: 4px solid var(--emerald); box-shadow: 0 1px 4px rgba(0,0,0,0.07); display: flex; flex-direction: column;">
+              <h3 style="font-size: 15px; color: var(--emerald); margin-bottom: 6px;">Полный комплаенс</h3>
+              <p style="font-size: 13px; color: var(--gray); line-height: 1.6;">Прозрачные, легальные и полностью аудируемые операции. Лицензированные брокеры, сертифицированные партнёры, надёжные банки.</p>
+            </div>
+            <div style="flex: 1; background: white; border-radius: 10px; padding: 18px 22px; border-left: 4px solid var(--gold); box-shadow: 0 1px 4px rgba(0,0,0,0.07); display: flex; flex-direction: column;">
+              <h3 style="font-size: 15px; color: var(--gold); margin-bottom: 6px;">2 000+ фабрик</h3>
+              <p style="font-size: 13px; color: var(--gray); line-height: 1.6;">Прямые закупки у проверенных турецких производителей во всех ключевых отраслях. Контроль качества на месте и конкурентные цены.</p>
+            </div>
+          </div>
+          <div style="display: flex; gap: 14px; flex: 1;">
+            <div style="flex: 1; background: white; border-radius: 10px; padding: 18px 22px; border-left: 4px solid #7c3aed; box-shadow: 0 1px 4px rgba(0,0,0,0.07); display: flex; flex-direction: column;">
+              <h3 style="font-size: 15px; color: #7c3aed; margin-bottom: 6px;">Технологичность</h3>
+              <p style="font-size: 13px; color: var(--gray); line-height: 1.6;">Отслеживание грузов в реальном времени, цифровая документация, автоматизированная отчётность и аналитика на базе ИИ.</p>
+            </div>
+            <div style="flex: 1; background: white; border-radius: 10px; padding: 18px 22px; border-left: 4px solid #0891b2; box-shadow: 0 1px 4px rgba(0,0,0,0.07); display: flex; flex-direction: column;">
+              <h3 style="font-size: 15px; color: #0891b2; margin-bottom: 6px;">Комплексный сервис</h3>
+              <p style="font-size: 13px; color: var(--gray); line-height: 1.6;">От закупки и контроля качества до логистики и финальной доставки — один надёжный партнёр для всей цепочки поставок.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Contact panel -->
+      <div style="width: 290px; background: linear-gradient(135deg, #0d7377 0%, #095558 60%, #1a1a2e 100%); border-radius: 12px; padding: 26px; color: white; display: flex; flex-direction: column; justify-content: center;">
+        <div style="text-align: center; margin-bottom: 20px;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="42" height="42"><rect width="32" height="32" rx="6" fill="rgba(255,255,255,0.15)"/><text x="16" y="23" font-family="Georgia,serif" font-size="22" font-weight="bold" fill="#fefcf9" text-anchor="middle">T</text><circle cx="24" cy="8" r="3" fill="#d4613c"/></svg>
+          <h3 style="color: white; font-size: 20px; font-family: 'Noto Serif', serif; margin-top: 10px; line-height: 1.2;">Давайте построим<br>этот мост вместе</h3>
+          <p style="color: rgba(255,255,255,0.5); font-size: 12px; margin-top: 8px;">Мы готовы обсудить ваши торговые потребности.</p>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <div style="padding: 13px; background: rgba(255,255,255,0.08); border-radius: 8px; text-align: center;">
+            <div style="font-size: 9px; text-transform: uppercase; letter-spacing: 0.08em; color: rgba(255,255,255,0.4);">Веб-сайт</div>
+            <div style="font-size: 15px; font-weight: 600; margin-top: 2px;">toko.com.tr</div>
+          </div>
+          <div style="padding: 13px; background: rgba(255,255,255,0.08); border-radius: 8px; text-align: center;">
+            <div style="font-size: 9px; text-transform: uppercase; letter-spacing: 0.08em; color: rgba(255,255,255,0.4);">Эл. почта</div>
+            <div style="font-size: 15px; font-weight: 600; margin-top: 2px;">info@toko.com.tr</div>
+          </div>
+          <div style="padding: 13px; background: rgba(255,255,255,0.08); border-radius: 8px; text-align: center;">
+            <div style="font-size: 9px; text-transform: uppercase; letter-spacing: 0.08em; color: rgba(255,255,255,0.4);">Телефон</div>
+            <div style="font-size: 15px; font-weight: 600; margin-top: 2px;">+90 (212) 450 60 20</div>
+          </div>
+        </div>
+        <p style="font-size: 10px; color: rgba(255,255,255,0.35); text-align: center; margin-top: 14px; line-height: 1.5;">Ziya Gokalp Mah. Suleyman Demirel Blv.<br>The Office No: 7/E, Basaksehir / Стамбул</p>
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer"><span>toko.com.tr | info@toko.com.tr | +90 (212) 450 60 20</span><span class="pn">08</span></div>
+</div>
+
+</body>
+</html>

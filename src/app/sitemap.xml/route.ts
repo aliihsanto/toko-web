@@ -15,27 +15,6 @@ interface SitemapUrl {
   lastmod: string;
   changefreq: string;
   priority: number;
-  alternates?: Record<string, string>;
-}
-
-function makeEntry(
-  path: string,
-  priority: number,
-  changefreq = 'monthly',
-  lastmod?: string,
-): SitemapUrl {
-  const now = lastmod || new Date().toISOString().split('T')[0];
-  const alternates: Record<string, string> = {};
-  for (const locale of routing.locales) {
-    alternates[locale] = getLocalizedUrl(path, locale);
-  }
-  return {
-    loc: getLocalizedUrl(path, 'tr'),
-    lastmod: now,
-    changefreq,
-    priority,
-    alternates,
-  };
 }
 
 function escapeXml(str: string): string {
@@ -45,18 +24,11 @@ function escapeXml(str: string): string {
 function buildXml(urls: SitemapUrl[]): string {
   const lines: string[] = [];
   lines.push('<?xml version="1.0" encoding="UTF-8"?>');
-  lines.push('<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>');
-  lines.push('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"');
-  lines.push('        xmlns:xhtml="http://www.w3.org/1999/xhtml">');
+  lines.push('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">');
 
   for (const url of urls) {
     lines.push('  <url>');
     lines.push(`    <loc>${escapeXml(url.loc)}</loc>`);
-    if (url.alternates) {
-      for (const [lang, href] of Object.entries(url.alternates)) {
-        lines.push(`    <xhtml:link rel="alternate" hreflang="${lang}" href="${escapeXml(href)}" />`);
-      }
-    }
     lines.push(`    <lastmod>${url.lastmod}</lastmod>`);
     lines.push(`    <changefreq>${url.changefreq}</changefreq>`);
     lines.push(`    <priority>${url.priority}</priority>`);
@@ -68,11 +40,12 @@ function buildXml(urls: SitemapUrl[]): string {
 }
 
 export function GET() {
+  const now = new Date().toISOString();
   const urls: SitemapUrl[] = [];
 
-  // Static pages
+  // Static pages — all locales
   const staticPages = [
-    { path: '', priority: 1.0, changefreq: 'weekly' },
+    { path: '', priority: 1, changefreq: 'monthly' },
     { path: '/about', priority: 0.8, changefreq: 'monthly' },
     { path: '/services', priority: 0.9, changefreq: 'monthly' },
     { path: '/sectors', priority: 0.9, changefreq: 'monthly' },
@@ -82,49 +55,92 @@ export function GET() {
     { path: '/sourcing', priority: 0.7, changefreq: 'monthly' },
     { path: '/callback', priority: 0.6, changefreq: 'monthly' },
     { path: '/russia-transit', priority: 0.8, changefreq: 'monthly' },
-    { path: '/blog', priority: 0.7, changefreq: 'weekly' },
+    { path: '/blog', priority: 0.8, changefreq: 'weekly' },
   ];
 
-  for (const page of staticPages) {
-    urls.push(makeEntry(page.path, page.priority, page.changefreq));
+  for (const locale of routing.locales) {
+    for (const page of staticPages) {
+      urls.push({
+        loc: getLocalizedUrl(page.path, locale),
+        lastmod: now,
+        changefreq: page.changefreq,
+        priority: page.priority,
+      });
+    }
   }
 
-  // Services
-  for (const service of services) {
-    urls.push(makeEntry(`/services/${service.slug}`, 0.8));
+  // Services — all locales
+  for (const locale of routing.locales) {
+    for (const service of services) {
+      urls.push({
+        loc: getLocalizedUrl(`/services/${service.slug}`, locale),
+        lastmod: now,
+        changefreq: 'monthly',
+        priority: 0.8,
+      });
+    }
   }
 
-  // Sectors
-  for (const sector of sectors) {
-    urls.push(makeEntry(`/sectors/${sector.slug}`, 0.8));
+  // Sectors — all locales
+  for (const locale of routing.locales) {
+    for (const sector of sectors) {
+      urls.push({
+        loc: getLocalizedUrl(`/sectors/${sector.slug}`, locale),
+        lastmod: now,
+        changefreq: 'monthly',
+        priority: 0.8,
+      });
+    }
   }
 
-  // Blog posts
+  // Blog posts — per locale
   for (const locale of routing.locales) {
     const posts = getPostsByLocale(locale);
     for (const post of posts) {
       const slug = getPostSlug(post);
       urls.push({
         loc: getLocalizedUrl(`/blog/${slug}`, locale),
-        lastmod: new Date(post.date).toISOString().split('T')[0],
+        lastmod: new Date(post.date).toISOString(),
         changefreq: 'weekly',
         priority: 0.7,
       });
     }
   }
 
-  // PSEO pages
-  for (const page of productPages) {
-    urls.push(makeEntry(`/trade/import/${page.slug}`, 0.7));
-  }
-  for (const page of countryPages) {
-    urls.push(makeEntry(`/trade/country/${page.slug}`, 0.7));
-  }
-  for (const page of faqPages) {
-    urls.push(makeEntry(`/trade/faq/${page.slug}`, 0.6));
-  }
-  for (const page of customsPages) {
-    urls.push(makeEntry(`/trade/customs/${page.slug}`, 0.6));
+  // PSEO pages — all locales
+  for (const locale of routing.locales) {
+    for (const page of productPages) {
+      urls.push({
+        loc: getLocalizedUrl(`/trade/import/${page.slug}`, locale),
+        lastmod: now,
+        changefreq: 'monthly',
+        priority: 0.7,
+      });
+    }
+    for (const page of countryPages) {
+      urls.push({
+        loc: getLocalizedUrl(`/trade/country/${page.slug}`, locale),
+        lastmod: now,
+        changefreq: 'monthly',
+        priority: 0.7,
+      });
+    }
+    for (const page of faqPages) {
+      urls.push({
+        loc: getLocalizedUrl(`/trade/faq/${page.slug}`, locale),
+        lastmod: now,
+        changefreq: 'monthly',
+        priority: 0.6,
+      });
+    }
+    for (const page of customsPages) {
+      urls.push({
+        loc: getLocalizedUrl(`/trade/customs/${page.slug}`, locale),
+        lastmod: now,
+        changefreq: 'monthly',
+        priority: 0.6,
+      });
+    }
   }
 
   const xml = buildXml(urls);
