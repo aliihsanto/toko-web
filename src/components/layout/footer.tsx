@@ -149,6 +149,9 @@ export function Footer() {
             ))}
           </div>
         </div>
+        <div className="mt-3 text-center">
+          <a href="https://akarien.com" target="_blank" rel="noopener noreferrer" className="text-[10px] text-muted-foreground/40 hover:text-muted-foreground/60 transition-colors">Akarien</a>
+        </div>
       </div>
     </footer>
   );
